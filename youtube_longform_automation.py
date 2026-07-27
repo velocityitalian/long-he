@@ -1143,25 +1143,26 @@ def generate_longform_video(category_english: str = None, target_phrases: int = 
             print(f"  Progress: {i+1}/{len(phrases)} images...")
 
     # Step 3: Generate thumbnail using gpt-image-2 via Pollinations
-    print(f"\n[3/6] Generating thumbnail...")
+    print(f"\n    print(f"\n[3/6] Using first phrase image as thumbnail...")
     thumbnail_path = video_dir / "thumbnail.jpg"
-    try:
-        from generate_thumbnail import generate_scenic_image
-        result = generate_scenic_image(category_english, category_english, str(thumbnail_path))
-        if result and Path(result).exists():
-            print(f"  ✅ gpt-image-2 thumbnail saved")
-        else:
-            print(f"  ⚠️ gpt-image-2 failed, using built-in")
-            generate_thumbnail(category_english, CATEGORIES_Hebrew[category_english], str(thumbnail_path))
-    except Exception as e:
-        print(f"  ⚠️ Thumbnail error: {e}, using built-in")
-        generate_thumbnail(category_english, CATEGORIES_Hebrew[category_english], str(thumbnail_path))
-    
-    # Also extract a frame from the final video as alternative thumbnail (done after video creation)
-    video_thumbnail_path = video_dir / "video_thumbnail_frame.jpg"
-
-    # Step 4: Generate audio
-    print(f"\n[4/6] Generating audio for {len(phrases)} phrases...")
+    first_phrase = sorted(video_dir.glob("phrase_*.jpg"))
+    if first_phrase:
+        import shutil
+        shutil.copy2(str(first_phrase[0]), str(thumbnail_path))
+        print(f"  Thumbnail: {first_phrase[0].name} (content-based)")
+    else:
+        try:
+            from generate_thumbnail import generate_scenic_image
+            result = generate_scenic_image(category_english, category_english, str(thumbnail_path))
+            if result and Path(result).exists():
+                print(f"  gpt-image-2 thumbnail saved")
+            else:
+                print(f"  gpt-image-2 failed, using built-in")
+                generate_thumbnail(category_english, CATEGORIES_ENGLISH[category_english], str(thumbnail_path))
+        except Exception as e:
+            print(f"  Thumbnail error: {e}, using built-in")
+            generate_thumbnail(category_english, CATEGORIES_ENGLISH[category_english], str(thumbnail_path))
+    video_thumbnail_path = video_dir / "video_thumbnail_frame.jpg"[4/6] Generating audio for {len(phrases)} phrases...")
     audio_files = generate_all_audio(phrases, str(video_dir))
 
     final_audio = video_dir / "narration.mp3"
