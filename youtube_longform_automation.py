@@ -42,31 +42,31 @@ TARGET_PHRASES = 120
 # English category names (for American/European learners)
 CATEGORIES_ENGLISH = [
     "Motivation", "Love", "Success", "Wisdom", "Happiness",
-    "Self Improvement", "הכרת תודהe", "Friendship", "Hope", "Creativity",
+    "Self Improvement", "Gratitude", "Friendship", "Hope", "Creativity",
     "Inner Peace", "Confidence", "Perseverance", "Inspiration", "Positive Life",
     "Courage", "Kindness", "Patience", "Forgiveness", "Strength",
     "Joy", "Balance", "Growth", "Purpose", "Mindfulness",
 ]
 
-# Hebrew translations for display
-CATEGORIES_Hebrew = {
+# Spanish translations for display
+CATEGORIES_HEBREW = {
     "Motivation": "מוטיבציה",
     "Love": "אהבה",
     "Success": "הצלחה",
-    "Wisdom": "חכמה",
+    "Wisdom": "חוכמה",
     "Happiness": "אושר",
     "Self Improvement": "שיפור עצמי",
-    "הכרת תודהe": "הכרת תודה",
+    "Gratitude": "הכרת תודה",
     "Friendship": "חברות",
     "Hope": "תקווה",
-    "Creativity": "יצירות",
+    "Creativity": "יצירתיות",
     "Inner Peace": "שלווה פנימית",
-    "Confidence": "ביטחון עצמי",
-    "Perseverance": "התמדות",
+    "Confidence": "ביטחון",
+    "Perseverance": "התמדה",
     "Inspiration": "השראה",
     "Positive Life": "חיים חיוביים",
     "Courage": "אומץ",
-    "Kindness": "עדינות",
+    "Kindness": "טוב לב",
     "Patience": "סבלנות",
     "Forgiveness": "סליחה",
     "Strength": "כוח",
@@ -79,7 +79,7 @@ CATEGORIES_Hebrew = {
 
 # Edge TTS voices
 ENGLISH_VOICE = "en-US-GuyNeural"
-Hebrew_VOICE = "he-IL-HilaNeural"
+HEBREW_VOICE = "he-IL-HilaNeural"
 
 # Phrase history file (NEVER delete this!)
 PHRASE_HISTORY_FILE = HISTORY_DIR / "all_generated_phrases.json"
@@ -182,7 +182,7 @@ def add_phrases_to_history(phrases, category):
     for phrase in phrases:
         history["phrases"].append({
             "english": phrase["english"],
-            "Hebrew": phrase["Hebrew"],
+            "spanish": phrase["hebrew"],
             "category": category,
             "generated_at": datetime.now().isoformat()
         })
@@ -195,7 +195,7 @@ def add_phrases_to_history(phrases, category):
 def calculate_phrases_needed(target_minutes: int) -> int:
     """
     Calculate how many phrases needed for target video duration.
-    Average phrase takes ~5 seconds (English ~2s + pause 0.5s + Hebrew ~2.5s)
+    Average phrase takes ~5 seconds (English ~2s + pause 0.5s + Spanish ~2.5s)
     For 10 minutes (600 seconds): 600 / 5 = ~120 phrases
     """
     avg_phrase_duration = 5.0  # seconds
@@ -206,7 +206,7 @@ def calculate_phrases_needed(target_minutes: int) -> int:
 def generate_phrases_for_longform(category_english: str, num_phrases: int) -> list:
     """Generate unique bilingual phrases for long-form video"""
 
-    category_Hebrew = CATEGORIES_Hebrew[category_english]
+    category_hebrew = CATEGORIES_HEBREW[category_english]
 
     history = load_phrase_history()
     used_phrases = [p.get("english", "") for p in history.get("phrases", [])]
@@ -255,11 +255,11 @@ IMPORTANT RULES FOR NATURAL SPEECH:
 
 For each phrase:
 1. English phrase (with commas for natural pauses)
-2. Hebrew translation
+2. Spanish translation
 3. Pronunciation guide (phonetic spelling for English speakers)
 
 Return as JSON array:
-[{{"english": "...", "Hebrew": "...", "pronunciation": "..."}}]
+[{{"english": "...", "spanish": "...", "pronunciation": "..."}}]
 
 IMPORTANT: Create FRESH, UNIQUE phrases that haven't been used before.{exclusion_note}"""
 
@@ -327,140 +327,140 @@ def get_fresh_fallback_phrases(category: str, num_phrases: int) -> list:
 
     all_fallbacks = {
         "Motivation": [
-            {"english": "Believe in yourself.", "Hebrew": "Cree en ti mismo.", "pronunciation": "cre-e en ti mis-mo."},
-            {"english": "You are capable of amazing things.", "Hebrew": "Eres capaz de cosas asombrosas.", "pronunciation": "e-res ca-paz de co-sas a-som-bro-sas."},
-            {"english": "Dream big, start small.", "Hebrew": "Sueña en grande, empieza pequeño.", "pronunciation": "swe-nya en gran-de, em-pje-za pe-ke-nyo."},
-            {"english": "Your future is created by your actions.", "Hebrew": "Tu futuro es creado por tus acciones.", "pronunciation": "tu fu-tu-ro es cre-a-do por tus ak-syo-nes."},
-            {"english": "Never give up on your dreams.", "Hebrew": "Nunca te rindas en tus sueños.", "pronunciation": "nun-ka te rin-das en tus swe-nyos."},
-            {"english": "Small steps lead to big changes.", "Hebrew": "Pequeños pasos llevan a grandes cambios.", "pronunciation": "pe-ke-nyos pa-sos ye-van a gran-des cam-byos."},
-            {"english": "You are stronger than you think.", "Hebrew": "Eres más fuerte de lo que crees.", "pronunciation": "e-res mas fwer-te de lo ke cre-es."},
+            {"english": "Believe in yourself.", "spanish": "Cree en ti mismo.", "pronunciation": "cre-e en ti mis-mo."},
+            {"english": "You are capable of amazing things.", "spanish": "Eres capaz de cosas asombrosas.", "pronunciation": "e-res ca-paz de co-sas a-som-bro-sas."},
+            {"english": "Dream big, start small.", "spanish": "Sueña en grande, empieza pequeño.", "pronunciation": "swe-nya en gran-de, em-pje-za pe-ke-nyo."},
+            {"english": "Your future is created by your actions.", "spanish": "Tu futuro es creado por tus acciones.", "pronunciation": "tu fu-tu-ro es cre-a-do por tus ak-syo-nes."},
+            {"english": "Never give up on your dreams.", "spanish": "Nunca te rindas en tus sueños.", "pronunciation": "nun-ka te rin-das en tus swe-nyos."},
+            {"english": "Small steps lead to big changes.", "spanish": "Pequeños pasos llevan a grandes cambios.", "pronunciation": "pe-ke-nyos pa-sos ye-van a gran-des cam-byos."},
+            {"english": "You are stronger than you think.", "spanish": "Eres más fuerte de lo que crees.", "pronunciation": "e-res mas fwer-te de lo ke cre-es."},
         ],
         "Love": [
-            {"english": "Love yourself first.", "Hebrew": "Ámate a ti mismo primero.", "pronunciation": "a-ma-te a ti mis-mo pri-me-ro."},
-            {"english": "Love makes everything possible.", "Hebrew": "El amor hace que todo sea posible.", "pronunciation": "el a-mor a-se ke to-do se-a po-si-ble."},
-            {"english": "My heart beats for you.", "Hebrew": "Mi corazón late por ti.", "pronunciation": "mi co-ra-zon la-te por ti."},
-            {"english": "You are my everything.", "Hebrew": "Eres mi todo.", "pronunciation": "e-res mi to-do."},
-            {"english": "Together forever, hand in hand.", "Hebrew": "Juntos por siempre, mano a mano.", "pronunciation": "jun-tos por syem-pre, ma-no a ma-no."},
+            {"english": "Love yourself first.", "spanish": "Ámate a ti mismo primero.", "pronunciation": "a-ma-te a ti mis-mo pri-me-ro."},
+            {"english": "Love makes everything possible.", "spanish": "El amor hace que todo sea posible.", "pronunciation": "el a-mor a-se ke to-do se-a po-si-ble."},
+            {"english": "My heart beats for you.", "spanish": "Mi corazón late por ti.", "pronunciation": "mi co-ra-zon la-te por ti."},
+            {"english": "You are my everything.", "spanish": "Eres mi todo.", "pronunciation": "e-res mi to-do."},
+            {"english": "Together forever, hand in hand.", "spanish": "Juntos por siempre, mano a mano.", "pronunciation": "jun-tos por syem-pre, ma-no a ma-no."},
         ],
         "Success": [
-            {"english": "Success comes from hard work.", "Hebrew": "El éxito viene del trabajo duro.", "pronunciation": "el ek-si-to vye-ne del tra-ba-jo du-ro."},
-            {"english": "Keep going, you're getting there.", "Hebrew": "Sigue adelante, ya casi llegas.", "pronunciation": "si-ge a-de-lan-te, ya ca-si ye-gas."},
-            {"english": "Winners never quit.", "Hebrew": "Los ganadores nunca se rinden.", "pronunciation": "los ga-na-do-res nun-ka se rin-den."},
-            {"english": "Your effort will pay off.", "Hebrew": "Tu esfuerzo valdrá la pena.", "pronunciation": "tu es-fwer-zo val-dra la pe-na."},
+            {"english": "Success comes from hard work.", "spanish": "El éxito viene del trabajo duro.", "pronunciation": "el ek-si-to vye-ne del tra-ba-jo du-ro."},
+            {"english": "Keep going, you're getting there.", "spanish": "Sigue adelante, ya casi llegas.", "pronunciation": "si-ge a-de-lan-te, ya ca-si ye-gas."},
+            {"english": "Winners never quit.", "spanish": "Los ganadores nunca se rinden.", "pronunciation": "los ga-na-do-res nun-ka se rin-den."},
+            {"english": "Your effort will pay off.", "spanish": "Tu esfuerzo valdrá la pena.", "pronunciation": "tu es-fwer-zo val-dra la pe-na."},
         ],
         "Wisdom": [
-            {"english": "Knowledge is power.", "Hebrew": "El conocimiento es poder.", "pronunciation": "el co-no-si-myen-to es po-der."},
-            {"english": "Learn from yesterday, live for today.", "Hebrew": "Aprende del ayer, vive por el hoy.", "pronunciation": "a-pren-de del a-yer, vi-ve por el oy."},
-            {"english": "Think before you act.", "Hebrew": "Piensa antes de actuar.", "pronunciation": "pyen-sa an-tes de ak-twar."},
-            {"english": "Experience is the best teacher.", "Hebrew": "La experiencia es la mejor maestra.", "pronunciation": "la ex-pe-ryen-sya es la me-jor ma-es-tra."},
+            {"english": "Knowledge is power.", "spanish": "El conocimiento es poder.", "pronunciation": "el co-no-si-myen-to es po-der."},
+            {"english": "Learn from yesterday, live for today.", "spanish": "Aprende del ayer, vive por el hoy.", "pronunciation": "a-pren-de del a-yer, vi-ve por el oy."},
+            {"english": "Think before you act.", "spanish": "Piensa antes de actuar.", "pronunciation": "pyen-sa an-tes de ak-twar."},
+            {"english": "Experience is the best teacher.", "spanish": "La experiencia es la mejor maestra.", "pronunciation": "la ex-pe-ryen-sya es la me-jor ma-es-tra."},
         ],
         "Happiness": [
-            {"english": "Happiness is a choice.", "Hebrew": "La felicidad es una elección.", "pronunciation": "la fe-li-si-dad es u-na e-lek-syon."},
-            {"english": "Find joy in the little things.", "Hebrew": "Encuentra alegría en las pequeñas cosas.", "pronunciation": "en-kwen-tra a-le-gri-a en las pe-ke-nyas co-sas."},
-            {"english": "Smile, it makes others happy.", "Hebrew": "Sonríe, hace felices a los demás.", "pronunciation": "son-ri-e, a-se fe-li-ses a los de-mas."},
-            {"english": "Today is a gift.", "Hebrew": "Hoy es un regalo.", "pronunciation": "oy es un re-ga-lo."},
+            {"english": "Happiness is a choice.", "spanish": "La felicidad es una elección.", "pronunciation": "la fe-li-si-dad es u-na e-lek-syon."},
+            {"english": "Find joy in the little things.", "spanish": "Encuentra alegría en las pequeñas cosas.", "pronunciation": "en-kwen-tra a-le-gri-a en las pe-ke-nyas co-sas."},
+            {"english": "Smile, it makes others happy.", "spanish": "Sonríe, hace felices a los demás.", "pronunciation": "son-ri-e, a-se fe-li-ses a los de-mas."},
+            {"english": "Today is a gift.", "spanish": "Hoy es un regalo.", "pronunciation": "oy es un re-ga-lo."},
         ],
         "Self Improvement": [
-            {"english": "Be better than yesterday.", "Hebrew": "Sé mejor que ayer.", "pronunciation": "se me-jor ke a-yer."},
-            {"english": "Grow through what you go through.", "Hebrew": "Crece a través de lo que pasas.", "pronunciation": "cre-se a tra-ves de lo ke pa-sas."},
-            {"english": "Invest in yourself daily.", "Hebrew": "Invierte en ti mismo a diario.", "pronunciation": "in-vyer-te en ti mis-mo a dya-ryo."},
+            {"english": "Be better than yesterday.", "spanish": "Sé mejor que ayer.", "pronunciation": "se me-jor ke a-yer."},
+            {"english": "Grow through what you go through.", "spanish": "Crece a través de lo que pasas.", "pronunciation": "cre-se a tra-ves de lo ke pa-sas."},
+            {"english": "Invest in yourself daily.", "spanish": "Invierte en ti mismo a diario.", "pronunciation": "in-vyer-te en ti mis-mo a dya-ryo."},
         ],
-        "הכרת תודהe": [
-            {"english": "Thank you for everything.", "Hebrew": "Gracias por todo.", "pronunciation": "gra-syas por to-do."},
-            {"english": "I appreciate your help.", "Hebrew": "Agradezco tu ayuda.", "pronunciation": "a-gra-dez-co tu a-yu-da."},
-            {"english": "Grateful for this moment.", "Hebrew": "Agradecido por este momento.", "pronunciation": "a-gra-de-si-do por es-te mo-men-to."},
+        "Gratitude": [
+            {"english": "Thank you for everything.", "spanish": "Gracias por todo.", "pronunciation": "gra-syas por to-do."},
+            {"english": "I appreciate your help.", "spanish": "Agradezco tu ayuda.", "pronunciation": "a-gra-dez-co tu a-yu-da."},
+            {"english": "Grateful for this moment.", "spanish": "Agradecido por este momento.", "pronunciation": "a-gra-de-si-do por es-te mo-men-to."},
         ],
         "Friendship": [
-            {"english": "Friends forever, no matter what.", "Hebrew": "Amigos por siempre, pase lo que pase.", "pronunciation": "a-mi-gos por syem-pre, pa-se lo ke pa-se."},
-            {"english": "You are my best friend.", "Hebrew": "Eres mi mejor amigo.", "pronunciation": "e-res mi me-jor a-mi-go."},
-            {"english": "True friends stick together.", "Hebrew": "Los verdaderos amigos se mantienen unidos.", "pronunciation": "los ver-da-de-ros a-mi-gos se man-tye-nen u-ni-dos."},
+            {"english": "Friends forever, no matter what.", "spanish": "Amigos por siempre, pase lo que pase.", "pronunciation": "a-mi-gos por syem-pre, pa-se lo ke pa-se."},
+            {"english": "You are my best friend.", "spanish": "Eres mi mejor amigo.", "pronunciation": "e-res mi me-jor a-mi-go."},
+            {"english": "True friends stick together.", "spanish": "Los verdaderos amigos se mantienen unidos.", "pronunciation": "los ver-da-de-ros a-mi-gos se man-tye-nen u-ni-dos."},
         ],
         "Hope": [
-            {"english": "There is always hope.", "Hebrew": "Siempre hay esperanza.", "pronunciation": "syem-pre ay es-pe-ran-za."},
-            {"english": "Better days are coming.", "Hebrew": "Vienen días mejores.", "pronunciation": "vye-nen di-as me-jo-res."},
-            {"english": "Keep faith, keep going.", "Hebrew": "Mantén la fe, sigue adelante.", "pronunciation": "man-ten la fe, si-ge a-de-lan-te."},
+            {"english": "There is always hope.", "spanish": "Siempre hay esperanza.", "pronunciation": "syem-pre ay es-pe-ran-za."},
+            {"english": "Better days are coming.", "spanish": "Vienen días mejores.", "pronunciation": "vye-nen di-as me-jo-res."},
+            {"english": "Keep faith, keep going.", "spanish": "Mantén la fe, sigue adelante.", "pronunciation": "man-ten la fe, si-ge a-de-lan-te."},
         ],
         "Creativity": [
-            {"english": "Create something beautiful today.", "Hebrew": "Crea algo hermoso hoy.", "pronunciation": "cre-a al-go er-mo-so oy."},
-            {"english": "Your imagination is unlimited.", "Hebrew": "Tu imaginación es ilimitada.", "pronunciation": "tu i-ma-ji-na-syon es i-li-mi-ta-da."},
-            {"english": "Art comes from the heart.", "Hebrew": "El arte viene del corazón.", "pronunciation": "el ar-te vye-ne del co-ra-zon."},
-            {"english": "Express yourself freely.", "Hebrew": "Exprésate libremente.", "pronunciation": "ex-pre-sa-te li-bre-men-te."},
-            {"english": "Innovation starts with curiosity.", "Hebrew": "La innovación comienza con la curiosidad.", "pronunciation": "la i-no-va-syon co-myen-za con la cu-ryo-si-dad."},
+            {"english": "Create something beautiful today.", "spanish": "Crea algo hermoso hoy.", "pronunciation": "cre-a al-go er-mo-so oy."},
+            {"english": "Your imagination is unlimited.", "spanish": "Tu imaginación es ilimitada.", "pronunciation": "tu i-ma-ji-na-syon es i-li-mi-ta-da."},
+            {"english": "Art comes from the heart.", "spanish": "El arte viene del corazón.", "pronunciation": "el ar-te vye-ne del co-ra-zon."},
+            {"english": "Express yourself freely.", "spanish": "Exprésate libremente.", "pronunciation": "ex-pre-sa-te li-bre-men-te."},
+            {"english": "Innovation starts with curiosity.", "spanish": "La innovación comienza con la curiosidad.", "pronunciation": "la i-no-va-syon co-myen-za con la cu-ryo-si-dad."},
         ],
         "Inner Peace": [
-            {"english": "Find peace within yourself.", "Hebrew": "Encuentra la paz dentro de ti.", "pronunciation": "en-kwen-tra la paz den-tro de ti."},
-            {"english": "Breathe, relax, let go.", "Hebrew": "Respira, relájate, suelta.", "pronunciation": "res-pi-ra, re-la-ja-te, swel-ta."},
-            {"english": "Calm mind, happy heart.", "Hebrew": "Mente tranquila, corazón feliz.", "pronunciation": "men-te tran-ki-la, co-ra-zon fe-liz."},
+            {"english": "Find peace within yourself.", "spanish": "Encuentra la paz dentro de ti.", "pronunciation": "en-kwen-tra la paz den-tro de ti."},
+            {"english": "Breathe, relax, let go.", "spanish": "Respira, relájate, suelta.", "pronunciation": "res-pi-ra, re-la-ja-te, swel-ta."},
+            {"english": "Calm mind, happy heart.", "spanish": "Mente tranquila, corazón feliz.", "pronunciation": "men-te tran-ki-la, co-ra-zon fe-liz."},
         ],
         "Confidence": [
-            {"english": "You are enough, just as you are.", "Hebrew": "Eres suficiente, tal como eres.", "pronunciation": "e-res su-fi-syen-te, tal co-mo e-res."},
-            {"english": "Stand tall, speak up.", "Hebrew": "Mantente erguido, habla.", "pronunciation": "man-ten-te er-gi-do, a-bla."},
-            {"english": "Believe in your abilities.", "Hebrew": "Cree en tus habilidades.", "pronunciation": "cre-e en tus a-bi-li-da-des."},
+            {"english": "You are enough, just as you are.", "spanish": "Eres suficiente, tal como eres.", "pronunciation": "e-res su-fi-syen-te, tal co-mo e-res."},
+            {"english": "Stand tall, speak up.", "spanish": "Mantente erguido, habla.", "pronunciation": "man-ten-te er-gi-do, a-bla."},
+            {"english": "Believe in your abilities.", "spanish": "Cree en tus habilidades.", "pronunciation": "cre-e en tus a-bi-li-da-des."},
         ],
         "Perseverance": [
-            {"english": "Never give up, keep pushing.", "Hebrew": "Nunca te rindas, sigue presionando.", "pronunciation": "nun-ka te rin-das, si-ge pre-syo-nan-do."},
-            {"english": "Storms make trees take deeper roots.", "Hebrew": "Las tormentas hacen que los árboles echen raíces más profundas.", "pronunciation": "las tor-men-tas a-sen ke los ar-bo-les e-chen ra-i-ses mas pro-fun-das."},
-            {"english": "Patience and persistence win.", "Hebrew": "La paciencia y la persistencia ganan.", "pronunciation": "la pa-syen-sya i la per-sis-ten-sya ga-nan."},
+            {"english": "Never give up, keep pushing.", "spanish": "Nunca te rindas, sigue presionando.", "pronunciation": "nun-ka te rin-das, si-ge pre-syo-nan-do."},
+            {"english": "Storms make trees take deeper roots.", "spanish": "Las tormentas hacen que los árboles echen raíces más profundas.", "pronunciation": "las tor-men-tas a-sen ke los ar-bo-les e-chen ra-i-ses mas pro-fun-das."},
+            {"english": "Patience and persistence win.", "spanish": "La paciencia y la persistencia ganan.", "pronunciation": "la pa-syen-sya i la per-sis-ten-sya ga-nan."},
         ],
         "Inspiration": [
-            {"english": "Let your light shine bright.", "Hebrew": "Deja que tu luz brille con fuerza.", "pronunciation": "de-ja ke tu luz bri-ye con fwer-za."},
-            {"english": "Inspire others by your actions.", "Hebrew": "Inspira a otros con tus acciones.", "pronunciation": "ins-pi-ra a o-tros con tus ak-syo-nes."},
-            {"english": "Be the change you want to see.", "Hebrew": "Sé el cambio que quieres ver.", "pronunciation": "se el cam-byo ke kye-res ver."},
+            {"english": "Let your light shine bright.", "spanish": "Deja que tu luz brille con fuerza.", "pronunciation": "de-ja ke tu luz bri-ye con fwer-za."},
+            {"english": "Inspire others by your actions.", "spanish": "Inspira a otros con tus acciones.", "pronunciation": "ins-pi-ra a o-tros con tus ak-syo-nes."},
+            {"english": "Be the change you want to see.", "spanish": "Sé el cambio que quieres ver.", "pronunciation": "se el cam-byo ke kye-res ver."},
         ],
         "Positive Life": [
-            {"english": "Choose positivity every day.", "Hebrew": "Elige la positividad cada día.", "pronunciation": "e-li-je la po-si-ti-vi-dad ca-da di-a."},
-            {"english": "Good vibes only.", "Hebrew": "Solo buenas vibras.", "pronunciation": "so-lo bwe-nas vi-bras."},
-            {"english": "Life is what you make it.", "Hebrew": "La vida es lo que tú haces de ella.", "pronunciation": "la vi-da es lo ke tu a-ses de e-ya."},
+            {"english": "Choose positivity every day.", "spanish": "Elige la positividad cada día.", "pronunciation": "e-li-je la po-si-ti-vi-dad ca-da di-a."},
+            {"english": "Good vibes only.", "spanish": "Solo buenas vibras.", "pronunciation": "so-lo bwe-nas vi-bras."},
+            {"english": "Life is what you make it.", "spanish": "La vida es lo que tú haces de ella.", "pronunciation": "la vi-da es lo ke tu a-ses de e-ya."},
         ],
         "Courage": [
-            {"english": "Be brave, take the first step.", "Hebrew": "Sé valiente, da el primer paso.", "pronunciation": "se va-lyen-te, da el pri-mer pa-so."},
-            {"english": "Courage is not the absence of fear.", "Hebrew": "El coraje no es la ausencia de miedo.", "pronunciation": "el co-ra-je no es la au-sen-sya de mye-do."},
-            {"english": "Face your fears head on.", "Hebrew": "Enfrenta tus miedos de frente.", "pronunciation": "en-fren-ta tus mye-dos de fren-te."},
+            {"english": "Be brave, take the first step.", "spanish": "Sé valiente, da el primer paso.", "pronunciation": "se va-lyen-te, da el pri-mer pa-so."},
+            {"english": "Courage is not the absence of fear.", "spanish": "El coraje no es la ausencia de miedo.", "pronunciation": "el co-ra-je no es la au-sen-sya de mye-do."},
+            {"english": "Face your fears head on.", "spanish": "Enfrenta tus miedos de frente.", "pronunciation": "en-fren-ta tus mye-dos de fren-te."},
         ],
         "Kindness": [
-            {"english": "Be kind to everyone you meet.", "Hebrew": "Sé amable con todos los que conozcas.", "pronunciation": "se a-ma-ble con to-dos los ke co-noz-cas."},
-            {"english": "Kindness costs nothing, means everything.", "Hebrew": "La amabilidad no cuesta nada, lo significa todo.", "pronunciation": "la a-ma-bi-li-dad no kwes-ta na-da, lo sig-ni-fi-ca to-do."},
-            {"english": "Spread kindness wherever you go.", "Hebrew": "Difunde amabilidad dondequiera que vayas.", "pronunciation": "di-fun-de a-ma-bi-li-dad don-de-kye-ra va-yas."},
+            {"english": "Be kind to everyone you meet.", "spanish": "Sé amable con todos los que conozcas.", "pronunciation": "se a-ma-ble con to-dos los ke co-noz-cas."},
+            {"english": "Kindness costs nothing, means everything.", "spanish": "La amabilidad no cuesta nada, lo significa todo.", "pronunciation": "la a-ma-bi-li-dad no kwes-ta na-da, lo sig-ni-fi-ca to-do."},
+            {"english": "Spread kindness wherever you go.", "spanish": "Difunde amabilidad dondequiera que vayas.", "pronunciation": "di-fun-de a-ma-bi-li-dad don-de-kye-ra va-yas."},
         ],
         "Patience": [
-            {"english": "Good things take time.", "Hebrew": "Las cosas buenas toman tiempo.", "pronunciation": "las co-sas bwe-nas to-man tyem-po."},
-            {"english": "Wait patiently, trust the process.", "Hebrew": "Espera pacientemente, confía en el proceso.", "pronunciation": "es-pe-ra pa-syen-te-men-te, con-fi-a en el pro-se-so."},
-            {"english": "Rome wasn't built in a day.", "Hebrew": "Roma no se construyó en un día.", "pronunciation": "ro-ma no se cons-tru-yo en un di-a."},
+            {"english": "Good things take time.", "spanish": "Las cosas buenas toman tiempo.", "pronunciation": "las co-sas bwe-nas to-man tyem-po."},
+            {"english": "Wait patiently, trust the process.", "spanish": "Espera pacientemente, confía en el proceso.", "pronunciation": "es-pe-ra pa-syen-te-men-te, con-fi-a en el pro-se-so."},
+            {"english": "Rome wasn't built in a day.", "spanish": "Roma no se construyó en un día.", "pronunciation": "ro-ma no se cons-tru-yo en un di-a."},
         ],
         "Forgiveness": [
-            {"english": "Forgive and set yourself free.", "Hebrew": "Perdona y libérate.", "pronunciation": "per-do-na i li-be-ra-te."},
-            {"english": "Let go of grudges, find peace.", "Hebrew": "Suelta los rencores, encuentra la paz.", "pronunciation": "swel-ta los ren-co-res, en-kwen-tra la paz."},
-            {"english": "Forgiveness is a gift to yourself.", "Hebrew": "El perdón es un regalo para ti mismo.", "pronunciation": "el per-don es un re-ga-lo pa-ra ti mis-mo."},
+            {"english": "Forgive and set yourself free.", "spanish": "Perdona y libérate.", "pronunciation": "per-do-na i li-be-ra-te."},
+            {"english": "Let go of grudges, find peace.", "spanish": "Suelta los rencores, encuentra la paz.", "pronunciation": "swel-ta los ren-co-res, en-kwen-tra la paz."},
+            {"english": "Forgiveness is a gift to yourself.", "spanish": "El perdón es un regalo para ti mismo.", "pronunciation": "el per-don es un re-ga-lo pa-ra ti mis-mo."},
         ],
         "Strength": [
-            {"english": "You are stronger than you know.", "Hebrew": "Eres más fuerte de lo que sabes.", "pronunciation": "e-res mas fwer-te de lo ke sa-bes."},
-            {"english": "Inner strength comes from within.", "Hebrew": "La fuerza interior viene de dentro.", "pronunciation": "la fwer-za in-te-ryor vye-ne de den-tro."},
-            {"english": "Challenges make you stronger.", "Hebrew": "Los desafíos te hacen más fuerte.", "pronunciation": "los de-sa-fi-os te a-sen mas fwer-te."},
+            {"english": "You are stronger than you know.", "spanish": "Eres más fuerte de lo que sabes.", "pronunciation": "e-res mas fwer-te de lo ke sa-bes."},
+            {"english": "Inner strength comes from within.", "spanish": "La fuerza interior viene de dentro.", "pronunciation": "la fwer-za in-te-ryor vye-ne de den-tro."},
+            {"english": "Challenges make you stronger.", "spanish": "Los desafíos te hacen más fuerte.", "pronunciation": "los de-sa-fi-os te a-sen mas fwer-te."},
         ],
         "Joy": [
-            {"english": "Find joy in every moment.", "Hebrew": "Encuentra alegría en cada momento.", "pronunciation": "en-kwen-tra a-le-gri-a en ca-da mo-men-to."},
-            {"english": "Joy is contagious, spread it.", "Hebrew": "La alegría es contagiosa, difúndela.", "pronunciation": "la a-le-gri-a es con-ta-jo-sa, di-fun-de-la."},
-            {"english": "Dance like nobody's watching.", "Hebrew": "Baila como si nadie estuviera mirando.", "pronunciation": "ba-i-la co-mo si na-dye es-tu-vye-ra mi-ran-do."},
+            {"english": "Find joy in every moment.", "spanish": "Encuentra alegría en cada momento.", "pronunciation": "en-kwen-tra a-le-gri-a en ca-da mo-men-to."},
+            {"english": "Joy is contagious, spread it.", "spanish": "La alegría es contagiosa, difúndela.", "pronunciation": "la a-le-gri-a es con-ta-jo-sa, di-fun-de-la."},
+            {"english": "Dance like nobody's watching.", "spanish": "Baila como si nadie estuviera mirando.", "pronunciation": "ba-i-la co-mo si na-dye es-tu-vye-ra mi-ran-do."},
         ],
         "Balance": [
-            {"english": "Find balance in your life.", "Hebrew": "Encuentra el equilibrio en tu vida.", "pronunciation": "en-kwen-tra el e-ki-li-bryo en tu vi-da."},
-            {"english": "Work hard, rest well.", "Hebrew": "Trabaja duro, descansa bien.", "pronunciation": "tra-ba-ja du-ro, des-can-sa byen."},
-            {"english": "Too much of anything is not good.", "Hebrew": "Demasiado de cualquier cosa no es bueno.", "pronunciation": "de-ma-sya-do de cwal-kyer co-sa no es bwe-no."},
+            {"english": "Find balance in your life.", "spanish": "Encuentra el equilibrio en tu vida.", "pronunciation": "en-kwen-tra el e-ki-li-bryo en tu vi-da."},
+            {"english": "Work hard, rest well.", "spanish": "Trabaja duro, descansa bien.", "pronunciation": "tra-ba-ja du-ro, des-can-sa byen."},
+            {"english": "Too much of anything is not good.", "spanish": "Demasiado de cualquier cosa no es bueno.", "pronunciation": "de-ma-sya-do de cwal-kyer co-sa no es bwe-no."},
         ],
         "Growth": [
-            {"english": "Growth happens outside your comfort zone.", "Hebrew": "El crecimiento ocurre fuera de tu zona de confort.", "pronunciation": "el cre-si-myen-to o-cu-re fwer-a de tu zo-na de con-fort."},
-            {"english": "Embrace change, grow stronger.", "Hebrew": "Acepta el cambio, hazte más fuerte.", "pronunciation": "a-sep-ta el cam-byo, a-se-te mas fwer-te."},
-            {"english": "Every challenge is a chance to grow.", "Hebrew": "Cada desafío es una oportunidad para crecer.", "pronunciation": "ca-da de-sa-fi-o es u-na o-por-tu-ni-dad pa-ra cre-ser."},
+            {"english": "Growth happens outside your comfort zone.", "spanish": "El crecimiento ocurre fuera de tu zona de confort.", "pronunciation": "el cre-si-myen-to o-cu-re fwer-a de tu zo-na de con-fort."},
+            {"english": "Embrace change, grow stronger.", "spanish": "Acepta el cambio, hazte más fuerte.", "pronunciation": "a-sep-ta el cam-byo, a-se-te mas fwer-te."},
+            {"english": "Every challenge is a chance to grow.", "spanish": "Cada desafío es una oportunidad para crecer.", "pronunciation": "ca-da de-sa-fi-o es u-na o-por-tu-ni-dad pa-ra cre-ser."},
         ],
         "Purpose": [
-            {"english": "Find your purpose, follow it.", "Hebrew": "Encuentra tu propósito, síguelo.", "pronunciation": "en-kwen-tra tu pro-po-si-to, si-ge-lo."},
-            {"english": "Your life has meaning.", "Hebrew": "Tu vida tiene sentido.", "pronunciation": "tu vi-da tye-ne sen-ti-do."},
-            {"english": "Live with intention, not accident.", "Hebrew": "Vive con intención, no por accidente.", "pronunciation": "vi-ve con in-ten-syon, no por ak-si-den-te."},
+            {"english": "Find your purpose, follow it.", "spanish": "Encuentra tu propósito, síguelo.", "pronunciation": "en-kwen-tra tu pro-po-si-to, si-ge-lo."},
+            {"english": "Your life has meaning.", "spanish": "Tu vida tiene sentido.", "pronunciation": "tu vi-da tye-ne sen-ti-do."},
+            {"english": "Live with intention, not accident.", "spanish": "Vive con intención, no por accidente.", "pronunciation": "vi-ve con in-ten-syon, no por ak-si-den-te."},
         ],
         "Mindfulness": [
-            {"english": "Be present in this moment.", "Hebrew": "Mantente presente en este momento.", "pronunciation": "man-ten-te pre-sen-te en es-te mo-men-to."},
-            {"english": "Breathe deeply, stay grounded.", "Hebrew": "Respira profundo, mantente centrado.", "pronunciation": "res-pi-ra pro-fun-do, man-ten-te sen-tra-do."},
-            {"english": "Notice the little things around you.", "Hebrew": "Fíjate en las pequeñas cosas a tu alrededor.", "pronunciation": "fi-ja-te en las pe-ke-nyas co-sas a tu al-re-de-dor."},
+            {"english": "Be present in this moment.", "spanish": "Mantente presente en este momento.", "pronunciation": "man-ten-te pre-sen-te en es-te mo-men-to."},
+            {"english": "Breathe deeply, stay grounded.", "spanish": "Respira profundo, mantente centrado.", "pronunciation": "res-pi-ra pro-fun-do, man-ten-te sen-tra-do."},
+            {"english": "Notice the little things around you.", "spanish": "Fíjate en las pequeñas cosas a tu alrededor.", "pronunciation": "fi-ja-te en las pe-ke-nyas co-sas a tu al-re-de-dor."},
         ],
     }
 
@@ -509,7 +509,7 @@ def generate_all_audio(phrases: list, output_dir: str):
 
     for i, phrase in enumerate(phrases):
         english_file = output_dir / f"english_{i}.mp3"
-        Hebrew_file = output_dir / f"Hebrew_{i}.mp3"
+        hebrew_file = output_dir / f"hebrew_{i}.mp3"
         combined_file = output_dir / f"combined_{i}.mp3"
 
         if (i + 1) % 20 == 0:
@@ -521,17 +521,17 @@ def generate_all_audio(phrases: list, output_dir: str):
             cmd = ["ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono", "-t", "2", str(english_file)]
             subprocess.run(cmd, capture_output=True)
 
-        # Generate Hebrew audio
-        he_success = asyncio.run(generate_single_audio(phrase["Hebrew"], Hebrew_VOICE, str(Hebrew_file)))
+        # Generate Spanish audio
+        he_success = asyncio.run(generate_single_audio(phrase["hebrew"], HEBREW_VOICE, str(hebrew_file)))
         if not he_success:
-            cmd = ["ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono", "-t", "2", str(Hebrew_file)]
+            cmd = ["ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono", "-t", "2", str(hebrew_file)]
             subprocess.run(cmd, capture_output=True)
 
         # Get ACTUAL durations
         en_duration = get_audio_duration(str(english_file))
-        he_duration = get_audio_duration(str(Hebrew_file))
+        he_duration = get_audio_duration(str(hebrew_file))
 
-        # Add pause between English and Hebrew
+        # Add pause between English and Spanish
         pause_between = 0.5
         total_duration = en_duration + pause_between + he_duration
 
@@ -539,7 +539,7 @@ def generate_all_audio(phrases: list, output_dir: str):
         cmd = [
             "ffmpeg", "-y",
             "-i", str(english_file),
-            "-i", str(Hebrew_file),
+            "-i", str(hebrew_file),
             "-filter_complex", f"[0:a][1:a]concat=n=2:v=0:a=1[out]",
             "-map", "[out]",
             str(combined_file)
@@ -551,7 +551,7 @@ def generate_all_audio(phrases: list, output_dir: str):
             concat_file = output_dir / f"concat_{i}.txt"
             with open(concat_file, "w", encoding="utf-8") as f:
                 f.write(f"file '{english_file.as_posix()}'\n")
-                f.write(f"file '{Hebrew_file.as_posix()}'\n")
+                f.write(f"file '{hebrew_file.as_posix()}'\n")
 
             cmd = [
                 "ffmpeg", "-y",
@@ -569,7 +569,7 @@ def generate_all_audio(phrases: list, output_dir: str):
         audio_files.append({
             "index": i,
             "english": str(english_file),
-            "Hebrew": str(Hebrew_file),
+            "spanish": str(hebrew_file),
             "combined": str(combined_file),
             "duration": actual_duration,
             "en_duration": en_duration,
@@ -663,8 +663,7 @@ def generate_complete_image(phrase_data: dict, category_english: str, output_pat
         "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
     ]
 
-    Hebrew_font_paths = [
-        str(BASE_DIR / "fonts" / "NotoSansHebrew-Bold.ttf"),
+    spanish_font_paths = [
         "C:/Windows/Fonts/arialbd.ttf",
         "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
     ]
@@ -680,12 +679,12 @@ def generate_complete_image(phrase_data: dict, category_english: str, output_pat
     # Refined font sizes
     font_category = load_font(english_font_paths, 42)
     font_english = load_font(english_font_paths, 68)
-    font_Hebrew = load_font(Hebrew_font_paths, 82)
-    font_pronunciation = load_font(Hebrew_font_paths, 48)
+    font_spanish = load_font(spanish_font_paths, 82)
+    font_pronunciation = load_font(spanish_font_paths, 48)
     font_branding = load_font(english_font_paths, 38)
 
     english = phrase_data.get("english", "")
-    Hebrew = phrase_data.get("Hebrew", "")
+    spanish = phrase_data.get("spanish", "")
     pronunciation = phrase_data.get("pronunciation", "")
 
     def wrap_text(text, font, max_width):
@@ -738,10 +737,10 @@ def generate_complete_image(phrase_data: dict, category_english: str, output_pat
     en_line_h = 80
     en_total_h = len(en_lines) * en_line_h
     
-    # 2. Hebrew Box
-    he_lines = wrap_text(Hebrew, font_Hebrew, VIDEO_WIDTH - 300)
-    he_line_h = 100
-    he_total_h = len(he_lines) * he_line_h
+    # 2. Spanish Box
+    es_lines = wrap_text(spanish, font_spanish, VIDEO_WIDTH - 300)
+    es_line_h = 100
+    es_total_h = len(es_lines) * es_line_h
     
     # 3. Pronunciation Box
     pron_text = f"[{pronunciation}]"
@@ -749,7 +748,7 @@ def generate_complete_image(phrase_data: dict, category_english: str, output_pat
     pron_line_h = 60
     pron_total_h = len(pron_lines) * pron_line_h
 
-    total_content_h = en_total_h + he_total_h + pron_total_h + (GAP * 2)
+    total_content_h = en_total_h + es_total_h + pron_total_h + (GAP * 2)
     y_start = CONTENT_Y_CENTER - (total_content_h // 2)
 
     # Draw English Section
@@ -768,17 +767,17 @@ def generate_complete_image(phrase_data: dict, category_english: str, output_pat
     
     y_cursor = y_start + en_box_h + GAP
 
-    # Hebrew Section (Lingexa Lighter Purple)
-    he_box_h = he_total_h + 60
+    # Spanish Section (Lingexa Lighter Purple)
+    es_box_h = es_total_h + 60
     draw.rounded_rectangle(
-        [(box_x, y_cursor), (box_x + box_w, y_cursor + he_box_h)],
+        [(box_x, y_cursor), (box_x + box_w, y_cursor + es_box_h)],
         radius=25, fill=(95, 80, 125, 255)
     )
-    for i, line in enumerate(he_lines):
-        draw.text((VIDEO_WIDTH // 2, y_cursor + 30 + (i * he_line_h) + he_line_h // 2), 
-                  line, fill=(255, 255, 255), font=font_Hebrew, anchor="mm")
+    for i, line in enumerate(es_lines):
+        draw.text((VIDEO_WIDTH // 2, y_cursor + 30 + (i * es_line_h) + es_line_h // 2), 
+                  line, fill=(255, 255, 255), font=font_spanish, anchor="mm")
 
-    y_cursor += he_box_h + (GAP // 2)
+    y_cursor += es_box_h + (GAP // 2)
 
     # Pronunciation Section (Lingexa Peach)
     pron_box_h = pron_total_h + 40
@@ -794,7 +793,7 @@ def generate_complete_image(phrase_data: dict, category_english: str, output_pat
                   line, fill=(70, 45, 25), font=font_pronunciation, anchor="mm")
 
     # Branding (Bottom Right)
-    brand_text = "VELOCITY Hebrew"
+    brand_text = "VELOCITY HEBREW"
     brand_bbox = draw.textbbox((0, 0), brand_text, font=font_branding)
     brand_w = brand_bbox[2] - brand_bbox[0]
     draw.text((VIDEO_WIDTH - brand_w - 60, VIDEO_HEIGHT - 80), brand_text, 
@@ -810,7 +809,7 @@ def generate_complete_image(phrase_data: dict, category_english: str, output_pat
 
 # ============== THUMBNAIL GENERATION ==============
 
-def generate_thumbnail(category_english: str, category_Hebrew: str, output_path: str):
+def generate_thumbnail(category_english: str, category_hebrew: str, output_path: str):
     """Generate a modern, high-impact thumbnail - Lingexa Inspired"""
     try:
         from PIL import Image, ImageDraw, ImageFont
@@ -825,7 +824,7 @@ def generate_thumbnail(category_english: str, category_Hebrew: str, output_path:
 
     # Load fonts
     english_font_paths = ["C:/Windows/Fonts/segoeuib.ttf", "C:/Windows/Fonts/arialbd.ttf"]
-    Hebrew_font_paths = [str(BASE_DIR / "fonts" / "NotoSansHebrew-Bold.ttf"), "C:/Windows/Fonts/arialbd.ttf"]
+    spanish_font_paths = ["C:/Windows/Fonts/arialbd.ttf"]
 
     def load_font(font_paths, size):
         for font_path in font_paths:
@@ -834,12 +833,12 @@ def generate_thumbnail(category_english: str, category_Hebrew: str, output_path:
         return ImageFont.load_default()
 
     font_huge = load_font(english_font_paths, 130)
-    font_main = load_font(Hebrew_font_paths, 110)
+    font_main = load_font(spanish_font_paths, 110)
     font_sub = load_font(english_font_paths, 60)
     font_badge = load_font(english_font_paths, 45)
 
     # Big Impact Title (Dark Purple)
-    draw.text((VIDEO_WIDTH // 2, 220), "MASTER Hebrew", fill=(45, 35, 65), font=font_huge, anchor="mm")
+    draw.text((VIDEO_WIDTH // 2, 220), "MASTER HEBREW", fill=(45, 35, 65), font=font_huge, anchor="mm")
     
     # Category Badge (Lingexa Dark Purple)
     cat_text = category_english.upper()
@@ -851,8 +850,8 @@ def generate_thumbnail(category_english: str, category_Hebrew: str, output_path:
     )
     draw.text((VIDEO_WIDTH // 2, 365), cat_text, fill=(255, 255, 255), font=font_sub, anchor="mm")
 
-    # Hebrew Translation (Dark Purple)
-    draw.text((VIDEO_WIDTH // 2, 530), category_Hebrew, fill=(45, 35, 65), font=font_main, anchor="mm")
+    # Spanish Translation (Dark Purple)
+    draw.text((VIDEO_WIDTH // 2, 530), category_hebrew, fill=(45, 35, 65), font=font_main, anchor="mm")
 
     # Features / Call to Action (Lingexa Peach)
     cta_text = "60 ESSENTIAL PHRASES"
@@ -864,7 +863,7 @@ def generate_thumbnail(category_english: str, category_Hebrew: str, output_path:
 
     # Bottom Branding (Dark Purple Bar)
     draw.rectangle([(0, VIDEO_HEIGHT - 100), (VIDEO_WIDTH, VIDEO_HEIGHT)], fill=(45, 35, 65, 255))
-    draw.text((VIDEO_WIDTH // 2, VIDEO_HEIGHT - 50), "VELOCITY Hebrew", fill=(255, 255, 255), font=font_badge, anchor="mm")
+    draw.text((VIDEO_WIDTH // 2, VIDEO_HEIGHT - 50), "VELOCITY HEBREW", fill=(255, 255, 255), font=font_badge, anchor="mm")
 
     img = img.convert('RGB')
     Path(output_path).parent.mkdir(parents=True, exist_ok=True)
@@ -899,26 +898,26 @@ def extract_video_thumbnail(video_path: str, output_path: str, timestamp_seconds
 
 # ============== TITLE & DESCRIPTION GENERATION ==============
 
-def generate_title_description(category_english: str, category_Hebrew: str, phrases: list, duration_minutes: float, output_dir: str):
+def generate_title_description(category_english: str, category_hebrew: str, phrases: list, duration_minutes: float, output_dir: str):
     """Generate viral YouTube title and description with all phrases - COMBINED in one file"""
     
     # Generate viral title variations
     titles = [
-        f"Learn Hebrew in 10 Minutes | {category_english} Phrases Every Beginner NEEDS to Know! ({category_Hebrew})",
-        f"60 Hebrew Phrases for {category_english} | Speak Hebrew Like a Native! ({category_Hebrew})",
-        f"Master Hebrew {category_english} | 60 Essential Hebrew Phrases with Pronunciation | Velocity Hebrew",
+        f"Learn Hebrew in 10 Minutes | {category_english} Phrases Every Beginner NEEDS to Know! ({category_hebrew})",
+        f"60 Spanish Phrases for {category_english} | Speak Hebrew Like a Native! ({category_hebrew})",
+        f"Master Hebrew {category_english} | 60 Essential Spanish Phrases with Pronunciation | Velocity Spanish",
         f"Hebrew Learning Made Easy | {category_english} Vocabulary | 10 Minute Lesson",
-        f"Speak Hebrew Fluently | {category_english} Phrases | English + Hebrew + Pronunciation",
+        f"Speak Hebrew Fluently | {category_english} Phrases | English + Spanish + Pronunciation",
     ]
 
     # Generate comprehensive description
-    description = f"""🇯🇵 Learn Hebrew with Velocity Hebrew! 🇯🇵
+    description = f"""🇪🇸 Learn Hebrew with VELOCITY HEBREW! 🇪🇸
 
-In this video, you'll learn 60 essential Hebrew phrases about {category_english} ({category_Hebrew}).
+In this video, you'll learn 60 essential Hebrew phrases about {category_english} ({category_hebrew}).
 Perfect for beginners and intermediate learners!
 
 📚 WHAT YOU'LL LEARN:
-• 60 practical {category_english} phrases in Hebrew
+• 60 practical {category_english} phrases in Spanish
 • Correct pronunciation guide
 • Natural pauses for speaking practice
 • Common expressions used by native speakers
@@ -943,7 +942,7 @@ Perfect for beginners and intermediate learners!
     for i, phrase in enumerate(phrases, 1):
         description += f"""
 {i}. {phrase['english']}
-   Hebrew: {phrase['Hebrew']}
+   Spanish: {phrase['spanish']}
    Pronunciation: {phrase['pronunciation']}
 """
 
@@ -966,7 +965,7 @@ Perfect for beginners and intermediate learners!
 👍 LIKE this video if you found it helpful!
 💬 COMMENT which phrases you want to learn next!
 
-📱 FOLLOW VELOCITY Hebrew:
+📱 FOLLOW VELOCITY HEBREW:
 [Add your social media links here]
 
 🎵 MUSIC:
@@ -977,10 +976,10 @@ Perfect for beginners and intermediate learners!
 • Hebrew Love Expressions
 • Basic Hebrew Greetings
 
-#LearnHebrew #HebrewPhrases #HebrewLanguage #{category_english.replace(' ', '')} #VelocityHebrew #HebrewForBeginners #SpeakHebrew #HebrewVocabulary #Pronunciation #LanguageLearning #Hebrew101 #HebrewLesson
+#LearnHebrew #HebrewPhrases #HebrewLanguage #{category_english.replace(' ', '')} #Hebrew #HebrewForBeginners #SpeakHebrew #HebrewVocabulary #Pronunciation #LanguageLearning #Hebrew101 #HebrewLesson
 
 ---
-© Velocity Hebrew - Making Hebrew learning accessible to everyone!
+© VELOCITY HEBREW - Making Hebrew learning accessible to everyone!
 """
 
     # Write to COMBINED file (title + description in one)
@@ -1016,7 +1015,7 @@ Perfect for beginners and intermediate learners!
             "Hebrew Phrases",
             "Hebrew Language",
             category_english,
-            "Velocity Hebrew",
+            "VELOCITY HEBREW",
             "Hebrew for Beginners",
             "Speak Hebrew",
             "Hebrew Vocabulary",
@@ -1033,7 +1032,7 @@ Perfect for beginners and intermediate learners!
         "selected_title": titles[0],
         "description": description,
         "category_english": category_english,
-        "category_Hebrew": category_Hebrew,
+        "category_hebrew": category_hebrew,
         "phrases_count": len(phrases),
         "duration_minutes": round(duration_minutes, 2),
         "tags": tags
@@ -1117,7 +1116,7 @@ def generate_longform_video(category_english: str = None, target_phrases: int = 
     phrases_count = target_phrases if target_phrases else TARGET_PHRASES
 
     print(f"\n{'='*80}")
-    print(f"🎬 LONG-FORM VIDEO - Category: {category_english} ({CATEGORIES_Hebrew[category_english]})")
+    print(f"🎬 LONG-FORM VIDEO - Category: {category_english} ({CATEGORIES_HEBREW[category_english]})")
     print(f"🎯 Target Phrases: {phrases_count}")
     print(f"{'='*80}\n")
 
@@ -1130,7 +1129,7 @@ def generate_longform_video(category_english: str = None, target_phrases: int = 
     phrases = generate_phrases_for_longform(category_english, phrases_count)
 
     for i, phrase in enumerate(phrases, 1):
-        print(f"  {i}. {phrase['english']} → {phrase['Hebrew']}")
+        print(f"  {i}. {phrase['english']} → {phrase['spanish']}")
 
     print(f"\n[info] Total phrases: {len(phrases)}")
 
@@ -1158,10 +1157,10 @@ def generate_longform_video(category_english: str = None, target_phrases: int = 
                 print(f"  gpt-image-2 thumbnail saved")
             else:
                 print(f"  gpt-image-2 failed, using built-in")
-                generate_thumbnail(category_english, CATEGORIES_ENGLISH[category_english], str(thumbnail_path))
+                generate_thumbnail(category_english, CATEGORIES_HEBREW[category_english], str(thumbnail_path))
         except Exception as e:
             print(f"  Thumbnail error: {e}, using built-in")
-            generate_thumbnail(category_english, CATEGORIES_ENGLISH[category_english], str(thumbnail_path))
+            generate_thumbnail(category_english, CATEGORIES_HEBREW[category_english], str(thumbnail_path))
     video_thumbnail_path = video_dir / "video_thumbnail_frame.jpg"
     print(f"\n[4/6] Generating audio for {len(phrases)} phrases...")
     audio_files = generate_all_audio(phrases, str(video_dir))
@@ -1194,7 +1193,7 @@ def generate_longform_video(category_english: str = None, target_phrases: int = 
     print(f"\n[6/6] Generating YouTube title, description, and metadata...")
     title_meta = generate_title_description(
         category_english,
-        CATEGORIES_Hebrew[category_english],
+        CATEGORIES_HEBREW[category_english],
         phrases,
         total_duration / 60,
         str(video_dir)
@@ -1204,11 +1203,11 @@ def generate_longform_video(category_english: str = None, target_phrases: int = 
     import json as _json
     from pathlib import Path as _Path
     meta_out = {
-        "title": title_meta.get("selected_title", f"Learn Hebrew: {category_english}"),
+        "title": title_meta.get("selected_title", f"Learn Spanish: {category_english}"),
         "description": title_meta.get("description", ""),
-        "tags": ["Learn Hebrew", "Hebrew Phrases", "Hebrew", category_english, "Velocity Hebrew"],
+        "tags": ["Learn Hebrew", "Hebrew Phrases", "Spanish", category_english, "VELOCITY HEBREW"],
         "category_english": category_english,
-        "category_Hebrew": CATEGORIES_Hebrew[category_english],
+        "category_hebrew": CATEGORIES_HEBREW[category_english],
         "phrases_count": len(phrases),
         "duration_seconds": total_duration,
         "duration_minutes": total_duration / 60,
@@ -1233,7 +1232,7 @@ def generate_longform_video(category_english: str = None, target_phrases: int = 
     print(f"  📄 youtube_upload_info.txt (title + description + tags)")
     print(f"  ⏱️  Duration: {total_duration/60:.2f} minutes")
     print(f"  📊 Phrases: {len(phrases)}")
-    print(f"  🏷️  Branding: Velocity Hebrew")
+    print(f"  🏷️  Branding: Velocity Spanish")
     print(f"  📺 Format: 16:9 (1920x1080)")
     print(f"{'='*80}\n")
 
@@ -1258,13 +1257,13 @@ def generate_multiple_longform(count: int = 1, target_phrases: int = None):
 
 if __name__ == "__main__":
     import argparse
-    parser = argparse.ArgumentParser(description="Velocity Hebrew YouTube Long-form Video Generator")
+    parser = argparse.ArgumentParser(description="Velocity Spanish YouTube Long-form Video Generator")
     parser.add_argument("--phrases", type=int, default=TARGET_PHRASES, help="Number of phrases to generate (determines video length, ~5.5s per phrase. 60 phrases = ~5.5 mins)")
     parser.add_argument("--category", type=str, default=None, help="Specific category to generate (e.g. 'Motivation', 'Friendship'). Random if not provided.")
     args = parser.parse_args()
 
     print("\n" + "="*80)
-    print("🇯🇵 VELOCITY Hebrew - YOUTUBE LONG-FORM AUTOMATION 🇯🇵")
+    print("🇪🇸 VELOCITY HEBREW - YOUTUBE LONG-FORM AUTOMATION 🇪🇸")
     print("="*80)
     print("\n✨ FEATURES:")
     print("  ✓ 16:9 format (1920x1080) for YouTube long-form")
@@ -1276,7 +1275,7 @@ if __name__ == "__main__":
     print("  ✓ NEVER repeats phrases (permanent history tracking)")
     print(f"\n📊 AVAILABLE CATEGORIES ({len(CATEGORIES_ENGLISH)} total):")
     for i, cat in enumerate(CATEGORIES_ENGLISH, 1):
-        print(f"   {i:2d}. {cat} ({CATEGORIES_Hebrew[cat]})")
+        print(f"   {i:2d}. {cat} ({CATEGORIES_HEBREW[cat]})")
     print(f"\n📈 VIDEO SPECIFICATIONS:")
     print(f"  • Resolution: {VIDEO_WIDTH}x{VIDEO_HEIGHT} (16:9)")
     print(f"  • Frame Rate: {FPS} FPS")
