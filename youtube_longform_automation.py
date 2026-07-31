@@ -255,11 +255,11 @@ IMPORTANT RULES FOR NATURAL SPEECH:
 
 For each phrase:
 1. English phrase (with commas for natural pauses)
-2. Spanish translation
+2. Hebrew translation
 3. Pronunciation guide (phonetic spelling for English speakers)
 
 Return as JSON array:
-[{{"english": "...", "spanish": "...", "pronunciation": "..."}}]
+[{{"english": "...", "hebrew": "...", "pronunciation": "..."}}]
 
 IMPORTANT: Create FRESH, UNIQUE phrases that haven't been used before.{exclusion_note}"""
 
