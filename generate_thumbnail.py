@@ -4,69 +4,29 @@ from dotenv import load_dotenv
 import sys
 sys.path.insert(0, str(Path(__file__).parent.parent.parent / "thumbnails"))
 from thumbnail_manager import get_thumbnail
-from PIL import Image, ImageDraw, ImageFont
 
 load_dotenv()
 
 POLLINATIONS_API_KEY = os.getenv("POLLINATIONS_API_KEY")
 
 SCENIC_STYLES = [
-    "stunning Indian woman in traditional saree, Taj Mahal, sunrise",
-    "elegant Indian woman in lehenga choli, Jaipur, Hawa Mahal",
-    "beautiful Indian woman in salwar kameez, Varanasi, Ganges river",
-    "Indian woman at Kerala backwaters, houseboat, golden hour",
-    "gorgeous Indian woman in modern fusion wear, Mumbai skyline sunset",
-    "beautiful Indian woman, Udaipur, Lake Palace, warm golden light",
-    "Indian woman in traditional attire, Himachal Pradesh, mountain view",
-    "elegant Indian woman, Goa beach, palm trees, zen atmosphere",
+    "stunning Israeli woman, Tel Aviv beachfront, modern skyline",
+    "elegant Israeli woman, Jerusalem, Western Wall, golden stone",
+    "beautiful Israeli woman, Negev desert, Makhtesh Ramon, sunset",
+    "Israeli woman at the Dead Sea, dramatic landscape, warm light",
+    "gorgeous Israeli woman in modern style, Haifa, Bahai Gardens",
+    "beautiful Israeli woman, Jaffa port, Mediterranean, golden hour",
+    "Israeli woman in Jerusalem market, vibrant atmosphere",
+    "elegant Israeli woman, Galilee, lush green hills, peaceful",
 ]
 
 
-def generate_scenic_image(category_english: str, category_hindi: str, output_path: str):
+def generate_scenic_image(category_english: str, category_hebrew: str, output_path: str):
     # Try pre-made thumbnail first
     premade = get_thumbnail("Hebrew", category_english)
     if premade:
         return premade
     
-        if False and POLLINATIONS_API_KEY:  # disabled
-        for attempt in range(3):
-            style = random.choice(SCENIC_STYLES)
-            prompt = (
-                f"Professional YouTube thumbnail for Hebrew language learning video. "
-                f"{style}. "
-                f"16:9 landscape 1920x1080 exact. High contrast, vibrant, click-worthy. "
-                f"Important: The image MUST contain the following text rendered in bold clear font: "
-                f"At top: '120 HEBREW PHRASES'. In center: '{category_english}'. "
-                f"At bottom: 'VELOCITY HEBREW'. Also: '10 MINUTE LESSON' badge."
-            )
-            try:
-                resp = requests.post("https://gen.pollinations.ai/v1/images/generations", json={
-                    "model": "gpt-image-2",
-                    "prompt": prompt,
-                    "n": 1,
-                    "size": "1792x1024",
-                }, headers={"Authorization": f"Bearer {POLLINATIONS_API_KEY}"}, timeout=120)
-                if resp.status_code == 200 and resp.json().get("data"):
-                    raw = base64.b64decode(resp.json()["data"][0]["b64_json"])
-                    if raw:
-                        img = Image.open(io.BytesIO(raw)).convert("RGB")
-                        img = img.resize((1920, 1080), Image.LANCZOS)
-                        thumb_bytes = io.BytesIO()
-                        quality = 85
-                        img.save(thumb_bytes, format="JPEG", quality=quality)
-                        while thumb_bytes.tell() > 2097152 and quality > 10:
-                            quality -= 10
-                            thumb_bytes = io.BytesIO()
-                            img.save(thumb_bytes, format="JPEG", quality=quality)
-                        thumb_bytes.seek(0)
-                        Path(output_path).parent.mkdir(parents=True, exist_ok=True)
-                        with open(output_path, "wb") as f:
-                            f.write(thumb_bytes.read())
-                        print(f"[thumbnail] gpt-image-2 thumbnail saved")
-                        return output_path
-            except Exception as e:
-                print(f"[thumbnail] Attempt {attempt+1} failed ({str(e)[:60]}), retrying..." if attempt < 2 else f"[thumbnail] Fallback after {attempt+1} attempts")
-
     img = Image.new('RGB', (1920, 1080), (45, 35, 65))
     draw = ImageDraw.Draw(img)
 
@@ -80,11 +40,10 @@ def generate_scenic_image(category_english: str, category_hindi: str, output_pat
             b = int(95 + (65 - 95) * ((ratio - 0.5) * 2))
         draw.rectangle([(0, y), (1920, y + 1)], fill=(r, g, b))
 
-    en_fonts = [str(Path(__file__).parent / "fonts" / "DejaVuSans-Bold.ttf"),
-                "C:/Windows/Fonts/segoeuib.ttf", "C:/Windows/Fonts/arialbd.ttf",
+    en_fonts = ["/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
                 "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"]
-    lang_fonts = [str(Path(__file__).parent / "fonts" / "NotoSansDevanagari-Bold.ttf"),
-                  "C:/Windows/Fonts/arialbd.ttf"]
+    ja_fonts = ["/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+                ]
 
     def load_font(paths, size):
         for p in paths:
@@ -94,13 +53,13 @@ def generate_scenic_image(category_english: str, category_hindi: str, output_pat
         return ImageFont.load_default()
 
     f_big = load_font(en_fonts, 130)
-    f_cat = load_font(lang_fonts, 90)
+    f_cat = load_font(ja_fonts, 90)
     f_sub = load_font(en_fonts, 55)
     f_brand = load_font(en_fonts, 45)
 
     draw.text((960, 180), "120 HEBREW PHRASES", fill=(255, 210, 0), font=f_big, anchor="mm")
 
-    cat_text = category_english.upper()
+    cat_text = category_english
     bb = draw.textbbox((0, 0), cat_text, font=f_cat)
     cw = bb[2] - bb[0]
     cx = (1920 - cw) // 2
@@ -127,3 +86,4 @@ def generate_scenic_image(category_english: str, category_hindi: str, output_pat
         f.write(thumb_bytes.read())
     print(f"[thumbnail] Fallback thumbnail saved (AI unavailable)")
     return output_path
+
