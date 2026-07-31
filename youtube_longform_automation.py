@@ -327,143 +327,136 @@ def get_fresh_fallback_phrases(category: str, num_phrases: int) -> list:
 
     all_fallbacks = {
         "Motivation": [
-            {"english": "Believe in yourself.", "spanish": "Cree en ti mismo.", "pronunciation": "cre-e en ti mis-mo."},
-            {"english": "You are capable of amazing things.", "spanish": "Eres capaz de cosas asombrosas.", "pronunciation": "e-res ca-paz de co-sas a-som-bro-sas."},
-            {"english": "Dream big, start small.", "spanish": "Sueña en grande, empieza pequeño.", "pronunciation": "swe-nya en gran-de, em-pje-za pe-ke-nyo."},
-            {"english": "Your future is created by your actions.", "spanish": "Tu futuro es creado por tus acciones.", "pronunciation": "tu fu-tu-ro es cre-a-do por tus ak-syo-nes."},
-            {"english": "Never give up on your dreams.", "spanish": "Nunca te rindas en tus sueños.", "pronunciation": "nun-ka te rin-das en tus swe-nyos."},
-            {"english": "Small steps lead to big changes.", "spanish": "Pequeños pasos llevan a grandes cambios.", "pronunciation": "pe-ke-nyos pa-sos ye-van a gran-des cam-byos."},
-            {"english": "You are stronger than you think.", "spanish": "Eres más fuerte de lo que crees.", "pronunciation": "e-res mas fwer-te de lo ke cre-es."},
+            {"english": "Believe in yourself.", "hebrew": "תאמין בעצמך.", "pronunciation": "ta-ah-MEEN be-atz-ME-cha"},
+            {"english": "You are capable of amazing things.", "hebrew": "אתה מסוגל לדברים מדהימים.", "pronunciation": "a-TA me-SU-gol le-dva-RIM me-da-HEE-mim"},
+            {"english": "Dream big, start small.", "hebrew": "חלום בגדול, התחל בקטן.", "pronunciation": "cha-LOM be-ga-DOL, hit-CHAL be-ka-TAN"},
+            {"english": "Your future is created by your actions.", "hebrew": "העתיד שלך נוצר מהמעשים שלך.", "pronunciation": "ha-a-TEED shel-CHA no-TZAR me-ha-ma-a-SEEM shel-CHA"},
+            {"english": "Never give up on your dreams.", "hebrew": "לעולם אל תוותר על החלומות שלך.", "pronunciation": "le-O-LAM al te-va-TER al ha-cha-lo-MOT shel-CHA"},
+            {"english": "Small steps lead to big changes.", "hebrew": "צעדים קטנים מובילים לשינויים גדולים.", "pronunciation": "tsa-A-DIM kta-NIM mo-vi-LIM le-shi-nu-YIM gdo-LIM"},
+            {"english": "You are stronger than you think.", "hebrew": "אתה חזק יותר ממה שאתה חושב.", "pronunciation": "a-TA cha-ZAK yo-TER mi-ma she-a-TA cho-shev"},
         ],
         "Love": [
-            {"english": "Love yourself first.", "spanish": "Ámate a ti mismo primero.", "pronunciation": "a-ma-te a ti mis-mo pri-me-ro."},
-            {"english": "Love makes everything possible.", "spanish": "El amor hace que todo sea posible.", "pronunciation": "el a-mor a-se ke to-do se-a po-si-ble."},
-            {"english": "My heart beats for you.", "spanish": "Mi corazón late por ti.", "pronunciation": "mi co-ra-zon la-te por ti."},
-            {"english": "You are my everything.", "spanish": "Eres mi todo.", "pronunciation": "e-res mi to-do."},
-            {"english": "Together forever, hand in hand.", "spanish": "Juntos por siempre, mano a mano.", "pronunciation": "jun-tos por syem-pre, ma-no a ma-no."},
+            {"english": "Love yourself first.", "hebrew": "תאהב את עצמך קודם.", "pronunciation": "te-a-HAV et atz-me-CHA ko-DEM"},
+            {"english": "Love makes everything possible.", "hebrew": "אהבה עושה הכל אפשרי.", "pronunciation": "a-ha-VA o-SET ha-KOL ef-sha-RI"},
+            {"english": "My heart beats for you.", "hebrew": "הלב שלי פועם בשבילך.", "pronunciation": "ha-LEV she-LI po-EM bish-vi-LECHA"},
+            {"english": "You are my everything.", "hebrew": "אתה הכל בשבילי.", "pronunciation": "a-TA ha-KOL bish-vi-LI"},
+            {"english": "Together forever, hand in hand.", "hebrew": "ביחד לנצח, יד ביד.", "pronunciation": "ya-CHAD le-ne-TZACH, yad be-yad"},
         ],
         "Success": [
-            {"english": "Success comes from hard work.", "spanish": "El éxito viene del trabajo duro.", "pronunciation": "el ek-si-to vye-ne del tra-ba-jo du-ro."},
-            {"english": "Keep going, you're getting there.", "spanish": "Sigue adelante, ya casi llegas.", "pronunciation": "si-ge a-de-lan-te, ya ca-si ye-gas."},
-            {"english": "Winners never quit.", "spanish": "Los ganadores nunca se rinden.", "pronunciation": "los ga-na-do-res nun-ka se rin-den."},
-            {"english": "Your effort will pay off.", "spanish": "Tu esfuerzo valdrá la pena.", "pronunciation": "tu es-fwer-zo val-dra la pe-na."},
+            {"english": "Success comes from hard work.", "hebrew": "הצלחה באה מעבודה קשה.", "pronunciation": "hatz-la-CHA ba-A me-a-vo-DA ka-SHA"},
+            {"english": "Keep going, you're getting there.", "hebrew": "תמשיך, אתה כמעט שם.", "pronunciation": "tam-SHICH, a-TA kim-AT sham"},
+            {"english": "Winners never quit.", "hebrew": "מנצחים אף פעם לא מוותרים.", "pronunciation": "me-na-tz-CHIM af pa-AM lo me-va-t-RIM"},
+            {"english": "Your effort will pay off.", "hebrew": "המאמץ שלך ישתלם.", "pronunciation": "ha-ma-AM-TZ shel-CHA yish-ta-LEM"},
         ],
         "Wisdom": [
-            {"english": "Knowledge is power.", "spanish": "El conocimiento es poder.", "pronunciation": "el co-no-si-myen-to es po-der."},
-            {"english": "Learn from yesterday, live for today.", "spanish": "Aprende del ayer, vive por el hoy.", "pronunciation": "a-pren-de del a-yer, vi-ve por el oy."},
-            {"english": "Think before you act.", "spanish": "Piensa antes de actuar.", "pronunciation": "pyen-sa an-tes de ak-twar."},
-            {"english": "Experience is the best teacher.", "spanish": "La experiencia es la mejor maestra.", "pronunciation": "la ex-pe-ryen-sya es la me-jor ma-es-tra."},
+            {"english": "Knowledge is power.", "hebrew": "ידע הוא כוח.", "pronunciation": "de-AT hu ko-ACH"},
+            {"english": "Learn from yesterday, live for today.", "hebrew": "למד מאתמול, חי להיום.", "pronunciation": "le-MAD me-et-MOL, che-YE le-ha-YOM"},
+            {"english": "Think before you act.", "hebrew": "חשוב לפני שאתה פועל.", "pronunciation": "cha-SHOV lif-NE she-a-TA po-EL"},
+            {"english": "Experience is the best teacher.", "hebrew": "הניסיון הוא המורה הטוב ביותר.", "pronunciation": "ha-ni-sa-YON hu ha-mo-RE ha-TOV be-YO-TER"},
         ],
         "Happiness": [
-            {"english": "Happiness is a choice.", "spanish": "La felicidad es una elección.", "pronunciation": "la fe-li-si-dad es u-na e-lek-syon."},
-            {"english": "Find joy in the little things.", "spanish": "Encuentra alegría en las pequeñas cosas.", "pronunciation": "en-kwen-tra a-le-gri-a en las pe-ke-nyas co-sas."},
-            {"english": "Smile, it makes others happy.", "spanish": "Sonríe, hace felices a los demás.", "pronunciation": "son-ri-e, a-se fe-li-ses a los de-mas."},
-            {"english": "Today is a gift.", "spanish": "Hoy es un regalo.", "pronunciation": "oy es un re-ga-lo."},
-        ],
-        "Self Improvement": [
-            {"english": "Be better than yesterday.", "spanish": "Sé mejor que ayer.", "pronunciation": "se me-jor ke a-yer."},
-            {"english": "Grow through what you go through.", "spanish": "Crece a través de lo que pasas.", "pronunciation": "cre-se a tra-ves de lo ke pa-sas."},
-            {"english": "Invest in yourself daily.", "spanish": "Invierte en ti mismo a diario.", "pronunciation": "in-vyer-te en ti mis-mo a dya-ryo."},
+            {"english": "Happiness is a choice.", "hebrew": "האושר הוא בחירה.", "pronunciation": "ha-O-SHER hu bchi-RA"},
+            {"english": "Find joy in the little things.", "hebrew": "מצא שמחה בדברים הקטנים.", "pronunciation": "m-TZA sim-CHA ba-dva-RIM ha-kta-NIM"},
+            {"english": "Smile, it makes others happy.", "hebrew": "חייך, זה משמח אחרים.", "pronunciation": "cha-YECH, ze me-sa-ME-ACH a-che-RIM"},
+            {"english": "Today is a gift.", "hebrew": "היום הוא מתנה.", "pronunciation": "ha-YOM hu ma-ta-NA"},
+            {"english": "Be better than yesterday.", "hebrew": "היה טוב יותר מאתמול.", "pronunciation": "he-YE tov yo-TER me-et-MOL"},
+            {"english": "Grow through what you go through.", "hebrew": "גדל דרך מה שאתה עובר.", "pronunciation": "g-DAL de-REch ma she-a-TA o-VER"},
+            {"english": "Invest in yourself daily.", "hebrew": "השקע בעצמך כל יום.", "pronunciation": "hash-KA be-atz-mE-CHA kol yom"},
         ],
         "Gratitude": [
-            {"english": "Thank you for everything.", "spanish": "Gracias por todo.", "pronunciation": "gra-syas por to-do."},
-            {"english": "I appreciate your help.", "spanish": "Agradezco tu ayuda.", "pronunciation": "a-gra-dez-co tu a-yu-da."},
-            {"english": "Grateful for this moment.", "spanish": "Agradecido por este momento.", "pronunciation": "a-gra-de-si-do por es-te mo-men-to."},
+            {"english": "Thank you for everything.", "hebrew": "תודה על הכל.", "pronunciation": "to-DA al ha-KOL"},
+            {"english": "I appreciate your help.", "hebrew": "אני מעריך את העזרה שלך.", "pronunciation": "a-NI ma-a-RICH et ha-ez-RA shel-CHA"},
+            {"english": "Grateful for this moment.", "hebrew": "מודה על הרגע הזה.", "pronunciation": "mo-DE al ha-RE-ga ha-ZE"},
         ],
         "Friendship": [
-            {"english": "Friends forever, no matter what.", "spanish": "Amigos por siempre, pase lo que pase.", "pronunciation": "a-mi-gos por syem-pre, pa-se lo ke pa-se."},
-            {"english": "You are my best friend.", "spanish": "Eres mi mejor amigo.", "pronunciation": "e-res mi me-jor a-mi-go."},
-            {"english": "True friends stick together.", "spanish": "Los verdaderos amigos se mantienen unidos.", "pronunciation": "los ver-da-de-ros a-mi-gos se man-tye-nen u-ni-dos."},
+            {"english": "Friends forever, no matter what.", "hebrew": "חברים לנצח, מה שלא יהיה.", "pronunciation": "cha-ve-RIM le-ne-TZACH, ma she-lo yih-YE"},
+            {"english": "You are my best friend.", "hebrew": "אתה החבר הכי טוב שלי.", "pronunciation": "a-TA ha-cha-VER ha-chi tov she-LI"},
+            {"english": "True friends stick together.", "hebrew": "חברים אמיתיים נשארים יחד.", "pronunciation": "cha-ve-RIM a-mi-ti-IM nish-a-RIM ya-CHAD"},
         ],
         "Hope": [
-            {"english": "There is always hope.", "spanish": "Siempre hay esperanza.", "pronunciation": "syem-pre ay es-pe-ran-za."},
-            {"english": "Better days are coming.", "spanish": "Vienen días mejores.", "pronunciation": "vye-nen di-as me-jo-res."},
-            {"english": "Keep faith, keep going.", "spanish": "Mantén la fe, sigue adelante.", "pronunciation": "man-ten la fe, si-ge a-de-lan-te."},
+            {"english": "There is always hope.", "hebrew": "תמיד יש תקווה.", "pronunciation": "ta-MID yesh tik-VA"},
+            {"english": "Better days are coming.", "hebrew": "ימים טובים יותר מגיעים.", "pronunciation": "ya-MIM to-VIM yo-TER me-gi-IM"},
+            {"english": "Keep faith, keep going.", "hebrew": "שמור על אמונה, תמשיך.", "pronunciation": "sh-MOR al e-mu-NA, tam-SHICH"},
         ],
         "Creativity": [
-            {"english": "Create something beautiful today.", "spanish": "Crea algo hermoso hoy.", "pronunciation": "cre-a al-go er-mo-so oy."},
-            {"english": "Your imagination is unlimited.", "spanish": "Tu imaginación es ilimitada.", "pronunciation": "tu i-ma-ji-na-syon es i-li-mi-ta-da."},
-            {"english": "Art comes from the heart.", "spanish": "El arte viene del corazón.", "pronunciation": "el ar-te vye-ne del co-ra-zon."},
-            {"english": "Express yourself freely.", "spanish": "Exprésate libremente.", "pronunciation": "ex-pre-sa-te li-bre-men-te."},
-            {"english": "Innovation starts with curiosity.", "spanish": "La innovación comienza con la curiosidad.", "pronunciation": "la i-no-va-syon co-myen-za con la cu-ryo-si-dad."},
-        ],
-        "Inner Peace": [
-            {"english": "Find peace within yourself.", "spanish": "Encuentra la paz dentro de ti.", "pronunciation": "en-kwen-tra la paz den-tro de ti."},
-            {"english": "Breathe, relax, let go.", "spanish": "Respira, relájate, suelta.", "pronunciation": "res-pi-ra, re-la-ja-te, swel-ta."},
-            {"english": "Calm mind, happy heart.", "spanish": "Mente tranquila, corazón feliz.", "pronunciation": "men-te tran-ki-la, co-ra-zon fe-liz."},
+            {"english": "Create something beautiful today.", "hebrew": "צור משהו יפה היום.", "pronunciation": "tZOR ma-she-HU ya-FE ha-YOM"},
+            {"english": "Your imagination is unlimited.", "hebrew": "הדמיון שלך בלתי מוגבל.", "pronunciation": "ha-di-mya-ON shel-CHA bil-tI mu-g-BAL"},
+            {"english": "Art comes from the heart.", "hebrew": "אמנות באה מהלב.", "pronunciation": "o-ma-NUT ba-A me-ha-LEV"},
+            {"english": "Express yourself freely.", "hebrew": "בטא את עצמך בחופשיות.", "pronunciation": "ba-TA et atz-me-CHA be-chof-shi-YUT"},
+            {"english": "Innovation starts with curiosity.", "hebrew": "חדשנות מתחילה בסקרנות.", "pronunciation": "chi-da-sho-NUT match-i-IL be-sak-ra-NUT"},
+            {"english": "Find peace within yourself.", "hebrew": "מצא שלווה בתוך עצמך.", "pronunciation": "m-TZA shal-VA be-toch atz-me-CHA"},
+            {"english": "Breathe, relax, let go.", "hebrew": "נשום, תירגע, תשחרר.", "pronunciation": "n-SHOM, tir-GA, tish-RER"},
+            {"english": "Calm mind, happy heart.", "hebrew": "מוח רגוע, לב שמח.", "pronunciation": "mo-ACH ra-GU-A, lev sa-ME-ACH"},
         ],
         "Confidence": [
-            {"english": "You are enough, just as you are.", "spanish": "Eres suficiente, tal como eres.", "pronunciation": "e-res su-fi-syen-te, tal co-mo e-res."},
-            {"english": "Stand tall, speak up.", "spanish": "Mantente erguido, habla.", "pronunciation": "man-ten-te er-gi-do, a-bla."},
-            {"english": "Believe in your abilities.", "spanish": "Cree en tus habilidades.", "pronunciation": "cre-e en tus a-bi-li-da-des."},
+            {"english": "You are enough, just as you are.", "hebrew": "אתה מספיק, בדיוק כמו שאתה.", "pronunciation": "a-TA mas-PIK, bid-YUK k-mO she-a-TA"},
+            {"english": "Stand tall, speak up.", "hebrew": "עמוד זקוף, דבר בקול.", "pronunciation": "a-MOD za-KUF, da-BER be-KOL"},
+            {"english": "Believe in your abilities.", "hebrew": "תאמין ביכולות שלך.", "pronunciation": "ta-a-MIN be-yecho-LOT shel-CHA"},
         ],
         "Perseverance": [
-            {"english": "Never give up, keep pushing.", "spanish": "Nunca te rindas, sigue presionando.", "pronunciation": "nun-ka te rin-das, si-ge pre-syo-nan-do."},
-            {"english": "Storms make trees take deeper roots.", "spanish": "Las tormentas hacen que los árboles echen raíces más profundas.", "pronunciation": "las tor-men-tas a-sen ke los ar-bo-les e-chen ra-i-ses mas pro-fun-das."},
-            {"english": "Patience and persistence win.", "spanish": "La paciencia y la persistencia ganan.", "pronunciation": "la pa-syen-sya i la per-sis-ten-sya ga-nan."},
+            {"english": "Never give up, keep pushing.", "hebrew": "לעולם אל תוותר, תמשיך לדחוף.", "pronunciation": "le-O-LAM al te-va-TER, tam-SHICH lid-CHOF"},
+            {"english": "Storms make trees take deeper roots.", "hebrew": "סערות גורמות לעצים להשריש עמוק יותר.", "pronunciation": "se-a-ROT gor-MOT la-etz-IM le-hash-RISH a-MOK yo-TER"},
+            {"english": "Patience and persistence win.", "hebrew": "סבלנות והתמדה מנצחות.", "pronunciation": "sav-la-NUT ve-hat-m-da me-na-tz-CHOT"},
         ],
         "Inspiration": [
-            {"english": "Let your light shine bright.", "spanish": "Deja que tu luz brille con fuerza.", "pronunciation": "de-ja ke tu luz bri-ye con fwer-za."},
-            {"english": "Inspire others by your actions.", "spanish": "Inspira a otros con tus acciones.", "pronunciation": "ins-pi-ra a o-tros con tus ak-syo-nes."},
-            {"english": "Be the change you want to see.", "spanish": "Sé el cambio que quieres ver.", "pronunciation": "se el cam-byo ke kye-res ver."},
-        ],
-        "Positive Life": [
-            {"english": "Choose positivity every day.", "spanish": "Elige la positividad cada día.", "pronunciation": "e-li-je la po-si-ti-vi-dad ca-da di-a."},
-            {"english": "Good vibes only.", "spanish": "Solo buenas vibras.", "pronunciation": "so-lo bwe-nas vi-bras."},
-            {"english": "Life is what you make it.", "spanish": "La vida es lo que tú haces de ella.", "pronunciation": "la vi-da es lo ke tu a-ses de e-ya."},
+            {"english": "Let your light shine bright.", "hebrew": "תן לאור שלך לזרוח בבהירות.", "pronunciation": "ten la-OR shel-CHA liz-RACH be-bi-ru-T"},
+            {"english": "Inspire others by your actions.", "hebrew": "השראה לאחרים במעשיך.", "pronunciation": "hash-RA le-a-che-RIM be-ma-a-se-CHA"},
+            {"english": "Be the change you want to see.", "hebrew": "היה השינוי שאתה רוצה לראות.", "pronunciation": "he-YE ha-shi-NU-I she-a-TA ro-TZE lir-OT"},
+            {"english": "Choose positivity every day.", "hebrew": "בחר חיוביות כל יום.", "pronunciation": "b-CHAR chiyu-VI-yut kol yom"},
+            {"english": "Good vibes only.", "hebrew": "רק וייבים טובים.", "pronunciation": "rak VAIV-im to-VIM"},
+            {"english": "Life is what you make it.", "hebrew": "החיים הם מה שאתה עושה מהם.", "pronunciation": "ha-cha-YIM hem ma she-a-TA o-SE me-hem"},
         ],
         "Courage": [
-            {"english": "Be brave, take the first step.", "spanish": "Sé valiente, da el primer paso.", "pronunciation": "se va-lyen-te, da el pri-mer pa-so."},
-            {"english": "Courage is not the absence of fear.", "spanish": "El coraje no es la ausencia de miedo.", "pronunciation": "el co-ra-je no es la au-sen-sya de mye-do."},
-            {"english": "Face your fears head on.", "spanish": "Enfrenta tus miedos de frente.", "pronunciation": "en-fren-ta tus mye-dos de fren-te."},
+            {"english": "Be brave, take the first step.", "hebrew": "היה אמיץ, קח את הצעד הראשון.", "pronunciation": "he-YE a-MITZ, kach et ha-tsa-AD ha-ri-SHON"},
+            {"english": "Courage is not the absence of fear.", "hebrew": "אומץ הוא לא היעדר פחד.", "pronunciation": "o-METZ hu lo he-e-DAR pa-CHAD"},
+            {"english": "Face your fears head on.", "hebrew": "התמודד עם הפחדים שלך פנים אל פנים.", "pronunciation": "hit-mo-DED im ha-pa-cha-DIM shel-CHA pa-NIM el pa-NIM"},
         ],
         "Kindness": [
-            {"english": "Be kind to everyone you meet.", "spanish": "Sé amable con todos los que conozcas.", "pronunciation": "se a-ma-ble con to-dos los ke co-noz-cas."},
-            {"english": "Kindness costs nothing, means everything.", "spanish": "La amabilidad no cuesta nada, lo significa todo.", "pronunciation": "la a-ma-bi-li-dad no kwes-ta na-da, lo sig-ni-fi-ca to-do."},
-            {"english": "Spread kindness wherever you go.", "spanish": "Difunde amabilidad dondequiera que vayas.", "pronunciation": "di-fun-de a-ma-bi-li-dad don-de-kye-ra va-yas."},
+            {"english": "Be kind to everyone you meet.", "hebrew": "היה טוב לכל מי שאתה פוגש.", "pronunciation": "he-YE tov le-chol mi she-a-TA po-GESH"},
+            {"english": "Kindness costs nothing, means everything.", "hebrew": "טוב לב לא עולה כלום, שווה הכל.", "pronunciation": "toV lev lo o-LE k-lUM, sha-VE ha-KOL"},
+            {"english": "Spread kindness wherever you go.", "hebrew": "הפץ טוב לב לכל מקום.", "pronunciation": "ha-FETZ toV lev le-chol ma-KOM"},
         ],
         "Patience": [
-            {"english": "Good things take time.", "spanish": "Las cosas buenas toman tiempo.", "pronunciation": "las co-sas bwe-nas to-man tyem-po."},
-            {"english": "Wait patiently, trust the process.", "spanish": "Espera pacientemente, confía en el proceso.", "pronunciation": "es-pe-ra pa-syen-te-men-te, con-fi-a en el pro-se-so."},
-            {"english": "Rome wasn't built in a day.", "spanish": "Roma no se construyó en un día.", "pronunciation": "ro-ma no se cons-tru-yo en un di-a."},
+            {"english": "Good things take time.", "hebrew": "דברים טובים דורשים זמן.", "pronunciation": "dva-RIM to-VIM dor-SHIM z-MAN"},
+            {"english": "Wait patiently, trust the process.", "hebrew": "חכה בסבלנות, סמוך על התהליך.", "pronunciation": "cha-KE be-sav-la-NUT, s-MOCH al ha-ta-ha-LICH"},
+            {"english": "Rome wasn't built in a day.", "hebrew": "רומא לא נבנתה ביום אחד.", "pronunciation": "RO-ma lo niv-ne-TA be-yom e-CHAD"},
         ],
         "Forgiveness": [
-            {"english": "Forgive and set yourself free.", "spanish": "Perdona y libérate.", "pronunciation": "per-do-na i li-be-ra-te."},
-            {"english": "Let go of grudges, find peace.", "spanish": "Suelta los rencores, encuentra la paz.", "pronunciation": "swel-ta los ren-co-res, en-kwen-tra la paz."},
-            {"english": "Forgiveness is a gift to yourself.", "spanish": "El perdón es un regalo para ti mismo.", "pronunciation": "el per-don es un re-ga-lo pa-ra ti mis-mo."},
+            {"english": "Forgive and set yourself free.", "hebrew": "סלח ושחרר את עצמך.", "pronunciation": "s-LACH ve-sha-RER et atz-me-CHA"},
+            {"english": "Let go of grudges, find peace.", "hebrew": "עזוב את הטינה, מצא שלום.", "pronunciation": "a-ZOV et ha-ti-NA, m-TZA shaLOM"},
+            {"english": "Forgiveness is a gift to yourself.", "hebrew": "סליחה היא מתנה לעצמך.", "pronunciation": "sli-CH-A hi ma-ta-NA le-atz-me-CHA"},
         ],
         "Strength": [
-            {"english": "You are stronger than you know.", "spanish": "Eres más fuerte de lo que sabes.", "pronunciation": "e-res mas fwer-te de lo ke sa-bes."},
-            {"english": "Inner strength comes from within.", "spanish": "La fuerza interior viene de dentro.", "pronunciation": "la fwer-za in-te-ryor vye-ne de den-tro."},
-            {"english": "Challenges make you stronger.", "spanish": "Los desafíos te hacen más fuerte.", "pronunciation": "los de-sa-fi-os te a-sen mas fwer-te."},
+            {"english": "You are stronger than you know.", "hebrew": "אתה חזק יותר ממה שאתה יודע.", "pronunciation": "a-TA cha-ZAK yo-TER mi-ma she-a-TA yo-DE-A"},
+            {"english": "Inner strength comes from within.", "hebrew": "כוח פנימי בא מבפנים.", "pronunciation": "kO-ACH pni-MI ba me-bi-FNIM"},
+            {"english": "Challenges make you stronger.", "hebrew": "אתגרים הופכים אותך לחזק יותר.", "pronunciation": "et-gar-IM hof-CHIM ot-CHA le-cha-ZAK yo-TER"},
         ],
         "Joy": [
-            {"english": "Find joy in every moment.", "spanish": "Encuentra alegría en cada momento.", "pronunciation": "en-kwen-tra a-le-gri-a en ca-da mo-men-to."},
-            {"english": "Joy is contagious, spread it.", "spanish": "La alegría es contagiosa, difúndela.", "pronunciation": "la a-le-gri-a es con-ta-jo-sa, di-fun-de-la."},
-            {"english": "Dance like nobody's watching.", "spanish": "Baila como si nadie estuviera mirando.", "pronunciation": "ba-i-la co-mo si na-dye es-tu-vye-ra mi-ran-do."},
+            {"english": "Find joy in every moment.", "hebrew": "מצא שמחה בכל רגע.", "pronunciation": "m-TZA sim-CHA be-chol RE-ga"},
+            {"english": "Joy is contagious, spread it.", "hebrew": "שמחה מדבקת, הפץ אותה.", "pronunciation": "sim-CHA ma-da-VE-KET, ha-FETZ o-TA"},
+            {"english": "Dance like nobody's watching.", "hebrew": "רקוד כאילו אף אחד לא צופה.", "pronunciation": "r-KOD ke-i-LU af e-CHAD lo tzo-FE"},
         ],
         "Balance": [
-            {"english": "Find balance in your life.", "spanish": "Encuentra el equilibrio en tu vida.", "pronunciation": "en-kwen-tra el e-ki-li-bryo en tu vi-da."},
-            {"english": "Work hard, rest well.", "spanish": "Trabaja duro, descansa bien.", "pronunciation": "tra-ba-ja du-ro, des-can-sa byen."},
-            {"english": "Too much of anything is not good.", "spanish": "Demasiado de cualquier cosa no es bueno.", "pronunciation": "de-ma-sya-do de cwal-kyer co-sa no es bwe-no."},
+            {"english": "Find balance in your life.", "hebrew": "מצא איזון בחיים שלך.", "pronunciation": "m-TZA i-ZUN ba-cha-YIM shel-CHA"},
+            {"english": "Work hard, rest well.", "hebrew": "עבוד קשה, נוח היטב.", "pronunciation": "a-VOD ka-SHA, nu-ACH he-TEV"},
+            {"english": "Too much of anything is not good.", "hebrew": "יותר מדי מכל דבר זה לא טוב.", "pronunciation": "yo-TER mi-DA mi-kol da-VAR ze lo tov"},
         ],
         "Growth": [
-            {"english": "Growth happens outside your comfort zone.", "spanish": "El crecimiento ocurre fuera de tu zona de confort.", "pronunciation": "el cre-si-myen-to o-cu-re fwer-a de tu zo-na de con-fort."},
-            {"english": "Embrace change, grow stronger.", "spanish": "Acepta el cambio, hazte más fuerte.", "pronunciation": "a-sep-ta el cam-byo, a-se-te mas fwer-te."},
-            {"english": "Every challenge is a chance to grow.", "spanish": "Cada desafío es una oportunidad para crecer.", "pronunciation": "ca-da de-sa-fi-o es u-na o-por-tu-ni-dad pa-ra cre-ser."},
+            {"english": "Growth happens outside your comfort zone.", "hebrew": "צמיחה מתרחשת מחוץ לאזור הנוחות.", "pronunciation": "tchi-MA mit-ra-CHESH me-chuTZ le-e-ZOR ha-no-CHUT"},
+            {"english": "Embrace change, grow stronger.", "hebrew": "חבק שינוי, גדל חזק יותר.", "pronunciation": "cha-BEK shi-NU-I, g-DAL cha-ZAK yo-TER"},
+            {"english": "Every challenge is a chance to grow.", "hebrew": "כל אתגר הוא הזדמנות לגדול.", "pronunciation": "kol et-GAR hu hiz-da-m-NUT li-g-DOL"},
         ],
         "Purpose": [
-            {"english": "Find your purpose, follow it.", "spanish": "Encuentra tu propósito, síguelo.", "pronunciation": "en-kwen-tra tu pro-po-si-to, si-ge-lo."},
-            {"english": "Your life has meaning.", "spanish": "Tu vida tiene sentido.", "pronunciation": "tu vi-da tye-ne sen-ti-do."},
-            {"english": "Live with intention, not accident.", "spanish": "Vive con intención, no por accidente.", "pronunciation": "vi-ve con in-ten-syon, no por ak-si-den-te."},
+            {"english": "Find your purpose, follow it.", "hebrew": "מצא את המטרה שלך, עקוב אחריה.", "pronunciation": "m-TZA et ha-mat-a-RA shel-CHA, a-KOV a-cha-REHA"},
+            {"english": "Your life has meaning.", "hebrew": "לחיים שלך יש משמעות.", "pronunciation": "le-cha-YIM shel-CHA yesh mash-ma-UT"},
+            {"english": "Live with intention, not accident.", "hebrew": "חיה בכוונה, לא במקרה.", "pronunciation": "che-YE be-ka-va-NA, lo be-mik-RE"},
         ],
         "Mindfulness": [
-            {"english": "Be present in this moment.", "spanish": "Mantente presente en este momento.", "pronunciation": "man-ten-te pre-sen-te en es-te mo-men-to."},
-            {"english": "Breathe deeply, stay grounded.", "spanish": "Respira profundo, mantente centrado.", "pronunciation": "res-pi-ra pro-fun-do, man-ten-te sen-tra-do."},
-            {"english": "Notice the little things around you.", "spanish": "Fíjate en las pequeñas cosas a tu alrededor.", "pronunciation": "fi-ja-te en las pe-ke-nyas co-sas a tu al-re-de-dor."},
+            {"english": "Be present in this moment.", "hebrew": "היה נוכח ברגע הזה.", "pronunciation": "he-YE no-ched ba-RE-ga ha-ZE"},
+            {"english": "Breathe deeply, stay grounded.", "hebrew": "נשום עמוק, הישאר מקורקע.", "pronunciation": "n-SHOM a-MOK, hish-a-RER me-ku-RA"},
+            {"english": "Notice the little things around you.", "hebrew": "שימו לב לדברים הקטנים סביבך.", "pronunciation": "si-MU lev la-dva-RIM ha-kta-NIM se-vi-VECHA"},
         ],
     }
-
     fallbacks = all_fallbacks.get(category, all_fallbacks["Motivation"])
 
     history = load_phrase_history()
@@ -911,7 +904,7 @@ def generate_title_description(category_english: str, category_hebrew: str, phra
     ]
 
     # Generate comprehensive description
-    description = f"""🇪🇸 Learn Hebrew with VELOCITY HEBREW! 🇪🇸
+    description = f"""🇮🇱 Learn Hebrew with VELOCITY HEBREW! 🇮🇱
 
 In this video, you'll learn 60 essential Hebrew phrases about {category_english} ({category_hebrew}).
 Perfect for beginners and intermediate learners!
@@ -1263,7 +1256,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     print("\n" + "="*80)
-    print("🇪🇸 VELOCITY HEBREW - YOUTUBE LONG-FORM AUTOMATION 🇪🇸")
+    print("🇮🇱 VELOCITY HEBREW - YOUTUBE LONG-FORM AUTOMATION 🇮🇱")
     print("="*80)
     print("\n✨ FEATURES:")
     print("  ✓ 16:9 format (1920x1080) for YouTube long-form")
