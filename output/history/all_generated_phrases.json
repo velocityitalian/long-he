@@ -11519,7 +11519,727 @@
       "spanish": "היה חסר פחד, במרדף שלך.",
       "category": "Courage",
       "generated_at": "2026-08-02T04:27:33.224674"
+    },
+    {
+      "english": "Speak your truth, gently.",
+      "spanish": "דבר את האמת שלך, בעדינות.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426118"
+    },
+    {
+      "english": "Believe in your dreams, always.",
+      "spanish": "האמן בחלומות שלך, תמיד.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426126"
+    },
+    {
+      "english": "Progress, not perfection, matters.",
+      "spanish": "התקדמות, לא שלמות, חשובה.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426128"
+    },
+    {
+      "english": "Be present, in this moment.",
+      "spanish": "היה נוכח, ברגע הזה.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426130"
+    },
+    {
+      "english": "Small steps, lead to big things.",
+      "spanish": "צעדים קטנים, מובילים לדברים גדולים.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426131"
+    },
+    {
+      "english": "Seek joy, in the simple.",
+      "spanish": "חפש שמחה, בפשטות.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426132"
+    },
+    {
+      "english": "Your potential, is limitless.",
+      "spanish": "הפוטנציאל שלך, הוא ללא גבולות.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426134"
+    },
+    {
+      "english": "Trust the journey, unfold.",
+      "spanish": "סמוך על המסע, שיתגלה.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426136"
+    },
+    {
+      "english": "Breathe in, peace. Breathe out, stress.",
+      "spanish": "שאף פנימה, שלווה. שאף החוצה, לחץ.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426138"
+    },
+    {
+      "english": "Stay curious, my friend.",
+      "spanish": "הישאר סקרן, ידידי.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426139"
+    },
+    {
+      "english": "Every ending, is a new start.",
+      "spanish": "כל סוף, הוא התחלה חדשה.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426140"
+    },
+    {
+      "english": "Plant seeds, of positivity.",
+      "spanish": "שתול זרעים, של חיוביות.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426142"
+    },
+    {
+      "english": "Your effort, will be rewarded.",
+      "spanish": "המאמץ שלך, יתוגמל.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426143"
+    },
+    {
+      "english": "Make today, remarkable.",
+      "spanish": "הפוך את היום, למדהים.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426144"
+    },
+    {
+      "english": "Find beauty, in everything.",
+      "spanish": "מצא יופי, בכל דבר.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426145"
+    },
+    {
+      "english": "Let your light, shine through.",
+      "spanish": "תן לאור שלך, לזרוח.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426146"
+    },
+    {
+      "english": "Inspire others, by living.",
+      "spanish": "תן השראה לאחרים, על ידי חיים.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426147"
+    },
+    {
+      "english": "Your strength, grows daily.",
+      "spanish": "הכוח שלך, גדל יומי.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426148"
+    },
+    {
+      "english": "Chase after, what makes you happy.",
+      "spanish": "רדוף אחרי, מה שמשמח אותך.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426149"
+    },
+    {
+      "english": "Give thanks, for little things.",
+      "spanish": "תן תודה, על דברים קטנים.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426150"
+    },
+    {
+      "english": "Grow through, what you go through.",
+      "spanish": "צמח דרך, מה שאתה עובר.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426151"
+    },
+    {
+      "english": "Be the good, you want to see.",
+      "spanish": "היה הטוב, שאתה רוצה לראות.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426152"
+    },
+    {
+      "english": "Your attitude, shapes your day.",
+      "spanish": "הגישה שלך, מעצבת את היום שלך.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426153"
+    },
+    {
+      "english": "Believe in the magic, within.",
+      "spanish": "האמן בפלא, שבפנים.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426154"
+    },
+    {
+      "english": "Start fresh, each morning.",
+      "spanish": "התחל מחדש, כל בוקר.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426155"
+    },
+    {
+      "english": "You are capable, of amazing things.",
+      "spanish": "אתה מסוגל, לדברים מדהימים.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426157"
+    },
+    {
+      "english": "Keep your heart, open.",
+      "spanish": "שמור על הלב שלך, פתוח.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426157"
+    },
+    {
+      "english": "Speak your truth, gently.",
+      "spanish": "דבר את האמת שלך, בעדינות.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426159"
+    },
+    {
+      "english": "Believe in your dreams, always.",
+      "spanish": "האמן בחלומות שלך, תמיד.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426160"
+    },
+    {
+      "english": "Progress, not perfection, matters.",
+      "spanish": "התקדמות, לא שלמות, חשובה.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426161"
+    },
+    {
+      "english": "Be present, in this moment.",
+      "spanish": "היה נוכח, ברגע הזה.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426162"
+    },
+    {
+      "english": "Small steps, lead to big things.",
+      "spanish": "צעדים קטנים, מובילים לדברים גדולים.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426163"
+    },
+    {
+      "english": "Seek joy, in the simple.",
+      "spanish": "חפש שמחה, בפשטות.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426164"
+    },
+    {
+      "english": "Your potential, is limitless.",
+      "spanish": "הפוטנציאל שלך, הוא ללא גבולות.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426166"
+    },
+    {
+      "english": "Trust the journey, unfold.",
+      "spanish": "סמוך על המסע, שיתגלה.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426167"
+    },
+    {
+      "english": "Breathe in, peace. Breathe out, stress.",
+      "spanish": "שאף פנימה, שלווה. שאף החוצה, לחץ.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426168"
+    },
+    {
+      "english": "Stay curious, my friend.",
+      "spanish": "הישאר סקרן, ידידי.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426169"
+    },
+    {
+      "english": "Every ending, is a new start.",
+      "spanish": "כל סוף, הוא התחלה חדשה.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426170"
+    },
+    {
+      "english": "Plant seeds, of positivity.",
+      "spanish": "שתול זרעים, של חיוביות.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426171"
+    },
+    {
+      "english": "Your effort, will be rewarded.",
+      "spanish": "המאמץ שלך, יתוגמל.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426172"
+    },
+    {
+      "english": "Make today, remarkable.",
+      "spanish": "הפוך את היום, למדהים.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426173"
+    },
+    {
+      "english": "Find beauty, in everything.",
+      "spanish": "מצא יופי, בכל דבר.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426175"
+    },
+    {
+      "english": "Let your light, shine through.",
+      "spanish": "תן לאור שלך, לזרוח.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426176"
+    },
+    {
+      "english": "Inspire others, by living.",
+      "spanish": "תן השראה לאחרים, על ידי חיים.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426177"
+    },
+    {
+      "english": "Your strength, grows daily.",
+      "spanish": "הכוח שלך, גדל יומי.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426178"
+    },
+    {
+      "english": "Chase after, what makes you happy.",
+      "spanish": "רדוף אחרי, מה שמשמח אותך.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426179"
+    },
+    {
+      "english": "Give thanks, for little things.",
+      "spanish": "תן תודה, על דברים קטנים.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426180"
+    },
+    {
+      "english": "Grow through, what you go through.",
+      "spanish": "צמח דרך, מה שאתה עובר.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426181"
+    },
+    {
+      "english": "Be the good, you want to see.",
+      "spanish": "היה הטוב, שאתה רוצה לראות.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426182"
+    },
+    {
+      "english": "Your attitude, shapes your day.",
+      "spanish": "הגישה שלך, מעצבת את היום שלך.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426183"
+    },
+    {
+      "english": "Believe in the magic, within.",
+      "spanish": "האמן בפלא, שבפנים.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426184"
+    },
+    {
+      "english": "Start fresh, each morning.",
+      "spanish": "התחל מחדש, כל בוקר.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426185"
+    },
+    {
+      "english": "You are capable, of amazing things.",
+      "spanish": "אתה מסוגל, לדברים מדהימים.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426186"
+    },
+    {
+      "english": "Keep your heart, open.",
+      "spanish": "שמור על הלב שלך, פתוח.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426188"
+    },
+    {
+      "english": "Speak your truth, gently.",
+      "spanish": "דבר את האמת שלך, בעדינות.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426189"
+    },
+    {
+      "english": "Believe in your dreams, always.",
+      "spanish": "האמן בחלומות שלך, תמיד.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426190"
+    },
+    {
+      "english": "Progress, not perfection, matters.",
+      "spanish": "התקדמות, לא שלמות, חשובה.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426191"
+    },
+    {
+      "english": "Be present, in this moment.",
+      "spanish": "היה נוכח, ברגע הזה.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426192"
+    },
+    {
+      "english": "Small steps, lead to big things.",
+      "spanish": "צעדים קטנים, מובילים לדברים גדולים.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426193"
+    },
+    {
+      "english": "Seek joy, in the simple.",
+      "spanish": "חפש שמחה, בפשטות.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426194"
+    },
+    {
+      "english": "Your potential, is limitless.",
+      "spanish": "הפוטנציאל שלך, הוא ללא גבולות.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426195"
+    },
+    {
+      "english": "Trust the journey, unfold.",
+      "spanish": "סמוך על המסע, שיתגלה.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426197"
+    },
+    {
+      "english": "Breathe in, peace. Breathe out, stress.",
+      "spanish": "שאף פנימה, שלווה. שאף החוצה, לחץ.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426198"
+    },
+    {
+      "english": "Stay curious, my friend.",
+      "spanish": "הישאר סקרן, ידידי.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426199"
+    },
+    {
+      "english": "Every ending, is a new start.",
+      "spanish": "כל סוף, הוא התחלה חדשה.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426200"
+    },
+    {
+      "english": "Plant seeds, of positivity.",
+      "spanish": "שתול זרעים, של חיוביות.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426201"
+    },
+    {
+      "english": "Your effort, will be rewarded.",
+      "spanish": "המאמץ שלך, יתוגמל.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426202"
+    },
+    {
+      "english": "Make today, remarkable.",
+      "spanish": "הפוך את היום, למדהים.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426203"
+    },
+    {
+      "english": "Find beauty, in everything.",
+      "spanish": "מצא יופי, בכל דבר.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426204"
+    },
+    {
+      "english": "Let your light, shine through.",
+      "spanish": "תן לאור שלך, לזרוח.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426205"
+    },
+    {
+      "english": "Inspire others, by living.",
+      "spanish": "תן השראה לאחרים, על ידי חיים.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426206"
+    },
+    {
+      "english": "Your strength, grows daily.",
+      "spanish": "הכוח שלך, גדל יומי.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426207"
+    },
+    {
+      "english": "Chase after, what makes you happy.",
+      "spanish": "רדוף אחרי, מה שמשמח אותך.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426208"
+    },
+    {
+      "english": "Give thanks, for little things.",
+      "spanish": "תן תודה, על דברים קטנים.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426209"
+    },
+    {
+      "english": "Grow through, what you go through.",
+      "spanish": "צמח דרך, מה שאתה עובר.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426210"
+    },
+    {
+      "english": "Be the good, you want to see.",
+      "spanish": "היה הטוב, שאתה רוצה לראות.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426211"
+    },
+    {
+      "english": "Your attitude, shapes your day.",
+      "spanish": "הגישה שלך, מעצבת את היום שלך.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426212"
+    },
+    {
+      "english": "Believe in the magic, within.",
+      "spanish": "האמן בפלא, שבפנים.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426213"
+    },
+    {
+      "english": "Start fresh, each morning.",
+      "spanish": "התחל מחדש, כל בוקר.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426214"
+    },
+    {
+      "english": "You are capable, of amazing things.",
+      "spanish": "אתה מסוגל, לדברים מדהימים.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426216"
+    },
+    {
+      "english": "Keep your heart, open.",
+      "spanish": "שמור על הלב שלך, פתוח.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426217"
+    },
+    {
+      "english": "Speak your truth, gently.",
+      "spanish": "דבר את האמת שלך, בעדינות.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426218"
+    },
+    {
+      "english": "Believe in your dreams, always.",
+      "spanish": "האמן בחלומות שלך, תמיד.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426219"
+    },
+    {
+      "english": "Progress, not perfection, matters.",
+      "spanish": "התקדמות, לא שלמות, חשובה.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426220"
+    },
+    {
+      "english": "Be present, in this moment.",
+      "spanish": "היה נוכח, ברגע הזה.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426221"
+    },
+    {
+      "english": "Small steps, lead to big things.",
+      "spanish": "צעדים קטנים, מובילים לדברים גדולים.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426222"
+    },
+    {
+      "english": "Seek joy, in the simple.",
+      "spanish": "חפש שמחה, בפשטות.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426223"
+    },
+    {
+      "english": "Your potential, is limitless.",
+      "spanish": "הפוטנציאל שלך, הוא ללא גבולות.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426224"
+    },
+    {
+      "english": "Trust the journey, unfold.",
+      "spanish": "סמוך על המסע, שיתגלה.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426225"
+    },
+    {
+      "english": "Breathe in, peace. Breathe out, stress.",
+      "spanish": "שאף פנימה, שלווה. שאף החוצה, לחץ.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426226"
+    },
+    {
+      "english": "Stay curious, my friend.",
+      "spanish": "הישאר סקרן, ידידי.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426227"
+    },
+    {
+      "english": "Every ending, is a new start.",
+      "spanish": "כל סוף, הוא התחלה חדשה.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426228"
+    },
+    {
+      "english": "Plant seeds, of positivity.",
+      "spanish": "שתול זרעים, של חיוביות.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426229"
+    },
+    {
+      "english": "Your effort, will be rewarded.",
+      "spanish": "המאמץ שלך, יתוגמל.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426230"
+    },
+    {
+      "english": "Make today, remarkable.",
+      "spanish": "הפוך את היום, למדהים.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426231"
+    },
+    {
+      "english": "Find beauty, in everything.",
+      "spanish": "מצא יופי, בכל דבר.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426232"
+    },
+    {
+      "english": "Let your light, shine through.",
+      "spanish": "תן לאור שלך, לזרוח.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426233"
+    },
+    {
+      "english": "Inspire others, by living.",
+      "spanish": "תן השראה לאחרים, על ידי חיים.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426235"
+    },
+    {
+      "english": "Your strength, grows daily.",
+      "spanish": "הכוח שלך, גדל יומי.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426236"
+    },
+    {
+      "english": "Chase after, what makes you happy.",
+      "spanish": "רדוף אחרי, מה שמשמח אותך.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426237"
+    },
+    {
+      "english": "Give thanks, for little things.",
+      "spanish": "תן תודה, על דברים קטנים.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426238"
+    },
+    {
+      "english": "Grow through, what you go through.",
+      "spanish": "צמח דרך, מה שאתה עובר.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426239"
+    },
+    {
+      "english": "Be the good, you want to see.",
+      "spanish": "היה הטוב, שאתה רוצה לראות.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426240"
+    },
+    {
+      "english": "Your attitude, shapes your day.",
+      "spanish": "הגישה שלך, מעצבת את היום שלך.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426241"
+    },
+    {
+      "english": "Believe in the magic, within.",
+      "spanish": "האמן בפלא, שבפנים.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426242"
+    },
+    {
+      "english": "Start fresh, each morning.",
+      "spanish": "התחל מחדש, כל בוקר.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426243"
+    },
+    {
+      "english": "You are capable, of amazing things.",
+      "spanish": "אתה מסוגל, לדברים מדהימים.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426244"
+    },
+    {
+      "english": "Keep your heart, open.",
+      "spanish": "שמור על הלב שלך, פתוח.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426245"
+    },
+    {
+      "english": "Speak your truth, gently.",
+      "spanish": "דבר את האמת שלך, בעדינות.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426246"
+    },
+    {
+      "english": "Believe in your dreams, always.",
+      "spanish": "האמן בחלומות שלך, תמיד.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426247"
+    },
+    {
+      "english": "Progress, not perfection, matters.",
+      "spanish": "התקדמות, לא שלמות, חשובה.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426248"
+    },
+    {
+      "english": "Be present, in this moment.",
+      "spanish": "היה נוכח, ברגע הזה.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426249"
+    },
+    {
+      "english": "Small steps, lead to big things.",
+      "spanish": "צעדים קטנים, מובילים לדברים גדולים.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426250"
+    },
+    {
+      "english": "Seek joy, in the simple.",
+      "spanish": "חפש שמחה, בפשטות.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426251"
+    },
+    {
+      "english": "Your potential, is limitless.",
+      "spanish": "הפוטנציאל שלך, הוא ללא גבולות.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426252"
+    },
+    {
+      "english": "Trust the journey, unfold.",
+      "spanish": "סמוך על המסע, שיתגלה.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426253"
+    },
+    {
+      "english": "Breathe in, peace. Breathe out, stress.",
+      "spanish": "שאף פנימה, שלווה. שאף החוצה, לחץ.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426254"
+    },
+    {
+      "english": "Stay curious, my friend.",
+      "spanish": "הישאר סקרן, ידידי.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426255"
+    },
+    {
+      "english": "Every ending, is a new start.",
+      "spanish": "כל סוף, הוא התחלה חדשה.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426256"
+    },
+    {
+      "english": "Plant seeds, of positivity.",
+      "spanish": "שתול זרעים, של חיוביות.",
+      "category": "Inspiration",
+      "generated_at": "2026-08-03T04:24:46.426257"
     }
   ],
-  "last_updated": "2026-08-02T04:27:33.224675"
+  "last_updated": "2026-08-03T04:24:46.426259"
 }
