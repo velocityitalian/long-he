@@ -13679,7 +13679,727 @@
       "spanish": "אפשר לקבל, את המספר עברי שלך?",
       "category": "Gratitude",
       "generated_at": "2026-08-05T03:54:27.397789"
+    },
+    {
+      "english": "Try again, you can do it.",
+      "spanish": "נסה שוב, אתה יכול לעשות את זה.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223464"
+    },
+    {
+      "english": "Mistakes are okay, learn from them.",
+      "spanish": "טעויות בסדר, תלמד מהן.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223480"
+    },
+    {
+      "english": "One more try, almost there.",
+      "spanish": "עוד ניסיון אחד, כמעט שם.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223482"
+    },
+    {
+      "english": "Believe in yourself, keep going.",
+      "spanish": "תאמין בעצמך, תמשיך ללכת.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223483"
+    },
+    {
+      "english": "It gets easier, with practice.",
+      "spanish": "זה נהיה קל יותר, עם תרגול.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223484"
+    },
+    {
+      "english": "Every effort counts, keep it up.",
+      "spanish": "כל מאמץ נחשב, תמשיך כך.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223485"
+    },
+    {
+      "english": "You're stronger, than you think.",
+      "spanish": "אתה חזק יותר, ממה שאתה חושב.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223487"
+    },
+    {
+      "english": "Don't get discouraged, stay motivated.",
+      "spanish": "אל תתייאש, הישאר מלא מוטיבציה.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223492"
+    },
+    {
+      "english": "Focus on the goal, you'll get there.",
+      "spanish": "התמקד במטרה, תגיע לשם.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223494"
+    },
+    {
+      "english": "Push through the hard parts.",
+      "spanish": "דחוף דרך החלקים הקשים.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223495"
+    },
+    {
+      "english": "You're learning, that's the win.",
+      "spanish": "אתה לומד, זאת הזכייה.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223497"
+    },
+    {
+      "english": "Consistency is key, keep practicing.",
+      "spanish": "עקביות היא המפתח, המשך לתרגל.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223498"
+    },
+    {
+      "english": "Don't be afraid, to try new things.",
+      "spanish": "אל תפחד, לנסות דברים חדשים.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223499"
+    },
+    {
+      "english": "Celebrate your progress, no matter how small.",
+      "spanish": "חגוג את ההתקדמות שלך, לא משנה כמה קטנה.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223500"
+    },
+    {
+      "english": "You're getting closer, with every word.",
+      "spanish": "אתה מתקרב, עם כל מילה.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223501"
+    },
+    {
+      "english": "Slow and steady, wins the race.",
+      "spanish": "לאט ובטוח, מנצח במרוץ.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223503"
+    },
+    {
+      "english": "Keep your head up, stay positive.",
+      "spanish": "הרם את הראש, הישאר חיובי.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223504"
+    },
+    {
+      "english": "You're building something great, brick by brick.",
+      "spanish": "אתה בונה משהו גדול, לבנה אחר לבנה.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223505"
+    },
+    {
+      "english": "Don't quit now, you're so close.",
+      "spanish": "אל תפרוש עכשיו, אתה כל כך קרוב.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223506"
+    },
+    {
+      "english": "Embrace the challenge, grow with it.",
+      "spanish": "חבק את האתגר, גדל איתו.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223507"
+    },
+    {
+      "english": "Your persistence, is truly admirable.",
+      "spanish": "התמדה שלך, באמת ראויה להערצה.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223508"
+    },
+    {
+      "english": "Keep learning, keep improving.",
+      "spanish": "המשך ללמוד, המשך להשתפר.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223509"
+    },
+    {
+      "english": "Don't let setbacks, define you.",
+      "spanish": "אל תיתן למכשולים, להגדיר אותך.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223510"
+    },
+    {
+      "english": "You're making great strides, keep it up.",
+      "spanish": "אתה עושה צעדים גדולים, תמשיך כך.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223511"
+    },
+    {
+      "english": "Persist, and you will succeed.",
+      "spanish": "התמד, ותצליח.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223512"
+    },
+    {
+      "english": "It's a journey, enjoy the process.",
+      "spanish": "זה מסע, תהנה מהתהליך.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223513"
+    },
+    {
+      "english": "Don't give up on your dreams.",
+      "spanish": "אל תוותר על החלומות שלך.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223514"
+    },
+    {
+      "english": "Keep your focus, on the prize.",
+      "spanish": "שמור על המיקוד שלך, על הפרס.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223515"
+    },
+    {
+      "english": "You're capable of more, than you know.",
+      "spanish": "אתה מסוגל ליותר, ממה שאתה יודע.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223516"
+    },
+    {
+      "english": "Don't let failure, stop you.",
+      "spanish": "אל תיתן לכישלון, לעצור אותך.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223517"
+    },
+    {
+      "english": "Keep your spirit, strong and bright.",
+      "spanish": "שמור על הרוח שלך, חזקה ומוארת.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223518"
+    },
+    {
+      "english": "You're almost there, don't quit.",
+      "spanish": "אתה כמעט שם, אל תפרוש.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223519"
+    },
+    {
+      "english": "Keep moving forward, with courage.",
+      "spanish": "המשך לנוע קדימה, באומץ.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223520"
+    },
+    {
+      "english": "Just keep going, you're doing great.",
+      "spanish": "פשוט המשך, אתה עושה נהדר.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223521"
+    },
+    {
+      "english": "Try again, you can do it.",
+      "spanish": "נסה שוב, אתה יכול לעשות את זה.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223523"
+    },
+    {
+      "english": "Mistakes are okay, learn from them.",
+      "spanish": "טעויות בסדר, תלמד מהן.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223524"
+    },
+    {
+      "english": "One more try, almost there.",
+      "spanish": "עוד ניסיון אחד, כמעט שם.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223525"
+    },
+    {
+      "english": "Believe in yourself, keep going.",
+      "spanish": "תאמין בעצמך, תמשיך ללכת.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223526"
+    },
+    {
+      "english": "It gets easier, with practice.",
+      "spanish": "זה נהיה קל יותר, עם תרגול.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223527"
+    },
+    {
+      "english": "Every effort counts, keep it up.",
+      "spanish": "כל מאמץ נחשב, תמשיך כך.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223528"
+    },
+    {
+      "english": "You're stronger, than you think.",
+      "spanish": "אתה חזק יותר, ממה שאתה חושב.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223529"
+    },
+    {
+      "english": "Don't get discouraged, stay motivated.",
+      "spanish": "אל תתייאש, הישאר מלא מוטיבציה.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223530"
+    },
+    {
+      "english": "Focus on the goal, you'll get there.",
+      "spanish": "התמקד במטרה, תגיע לשם.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223531"
+    },
+    {
+      "english": "Push through the hard parts.",
+      "spanish": "דחוף דרך החלקים הקשים.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223532"
+    },
+    {
+      "english": "You're learning, that's the win.",
+      "spanish": "אתה לומד, זאת הזכייה.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223533"
+    },
+    {
+      "english": "Consistency is key, keep practicing.",
+      "spanish": "עקביות היא המפתח, המשך לתרגל.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223534"
+    },
+    {
+      "english": "Don't be afraid, to try new things.",
+      "spanish": "אל תפחד, לנסות דברים חדשים.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223535"
+    },
+    {
+      "english": "Celebrate your progress, no matter how small.",
+      "spanish": "חגוג את ההתקדמות שלך, לא משנה כמה קטנה.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223536"
+    },
+    {
+      "english": "You're getting closer, with every word.",
+      "spanish": "אתה מתקרב, עם כל מילה.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223538"
+    },
+    {
+      "english": "Slow and steady, wins the race.",
+      "spanish": "לאט ובטוח, מנצח במרוץ.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223538"
+    },
+    {
+      "english": "Keep your head up, stay positive.",
+      "spanish": "הרם את הראש, הישאר חיובי.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223539"
+    },
+    {
+      "english": "You're building something great, brick by brick.",
+      "spanish": "אתה בונה משהו גדול, לבנה אחר לבנה.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223540"
+    },
+    {
+      "english": "Don't quit now, you're so close.",
+      "spanish": "אל תפרוש עכשיו, אתה כל כך קרוב.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223541"
+    },
+    {
+      "english": "Embrace the challenge, grow with it.",
+      "spanish": "חבק את האתגר, גדל איתו.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223542"
+    },
+    {
+      "english": "Your persistence, is truly admirable.",
+      "spanish": "התמדה שלך, באמת ראויה להערצה.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223543"
+    },
+    {
+      "english": "Keep learning, keep improving.",
+      "spanish": "המשך ללמוד, המשך להשתפר.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223544"
+    },
+    {
+      "english": "Don't let setbacks, define you.",
+      "spanish": "אל תיתן למכשולים, להגדיר אותך.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223545"
+    },
+    {
+      "english": "You're making great strides, keep it up.",
+      "spanish": "אתה עושה צעדים גדולים, תמשיך כך.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223546"
+    },
+    {
+      "english": "Persist, and you will succeed.",
+      "spanish": "התמד, ותצליח.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223547"
+    },
+    {
+      "english": "It's a journey, enjoy the process.",
+      "spanish": "זה מסע, תהנה מהתהליך.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223548"
+    },
+    {
+      "english": "Don't give up on your dreams.",
+      "spanish": "אל תוותר על החלומות שלך.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223549"
+    },
+    {
+      "english": "Keep your focus, on the prize.",
+      "spanish": "שמור על המיקוד שלך, על הפרס.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223549"
+    },
+    {
+      "english": "You're capable of more, than you know.",
+      "spanish": "אתה מסוגל ליותר, ממה שאתה יודע.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223550"
+    },
+    {
+      "english": "Don't let failure, stop you.",
+      "spanish": "אל תיתן לכישלון, לעצור אותך.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223551"
+    },
+    {
+      "english": "Keep your spirit, strong and bright.",
+      "spanish": "שמור על הרוח שלך, חזקה ומוארת.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223552"
+    },
+    {
+      "english": "You're almost there, don't quit.",
+      "spanish": "אתה כמעט שם, אל תפרוש.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223553"
+    },
+    {
+      "english": "Keep moving forward, with courage.",
+      "spanish": "המשך לנוע קדימה, באומץ.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223554"
+    },
+    {
+      "english": "Just keep going, you're doing great.",
+      "spanish": "פשוט המשך, אתה עושה נהדר.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223555"
+    },
+    {
+      "english": "Try again, you can do it.",
+      "spanish": "נסה שוב, אתה יכול לעשות את זה.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223556"
+    },
+    {
+      "english": "Mistakes are okay, learn from them.",
+      "spanish": "טעויות בסדר, תלמד מהן.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223557"
+    },
+    {
+      "english": "One more try, almost there.",
+      "spanish": "עוד ניסיון אחד, כמעט שם.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223558"
+    },
+    {
+      "english": "Believe in yourself, keep going.",
+      "spanish": "תאמין בעצמך, תמשיך ללכת.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223559"
+    },
+    {
+      "english": "It gets easier, with practice.",
+      "spanish": "זה נהיה קל יותר, עם תרגול.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223560"
+    },
+    {
+      "english": "Every effort counts, keep it up.",
+      "spanish": "כל מאמץ נחשב, תמשיך כך.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223561"
+    },
+    {
+      "english": "You're stronger, than you think.",
+      "spanish": "אתה חזק יותר, ממה שאתה חושב.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223562"
+    },
+    {
+      "english": "Don't get discouraged, stay motivated.",
+      "spanish": "אל תתייאש, הישאר מלא מוטיבציה.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223563"
+    },
+    {
+      "english": "Focus on the goal, you'll get there.",
+      "spanish": "התמקד במטרה, תגיע לשם.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223565"
+    },
+    {
+      "english": "Push through the hard parts.",
+      "spanish": "דחוף דרך החלקים הקשים.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223566"
+    },
+    {
+      "english": "You're learning, that's the win.",
+      "spanish": "אתה לומד, זאת הזכייה.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223567"
+    },
+    {
+      "english": "Consistency is key, keep practicing.",
+      "spanish": "עקביות היא המפתח, המשך לתרגל.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223568"
+    },
+    {
+      "english": "Don't be afraid, to try new things.",
+      "spanish": "אל תפחד, לנסות דברים חדשים.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223569"
+    },
+    {
+      "english": "Celebrate your progress, no matter how small.",
+      "spanish": "חגוג את ההתקדמות שלך, לא משנה כמה קטנה.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223570"
+    },
+    {
+      "english": "You're getting closer, with every word.",
+      "spanish": "אתה מתקרב, עם כל מילה.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223571"
+    },
+    {
+      "english": "Slow and steady, wins the race.",
+      "spanish": "לאט ובטוח, מנצח במרוץ.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223572"
+    },
+    {
+      "english": "Keep your head up, stay positive.",
+      "spanish": "הרם את הראש, הישאר חיובי.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223573"
+    },
+    {
+      "english": "You're building something great, brick by brick.",
+      "spanish": "אתה בונה משהו גדול, לבנה אחר לבנה.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223574"
+    },
+    {
+      "english": "Don't quit now, you're so close.",
+      "spanish": "אל תפרוש עכשיו, אתה כל כך קרוב.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223575"
+    },
+    {
+      "english": "Embrace the challenge, grow with it.",
+      "spanish": "חבק את האתגר, גדל איתו.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223576"
+    },
+    {
+      "english": "Your persistence, is truly admirable.",
+      "spanish": "התמדה שלך, באמת ראויה להערצה.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223577"
+    },
+    {
+      "english": "Keep learning, keep improving.",
+      "spanish": "המשך ללמוד, המשך להשתפר.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223578"
+    },
+    {
+      "english": "Don't let setbacks, define you.",
+      "spanish": "אל תיתן למכשולים, להגדיר אותך.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223579"
+    },
+    {
+      "english": "You're making great strides, keep it up.",
+      "spanish": "אתה עושה צעדים גדולים, תמשיך כך.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223580"
+    },
+    {
+      "english": "Persist, and you will succeed.",
+      "spanish": "התמד, ותצליח.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223581"
+    },
+    {
+      "english": "It's a journey, enjoy the process.",
+      "spanish": "זה מסע, תהנה מהתהליך.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223582"
+    },
+    {
+      "english": "Don't give up on your dreams.",
+      "spanish": "אל תוותר על החלומות שלך.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223583"
+    },
+    {
+      "english": "Keep your focus, on the prize.",
+      "spanish": "שמור על המיקוד שלך, על הפרס.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223584"
+    },
+    {
+      "english": "You're capable of more, than you know.",
+      "spanish": "אתה מסוגל ליותר, ממה שאתה יודע.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223585"
+    },
+    {
+      "english": "Don't let failure, stop you.",
+      "spanish": "אל תיתן לכישלון, לעצור אותך.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223586"
+    },
+    {
+      "english": "Keep your spirit, strong and bright.",
+      "spanish": "שמור על הרוח שלך, חזקה ומוארת.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223587"
+    },
+    {
+      "english": "You're almost there, don't quit.",
+      "spanish": "אתה כמעט שם, אל תפרוש.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223588"
+    },
+    {
+      "english": "Keep moving forward, with courage.",
+      "spanish": "המשך לנוע קדימה, באומץ.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223588"
+    },
+    {
+      "english": "Just keep going, you're doing great.",
+      "spanish": "פשוט המשך, אתה עושה נהדר.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223589"
+    },
+    {
+      "english": "Try again, you can do it.",
+      "spanish": "נסה שוב, אתה יכול לעשות את זה.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223590"
+    },
+    {
+      "english": "Mistakes are okay, learn from them.",
+      "spanish": "טעויות בסדר, תלמד מהן.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223592"
+    },
+    {
+      "english": "One more try, almost there.",
+      "spanish": "עוד ניסיון אחד, כמעט שם.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223592"
+    },
+    {
+      "english": "Believe in yourself, keep going.",
+      "spanish": "תאמין בעצמך, תמשיך ללכת.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223594"
+    },
+    {
+      "english": "It gets easier, with practice.",
+      "spanish": "זה נהיה קל יותר, עם תרגול.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223595"
+    },
+    {
+      "english": "Every effort counts, keep it up.",
+      "spanish": "כל מאמץ נחשב, תמשיך כך.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223596"
+    },
+    {
+      "english": "You're stronger, than you think.",
+      "spanish": "אתה חזק יותר, ממה שאתה חושב.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223597"
+    },
+    {
+      "english": "Don't get discouraged, stay motivated.",
+      "spanish": "אל תתייאש, הישאר מלא מוטיבציה.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223598"
+    },
+    {
+      "english": "Focus on the goal, you'll get there.",
+      "spanish": "התמקד במטרה, תגיע לשם.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223599"
+    },
+    {
+      "english": "Push through the hard parts.",
+      "spanish": "דחוף דרך החלקים הקשים.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223600"
+    },
+    {
+      "english": "You're learning, that's the win.",
+      "spanish": "אתה לומד, זאת הזכייה.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223601"
+    },
+    {
+      "english": "Consistency is key, keep practicing.",
+      "spanish": "עקביות היא המפתח, המשך לתרגל.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223602"
+    },
+    {
+      "english": "Don't be afraid, to try new things.",
+      "spanish": "אל תפחד, לנסות דברים חדשים.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223603"
+    },
+    {
+      "english": "Celebrate your progress, no matter how small.",
+      "spanish": "חגוג את ההתקדמות שלך, לא משנה כמה קטנה.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223604"
+    },
+    {
+      "english": "You're getting closer, with every word.",
+      "spanish": "אתה מתקרב, עם כל מילה.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223605"
+    },
+    {
+      "english": "Slow and steady, wins the race.",
+      "spanish": "לאט ובטוח, מנצח במרוץ.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223606"
+    },
+    {
+      "english": "Keep your head up, stay positive.",
+      "spanish": "הרם את הראש, הישאר חיובי.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223607"
+    },
+    {
+      "english": "You're building something great, brick by brick.",
+      "spanish": "אתה בונה משהו גדול, לבנה אחר לבנה.",
+      "category": "Perseverance",
+      "generated_at": "2026-08-06T03:59:11.223607"
     }
   ],
-  "last_updated": "2026-08-05T03:54:27.397790"
+  "last_updated": "2026-08-06T03:59:11.223610"
 }
