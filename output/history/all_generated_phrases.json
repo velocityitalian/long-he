@@ -14399,7 +14399,727 @@
       "spanish": "אתה בונה משהו גדול, לבנה אחר לבנה.",
       "category": "Perseverance",
       "generated_at": "2026-08-06T03:59:11.223607"
+    },
+    {
+      "english": "A smile, costs nothing.",
+      "spanish": "חיוך, לא עולה כלום.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918736"
+    },
+    {
+      "english": "Kindness, is never wasted.",
+      "spanish": "טוב לב, אף פעם לא מבוזבז.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918746"
+    },
+    {
+      "english": "Your actions, speak volumes.",
+      "spanish": "המעשים שלך, מדברים חזק.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918748"
+    },
+    {
+      "english": "Be present, fully.",
+      "spanish": "היה נוכח, לגמרי.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918750"
+    },
+    {
+      "english": "Empathy, bridges divides.",
+      "spanish": "אמפתיה, מגשרת פערים.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918751"
+    },
+    {
+      "english": "Gratitude, unlocks joy.",
+      "spanish": "הכרת תודה, פותחת שמחה.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918752"
+    },
+    {
+      "english": "Learn from yesterday, live today.",
+      "spanish": "למד מהאתמול, חיה היום.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918754"
+    },
+    {
+      "english": "Wisdom whispers, often.",
+      "spanish": "חוכמה לוחשת, לעיתים קרובות.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918761"
+    },
+    {
+      "english": "Truth, is a good foundation.",
+      "spanish": "אמת, היא בסיס טוב.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918763"
+    },
+    {
+      "english": "Be curious, always.",
+      "spanish": "היה סקרן, תמיד.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918765"
+    },
+    {
+      "english": "A quiet mind, sees clearly.",
+      "spanish": "מוח שקט, רואה בבהירות.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918766"
+    },
+    {
+      "english": "Simplicity, is elegant.",
+      "spanish": "פשטות, היא אלגנטית.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918767"
+    },
+    {
+      "english": "Listen to your gut.",
+      "spanish": "תקשיב לבטן שלך.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918768"
+    },
+    {
+      "english": "Forgiveness, sets you free.",
+      "spanish": "סליחה, משחררת אותך.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918769"
+    },
+    {
+      "english": "Seek understanding, first.",
+      "spanish": "חפש הבנה, קודם.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918770"
+    },
+    {
+      "english": "Respect, is earned.",
+      "spanish": "כבוד, נרכש.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918772"
+    },
+    {
+      "english": "Silence, can be powerful.",
+      "spanish": "שקט, יכול להיות חזק.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918773"
+    },
+    {
+      "english": "True wealth, is inner peace.",
+      "spanish": "עושר אמיתי, הוא שלווה פנימית.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918774"
+    },
+    {
+      "english": "Be honest, always.",
+      "spanish": "היה ישר, תמיד.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918775"
+    },
+    {
+      "english": "Listen to the quiet.",
+      "spanish": "הקשב לדממה.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918776"
+    },
+    {
+      "english": "Joy is contagious.",
+      "spanish": "שמחה, מדבקת.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918777"
+    },
+    {
+      "english": "Understand before, judging.",
+      "spanish": "הבן לפני, שופט.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918778"
+    },
+    {
+      "english": "Gentleness, has strength.",
+      "spanish": "עדינות, יש בה כוח.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918779"
+    },
+    {
+      "english": "Your word, matters.",
+      "spanish": "המילה שלך, חשובה.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918780"
+    },
+    {
+      "english": "Breathe deeply, often.",
+      "spanish": "נשום עמוק, לעיתים קרובות.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918781"
+    },
+    {
+      "english": "Simpler is better, usually.",
+      "spanish": "פשוט יותר, לרוב.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918782"
+    },
+    {
+      "english": "See the good, everywhere.",
+      "spanish": "ראה את הטוב, בכל מקום.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918783"
+    },
+    {
+      "english": "Listen to your heart.",
+      "spanish": "הקשב ללב שלך.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918784"
+    },
+    {
+      "english": "A kind word, can change worlds.",
+      "spanish": "מילה טובה, יכולה לשנות עולמות.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918785"
+    },
+    {
+      "english": "Be humble, always.",
+      "spanish": "היה צנוע, תמיד.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918786"
+    },
+    {
+      "english": "Listen to wisdom's call.",
+      "spanish": "שמע לקריאת החוכמה.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918788"
+    },
+    {
+      "english": "One truth, is enough.",
+      "spanish": "אמת אחת, מספיקה.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918789"
+    },
+    {
+      "english": "Observe, and learn.",
+      "spanish": "התבונן, ולמד.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918790"
+    },
+    {
+      "english": "Kindness, is its own reward.",
+      "spanish": "טוב לב, הוא שכרו.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918791"
+    },
+    {
+      "english": "Hear the silence, between words.",
+      "spanish": "שמע את הדממה, בין המילים.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918792"
+    },
+    {
+      "english": "A smile, costs nothing.",
+      "spanish": "חיוך, לא עולה כלום.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918793"
+    },
+    {
+      "english": "Kindness, is never wasted.",
+      "spanish": "טוב לב, אף פעם לא מבוזבז.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918795"
+    },
+    {
+      "english": "Your actions, speak volumes.",
+      "spanish": "המעשים שלך, מדברים חזק.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918796"
+    },
+    {
+      "english": "Be present, fully.",
+      "spanish": "היה נוכח, לגמרי.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918797"
+    },
+    {
+      "english": "Empathy, bridges divides.",
+      "spanish": "אמפתיה, מגשרת פערים.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918798"
+    },
+    {
+      "english": "Gratitude, unlocks joy.",
+      "spanish": "הכרת תודה, פותחת שמחה.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918799"
+    },
+    {
+      "english": "Learn from yesterday, live today.",
+      "spanish": "למד מהאתמול, חיה היום.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918800"
+    },
+    {
+      "english": "Wisdom whispers, often.",
+      "spanish": "חוכמה לוחשת, לעיתים קרובות.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918802"
+    },
+    {
+      "english": "Truth, is a good foundation.",
+      "spanish": "אמת, היא בסיס טוב.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918803"
+    },
+    {
+      "english": "Be curious, always.",
+      "spanish": "היה סקרן, תמיד.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918804"
+    },
+    {
+      "english": "A quiet mind, sees clearly.",
+      "spanish": "מוח שקט, רואה בבהירות.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918805"
+    },
+    {
+      "english": "Simplicity, is elegant.",
+      "spanish": "פשטות, היא אלגנטית.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918806"
+    },
+    {
+      "english": "Listen to your gut.",
+      "spanish": "תקשיב לבטן שלך.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918808"
+    },
+    {
+      "english": "Forgiveness, sets you free.",
+      "spanish": "סליחה, משחררת אותך.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918809"
+    },
+    {
+      "english": "Seek understanding, first.",
+      "spanish": "חפש הבנה, קודם.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918810"
+    },
+    {
+      "english": "Respect, is earned.",
+      "spanish": "כבוד, נרכש.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918811"
+    },
+    {
+      "english": "Silence, can be powerful.",
+      "spanish": "שקט, יכול להיות חזק.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918812"
+    },
+    {
+      "english": "True wealth, is inner peace.",
+      "spanish": "עושר אמיתי, הוא שלווה פנימית.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918813"
+    },
+    {
+      "english": "Be honest, always.",
+      "spanish": "היה ישר, תמיד.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918814"
+    },
+    {
+      "english": "Listen to the quiet.",
+      "spanish": "הקשב לדממה.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918815"
+    },
+    {
+      "english": "Joy is contagious.",
+      "spanish": "שמחה, מדבקת.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918816"
+    },
+    {
+      "english": "Understand before, judging.",
+      "spanish": "הבן לפני, שופט.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918817"
+    },
+    {
+      "english": "Gentleness, has strength.",
+      "spanish": "עדינות, יש בה כוח.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918818"
+    },
+    {
+      "english": "Your word, matters.",
+      "spanish": "המילה שלך, חשובה.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918819"
+    },
+    {
+      "english": "Breathe deeply, often.",
+      "spanish": "נשום עמוק, לעיתים קרובות.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918821"
+    },
+    {
+      "english": "Simpler is better, usually.",
+      "spanish": "פשוט יותר, לרוב.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918822"
+    },
+    {
+      "english": "See the good, everywhere.",
+      "spanish": "ראה את הטוב, בכל מקום.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918823"
+    },
+    {
+      "english": "Listen to your heart.",
+      "spanish": "הקשב ללב שלך.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918824"
+    },
+    {
+      "english": "A kind word, can change worlds.",
+      "spanish": "מילה טובה, יכולה לשנות עולמות.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918825"
+    },
+    {
+      "english": "Be humble, always.",
+      "spanish": "היה צנוע, תמיד.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918826"
+    },
+    {
+      "english": "Listen to wisdom's call.",
+      "spanish": "שמע לקריאת החוכמה.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918828"
+    },
+    {
+      "english": "One truth, is enough.",
+      "spanish": "אמת אחת, מספיקה.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918829"
+    },
+    {
+      "english": "Observe, and learn.",
+      "spanish": "התבונן, ולמד.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918830"
+    },
+    {
+      "english": "Kindness, is its own reward.",
+      "spanish": "טוב לב, הוא שכרו.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918831"
+    },
+    {
+      "english": "Hear the silence, between words.",
+      "spanish": "שמע את הדממה, בין המילים.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918832"
+    },
+    {
+      "english": "A smile, costs nothing.",
+      "spanish": "חיוך, לא עולה כלום.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918833"
+    },
+    {
+      "english": "Kindness, is never wasted.",
+      "spanish": "טוב לב, אף פעם לא מבוזבז.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918834"
+    },
+    {
+      "english": "Your actions, speak volumes.",
+      "spanish": "המעשים שלך, מדברים חזק.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918836"
+    },
+    {
+      "english": "Be present, fully.",
+      "spanish": "היה נוכח, לגמרי.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918837"
+    },
+    {
+      "english": "Empathy, bridges divides.",
+      "spanish": "אמפתיה, מגשרת פערים.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918838"
+    },
+    {
+      "english": "Gratitude, unlocks joy.",
+      "spanish": "הכרת תודה, פותחת שמחה.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918839"
+    },
+    {
+      "english": "Learn from yesterday, live today.",
+      "spanish": "למד מהאתמול, חיה היום.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918840"
+    },
+    {
+      "english": "Wisdom whispers, often.",
+      "spanish": "חוכמה לוחשת, לעיתים קרובות.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918841"
+    },
+    {
+      "english": "Truth, is a good foundation.",
+      "spanish": "אמת, היא בסיס טוב.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918842"
+    },
+    {
+      "english": "Be curious, always.",
+      "spanish": "היה סקרן, תמיד.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918844"
+    },
+    {
+      "english": "A quiet mind, sees clearly.",
+      "spanish": "מוח שקט, רואה בבהירות.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918845"
+    },
+    {
+      "english": "Simplicity, is elegant.",
+      "spanish": "פשטות, היא אלגנטית.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918846"
+    },
+    {
+      "english": "Listen to your gut.",
+      "spanish": "תקשיב לבטן שלך.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918847"
+    },
+    {
+      "english": "Forgiveness, sets you free.",
+      "spanish": "סליחה, משחררת אותך.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918848"
+    },
+    {
+      "english": "Seek understanding, first.",
+      "spanish": "חפש הבנה, קודם.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918849"
+    },
+    {
+      "english": "Respect, is earned.",
+      "spanish": "כבוד, נרכש.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918850"
+    },
+    {
+      "english": "Silence, can be powerful.",
+      "spanish": "שקט, יכול להיות חזק.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918851"
+    },
+    {
+      "english": "True wealth, is inner peace.",
+      "spanish": "עושר אמיתי, הוא שלווה פנימית.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918852"
+    },
+    {
+      "english": "Be honest, always.",
+      "spanish": "היה ישר, תמיד.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918854"
+    },
+    {
+      "english": "Listen to the quiet.",
+      "spanish": "הקשב לדממה.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918855"
+    },
+    {
+      "english": "Joy is contagious.",
+      "spanish": "שמחה, מדבקת.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918856"
+    },
+    {
+      "english": "Understand before, judging.",
+      "spanish": "הבן לפני, שופט.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918857"
+    },
+    {
+      "english": "Gentleness, has strength.",
+      "spanish": "עדינות, יש בה כוח.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918858"
+    },
+    {
+      "english": "Your word, matters.",
+      "spanish": "המילה שלך, חשובה.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918859"
+    },
+    {
+      "english": "Breathe deeply, often.",
+      "spanish": "נשום עמוק, לעיתים קרובות.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918860"
+    },
+    {
+      "english": "Simpler is better, usually.",
+      "spanish": "פשוט יותר, לרוב.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918861"
+    },
+    {
+      "english": "See the good, everywhere.",
+      "spanish": "ראה את הטוב, בכל מקום.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918862"
+    },
+    {
+      "english": "Listen to your heart.",
+      "spanish": "הקשב ללב שלך.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918863"
+    },
+    {
+      "english": "A kind word, can change worlds.",
+      "spanish": "מילה טובה, יכולה לשנות עולמות.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918864"
+    },
+    {
+      "english": "Be humble, always.",
+      "spanish": "היה צנוע, תמיד.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918865"
+    },
+    {
+      "english": "Listen to wisdom's call.",
+      "spanish": "שמע לקריאת החוכמה.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918866"
+    },
+    {
+      "english": "One truth, is enough.",
+      "spanish": "אמת אחת, מספיקה.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918867"
+    },
+    {
+      "english": "Observe, and learn.",
+      "spanish": "התבונן, ולמד.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918869"
+    },
+    {
+      "english": "Kindness, is its own reward.",
+      "spanish": "טוב לב, הוא שכרו.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918870"
+    },
+    {
+      "english": "Hear the silence, between words.",
+      "spanish": "שמע את הדממה, בין המילים.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918871"
+    },
+    {
+      "english": "A smile, costs nothing.",
+      "spanish": "חיוך, לא עולה כלום.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918872"
+    },
+    {
+      "english": "Kindness, is never wasted.",
+      "spanish": "טוב לב, אף פעם לא מבוזבז.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918873"
+    },
+    {
+      "english": "Your actions, speak volumes.",
+      "spanish": "המעשים שלך, מדברים חזק.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918874"
+    },
+    {
+      "english": "Be present, fully.",
+      "spanish": "היה נוכח, לגמרי.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918875"
+    },
+    {
+      "english": "Empathy, bridges divides.",
+      "spanish": "אמפתיה, מגשרת פערים.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918876"
+    },
+    {
+      "english": "Gratitude, unlocks joy.",
+      "spanish": "הכרת תודה, פותחת שמחה.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918877"
+    },
+    {
+      "english": "Learn from yesterday, live today.",
+      "spanish": "למד מהאתמול, חיה היום.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918878"
+    },
+    {
+      "english": "Wisdom whispers, often.",
+      "spanish": "חוכמה לוחשת, לעיתים קרובות.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918879"
+    },
+    {
+      "english": "Truth, is a good foundation.",
+      "spanish": "אמת, היא בסיס טוב.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918881"
+    },
+    {
+      "english": "Be curious, always.",
+      "spanish": "היה סקרן, תמיד.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918882"
+    },
+    {
+      "english": "A quiet mind, sees clearly.",
+      "spanish": "מוח שקט, רואה בבהירות.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918883"
+    },
+    {
+      "english": "Simplicity, is elegant.",
+      "spanish": "פשטות, היא אלגנטית.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918884"
+    },
+    {
+      "english": "Listen to your gut.",
+      "spanish": "תקשיב לבטן שלך.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918885"
+    },
+    {
+      "english": "Forgiveness, sets you free.",
+      "spanish": "סליחה, משחררת אותך.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918886"
+    },
+    {
+      "english": "Seek understanding, first.",
+      "spanish": "חפש הבנה, קודם.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-07T03:44:03.918888"
     }
   ],
-  "last_updated": "2026-08-06T03:59:11.223610"
+  "last_updated": "2026-08-07T03:44:03.918889"
 }
