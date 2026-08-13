@@ -18719,7 +18719,727 @@
       "spanish": "נפל, קום חזק יותר.",
       "category": "Perseverance",
       "generated_at": "2026-08-12T03:19:17.993600"
+    },
+    {
+      "english": "Breathe deep, feel the calm.",
+      "spanish": "נשום עמוק, הרגש את השקט.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536489"
+    },
+    {
+      "english": "Today is a new start.",
+      "spanish": "היום, התחלה חדשה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536503"
+    },
+    {
+      "english": "Let go, of worries now.",
+      "spanish": "שחרר, את הדאגות עכשיו.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536504"
+    },
+    {
+      "english": "Kindness starts, with you.",
+      "spanish": "החמלה מתחילה, איתך.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536506"
+    },
+    {
+      "english": "Small steps, lead far.",
+      "spanish": "צעדים קטנים, מובילים רחוק.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536507"
+    },
+    {
+      "english": "Listen to, your quiet mind.",
+      "spanish": "הקשב, למחשבה השקטה שלך.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536508"
+    },
+    {
+      "english": "Gratitude, opens doors.",
+      "spanish": "הכרת תודה, פותחת דלתות.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536509"
+    },
+    {
+      "english": "Release tension, feel lighter.",
+      "spanish": "שחרר מתח, הרגש קליל יותר.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536513"
+    },
+    {
+      "english": "Find stillness, in chaos.",
+      "spanish": "מצא שקט, בתוך הכאוס.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536516"
+    },
+    {
+      "english": "Self-compassion, is key.",
+      "spanish": "חמלה עצמית, היא המפתח.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536517"
+    },
+    {
+      "english": "Observe thoughts, without judgment.",
+      "spanish": "התבונן במחשבות, ללא שיפוטיות.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536518"
+    },
+    {
+      "english": "You are enough, always.",
+      "spanish": "את/ה מספיק/ה, תמיד.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536519"
+    },
+    {
+      "english": "Connect to, your true self.",
+      "spanish": "התחבר, לעצמיות האמיתית שלך.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536520"
+    },
+    {
+      "english": "Feel your breath, guiding you.",
+      "spanish": "הרגיש את הנשימה, מנחה אותך.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536521"
+    },
+    {
+      "english": "Slow down, notice life.",
+      "spanish": "האט, שים לב לחיים.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536522"
+    },
+    {
+      "english": "Joy is, found within.",
+      "spanish": "השמחה, נמצאת בפנים.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536523"
+    },
+    {
+      "english": "Focus on, what you control.",
+      "spanish": "התמקד, במה שאת/ה שולט/ת.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536524"
+    },
+    {
+      "english": "Embrace this moment, fully.",
+      "spanish": "אמץ רגע זה, במלואו.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536525"
+    },
+    {
+      "english": "Inner peace, is attainable.",
+      "spanish": "שקט פנימי, ניתן להשגה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536526"
+    },
+    {
+      "english": "Let go, of what hurts.",
+      "spanish": "שחרר, את מה שכואב.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536526"
+    },
+    {
+      "english": "Find your center, be grounded.",
+      "spanish": "מצא את המרכז שלך, היה יציב.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536527"
+    },
+    {
+      "english": "Stillness speaks, listen.",
+      "spanish": "הדממה מדברת, הקשב.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536528"
+    },
+    {
+      "english": "Wisdom grows, in quiet.",
+      "spanish": "חוכמה צומחת, בשקט.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536529"
+    },
+    {
+      "english": "You are resilient, strong.",
+      "spanish": "את/ה עמיד/ה, חזק/ה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536530"
+    },
+    {
+      "english": "Focus inward, find answers.",
+      "spanish": "התמקד פנימה, מצא תשובות.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536531"
+    },
+    {
+      "english": "Life's rhythm, in your breath.",
+      "spanish": "קצב החיים, בנשימה שלך.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536532"
+    },
+    {
+      "english": "Surrender, to the present.",
+      "spanish": "היכנע, להווה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536533"
+    },
+    {
+      "english": "Clarity comes, with stillness.",
+      "spanish": "בהירות מגיעה, עם דממה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536534"
+    },
+    {
+      "english": "Your true nature, is peace.",
+      "spanish": "הטבע האמיתי שלך, הוא שלום.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536534"
+    },
+    {
+      "english": "Trust your intuition, deeply.",
+      "spanish": "סמוך על האינטואיציה שלך, לעומק.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536535"
+    },
+    {
+      "english": "Breathe deep, feel the calm.",
+      "spanish": "נשום עמוק, הרגש את השקט.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536536"
+    },
+    {
+      "english": "Today is a new start.",
+      "spanish": "היום, התחלה חדשה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536537"
+    },
+    {
+      "english": "Let go, of worries now.",
+      "spanish": "שחרר, את הדאגות עכשיו.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536539"
+    },
+    {
+      "english": "Kindness starts, with you.",
+      "spanish": "החמלה מתחילה, איתך.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536539"
+    },
+    {
+      "english": "Small steps, lead far.",
+      "spanish": "צעדים קטנים, מובילים רחוק.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536540"
+    },
+    {
+      "english": "Listen to, your quiet mind.",
+      "spanish": "הקשב, למחשבה השקטה שלך.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536541"
+    },
+    {
+      "english": "Gratitude, opens doors.",
+      "spanish": "הכרת תודה, פותחת דלתות.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536542"
+    },
+    {
+      "english": "Release tension, feel lighter.",
+      "spanish": "שחרר מתח, הרגש קליל יותר.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536543"
+    },
+    {
+      "english": "Find stillness, in chaos.",
+      "spanish": "מצא שקט, בתוך הכאוס.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536544"
+    },
+    {
+      "english": "Self-compassion, is key.",
+      "spanish": "חמלה עצמית, היא המפתח.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536545"
+    },
+    {
+      "english": "Observe thoughts, without judgment.",
+      "spanish": "התבונן במחשבות, ללא שיפוטיות.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536546"
+    },
+    {
+      "english": "You are enough, always.",
+      "spanish": "את/ה מספיק/ה, תמיד.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536547"
+    },
+    {
+      "english": "Connect to, your true self.",
+      "spanish": "התחבר, לעצמיות האמיתית שלך.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536547"
+    },
+    {
+      "english": "Feel your breath, guiding you.",
+      "spanish": "הרגיש את הנשימה, מנחה אותך.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536548"
+    },
+    {
+      "english": "Slow down, notice life.",
+      "spanish": "האט, שים לב לחיים.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536549"
+    },
+    {
+      "english": "Joy is, found within.",
+      "spanish": "השמחה, נמצאת בפנים.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536550"
+    },
+    {
+      "english": "Focus on, what you control.",
+      "spanish": "התמקד, במה שאת/ה שולט/ת.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536551"
+    },
+    {
+      "english": "Embrace this moment, fully.",
+      "spanish": "אמץ רגע זה, במלואו.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536552"
+    },
+    {
+      "english": "Inner peace, is attainable.",
+      "spanish": "שקט פנימי, ניתן להשגה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536553"
+    },
+    {
+      "english": "Let go, of what hurts.",
+      "spanish": "שחרר, את מה שכואב.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536554"
+    },
+    {
+      "english": "Find your center, be grounded.",
+      "spanish": "מצא את המרכז שלך, היה יציב.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536555"
+    },
+    {
+      "english": "Stillness speaks, listen.",
+      "spanish": "הדממה מדברת, הקשב.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536556"
+    },
+    {
+      "english": "Wisdom grows, in quiet.",
+      "spanish": "חוכמה צומחת, בשקט.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536557"
+    },
+    {
+      "english": "You are resilient, strong.",
+      "spanish": "את/ה עמיד/ה, חזק/ה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536558"
+    },
+    {
+      "english": "Focus inward, find answers.",
+      "spanish": "התמקד פנימה, מצא תשובות.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536559"
+    },
+    {
+      "english": "Life's rhythm, in your breath.",
+      "spanish": "קצב החיים, בנשימה שלך.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536560"
+    },
+    {
+      "english": "Surrender, to the present.",
+      "spanish": "היכנע, להווה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536560"
+    },
+    {
+      "english": "Clarity comes, with stillness.",
+      "spanish": "בהירות מגיעה, עם דממה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536561"
+    },
+    {
+      "english": "Your true nature, is peace.",
+      "spanish": "הטבע האמיתי שלך, הוא שלום.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536562"
+    },
+    {
+      "english": "Trust your intuition, deeply.",
+      "spanish": "סמוך על האינטואיציה שלך, לעומק.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536563"
+    },
+    {
+      "english": "Breathe deep, feel the calm.",
+      "spanish": "נשום עמוק, הרגש את השקט.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536564"
+    },
+    {
+      "english": "Today is a new start.",
+      "spanish": "היום, התחלה חדשה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536565"
+    },
+    {
+      "english": "Let go, of worries now.",
+      "spanish": "שחרר, את הדאגות עכשיו.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536566"
+    },
+    {
+      "english": "Kindness starts, with you.",
+      "spanish": "החמלה מתחילה, איתך.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536567"
+    },
+    {
+      "english": "Small steps, lead far.",
+      "spanish": "צעדים קטנים, מובילים רחוק.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536568"
+    },
+    {
+      "english": "Listen to, your quiet mind.",
+      "spanish": "הקשב, למחשבה השקטה שלך.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536568"
+    },
+    {
+      "english": "Gratitude, opens doors.",
+      "spanish": "הכרת תודה, פותחת דלתות.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536569"
+    },
+    {
+      "english": "Release tension, feel lighter.",
+      "spanish": "שחרר מתח, הרגש קליל יותר.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536570"
+    },
+    {
+      "english": "Find stillness, in chaos.",
+      "spanish": "מצא שקט, בתוך הכאוס.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536571"
+    },
+    {
+      "english": "Self-compassion, is key.",
+      "spanish": "חמלה עצמית, היא המפתח.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536572"
+    },
+    {
+      "english": "Observe thoughts, without judgment.",
+      "spanish": "התבונן במחשבות, ללא שיפוטיות.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536573"
+    },
+    {
+      "english": "You are enough, always.",
+      "spanish": "את/ה מספיק/ה, תמיד.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536574"
+    },
+    {
+      "english": "Connect to, your true self.",
+      "spanish": "התחבר, לעצמיות האמיתית שלך.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536575"
+    },
+    {
+      "english": "Feel your breath, guiding you.",
+      "spanish": "הרגיש את הנשימה, מנחה אותך.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536575"
+    },
+    {
+      "english": "Slow down, notice life.",
+      "spanish": "האט, שים לב לחיים.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536576"
+    },
+    {
+      "english": "Joy is, found within.",
+      "spanish": "השמחה, נמצאת בפנים.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536577"
+    },
+    {
+      "english": "Focus on, what you control.",
+      "spanish": "התמקד, במה שאת/ה שולט/ת.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536578"
+    },
+    {
+      "english": "Embrace this moment, fully.",
+      "spanish": "אמץ רגע זה, במלואו.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536579"
+    },
+    {
+      "english": "Inner peace, is attainable.",
+      "spanish": "שקט פנימי, ניתן להשגה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536580"
+    },
+    {
+      "english": "Let go, of what hurts.",
+      "spanish": "שחרר, את מה שכואב.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536581"
+    },
+    {
+      "english": "Find your center, be grounded.",
+      "spanish": "מצא את המרכז שלך, היה יציב.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536582"
+    },
+    {
+      "english": "Stillness speaks, listen.",
+      "spanish": "הדממה מדברת, הקשב.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536583"
+    },
+    {
+      "english": "Wisdom grows, in quiet.",
+      "spanish": "חוכמה צומחת, בשקט.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536584"
+    },
+    {
+      "english": "You are resilient, strong.",
+      "spanish": "את/ה עמיד/ה, חזק/ה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536584"
+    },
+    {
+      "english": "Focus inward, find answers.",
+      "spanish": "התמקד פנימה, מצא תשובות.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536585"
+    },
+    {
+      "english": "Life's rhythm, in your breath.",
+      "spanish": "קצב החיים, בנשימה שלך.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536586"
+    },
+    {
+      "english": "Surrender, to the present.",
+      "spanish": "היכנע, להווה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536587"
+    },
+    {
+      "english": "Clarity comes, with stillness.",
+      "spanish": "בהירות מגיעה, עם דממה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536588"
+    },
+    {
+      "english": "Your true nature, is peace.",
+      "spanish": "הטבע האמיתי שלך, הוא שלום.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536589"
+    },
+    {
+      "english": "Trust your intuition, deeply.",
+      "spanish": "סמוך על האינטואיציה שלך, לעומק.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536589"
+    },
+    {
+      "english": "Breathe deep, feel the calm.",
+      "spanish": "נשום עמוק, הרגש את השקט.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536590"
+    },
+    {
+      "english": "Today is a new start.",
+      "spanish": "היום, התחלה חדשה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536592"
+    },
+    {
+      "english": "Let go, of worries now.",
+      "spanish": "שחרר, את הדאגות עכשיו.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536593"
+    },
+    {
+      "english": "Kindness starts, with you.",
+      "spanish": "החמלה מתחילה, איתך.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536594"
+    },
+    {
+      "english": "Small steps, lead far.",
+      "spanish": "צעדים קטנים, מובילים רחוק.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536595"
+    },
+    {
+      "english": "Listen to, your quiet mind.",
+      "spanish": "הקשב, למחשבה השקטה שלך.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536596"
+    },
+    {
+      "english": "Gratitude, opens doors.",
+      "spanish": "הכרת תודה, פותחת דלתות.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536596"
+    },
+    {
+      "english": "Release tension, feel lighter.",
+      "spanish": "שחרר מתח, הרגש קליל יותר.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536597"
+    },
+    {
+      "english": "Find stillness, in chaos.",
+      "spanish": "מצא שקט, בתוך הכאוס.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536598"
+    },
+    {
+      "english": "Self-compassion, is key.",
+      "spanish": "חמלה עצמית, היא המפתח.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536599"
+    },
+    {
+      "english": "Observe thoughts, without judgment.",
+      "spanish": "התבונן במחשבות, ללא שיפוטיות.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536600"
+    },
+    {
+      "english": "You are enough, always.",
+      "spanish": "את/ה מספיק/ה, תמיד.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536600"
+    },
+    {
+      "english": "Connect to, your true self.",
+      "spanish": "התחבר, לעצמיות האמיתית שלך.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536601"
+    },
+    {
+      "english": "Feel your breath, guiding you.",
+      "spanish": "הרגיש את הנשימה, מנחה אותך.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536602"
+    },
+    {
+      "english": "Slow down, notice life.",
+      "spanish": "האט, שים לב לחיים.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536603"
+    },
+    {
+      "english": "Joy is, found within.",
+      "spanish": "השמחה, נמצאת בפנים.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536604"
+    },
+    {
+      "english": "Focus on, what you control.",
+      "spanish": "התמקד, במה שאת/ה שולט/ת.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536604"
+    },
+    {
+      "english": "Embrace this moment, fully.",
+      "spanish": "אמץ רגע זה, במלואו.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536605"
+    },
+    {
+      "english": "Inner peace, is attainable.",
+      "spanish": "שקט פנימי, ניתן להשגה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536606"
+    },
+    {
+      "english": "Let go, of what hurts.",
+      "spanish": "שחרר, את מה שכואב.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536607"
+    },
+    {
+      "english": "Find your center, be grounded.",
+      "spanish": "מצא את המרכז שלך, היה יציב.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536608"
+    },
+    {
+      "english": "Stillness speaks, listen.",
+      "spanish": "הדממה מדברת, הקשב.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536609"
+    },
+    {
+      "english": "Wisdom grows, in quiet.",
+      "spanish": "חוכמה צומחת, בשקט.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536609"
+    },
+    {
+      "english": "You are resilient, strong.",
+      "spanish": "את/ה עמיד/ה, חזק/ה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536610"
+    },
+    {
+      "english": "Focus inward, find answers.",
+      "spanish": "התמקד פנימה, מצא תשובות.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536611"
+    },
+    {
+      "english": "Life's rhythm, in your breath.",
+      "spanish": "קצב החיים, בנשימה שלך.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536612"
+    },
+    {
+      "english": "Surrender, to the present.",
+      "spanish": "היכנע, להווה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536612"
+    },
+    {
+      "english": "Clarity comes, with stillness.",
+      "spanish": "בהירות מגיעה, עם דממה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536613"
+    },
+    {
+      "english": "Your true nature, is peace.",
+      "spanish": "הטבע האמיתי שלך, הוא שלום.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536614"
+    },
+    {
+      "english": "Trust your intuition, deeply.",
+      "spanish": "סמוך על האינטואיציה שלך, לעומק.",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-13T03:23:41.536615"
     }
   ],
-  "last_updated": "2026-08-12T03:19:17.993602"
+  "last_updated": "2026-08-13T03:23:41.536617"
 }
