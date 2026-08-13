@@ -1,4 +1,4 @@
-import os, sys, json, io
+import os, sys, json, re, io
 from pathlib import Path
 from dotenv import load_dotenv
 from PIL import Image
@@ -118,6 +118,16 @@ def backfill_playlist(youtube, playlist_id, max_videos=100):
     except Exception as e:
         print(f"[youtube] Backfill error: {e}")
 
+
+def sanitize_for_youtube(text):
+    """Strip zero-width/control chars and lone surrogates; keep emoji+accents."""
+    if not text:
+        return ""
+    text = "".join(c for c in text if not (0x200B <= ord(c) <= 0x200F) and not (0x202A <= ord(c) <= 0x202E))
+    text = re.sub(r"[\x00-\x1f\x7f\ufeff]", "", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
 def upload_to_youtube():
     try:
         meta_path = Path("output") / "latest_video.json"
@@ -133,12 +143,14 @@ def upload_to_youtube():
             print(f"[youtube] Video not found: {video_path}")
             return False
 
-        title = meta["title"]
-        description = meta["description"]
+        title = sanitize_for_youtube(meta["title"])
+        if len(title) > 100:
+            title = title[:97] + "..."
+        description = sanitize_for_youtube(meta["description"])
         if len(description) > 4900:
             description = description[:4900] + "\n\n#LearnHebrew #Hebrew #LanguageLearning"
             print(f"[youtube] Description truncated to {len(description)} chars")
-        tags = meta["tags"]
+        tags = [sanitize_for_youtube(t) for t in meta.get("tags", []) if t]
 
         print(f"[youtube] Title: {title[:80]}...")
         print(f"[youtube] Video: {video_path}")
