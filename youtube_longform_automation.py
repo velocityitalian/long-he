@@ -177,20 +177,24 @@ def filter_similar_phrases(phrases, history, similarity_threshold=0.6):
 
 
 def add_phrases_to_history(phrases, category):
-    """Add new phrases to history"""
+    """Add new phrases to history (deduplicated)"""
     history = load_phrase_history()
+    existing = {p.get("english", "").lower().strip() for p in history.get("phrases", [])}
+    added = 0
     for phrase in phrases:
+        key = phrase.get("english", "").lower().strip()
+        if not key or key in existing:
+            continue
+        existing.add(key)
         history["phrases"].append({
             "english": phrase["english"],
-            "spanish": phrase["hebrew"],
+            "hebrew": phrase["hebrew"],
             "category": category,
             "generated_at": datetime.now().isoformat()
         })
+        added += 1
     save_phrase_history(history)
-    print(f"[history] Added {len(phrases)} phrases to history (total: {len(history['phrases'])})")
-
-
-# ============== CONTENT GENERATION ==============
+    print(f"[history] Added {added} unique phrases to history (total: {len(history['phrases'])})")
 
 def calculate_phrases_needed(target_minutes: int) -> int:
     """
@@ -287,6 +291,13 @@ IMPORTANT: Create FRESH, UNIQUE phrases that haven't been used before.{exclusion
 
                 phrases = json.loads(content)
 
+                # Filter by similarity against history AND phrases already
+                # collected in THIS run (prevents same-run duplicates that
+                # caused repeating phrases in the video/description)
+                filtered_phrases = filter_similar_phrases(phrases, history)
+                filtered_phrases = filter_similar_phrases(
+                    filtered_phrases, {"phrases": [{"english": p["english"]} for p in all_phrases]},
+                    similarity_threshold=0.7)
                 # Filter by similarity
                 filtered_phrases = filter_similar_phrases(phrases, history)
 
@@ -926,9 +937,10 @@ Perfect for beginners and intermediate learners!
     # Add timestamps for each phrase (every 10 phrases grouped)
     avg_phrase_duration = duration_minutes * 60 / len(phrases)
     for i in range(0, len(phrases), 10):
-        timestamp = int(i * avg_phrase_duration / 60)
-        minute = timestamp
-        second = int((i * avg_phrase_duration) % 60)
+        seconds = int(i * avg_phrase_duration)
+        minute = seconds // 60
+        second = seconds % 60
+        end_phrase = min(i + 10, len(phrases))
         end_phrase = min(i + 10, len(phrases))
         description += f"{minute:02d}:{second:02d} Phrases {i+1}-{end_phrase}\n"
 

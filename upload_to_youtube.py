@@ -157,7 +157,11 @@ def upload_to_youtube():
             title = title[:97] + "..."
         description = sanitize_for_youtube(meta["description"])
         if len(description) > 4900:
-            description = description[:4900] + "\n\n#LearnHebrew #Hebrew #LanguageLearning"
+            description = description[:4900]
+            cut = description.rfind("\n\n")
+            if cut > 3000:
+                description = description[:cut]
+            description += "\n\n#LearnHebrew #Hebrew #LanguageLearning"
             print(f"[youtube] Description truncated to {len(description)} chars")
         tags = [sanitize_for_youtube(t) for t in meta.get("tags", []) if t]
 
