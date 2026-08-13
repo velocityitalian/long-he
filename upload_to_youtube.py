@@ -39,6 +39,85 @@ def compress_thumbnail(img_path, max_size=2097152):
     return thumb_bytes
 
 
+
+def ensure_playlist(youtube, title="Velocity Hebrew - Hebrew Phrases", description="All Hebrew phrases videos in one playlist. Learn Hebrew with Velocity Hebrew!"):
+    """Find an existing playlist by title or create a new one. Returns playlist_id."""
+    try:
+        req = youtube.playlists().list(part="snippet", mine=True, maxResults=50)
+        playlists = req.execute().get("items", [])
+        for p in playlists:
+            if p["snippet"]["title"] == title:
+                print(f"[youtube] Found existing playlist: {title} (id={p['id']})")
+                return p["id"]
+    except Exception as e:
+        print(f"[youtube] Playlist lookup failed: {e}")
+    try:
+        body = {
+            "snippet": {"title": title, "description": description},
+            "status": {"privacyStatus": "public"}
+        }
+        resp = youtube.playlists().insert(part="snippet,status", body=body).execute()
+        print(f"[youtube] Created playlist: {title} (id={resp['id']})")
+        return resp["id"]
+    except Exception as e:
+        print(f"[youtube] Playlist creation failed: {e}")
+        return None
+
+
+def add_video_to_playlist(youtube, playlist_id, video_id):
+    """Add a video to a playlist. Skips if already present."""
+    if not playlist_id or not video_id:
+        return False
+    try:
+        items = youtube.playlistItems().list(part="contentDetails", playlistId=playlist_id, maxResults=50).execute().get("items", [])
+        existing = {i["contentDetails"]["videoId"] for i in items}
+        if video_id in existing:
+            print(f"[youtube] Video already in playlist: {video_id}")
+            return True
+    except Exception as e:
+        print(f"[youtube] Playlist items check failed: {e}")
+    try:
+        youtube.playlistItems().insert(part="snippet", body={"snippet": {"playlistId": playlist_id, "resourceId": {"kind": "youtube#video", "videoId": video_id}}}).execute()
+        print(f"[youtube] Added video {video_id} to playlist {playlist_id}")
+        return True
+    except Exception as e:
+        print(f"[youtube] Playlist insert failed: {e}")
+        return False
+
+
+def backfill_playlist(youtube, playlist_id, max_videos=100):
+    """Add all existing channel phrase videos to the playlist (idempotent)."""
+    if not playlist_id:
+        return
+    try:
+        channel_req = youtube.channels().list(part="contentDetails", mine=True).execute()
+        uploads_id = channel_req["items"][0]["contentDetails"]["relatedPlaylists"]["uploads"]
+    except Exception as e:
+        print(f"[youtube] Could not get uploads playlist: {e}")
+        return
+    existing = set()
+    try:
+        items = youtube.playlistItems().list(part="contentDetails", playlistId=playlist_id, maxResults=50).execute().get("items", [])
+        existing = {i["contentDetails"]["videoId"] for i in items}
+    except Exception as e:
+        print(f"[youtube] Playlist items check failed: {e}")
+    try:
+        uploaded = youtube.playlistItems().list(part="contentDetails,snippet", playlistId=uploads_id, maxResults=max_videos).execute().get("items", [])
+        added = 0
+        for item in uploaded:
+            vid = item["contentDetails"]["videoId"]
+            if vid in existing:
+                continue
+            try:
+                youtube.playlistItems().insert(part="snippet", body={"snippet": {"playlistId": playlist_id, "resourceId": {"kind": "youtube#video", "videoId": vid}}}).execute()
+                existing.add(vid)
+                added += 1
+            except Exception as e:
+                print(f"[youtube] Backfill failed for {vid}: {e}")
+        print(f"[youtube] Playlist backfill done: added {added} videos")
+    except Exception as e:
+        print(f"[youtube] Backfill error: {e}")
+
 def upload_to_youtube():
     try:
         meta_path = Path("output") / "latest_video.json"
@@ -111,6 +190,11 @@ def upload_to_youtube():
                 print(f"[youtube] Thumbnail upload failed: {e}")
         else:
             print(f"[youtube] Thumbnail NOT FOUND at: {thumbnail_path}")
+
+        playlist_id = ensure_playlist(youtube)
+        if playlist_id:
+            add_video_to_playlist(youtube, playlist_id, video_id)
+            backfill_playlist(youtube, playlist_id)
 
         result = {
             "video_id": video_id,
