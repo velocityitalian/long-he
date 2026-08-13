@@ -291,13 +291,8 @@ IMPORTANT: Create FRESH, UNIQUE phrases that haven't been used before.{exclusion
 
                 phrases = json.loads(content)
 
-                # Filter by similarity against history AND phrases already
-                # collected in THIS run (prevents same-run duplicates that
-                # caused repeating phrases in the video/description)
+                # Filter by similarity
                 filtered_phrases = filter_similar_phrases(phrases, history)
-                filtered_phrases = filter_similar_phrases(
-                    filtered_phrases, {"phrases": [{"english": p["english"]} for p in all_phrases]},
-                    similarity_threshold=0.7)
                 # Filter by similarity
                 filtered_phrases = filter_similar_phrases(phrases, history)
 
