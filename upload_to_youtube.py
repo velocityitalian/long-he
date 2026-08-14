@@ -133,7 +133,7 @@ def sanitize_for_youtube(text):
     if not text:
         return ""
     text = "".join(c for c in text if not (0x200B <= ord(c) <= 0x200F) and not (0x202A <= ord(c) <= 0x202E))
-    text = re.sub(r"[\x00-\x1f\x7f\ufeff]", "", text)
+    text = re.sub(r"[\x00-\x09\x0b\x0c\x0e-\x1f\x7f\ufeff]", "", text)
     text = re.sub(r"\s+", " ", text).strip()
     return text
 
