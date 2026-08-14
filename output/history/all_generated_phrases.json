@@ -19439,7 +19439,235 @@
       "spanish": "סמוך על האינטואיציה שלך, לעומק.",
       "category": "Mindfulness",
       "generated_at": "2026-08-13T03:23:41.536615"
+    },
+    {
+      "english": "Truth, like a seed, grows.",
+      "hebrew": "אמת, כזרע, גדלה.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380838"
+    },
+    {
+      "english": "Action, not words, matters.",
+      "hebrew": "מעשה, לא מילים, קובע.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380849"
+    },
+    {
+      "english": "Courage, a quiet strength.",
+      "hebrew": "אומץ, עוצמה שקטה.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380851"
+    },
+    {
+      "english": "Patience, a gentle river.",
+      "hebrew": "סבלנות, נהר עדין.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380852"
+    },
+    {
+      "english": "Hope, a guiding star.",
+      "hebrew": "תקווה, כוכב מנחה.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380854"
+    },
+    {
+      "english": "Learning, a lifelong journey.",
+      "hebrew": "למידה, מסע לחיים.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380856"
+    },
+    {
+      "english": "Forgiveness, frees the heart.",
+      "hebrew": "סליחה, משחררת לב.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380857"
+    },
+    {
+      "english": "Humility, a wise teacher.",
+      "hebrew": "ענווה, מורה חכם.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380860"
+    },
+    {
+      "english": "Wisdom, a deep well.",
+      "hebrew": "חוכמה, באר עמוקה.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380862"
+    },
+    {
+      "english": "Integrity, builds trust.",
+      "hebrew": "יושרה, בונה אמון.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380866"
+    },
+    {
+      "english": "Generosity, multiplies joy.",
+      "hebrew": "נדיבות, מכפילה שמחה.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380868"
+    },
+    {
+      "english": "Persistence, conquers all.",
+      "hebrew": "התמדה, מנצחת הכל.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380869"
+    },
+    {
+      "english": "Curiosity, sparks discovery.",
+      "hebrew": "סקרנות, מציתה גילוי.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380870"
+    },
+    {
+      "english": "Balance, a steady hand.",
+      "hebrew": "איזון, יד יציבה.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380872"
+    },
+    {
+      "english": "Simplicity, true elegance.",
+      "hebrew": "פשטות, יופי אמיתי.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380873"
+    },
+    {
+      "english": "Authenticity, your true light.",
+      "hebrew": "אותנטיות, אור אמיתי.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380874"
+    },
+    {
+      "english": "Reflection, reveals insight.",
+      "hebrew": "הרהור, מגלה תובנה.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380876"
+    },
+    {
+      "english": "Kindred spirits, understand.",
+      "hebrew": "נשמות דומות, מבינות.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380877"
+    },
+    {
+      "english": "Vulnerability, opens hearts.",
+      "hebrew": "פגיעות, פותחת לבבות.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380878"
+    },
+    {
+      "english": "Boundaries, protect well-being.",
+      "hebrew": "גבולות, מגנים על טוב.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380880"
+    },
+    {
+      "english": "Adaptability, a vital skill.",
+      "hebrew": "הסתגלות, כישרון חיוני.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380881"
+    },
+    {
+      "english": "Celebration, enriches life.",
+      "hebrew": "חגיגה, מעשירה חיים.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380882"
+    },
+    {
+      "english": "Vision, paints the future.",
+      "hebrew": "חזון, צובע עתיד.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380883"
+    },
+    {
+      "english": "Purpose, gives direction.",
+      "hebrew": "מטרה, נותנת כיוון.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380885"
+    },
+    {
+      "english": "Discipline, frees time.",
+      "hebrew": "משמעת, משחררת זמן.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380886"
+    },
+    {
+      "english": "Gratitude, a happy habit.",
+      "hebrew": "תודה, הרגל שמח.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380888"
+    },
+    {
+      "english": "Acceptance, brings peace.",
+      "hebrew": "קבלה, מביאה שלום.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380889"
+    },
+    {
+      "english": "Silence, speaks volumes.",
+      "hebrew": "שקט, אומר הרבה.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380890"
+    },
+    {
+      "english": "Clarity, a clear path.",
+      "hebrew": "בהירות, דרך ברורה.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380891"
+    },
+    {
+      "english": "Connection, heals wounds.",
+      "hebrew": "קשר, מרפא פצעים.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380893"
+    },
+    {
+      "english": "Kindness, ripples outward.",
+      "hebrew": "טוב לב, גולש החוצה.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380894"
+    },
+    {
+      "english": "Enthusiasm, fuels passion.",
+      "hebrew": "התלהבות, מניעה תשוקה.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380895"
+    },
+    {
+      "english": "Resilience, bends, doesn't break.",
+      "hebrew": "חוסן, מתכופף, לא נשבר.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380896"
+    },
+    {
+      "english": "Contentment, a rich reward.",
+      "hebrew": "סיפוק, פרס עשיר.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380898"
+    },
+    {
+      "english": "Intuition, a subtle whisper.",
+      "hebrew": "אינטואיציה, לחישה עדינה.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380899"
+    },
+    {
+      "english": "Creativity, flows freely.",
+      "hebrew": "יצירתיות, זורמת בחופשיות.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380900"
+    },
+    {
+      "english": "Purposeful action, creates change.",
+      "hebrew": "פעולה מכוונת, יוצרת שינוי.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380901"
+    },
+    {
+      "english": "Self-awareness, your inner compass.",
+      "hebrew": "מודעות עצמית, מצפן פנימי.",
+      "category": "Wisdom",
+      "generated_at": "2026-08-14T03:20:44.380903"
     }
   ],
-  "last_updated": "2026-08-13T03:23:41.536617"
+  "last_updated": "2026-08-14T03:20:44.380935"
 }
