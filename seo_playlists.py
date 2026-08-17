@@ -19,6 +19,16 @@ SEO_PLAYLIST = os.getenv("SEO_PLAYLIST", f"Learn {LANG_NAME} Phrases for Beginne
 OLD_PLAYLIST = os.getenv("OLD_PLAYLIST", f"Velocity {LANG_NAME} - {LANG_NAME} Phrases")
 CHANNEL_KEYWORDS = os.getenv("CHANNEL_KEYWORDS", f"learn {LANG_FOLDER}, {LANG_FOLDER} phrases, {LANG_FOLDER} for beginners, speak {LANG_FOLDER}, {LANG_FOLDER} language, {LANG_FOLDER} vocabulary, learn {LANG_FOLDER} fast")
 CHANNEL_DESCRIPTION = os.getenv("CHANNEL_DESCRIPTION", "")
+DEFAULT_CHANNEL_DESCRIPTION = (
+    f"Learn {LANG_NAME} with Velocity {LANG_NAME}! {FLAG} "
+    f"Daily {LANG_NAME} phrase videos with English translations, "
+    f"{LANG_NAME} pronunciation guides, and phonetic spelling. "
+    f"Perfect for beginners learning {LANG_NAME} fast. "
+    f"Each video covers practical {LANG_NAME} phrases for everyday conversations, "
+    f"travel, love, motivation, and more. "
+    f"Subscribe to master {LANG_NAME} vocabulary step by step. "
+    f"Learn {LANG_NAME} • Speak {LANG_NAME} • {LANG_NAME} Phrases for Beginners"
+)
 
 
 def get_authenticated_service():
@@ -137,29 +147,43 @@ def update_channel_seo(youtube):
         snippet = ch["items"][0]["snippet"]
         branding = ch["items"][0].get("brandingSettings", {})
         channel_snip = branding.get("channel", {})
-        new_desc = CHANNEL_DESCRIPTION or channel_snip.get("description", "")
-        body = {
-            "id": channel_id,
-            "snippet": {
-                "title": snippet.get("title", ""),
-                "description": new_desc,
-                "keywords": CHANNEL_KEYWORDS,
-                "defaultLanguage": snippet.get("defaultLanguage", ""),
-            },
-            "brandingSettings": {
-                "channel": {
+        new_desc = CHANNEL_DESCRIPTION or DEFAULT_CHANNEL_DESCRIPTION or channel_snip.get("description", "")
+        title = snippet.get("title", "")
+        country = channel_snip.get("country", "")
+        default_tab = channel_snip.get("defaultTab", "")
+
+        # Update snippet (keywords live here) - separate call
+        _execute_with_retry(youtube.channels().update(
+            part="snippet",
+            body={
+                "id": channel_id,
+                "snippet": {
+                    "title": title,
                     "description": new_desc,
                     "keywords": CHANNEL_KEYWORDS,
-                    "title": snippet.get("title", ""),
-                    "country": channel_snip.get("country", ""),
-                    "defaultTab": channel_snip.get("defaultTab", ""),
-                    "showRelatedChannels": channel_snip.get("showRelatedChannels", True),
-                    "showBrowseView": channel_snip.get("showBrowseView", True),
                 }
             }
-        }
-        _execute_with_retry(youtube.channels().update(part="snippet,brandingSettings", body=body))
-        print(f"  [channel] keywords+description updated: {CHANNEL_KEYWORDS}")
+        ))
+        print(f"  [channel] snippet updated (keywords): {CHANNEL_KEYWORDS}")
+
+        # Update brandingSettings (description lives here) - separate call
+        _execute_with_retry(youtube.channels().update(
+            part="brandingSettings",
+            body={
+                "id": channel_id,
+                "brandingSettings": {
+                    "channel": {
+                        "description": new_desc,
+                        "keywords": CHANNEL_KEYWORDS,
+                        "title": title,
+                        "country": country,
+                        "defaultTab": default_tab or "Videos",
+                        "showRelatedChannels": True,
+                    }
+                }
+            }
+        ))
+        print(f"  [channel] branding updated (description): {new_desc[:60]}")
     except Exception as e:
         print(f"  [channel] update failed: {e}")
 
