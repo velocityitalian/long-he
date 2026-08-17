@@ -1,0 +1,39 @@
+name: Fix Existing Video Descriptions
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (1 = preview only, 0 = actually update)'
+        required: false
+        default: '1'
+
+permissions:
+  contents: write
+
+jobs:
+  fix-descriptions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: |
+          pip install -r requirements.txt
+
+      - name: Create .env
+        run: |
+          echo "YT_CLIENT_ID=${{ secrets.YT_CLIENT_ID }}" >> .env
+          echo "YT_CLIENT_SECRET=${{ secrets.YT_CLIENT_SECRET }}" >> .env
+          echo "YT_REFRESH_TOKEN=${{ secrets.YT_REFRESH_TOKEN }}" >> .env
+
+      - name: Run fix script
+        env:
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: python fix_descriptions.py
