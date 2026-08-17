@@ -86,14 +86,14 @@ def reformat_description(desc):
 
 
 def list_uploads(youtube):
-    channel = youtube.channels().list(part="contentDetails", mine=True).execute()
+    channel = _execute_with_retry(youtube.channels().list(part="contentDetails", mine=True))
     uploads_id = channel["items"][0]["contentDetails"]["relatedPlaylists"]["uploads"]
     videos = []
     page_token = None
     while True:
-        pl = youtube.playlistItems().list(
+        pl = _execute_with_retry(youtube.playlistItems().list(
             part="contentDetails", playlistId=uploads_id, maxResults=50,
-            pageToken=page_token).execute()
+            pageToken=page_token))
         for item in pl.get("items", []):
             videos.append(item["contentDetails"]["videoId"])
         page_token = pl.get("nextPageToken")
@@ -111,6 +111,17 @@ def _quota_wait(e, attempts):
         time.sleep(wait)
         return True
     return False
+
+
+def _execute_with_retry(req, attempts=8):
+    """Execute a YouTube API request with quota backoff retry."""
+    for i in range(attempts):
+        try:
+            return req.execute()
+        except Exception as e:
+            if not _quota_wait(e, i):
+                raise
+    raise RuntimeError("retries exhausted")
 
 
 def fix_video(youtube, video_id, dry_run=False):
