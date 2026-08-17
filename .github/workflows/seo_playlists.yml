@@ -1,0 +1,59 @@
+name: Playlist & Channel SEO
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (1 = preview only, 0 = actually update)'
+        required: false
+        default: '1'
+      update_channel:
+        description: 'Update channel keywords+description (1 = yes, 0 = no)'
+        required: false
+        default: '0'
+      lang_name:
+        description: 'Language name (e.g. Japanese)'
+        required: false
+        default: 'Japanese'
+      lang_folder:
+        description: 'Language folder/keyword (e.g. japanese)'
+        required: false
+        default: 'japanese'
+      flag:
+        description: 'Flag emoji (e.g. 🇯🇵)'
+        required: false
+        default: '🇯🇵'
+
+permissions:
+  contents: write
+
+jobs:
+  seo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: |
+          pip install -r requirements.txt
+
+      - name: Create .env
+        run: |
+          echo "YT_CLIENT_ID=${{ secrets.YT_CLIENT_ID }}" >> .env
+          echo "YT_CLIENT_SECRET=${{ secrets.YT_CLIENT_SECRET }}" >> .env
+          echo "YT_REFRESH_TOKEN=${{ secrets.YT_REFRESH_TOKEN }}" >> .env
+
+      - name: Run SEO tool
+        env:
+          DRY_RUN: ${{ inputs.dry_run }}
+          UPDATE_CHANNEL: ${{ inputs.update_channel }}
+          LANG_NAME: ${{ inputs.lang_name }}
+          LANG_FOLDER: ${{ inputs.lang_folder }}
+          FLAG: ${{ inputs.flag }}
+        run: python seo_playlists.py
