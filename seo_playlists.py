@@ -53,7 +53,7 @@ def _quota_wait(e, attempts):
     return False
 
 
-def _execute_with_retry(req, attempts=6):
+def _execute_with_retry(req, attempts=12):
     for i in range(attempts):
         try:
             return req.execute()
@@ -61,12 +61,12 @@ def _execute_with_retry(req, attempts=6):
             msg = str(e)
             # quota (403) OR propagation lag (404) OR transient - wait and retry
             if "quotaExceeded" in msg or "403" in msg or "Quota" in msg:
-                wait = min(60, 5 * (2 ** i))
+                wait = min(90, 5 * (2 ** min(i, 4)))
                 print(f"  [retry] quota exceeded, waiting {wait}s...")
                 time.sleep(wait)
                 continue
             if "404" in msg:
-                wait = 3 + i * 2
+                wait = min(90, 5 + i * 5)
                 print(f"  [retry] not found (propagation lag?), waiting {wait}s...")
                 time.sleep(wait)
                 continue
@@ -142,12 +142,17 @@ def get_playlist_video_ids(youtube, playlist_id):
 
 
 def add_video(youtube, playlist_id, video_id):
-    _execute_with_retry(youtube.playlistItems().insert(
-        part="snippet",
-        body={"snippet": {"playlistId": playlist_id,
-                          "resourceId": {"kind": "youtube#video", "videoId": video_id}}}
-    ))
-    print(f"  [added] {video_id}")
+    try:
+        _execute_with_retry(youtube.playlistItems().insert(
+            part="snippet",
+            body={"snippet": {"playlistId": playlist_id,
+                              "resourceId": {"kind": "youtube#video", "videoId": video_id}}}
+        ))
+        print(f"  [added] {video_id}")
+        return True
+    except Exception as e:
+        print(f"  [FAIL] {video_id}: {e}")
+        return False
 
 
 def update_channel_seo(youtube):
@@ -196,11 +201,14 @@ def main():
     print(f"  total uploads: {len(all_vids)}, in playlist: {len(in_playlist)}, missing: {len(missing)}")
     if not dry:
         added = 0
+        failed = 0
         for v in missing:
-            add_video(youtube, playlist_id, v)
-            added += 1
+            if add_video(youtube, playlist_id, v):
+                added += 1
+            else:
+                failed += 1
             time.sleep(0.5)
-        print(f"  added {added} videos to playlist")
+        print(f"  added {added} videos to playlist ({failed} failed)")
     else:
         print(f"  (dry run) would add {len(missing)} videos")
 
