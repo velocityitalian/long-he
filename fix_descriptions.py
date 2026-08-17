@@ -41,7 +41,7 @@ def reformat_description(desc):
         text = re.sub(r"\s+(?=" + re.escape(marker) + ")", "\n\n", text)
 
     # 2) Newline after the flag header: "<flag> Learn <Lang> with Velocity <Lang>! <flag>"
-    text = re.sub(r"(! 🇦🇨) ", lambda m: m.group(1) + "\n", text)
+    text = re.sub(r"(! [🇦-🇿]{2}) ", lambda m: m.group(1) + "\n", text)
     # Generic: newline right before "In this video, you'll learn"
     text = re.sub(r" (In this video, you'll learn)", "\n\n\\1", text)
 
@@ -53,8 +53,8 @@ def reformat_description(desc):
 
     # 5) Newline before flag emoji lines and phonetic (🔤) lines inside phrases
     #    Only when the flag follows an English phrase (ends in a letter/period),
-    #    NOT the header flag at the start.
-    text = re.sub(r"(?<=[a-zA-Z.,])\s+(?=🇯🇵|🇫🇷|🇷🇺|🇩🇪|🇮🇱|🇻🇳)", "\n    ", text)
+    #    NOT the header flag at the start. Any regional-indicator flag pair works.
+    text = re.sub(r"(?<=[a-zA-Z.,])\s+(?=[🇦-🇿]{2})", "\n    ", text)
     text = re.sub(r" (?=🔤 )", "\n    ", text)
 
     # 6) Blank line before the hashtag line
