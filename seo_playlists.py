@@ -140,7 +140,7 @@ def add_video(youtube, playlist_id, video_id):
 
 
 def update_channel_seo(youtube):
-    """Update channel keywords and description for SEO."""
+    """Update channel keywords and description for SEO via brandingSettings."""
     try:
         ch = _execute_with_retry(youtube.channels().list(part="snippet,brandingSettings", mine=True))
         channel_id = ch["items"][0]["id"]
@@ -149,41 +149,25 @@ def update_channel_seo(youtube):
         channel_snip = branding.get("channel", {})
         new_desc = CHANNEL_DESCRIPTION or DEFAULT_CHANNEL_DESCRIPTION or channel_snip.get("description", "")
         title = snippet.get("title", "")
-        country = channel_snip.get("country", "")
-        default_tab = channel_snip.get("defaultTab", "")
 
-        # Update snippet (keywords live here) - separate call
-        _execute_with_retry(youtube.channels().update(
-            part="snippet",
-            body={
-                "id": channel_id,
-                "snippet": {
-                    "title": title,
-                    "description": new_desc,
-                    "keywords": CHANNEL_KEYWORDS,
-                }
-            }
-        ))
-        print(f"  [channel] snippet updated (keywords): {CHANNEL_KEYWORDS}")
-
-        # Update brandingSettings (description lives here) - separate call
+        # Keywords + description live in brandingSettings.channel - single call
         _execute_with_retry(youtube.channels().update(
             part="brandingSettings",
             body={
                 "id": channel_id,
                 "brandingSettings": {
                     "channel": {
+                        "title": title,
                         "description": new_desc,
                         "keywords": CHANNEL_KEYWORDS,
-                        "title": title,
-                        "country": country,
-                        "defaultTab": default_tab or "Videos",
+                        "country": channel_snip.get("country", ""),
+                        "defaultTab": channel_snip.get("defaultTab", "Videos"),
                         "showRelatedChannels": True,
                     }
                 }
             }
         ))
-        print(f"  [channel] branding updated (description): {new_desc[:60]}")
+        print(f"  [channel] branding updated: keywords={CHANNEL_KEYWORDS[:50]}... desc={new_desc[:40]}...")
     except Exception as e:
         print(f"  [channel] update failed: {e}")
 
