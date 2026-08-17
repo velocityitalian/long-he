@@ -102,9 +102,28 @@ def list_uploads(youtube):
     return videos
 
 
+def _quota_wait(e, attempts):
+    """If quota exceeded (403), wait and return True; else False."""
+    msg = str(e)
+    if "quotaExceeded" in msg or "403" in msg or "Quota" in msg:
+        wait = min(60, 5 * (2 ** attempts))
+        print(f"  [quota] quota exceeded, waiting {wait}s...")
+        time.sleep(wait)
+        return True
+    return False
+
+
 def fix_video(youtube, video_id, dry_run=False):
-    v = youtube.videos().list(part="snippet", id=video_id).execute()
-    if not v.get("items"):
+    v = None
+    for attempt in range(6):
+        try:
+            v = youtube.videos().list(part="snippet", id=video_id).execute()
+            break
+        except Exception as e:
+            if not _quota_wait(e, attempt):
+                print(f"  [ERROR] {video_id} list: {e}")
+                return False
+    if not v or not v.get("items"):
         print(f"  [skip] {video_id} not found")
         return False
     snippet = v["items"][0]["snippet"]
@@ -117,25 +136,29 @@ def fix_video(youtube, video_id, dry_run=False):
     if dry_run:
         print(f"  [DRY] {video_id} - would update ({title[:40]})")
         return True
-    try:
-        youtube.videos().update(
-            part="snippet,status",
-            body={
-                "id": video_id,
-                "snippet": {
-                    "title": title,
-                    "description": new_desc,
-                    "tags": snippet.get("tags", []),
-                    "categoryId": snippet.get("categoryId", "27"),
-                },
-                "status": v["items"][0].get("status", {"privacyStatus": "public"}),
-            }
-        ).execute()
-        print(f"  [UPDATED] {video_id} - {title[:40]} (desc {len(desc)}->{len(new_desc)})")
-        return True
-    except Exception as e:
-        print(f"  [ERROR] {video_id}: {e}")
-        return False
+    for attempt in range(6):
+        try:
+            youtube.videos().update(
+                part="snippet,status",
+                body={
+                    "id": video_id,
+                    "snippet": {
+                        "title": title,
+                        "description": new_desc,
+                        "tags": snippet.get("tags", []),
+                        "categoryId": snippet.get("categoryId", "27"),
+                    },
+                    "status": v["items"][0].get("status", {"privacyStatus": "public"}),
+                }
+            ).execute()
+            print(f"  [UPDATED] {video_id} - {title[:40]} (desc {len(desc)}->{len(new_desc)})")
+            return True
+        except Exception as e:
+            if not _quota_wait(e, attempt):
+                print(f"  [ERROR] {video_id}: {e}")
+                return False
+    print(f"  [ERROR] {video_id}: still failing after retries")
+    return False
 
 
 def main():
