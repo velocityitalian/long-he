@@ -40,7 +40,7 @@ def compress_thumbnail(img_path, max_size=2097152):
 
 
 
-def ensure_playlist(youtube, title="Velocity Hebrew - Hebrew Phrases", description="All Hebrew phrases videos in one playlist. Learn Hebrew with Velocity Hebrew!"):
+def ensure_playlist(youtube, title="Learn Hebrew Phrases for Beginners | Velocity Hebrew", description="All Hebrew phrases videos in one playlist. Learn Hebrew with Velocity Hebrew!"):
     """Find an existing playlist by title or create a new one. Returns playlist_id."""
     try:
         req = youtube.playlists().list(part="snippet", mine=True, maxResults=50)
