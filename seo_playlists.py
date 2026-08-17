@@ -58,8 +58,19 @@ def _execute_with_retry(req, attempts=6):
         try:
             return req.execute()
         except Exception as e:
-            if not _quota_wait(e, i):
-                raise
+            msg = str(e)
+            # quota (403) OR propagation lag (404) OR transient - wait and retry
+            if "quotaExceeded" in msg or "403" in msg or "Quota" in msg:
+                wait = min(60, 5 * (2 ** i))
+                print(f"  [retry] quota exceeded, waiting {wait}s...")
+                time.sleep(wait)
+                continue
+            if "404" in msg:
+                wait = 3 + i * 2
+                print(f"  [retry] not found (propagation lag?), waiting {wait}s...")
+                time.sleep(wait)
+                continue
+            raise
     raise RuntimeError("retries exhausted")
 
 
