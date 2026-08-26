@@ -21971,7 +21971,259 @@
       "hebrew": "שלווה פנימית, היא המטרה.",
       "category": "Happiness",
       "generated_at": "2026-08-25T02:13:59.282860"
+    },
+    {
+      "english": "You got this, believe it.",
+      "hebrew": "את/ה יכול/ה, תאמין/י.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397445"
+    },
+    {
+      "english": "Almost there, don't give up.",
+      "hebrew": "כמעט שם, אל תוותר/י.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397457"
+    },
+    {
+      "english": "Focus forward, not back.",
+      "hebrew": "תתמקד/י קדימה, לא אחורה.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397459"
+    },
+    {
+      "english": "This is progress, celebrate it.",
+      "hebrew": "זה התקדמות, תחגוג/י.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397460"
+    },
+    {
+      "english": "Your effort pays off, soon.",
+      "hebrew": "המאמץ שלך משתלם, בקרוב.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397462"
+    },
+    {
+      "english": "You're doing great, keep it up.",
+      "hebrew": "את/ה עושה מצוין, תמשיך/י כך.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397463"
+    },
+    {
+      "english": "Almost at the finish line.",
+      "hebrew": "כמעט לקו הסיום.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397464"
+    },
+    {
+      "english": "Don't doubt yourself, push.",
+      "hebrew": "אל תטיל/י ספק, דחוף.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397468"
+    },
+    {
+      "english": "Success is built, day by day.",
+      "hebrew": "הצלחה נבנית, יום אחר יום.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397469"
+    },
+    {
+      "english": "You're closer, than you realize.",
+      "hebrew": "את/ה קרוב/ה, יותר משנדמה לך.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397471"
+    },
+    {
+      "english": "Keep learning, keep growing.",
+      "hebrew": "תמשיך/י ללמוד, תמשיך/י לגדול.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397472"
+    },
+    {
+      "english": "Your hard work, will pay off.",
+      "hebrew": "העבודה הקשה שלך, תשתלם.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397473"
+    },
+    {
+      "english": "Almost there, keep pushing.",
+      "hebrew": "כמעט שם, תמשיך/י לדחוף.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397474"
+    },
+    {
+      "english": "This is a big step, forward.",
+      "hebrew": "זה צעד גדול, קדימה.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397475"
+    },
+    {
+      "english": "Stay focused, on your goal.",
+      "hebrew": "הישאר/י ממוקד/ת, במטרה.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397476"
+    },
+    {
+      "english": "You're making great strides.",
+      "hebrew": "את/ה עושה התקדמות מרשימה.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397478"
+    },
+    {
+      "english": "Don't look back, keep moving.",
+      "hebrew": "אל תסתכל/י אחורה, תמשיך/י לזוז.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397478"
+    },
+    {
+      "english": "Almost time, to shine.",
+      "hebrew": "כמעט הזמן, לזרוח.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397480"
+    },
+    {
+      "english": "You're on the right path.",
+      "hebrew": "את/ה בדרך הנכונה.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397480"
+    },
+    {
+      "english": "Keep up the amazing work.",
+      "hebrew": "תמשיך/י בעבודה המדהימה.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397481"
+    },
+    {
+      "english": "Just a little more, you can do it.",
+      "hebrew": "רק עוד קצת, את/ה יכול/ה.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397482"
+    },
+    {
+      "english": "This is your moment, seize it.",
+      "hebrew": "זה הרגע שלך, תתפוס/י אותו.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397483"
+    },
+    {
+      "english": "You're getting closer, keep aiming.",
+      "hebrew": "את/ה מתקרב/ת, תמשיך/י לכוון.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397484"
+    },
+    {
+      "english": "Don't stop believing, in yourself.",
+      "hebrew": "אל תפסיק/י להאמין, בעצמך.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397485"
+    },
+    {
+      "english": "The journey is rewarding.",
+      "hebrew": "המסע מתגמל.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397486"
+    },
+    {
+      "english": "You're almost there, keep pushing.",
+      "hebrew": "כמעט שם, תמשיך/י לדחוף.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397487"
+    },
+    {
+      "english": "You're doing so well, keep it up.",
+      "hebrew": "את/ה מסתדר/ת כל כך טוב, המשך/י כך.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397488"
+    },
+    {
+      "english": "Victory is within reach.",
+      "hebrew": "הניצחון קרוב.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397489"
+    },
+    {
+      "english": "Keep pushing your limits.",
+      "hebrew": "תמשיך/י לדחוף את הגבולות שלך.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397490"
+    },
+    {
+      "english": "This is the moment, to break through.",
+      "hebrew": "זה הרגע, לפרוץ.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397491"
+    },
+    {
+      "english": "You've come so far, don't stop.",
+      "hebrew": "הגעת כל כך רחוק, אל תעצור/י.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397492"
+    },
+    {
+      "english": "You are capable, of achieving this.",
+      "hebrew": "את/ה מסוגל/ת, להשיג את זה.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397493"
+    },
+    {
+      "english": "You're doing great, keep going!",
+      "hebrew": "את/ה מצליח/ה, המשיכ/י!",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397520"
+    },
+    {
+      "english": "Practice makes perfect, almost.",
+      "hebrew": "תרגול עושה מושלם, כמעט.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397521"
+    },
+    {
+      "english": "You've got this, really.",
+      "hebrew": "יש לך את זה, באמת.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397522"
+    },
+    {
+      "english": "Every effort counts, always.",
+      "hebrew": "כל מאמץ נחשב, תמיד.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397523"
+    },
+    {
+      "english": "Soon it will be easy.",
+      "hebrew": "עוד מעט זה יהיה קל.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397524"
+    },
+    {
+      "english": "You understand more, each day.",
+      "hebrew": "את/ה מבין/ה יותר, כל יום.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397525"
+    },
+    {
+      "english": "Keep speaking, it helps.",
+      "hebrew": "תמשיך/י לדבר, זה עוזר.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397526"
+    },
+    {
+      "english": "Your Hebrew is growing, fast.",
+      "hebrew": "העברית שלך צומחת, מהר.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397527"
+    },
+    {
+      "english": "Good job, you're learning well.",
+      "hebrew": "כל הכבוד, לומד/ת יפה.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397528"
+    },
+    {
+      "english": "Don't be afraid, to try.",
+      "hebrew": "אל תפחד/י, לנסות.",
+      "category": "Success",
+      "generated_at": "2026-08-26T02:20:36.397529"
     }
   ],
-  "last_updated": "2026-08-25T02:13:59.282862"
+  "last_updated": "2026-08-26T02:20:36.397531"
 }
