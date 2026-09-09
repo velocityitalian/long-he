@@ -24911,7 +24911,247 @@
       "hebrew": "אמץ את האתגר, תהנה מהלמידה.",
       "category": "Inspiration",
       "generated_at": "2026-09-07T05:29:14.108955"
+    },
+    {
+      "english": "Don't say 'good', say 'fine'.",
+      "hebrew": "אל תגיד 'טוב', תגיד 'בסדר'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307300"
+    },
+    {
+      "english": "Not 'big', but 'large'.",
+      "hebrew": "לא 'גדול', אלא 'רחב'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307311"
+    },
+    {
+      "english": "It's not 'want', it's 'need'.",
+      "hebrew": "זה לא 'רוצה', זה 'צריך'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307313"
+    },
+    {
+      "english": "Say 'later', not 'tomorrow'.",
+      "hebrew": "תגיד 'אחר כך', לא 'מחר'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307315"
+    },
+    {
+      "english": "He's not 'smart', he's 'clever'.",
+      "hebrew": "הוא לא 'חכם', הוא 'פיקח'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307317"
+    },
+    {
+      "english": "Don't say 'give', say 'offer'.",
+      "hebrew": "אל תגיד 'תן', תגיד 'הצע'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307318"
+    },
+    {
+      "english": "It's not 'easy', it's 'simple'.",
+      "hebrew": "זה לא 'קל', זה 'פשוט'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307320"
+    },
+    {
+      "english": "She said 'maybe', not 'yes'.",
+      "hebrew": "היא אמרה 'אולי', לא 'כן'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307324"
+    },
+    {
+      "english": "Don't say 'bad', say 'poor'.",
+      "hebrew": "אל תגיד 'רע', תגיד 'עני'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307326"
+    },
+    {
+      "english": "It's not 'here', it's 'around'.",
+      "hebrew": "זה לא 'כאן', זה 'בסביבה'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307328"
+    },
+    {
+      "english": "He wants 'more', not 'much'.",
+      "hebrew": "הוא רוצה 'יותר', לא 'הרבה'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307329"
+    },
+    {
+      "english": "Say 'please', not 'now'.",
+      "hebrew": "תגיד 'בבקשה', לא 'עכשיו'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307331"
+    },
+    {
+      "english": "It's not 'cold', it's 'chilly'.",
+      "hebrew": "זה לא 'קר', זה 'מצמרר'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307332"
+    },
+    {
+      "english": "She feels 'tired', not 'worn'.",
+      "hebrew": "היא מרגישה 'עייפה', לא 'שחוקה'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307333"
+    },
+    {
+      "english": "Don't say 'fast', say 'quick'.",
+      "hebrew": "אל תגיד 'מהר', תגיד 'זריז'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307335"
+    },
+    {
+      "english": "It's not 'sad', it's 'unhappy'.",
+      "hebrew": "זה לא 'עצוב', זה 'לא שמח'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307336"
+    },
+    {
+      "english": "He asked 'why', not 'what'.",
+      "hebrew": "הוא שאל 'למה', לא 'מה'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307338"
+    },
+    {
+      "english": "Say 'sorry', not 'excuse'.",
+      "hebrew": "תגיד 'סליחה', לא 'תירוץ'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307339"
+    },
+    {
+      "english": "It's not 'new', it's 'recent'.",
+      "hebrew": "זה לא 'חדש', זה 'לאחרונה'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307340"
+    },
+    {
+      "english": "She has 'plans', not 'ideas'.",
+      "hebrew": "יש לה 'תוכניות', לא 'רעיונות'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307342"
+    },
+    {
+      "english": "Don't say 'love', say 'like'.",
+      "hebrew": "אל תגיד 'אהבה', תגיד 'חיבה'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307343"
+    },
+    {
+      "english": "It's not 'work', it's 'job'.",
+      "hebrew": "זה לא 'עבודה', זה 'מקצוע'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307344"
+    },
+    {
+      "english": "He wants 'peace', not 'quiet'.",
+      "hebrew": "הוא רוצה 'שקט', לא 'דממה'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307345"
+    },
+    {
+      "english": "Say 'please wait', not 'hold'.",
+      "hebrew": "תגיד 'אנא המתן', לא 'החזק'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307346"
+    },
+    {
+      "english": "It's not 'home', it's 'house'.",
+      "hebrew": "זה לא 'בית', זה 'מבנה'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307348"
+    },
+    {
+      "english": "She feels 'good', not 'well'.",
+      "hebrew": "היא מרגישה 'טוב', לא 'בבריאות'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307349"
+    },
+    {
+      "english": "Don't say 'stop', say 'pause'.",
+      "hebrew": "אל תגיד 'עצור', תגיד 'הפסק'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307350"
+    },
+    {
+      "english": "It's not 'help', it's 'aid'.",
+      "hebrew": "זה לא 'עזרה', זה 'סיוע'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307351"
+    },
+    {
+      "english": "He has 'time', not 'moment'.",
+      "hebrew": "יש לו 'זמן', לא 'רגע'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307352"
+    },
+    {
+      "english": "Say 'thank you', not 'thanks'.",
+      "hebrew": "תגיד 'תודה רבה', לא 'תודה'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307354"
+    },
+    {
+      "english": "It's not 'open', it's 'free'.",
+      "hebrew": "זה לא 'פתוח', זה 'חופשי'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307355"
+    },
+    {
+      "english": "She needs 'support', not 'help'.",
+      "hebrew": "היא צריכה 'תמיכה', לא 'עזרה'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307357"
+    },
+    {
+      "english": "Don't say 'end', say 'finish'.",
+      "hebrew": "אל תגיד 'סוף', תגיד 'גמר'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307358"
+    },
+    {
+      "english": "It's not 'close', it's 'near'.",
+      "hebrew": "זה לא 'קרוב', זה 'בסמוך'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307359"
+    },
+    {
+      "english": "He thinks 'differently', not 'strange'.",
+      "hebrew": "הוא חושב 'אחרת', לא 'מוזר'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307360"
+    },
+    {
+      "english": "Say 'excuse me', not 'sorry'.",
+      "hebrew": "תגיד 'סלח לי', לא 'מצטער'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307362"
+    },
+    {
+      "english": "It's not 'right', it's 'correct'.",
+      "hebrew": "זה לא 'נכון', זה 'צודק'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307363"
+    },
+    {
+      "english": "She wants 'attention', not 'focus'.",
+      "hebrew": "היא רוצה 'תשומת לב', לא 'ריכוז'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307364"
+    },
+    {
+      "english": "Don't say 'always', say 'often'.",
+      "hebrew": "אל תגיד 'תמיד', תגיד 'לעתים קרובות'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307365"
+    },
+    {
+      "english": "It's not 'dark', it's 'dim'.",
+      "hebrew": "זה לא 'חשוך', זה 'עמום'.",
+      "category": "Balance",
+      "generated_at": "2026-09-09T05:34:58.307367"
     }
   ],
-  "last_updated": "2026-09-07T05:29:14.108979"
+  "last_updated": "2026-09-09T05:34:58.307398"
 }
