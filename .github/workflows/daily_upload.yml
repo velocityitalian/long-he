@@ -56,6 +56,8 @@ jobs:
           echo "YT_CLIENT_ID=${{ secrets.YT_CLIENT_ID }}" >> .env
           echo "YT_CLIENT_SECRET=${{ secrets.YT_CLIENT_SECRET }}" >> .env
           echo "YT_REFRESH_TOKEN=${{ secrets.YT_REFRESH_TOKEN }}" >> .env
+          echo "FACEBOOK_ACCESS_TOKEN=${{ secrets.FACEBOOK_ACCESS_TOKEN }}" >> .env
+          echo "FACEBOOK_PAGE_ID=${{ secrets.FACEBOOK_PAGE_ID }}" >> .env
 
       - name: 🎬 Generate video
         run: python youtube_longform_automation.py
@@ -69,6 +71,20 @@ jobs:
           export PYTHONPATH="${{ github.workspace }}:$PYTHONPATH"
           python upload_to_youtube.py
 
+      - name: 📘 Upload to Facebook Page
+        id: facebook-upload
+        continue-on-error: true
+        env:
+          FACEBOOK_ACCESS_TOKEN: ${{ secrets.FACEBOOK_ACCESS_TOKEN }}
+          FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
+        run: |
+          export PYTHONPATH="${{ github.workspace }}:${{ github.workspace }}/upload:$PYTHONPATH"
+          if [ -f "upload_to_facebook.py" ]; then
+            python upload_to_facebook.py
+          elif [ -f "upload/upload_facebook.py" ]; then
+            cd upload && python upload_facebook.py
+          fi
+
       - name: 📤 Upload artifact
         uses: actions/upload-artifact@v4
         with:
@@ -76,6 +92,7 @@ jobs:
           path: |
             output/longform_videos/*/final_video.mp4
             output/longform_videos/*/thumbnail.jpg
+            output/longform_videos/*/facebook_upload_result.json
             output/longform_videos/*/video_metadata.json
           retention-days: 7
 
