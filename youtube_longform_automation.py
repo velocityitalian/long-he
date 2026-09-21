@@ -78,7 +78,7 @@ CATEGORIES_HEBREW = {
 }
 
 # Edge TTS voices
-ENGLISH_VOICE = "en-US-AndrewNeural"
+ENGLISH_VOICE = "en-US-GuyNeural"
 HEBREW_VOICE = "he-IL-HilaNeural"
 
 # Phrase history file (NEVER delete this!)
