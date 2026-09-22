@@ -27437,7 +27437,235 @@
       "hebrew": "גדל דרך הנתינה, למד יותר.",
       "category": "Growth",
       "generated_at": "2026-09-21T05:41:34.871186"
+    },
+    {
+      "english": "Listen deeply, understand better.",
+      "hebrew": "קשב עמוק, הבנה טובה יותר.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797495"
+    },
+    {
+      "english": "Silence speaks, volumes.",
+      "hebrew": "שקט מדבר, בקול רם.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797508"
+    },
+    {
+      "english": "Truth lights, the way.",
+      "hebrew": "אמת מאירה, את הדרך.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797510"
+    },
+    {
+      "english": "Patience unlocks, doors.",
+      "hebrew": "סבלנות פותחת, דלתות.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797512"
+    },
+    {
+      "english": "Courage, is a spark.",
+      "hebrew": "אומץ, הוא ניצוץ.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797514"
+    },
+    {
+      "english": "Action proves, intention.",
+      "hebrew": "מעשה מוכיח, כוונה.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797516"
+    },
+    {
+      "english": "Forgiveness heals, wounds.",
+      "hebrew": "סליחה מרפאת, פצעים.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797517"
+    },
+    {
+      "english": "Gratitude is, abundant.",
+      "hebrew": "הכרת תודה, שופעת.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797521"
+    },
+    {
+      "english": "Joy is, contagious.",
+      "hebrew": "שמחה, מדבקת.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797524"
+    },
+    {
+      "english": "Humility serves, everyone.",
+      "hebrew": "ענווה משרתת, את כולם.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797525"
+    },
+    {
+      "english": "Integrity shines, brightly.",
+      "hebrew": "יושרה זוהרת, באור.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797527"
+    },
+    {
+      "english": "Empathy connects, us.",
+      "hebrew": "אמפתיה מחברת, בינינו.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797528"
+    },
+    {
+      "english": "Honesty builds, trust.",
+      "hebrew": "כנות בונה, אמון.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797530"
+    },
+    {
+      "english": "Generosity overflows, freely.",
+      "hebrew": "נדיבות גולשת, בחופשיות.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797531"
+    },
+    {
+      "english": "Perseverance wins, battles.",
+      "hebrew": "התמדה מנצחת, מלחמות.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797532"
+    },
+    {
+      "english": "Creativity sparks, ideas.",
+      "hebrew": "יצירתיות מציתה, רעיונות.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797534"
+    },
+    {
+      "english": "Discipline creates, freedom.",
+      "hebrew": "משמעת יוצרת, חופש.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797535"
+    },
+    {
+      "english": "Focus sharpens, vision.",
+      "hebrew": "ריכוז מחדד, את החזון.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797536"
+    },
+    {
+      "english": "Reflection reveals, lessons.",
+      "hebrew": "הרהור חושף, שיעורים.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797537"
+    },
+    {
+      "english": "Connection matters, always.",
+      "hebrew": "קשר משנה, תמיד.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797538"
+    },
+    {
+      "english": "Perspective shifts, reality.",
+      "hebrew": "פרספקטיבה משנה, את המציאות.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797540"
+    },
+    {
+      "english": "Vulnerability is, strength.",
+      "hebrew": "פגיעות היא, עוצמה.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797541"
+    },
+    {
+      "english": "Authenticity shines, through.",
+      "hebrew": "אותנטיות זוהרת, דרך.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797542"
+    },
+    {
+      "english": "Simplicity enriches, life.",
+      "hebrew": "פשטות מעשירה, את החיים.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797543"
+    },
+    {
+      "english": "Openness invites, change.",
+      "hebrew": "פתיחות מזמינה, שינוי.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797544"
+    },
+    {
+      "english": "Action is, the bridge.",
+      "hebrew": "פעולה היא, הגשר.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797546"
+    },
+    {
+      "english": "Harmony creates, peace.",
+      "hebrew": "הרמוניה יוצרת, שלום.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797547"
+    },
+    {
+      "english": "Curiosity explores, worlds.",
+      "hebrew": "סקרנות חוקרת, עולמות.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797548"
+    },
+    {
+      "english": "Belief fuels, action.",
+      "hebrew": "אמונה מניעה, פעולה.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797549"
+    },
+    {
+      "english": "Love conquers, all.",
+      "hebrew": "אהבה מנצחת, הכל.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797550"
+    },
+    {
+      "english": "Reflection breeds, wisdom.",
+      "hebrew": "הרהור מוליד, חוכמה.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797551"
+    },
+    {
+      "english": "Purpose guides, the soul.",
+      "hebrew": "תכלית מנחה, את הנפש.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797553"
+    },
+    {
+      "english": "Solitude renews, the spirit.",
+      "hebrew": "לבד מחדש, את הרוח.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797554"
+    },
+    {
+      "english": "Resilience builds, character.",
+      "hebrew": "חוסן בונה, אופי.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797555"
+    },
+    {
+      "english": "Understanding opens, minds.",
+      "hebrew": "הבנה פותחת, מוחות.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797556"
+    },
+    {
+      "english": "Growth comes, from within.",
+      "hebrew": "צמיחה באה, מבפנים.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797557"
+    },
+    {
+      "english": "Silence offers, clarity.",
+      "hebrew": "שקט מציע, בהירות.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797558"
+    },
+    {
+      "english": "Listen, then speak.",
+      "hebrew": "הקשב, ואז דבר.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-22T05:40:10.797559"
     }
   ],
-  "last_updated": "2026-09-21T05:41:34.871215"
+  "last_updated": "2026-09-22T05:40:10.797590"
 }
