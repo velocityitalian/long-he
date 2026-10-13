@@ -537,6 +537,22 @@ def get_fresh_fallback_phrases(category: str, num_phrases: int) -> list:
 
 # ============== AUDIO GENERATION ==============
 
+def configure_edge_tts():
+    """Ensure edge_tts connects to Microsoft's active endpoint to avoid 403 on cloud runners."""
+    try:
+        import edge_tts.constants
+        import edge_tts.communicate
+        token = getattr(edge_tts.constants, "TRUSTED_CLIENT_TOKEN", "6A5AA1D4EAFF4E9FB37E23D68491D6F4")
+        new_url = (
+            "wss://api.msedgeservices.com/tts/cognitiveservices/websocket/v1"
+            f"?Ocp-Apim-Subscription-Key={token}"
+        )
+        edge_tts.constants.WSS_URL = new_url
+        edge_tts.communicate.WSS_URL = new_url
+    except Exception as e:
+        pass
+
+
 def generate_google_tts(text: str, voice_or_lang: str, output_path: str) -> bool:
     """Fallback TTS using Google Translate TTS if Edge TTS fails."""
     import urllib.request
@@ -583,7 +599,8 @@ def generate_google_tts(text: str, voice_or_lang: str, output_path: str) -> bool
 
 
 async def generate_single_audio(text: str, voice: str, output_path: str, retries: int = 2):
-    """Generate audio using Edge TTS with automatic Google TTS fallback"""
+    """Generate audio using Edge TTS Neural voice with automatic Google TTS fallback"""
+    configure_edge_tts()
     import edge_tts
     for attempt in range(retries):
         try:
@@ -594,6 +611,8 @@ async def generate_single_audio(text: str, voice: str, output_path: str, retries
         except Exception as e:
             if attempt == retries - 1:
                 print(f"  Edge TTS notice ({e}), switching to Google TTS fallback...")
+            else:
+                await asyncio.sleep(0.5)
 
     # Fallback to Google TTS
     if generate_google_tts(text, voice, output_path):
