@@ -42,7 +42,43 @@ def mask_secret(s: str) -> str:
 
 def get_latest_video():
     """Find the most recently generated long-form video directory and files."""
+    import re
     base_dir = Path(__file__).resolve().parent
+    search_roots = [base_dir, base_dir.parent, Path.cwd()]
+
+    # 1. Check output/latest_video.json first
+    for root in search_roots:
+        meta_json = root / "output" / "latest_video.json"
+        if meta_json.exists():
+            try:
+                with open(meta_json, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                v_str = data.get("video_path") or data.get("video")
+                if v_str:
+                    v_path = Path(v_str)
+                    if not v_path.is_absolute():
+                        v_path = root / v_path
+                    if v_path.exists():
+                        t_str = data.get("thumbnail_path") or data.get("thumbnail")
+                        t_path = Path(t_str) if t_str else None
+                        if t_path and not t_path.is_absolute():
+                            t_path = root / t_path
+                        info_candidate = v_path.parent / "youtube_upload_info.txt"
+                        safe_print(f"[Facebook] Found video via latest_video.json: {v_path.name}")
+                        return {
+                            "dir": v_path.parent,
+                            "video": v_path,
+                            "thumbnail": t_path if t_path and t_path.exists() else None,
+                            "metadata": meta_json,
+                            "info": info_candidate if info_candidate.exists() else None,
+                            "direct_title": data.get("title") or data.get("selected_title"),
+                            "direct_description": data.get("description"),
+                            "category": data.get("category_english")
+                        }
+            except Exception as e:
+                safe_print(f"[Facebook] Notice reading latest_video.json: {e}")
+
+    # 2. Check output/longform_videos directories
     candidates = [
         base_dir / "output" / "longform_videos",
         base_dir.parent / "output" / "longform_videos",
@@ -96,32 +132,76 @@ def get_latest_video():
 
 
 def parse_video_metadata(video_info: dict):
-    """Extract clean title and description from metadata or info file."""
-    title = "Language Learning Video"
+    """Extract clean title and description from metadata or info file with guaranteed rich fallbacks."""
+    import re
+    title = ""
     description = ""
+    category = video_info.get("category", "")
 
-    if video_info.get("metadata") and video_info["metadata"].exists():
+    # 1. Direct metadata from latest_video.json
+    if video_info.get("direct_title"):
+        title = video_info["direct_title"].strip()
+    if video_info.get("direct_description"):
+        description = video_info["direct_description"].strip()
+
+    # 2. Check video_metadata.json
+    if (not title or not description) and video_info.get("metadata") and Path(video_info["metadata"]).exists():
         try:
             with open(video_info["metadata"], "r", encoding="utf-8") as f:
                 meta = json.load(f)
-                title = meta.get("selected_title", title)
-                description = meta.get("description", "")
+                if not title:
+                    title = meta.get("selected_title") or meta.get("title") or ""
+                if not description:
+                    description = meta.get("description", "")
+                if not category:
+                    category = meta.get("category_english") or meta.get("category") or ""
         except Exception as e:
             safe_print(f"[Facebook] Notice: Could not read video_metadata.json: {e}")
 
-    if not description and video_info.get("info") and video_info["info"].exists():
+    # 3. Check youtube_upload_info.txt using regex
+    if (not title or not description) and video_info.get("info") and Path(video_info["info"]).exists():
         try:
             with open(video_info["info"], "r", encoding="utf-8") as f:
                 content = f.read()
-                if "SELECTED TITLE" in content:
-                    title_part = content.split("SELECTED TITLE")[1].split("---")[1].strip()
-                    title = title_part.splitlines()[0].strip()
-                if "VIDEO DESCRIPTION:" in content:
-                    description = content.split("VIDEO DESCRIPTION:")[1].split("---")[1].strip()
+
+            if not title:
+                m_title = re.search(r"SELECTED TITLE[^\n]*\n[-=\s]+(.+?)(?:\n\s*[-=]{10,}|\Z)", content, re.DOTALL)
+                if m_title:
+                    cand = m_title.group(1).strip().splitlines()[0].strip()
+                    if cand:
+                        title = cand
+
+            if not description:
+                m_desc = re.search(r"VIDEO DESCRIPTION:[^\n]*\n[-=\s]+(.+?)(?:\n\s*={10,}|\Z)", content, re.DOTALL)
+                if m_desc:
+                    description = m_desc.group(1).strip()
         except Exception as e:
             safe_print(f"[Facebook] Notice: Could not read youtube_upload_info.txt: {e}")
 
-    # Trim description if exceeds limit
+    # 4. Fallback title if still missing or default
+    if not title or title.strip() == "Language Learning Video":
+        if category:
+            title = f"Daily Lesson: {category} | Essential Phrases"
+        else:
+            title = "Master Essential Everyday Phrases | Daily Language Practice"
+
+    # 5. Rich fallback description if missing or empty
+    if not description or len(description.strip()) < 20:
+        cat_topic = category or "Daily Conversation"
+        description = (
+            f"🌟 {title}\n\n"
+            f"Expand your vocabulary and speak naturally! In this lesson, we practice essential phrases "
+            f"covering {cat_topic}.\n\n"
+            f"🎯 How to practice:\n"
+            f"1. Listen carefully to each phrase\n"
+            f"2. Repeat out loud during the pause\n"
+            f"3. Practice daily for the best retention\n\n"
+            f"🔔 Follow & Subscribe for daily vocabulary lessons!\n"
+            f"💬 Let us know what topic you want to learn next in the comments.\n\n"
+            f"#LanguageLearning #Vocabulary #DailyLesson #LearnLanguages #Phrases #SpeakNaturally"
+        )
+
+    # Trim description if exceeds Meta limit
     if len(description) > 5000:
         description = description[:4950] + "\n\n..."
 
@@ -154,7 +234,10 @@ def upload_to_facebook_page(video_path, title, description, thumbnail_path=None,
     safe_print(f"[Facebook] Page ID: {page_id}")
     safe_print(f"[Facebook] Token: {mask_secret(access_token)}")
     safe_print(f"[Facebook] Video: {video_path.name} ({file_size_mb:.2f} MB)")
-    safe_print(f"[Facebook] Title: {title[:70]}...")
+    safe_print(f"[Facebook] Title: {title}")
+    safe_print(f"[Facebook] Description length: {len(description)} chars")
+    desc_preview = description[:100].replace("\n", " ")
+    safe_print(f"[Facebook] Description preview: {desc_preview}...")
     if thumbnail_path and Path(thumbnail_path).exists():
         safe_print(f"[Facebook] Thumbnail: {Path(thumbnail_path).name}")
 
