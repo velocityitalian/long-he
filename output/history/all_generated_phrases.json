@@ -32315,7 +32315,727 @@
       "spanish": "מהבלוט הקטן, עץ אלון חזק.",
       "category": "Growth",
       "generated_at": "2026-10-13T07:14:24.609792"
+    },
+    {
+      "english": "Learn Hebrew, travel better.",
+      "spanish": "למדו עברית, טיילו טוב יותר.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777480"
+    },
+    {
+      "english": "Speak Hebrew, connect more.",
+      "spanish": "דברו עברית, התחברו יותר.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777490"
+    },
+    {
+      "english": "Ask for directions, easily.",
+      "spanish": "שאלו דרכים, בקלות.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777492"
+    },
+    {
+      "english": "Understand signs, navigate well.",
+      "spanish": "הבינו שלטים, נווטו טוב.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777493"
+    },
+    {
+      "english": "Read menus, with confidence.",
+      "spanish": "קראו תפריטים, בביטחון.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777495"
+    },
+    {
+      "english": "Make friends, speak their language.",
+      "spanish": "צרו חברים, דברו שפתם.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777496"
+    },
+    {
+      "english": "Impress locals, learn a phrase.",
+      "spanish": "הרשימו מקומיים, למדו משפט.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777497"
+    },
+    {
+      "english": "Haggling? Use Hebrew, win.",
+      "spanish": "מיקוח? השתמשו עברית, נצחו.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777514"
+    },
+    {
+      "english": "Culture shock, averted. Speak up.",
+      "spanish": "הלם תרבות, נמנע. דברו.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777516"
+    },
+    {
+      "english": "Ask for recommendations, locally.",
+      "spanish": "בקשו המלצות, מקומית.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777518"
+    },
+    {
+      "english": "Say 'thank you', be polite.",
+      "spanish": "אמרו 'תודה', היו מנומסים.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777519"
+    },
+    {
+      "english": "Learn common greetings, essential.",
+      "spanish": "למדו ברכות נפוצות, חיוני.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777521"
+    },
+    {
+      "english": "Order coffee, like a pro.",
+      "spanish": "הזמינו קפה, כמו מקצוען.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777522"
+    },
+    {
+      "english": "Ask for the bill, politely.",
+      "spanish": "בקשו חשבון, בנימוס.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777523"
+    },
+    {
+      "english": "Bargain prices, with a smile.",
+      "spanish": "התמקחו על מחירים, בחיוך.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777524"
+    },
+    {
+      "english": "Understand public transport, easily.",
+      "spanish": "הבינו תחבורה ציבורית, בקלות.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777525"
+    },
+    {
+      "english": "Ask for help, locals help.",
+      "spanish": "בקשו עזרה, מקומיים עוזרים.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777526"
+    },
+    {
+      "english": "Say 'please', show respect.",
+      "spanish": "אמרו 'בבקשה', הראו כבוד.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777527"
+    },
+    {
+      "english": "Learn numbers, for shopping.",
+      "spanish": "למדו מספרים, לקניות.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777528"
+    },
+    {
+      "english": "Ask for the time, on the go.",
+      "spanish": "שאלו מה השעה, תוך כדי.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777529"
+    },
+    {
+      "english": "Order water, stay hydrated.",
+      "spanish": "הזמינו מים, הישארו רוויים.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777530"
+    },
+    {
+      "english": "Say 'excuse me', when needed.",
+      "spanish": "אמרו 'סליחה', כשצריך.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777531"
+    },
+    {
+      "english": "Understand simple questions, respond.",
+      "spanish": "הבינו שאלות פשוטות, ענו.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777532"
+    },
+    {
+      "english": "Learn 'how much', for prices.",
+      "spanish": "למדו 'כמה עולה', למחירים.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777533"
+    },
+    {
+      "english": "Say 'hello', make a start.",
+      "spanish": "אמרו 'שלום', התחילו.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777534"
+    },
+    {
+      "english": "Learn 'goodbye', end politely.",
+      "spanish": "למדו 'להתראות', סיימו יפה.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777535"
+    },
+    {
+      "english": "Ask 'where is', find places.",
+      "spanish": "שאלו 'איפה', מצאו מקומות.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777536"
+    },
+    {
+      "english": "Understand 'yes' and 'no', crucial.",
+      "spanish": "הבינו 'כן' ו-'לא', חיוני.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777537"
+    },
+    {
+      "english": "Order drinks, easily done.",
+      "spanish": "הזמינו שתייה, קל לעשות.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777538"
+    },
+    {
+      "english": "Say 'delicious', compliment food.",
+      "spanish": "אמרו 'טעים', החמיאו לאוכל.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777539"
+    },
+    {
+      "english": "Ask for the check, calmly.",
+      "spanish": "בקשו את החשבון, בשלווה.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777540"
+    },
+    {
+      "english": "Learn basic phrases, for survival.",
+      "spanish": "למדו משפטים בסיסיים, להישרדות.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777541"
+    },
+    {
+      "english": "Ask for 'more', if you like.",
+      "spanish": "שאלו 'עוד', אם אתם אוהבים.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777542"
+    },
+    {
+      "english": "Say 'sorry', for minor things.",
+      "spanish": "אמרו 'מצטער', לדברים קטנים.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777543"
+    },
+    {
+      "english": "Understand 'open' and 'closed', for shops.",
+      "spanish": "הבינו 'פתוח' ו-'סגור', לחנויות.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777544"
+    },
+    {
+      "english": "Ask 'what is this?', be curious.",
+      "spanish": "שאלו 'מה זה?', היו סקרנים.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777545"
+    },
+    {
+      "english": "Learn 'I don't understand', helpful.",
+      "spanish": "למדו 'אני לא מבין', עוזר.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777547"
+    },
+    {
+      "english": "Say 'cheers', toast your friends.",
+      "spanish": "אמרו 'לחיים', הרימו כוס.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777548"
+    },
+    {
+      "english": "Ask 'can you repeat?', patiently.",
+      "spanish": "שאלו 'אתה יכול לחזור?', בסבלנות.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777549"
+    },
+    {
+      "english": "Learn 'where is the bathroom?', vital.",
+      "spanish": "למדו 'איפה השירותים?', חיוני.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777550"
+    },
+    {
+      "english": "Learn Hebrew, travel better.",
+      "spanish": "למדו עברית, טיילו טוב יותר.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777551"
+    },
+    {
+      "english": "Speak Hebrew, connect more.",
+      "spanish": "דברו עברית, התחברו יותר.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777552"
+    },
+    {
+      "english": "Ask for directions, easily.",
+      "spanish": "שאלו דרכים, בקלות.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777553"
+    },
+    {
+      "english": "Understand signs, navigate well.",
+      "spanish": "הבינו שלטים, נווטו טוב.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777554"
+    },
+    {
+      "english": "Read menus, with confidence.",
+      "spanish": "קראו תפריטים, בביטחון.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777556"
+    },
+    {
+      "english": "Make friends, speak their language.",
+      "spanish": "צרו חברים, דברו שפתם.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777557"
+    },
+    {
+      "english": "Impress locals, learn a phrase.",
+      "spanish": "הרשימו מקומיים, למדו משפט.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777558"
+    },
+    {
+      "english": "Haggling? Use Hebrew, win.",
+      "spanish": "מיקוח? השתמשו עברית, נצחו.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777559"
+    },
+    {
+      "english": "Culture shock, averted. Speak up.",
+      "spanish": "הלם תרבות, נמנע. דברו.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777560"
+    },
+    {
+      "english": "Ask for recommendations, locally.",
+      "spanish": "בקשו המלצות, מקומית.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777561"
+    },
+    {
+      "english": "Say 'thank you', be polite.",
+      "spanish": "אמרו 'תודה', היו מנומסים.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777563"
+    },
+    {
+      "english": "Learn common greetings, essential.",
+      "spanish": "למדו ברכות נפוצות, חיוני.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777564"
+    },
+    {
+      "english": "Order coffee, like a pro.",
+      "spanish": "הזמינו קפה, כמו מקצוען.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777565"
+    },
+    {
+      "english": "Ask for the bill, politely.",
+      "spanish": "בקשו חשבון, בנימוס.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777566"
+    },
+    {
+      "english": "Bargain prices, with a smile.",
+      "spanish": "התמקחו על מחירים, בחיוך.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777567"
+    },
+    {
+      "english": "Understand public transport, easily.",
+      "spanish": "הבינו תחבורה ציבורית, בקלות.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777568"
+    },
+    {
+      "english": "Ask for help, locals help.",
+      "spanish": "בקשו עזרה, מקומיים עוזרים.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777569"
+    },
+    {
+      "english": "Say 'please', show respect.",
+      "spanish": "אמרו 'בבקשה', הראו כבוד.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777570"
+    },
+    {
+      "english": "Learn numbers, for shopping.",
+      "spanish": "למדו מספרים, לקניות.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777571"
+    },
+    {
+      "english": "Ask for the time, on the go.",
+      "spanish": "שאלו מה השעה, תוך כדי.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777572"
+    },
+    {
+      "english": "Order water, stay hydrated.",
+      "spanish": "הזמינו מים, הישארו רוויים.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777573"
+    },
+    {
+      "english": "Say 'excuse me', when needed.",
+      "spanish": "אמרו 'סליחה', כשצריך.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777575"
+    },
+    {
+      "english": "Understand simple questions, respond.",
+      "spanish": "הבינו שאלות פשוטות, ענו.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777576"
+    },
+    {
+      "english": "Learn 'how much', for prices.",
+      "spanish": "למדו 'כמה עולה', למחירים.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777577"
+    },
+    {
+      "english": "Say 'hello', make a start.",
+      "spanish": "אמרו 'שלום', התחילו.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777578"
+    },
+    {
+      "english": "Learn 'goodbye', end politely.",
+      "spanish": "למדו 'להתראות', סיימו יפה.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777579"
+    },
+    {
+      "english": "Ask 'where is', find places.",
+      "spanish": "שאלו 'איפה', מצאו מקומות.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777580"
+    },
+    {
+      "english": "Understand 'yes' and 'no', crucial.",
+      "spanish": "הבינו 'כן' ו-'לא', חיוני.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777581"
+    },
+    {
+      "english": "Order drinks, easily done.",
+      "spanish": "הזמינו שתייה, קל לעשות.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777582"
+    },
+    {
+      "english": "Say 'delicious', compliment food.",
+      "spanish": "אמרו 'טעים', החמיאו לאוכל.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777583"
+    },
+    {
+      "english": "Ask for the check, calmly.",
+      "spanish": "בקשו את החשבון, בשלווה.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777585"
+    },
+    {
+      "english": "Learn basic phrases, for survival.",
+      "spanish": "למדו משפטים בסיסיים, להישרדות.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777586"
+    },
+    {
+      "english": "Ask for 'more', if you like.",
+      "spanish": "שאלו 'עוד', אם אתם אוהבים.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777587"
+    },
+    {
+      "english": "Say 'sorry', for minor things.",
+      "spanish": "אמרו 'מצטער', לדברים קטנים.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777588"
+    },
+    {
+      "english": "Understand 'open' and 'closed', for shops.",
+      "spanish": "הבינו 'פתוח' ו-'סגור', לחנויות.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777589"
+    },
+    {
+      "english": "Ask 'what is this?', be curious.",
+      "spanish": "שאלו 'מה זה?', היו סקרנים.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777590"
+    },
+    {
+      "english": "Learn 'I don't understand', helpful.",
+      "spanish": "למדו 'אני לא מבין', עוזר.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777591"
+    },
+    {
+      "english": "Say 'cheers', toast your friends.",
+      "spanish": "אמרו 'לחיים', הרימו כוס.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777592"
+    },
+    {
+      "english": "Ask 'can you repeat?', patiently.",
+      "spanish": "שאלו 'אתה יכול לחזור?', בסבלנות.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777593"
+    },
+    {
+      "english": "Learn 'where is the bathroom?', vital.",
+      "spanish": "למדו 'איפה השירותים?', חיוני.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777594"
+    },
+    {
+      "english": "Learn Hebrew, travel better.",
+      "spanish": "למדו עברית, טיילו טוב יותר.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777596"
+    },
+    {
+      "english": "Speak Hebrew, connect more.",
+      "spanish": "דברו עברית, התחברו יותר.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777597"
+    },
+    {
+      "english": "Ask for directions, easily.",
+      "spanish": "שאלו דרכים, בקלות.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777598"
+    },
+    {
+      "english": "Understand signs, navigate well.",
+      "spanish": "הבינו שלטים, נווטו טוב.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777599"
+    },
+    {
+      "english": "Read menus, with confidence.",
+      "spanish": "קראו תפריטים, בביטחון.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777600"
+    },
+    {
+      "english": "Make friends, speak their language.",
+      "spanish": "צרו חברים, דברו שפתם.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777601"
+    },
+    {
+      "english": "Impress locals, learn a phrase.",
+      "spanish": "הרשימו מקומיים, למדו משפט.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777603"
+    },
+    {
+      "english": "Haggling? Use Hebrew, win.",
+      "spanish": "מיקוח? השתמשו עברית, נצחו.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777604"
+    },
+    {
+      "english": "Culture shock, averted. Speak up.",
+      "spanish": "הלם תרבות, נמנע. דברו.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777605"
+    },
+    {
+      "english": "Ask for recommendations, locally.",
+      "spanish": "בקשו המלצות, מקומית.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777606"
+    },
+    {
+      "english": "Say 'thank you', be polite.",
+      "spanish": "אמרו 'תודה', היו מנומסים.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777607"
+    },
+    {
+      "english": "Learn common greetings, essential.",
+      "spanish": "למדו ברכות נפוצות, חיוני.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777608"
+    },
+    {
+      "english": "Order coffee, like a pro.",
+      "spanish": "הזמינו קפה, כמו מקצוען.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777610"
+    },
+    {
+      "english": "Ask for the bill, politely.",
+      "spanish": "בקשו חשבון, בנימוס.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777611"
+    },
+    {
+      "english": "Bargain prices, with a smile.",
+      "spanish": "התמקחו על מחירים, בחיוך.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777612"
+    },
+    {
+      "english": "Understand public transport, easily.",
+      "spanish": "הבינו תחבורה ציבורית, בקלות.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777613"
+    },
+    {
+      "english": "Ask for help, locals help.",
+      "spanish": "בקשו עזרה, מקומיים עוזרים.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777615"
+    },
+    {
+      "english": "Say 'please', show respect.",
+      "spanish": "אמרו 'בבקשה', הראו כבוד.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777616"
+    },
+    {
+      "english": "Learn numbers, for shopping.",
+      "spanish": "למדו מספרים, לקניות.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777618"
+    },
+    {
+      "english": "Ask for the time, on the go.",
+      "spanish": "שאלו מה השעה, תוך כדי.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777619"
+    },
+    {
+      "english": "Order water, stay hydrated.",
+      "spanish": "הזמינו מים, הישארו רוויים.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777620"
+    },
+    {
+      "english": "Say 'excuse me', when needed.",
+      "spanish": "אמרו 'סליחה', כשצריך.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777622"
+    },
+    {
+      "english": "Understand simple questions, respond.",
+      "spanish": "הבינו שאלות פשוטות, ענו.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777624"
+    },
+    {
+      "english": "Learn 'how much', for prices.",
+      "spanish": "למדו 'כמה עולה', למחירים.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777626"
+    },
+    {
+      "english": "Say 'hello', make a start.",
+      "spanish": "אמרו 'שלום', התחילו.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777627"
+    },
+    {
+      "english": "Learn 'goodbye', end politely.",
+      "spanish": "למדו 'להתראות', סיימו יפה.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777628"
+    },
+    {
+      "english": "Ask 'where is', find places.",
+      "spanish": "שאלו 'איפה', מצאו מקומות.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777629"
+    },
+    {
+      "english": "Understand 'yes' and 'no', crucial.",
+      "spanish": "הבינו 'כן' ו-'לא', חיוני.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777630"
+    },
+    {
+      "english": "Order drinks, easily done.",
+      "spanish": "הזמינו שתייה, קל לעשות.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777631"
+    },
+    {
+      "english": "Say 'delicious', compliment food.",
+      "spanish": "אמרו 'טעים', החמיאו לאוכל.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777633"
+    },
+    {
+      "english": "Ask for the check, calmly.",
+      "spanish": "בקשו את החשבון, בשלווה.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777634"
+    },
+    {
+      "english": "Learn basic phrases, for survival.",
+      "spanish": "למדו משפטים בסיסיים, להישרדות.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777635"
+    },
+    {
+      "english": "Ask for 'more', if you like.",
+      "spanish": "שאלו 'עוד', אם אתם אוהבים.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777636"
+    },
+    {
+      "english": "Say 'sorry', for minor things.",
+      "spanish": "אמרו 'מצטער', לדברים קטנים.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777637"
+    },
+    {
+      "english": "Understand 'open' and 'closed', for shops.",
+      "spanish": "הבינו 'פתוח' ו-'סגור', לחנויות.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777638"
+    },
+    {
+      "english": "Ask 'what is this?', be curious.",
+      "spanish": "שאלו 'מה זה?', היו סקרנים.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777639"
+    },
+    {
+      "english": "Learn 'I don't understand', helpful.",
+      "spanish": "למדו 'אני לא מבין', עוזר.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777640"
+    },
+    {
+      "english": "Say 'cheers', toast your friends.",
+      "spanish": "אמרו 'לחיים', הרימו כוס.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777641"
+    },
+    {
+      "english": "Ask 'can you repeat?', patiently.",
+      "spanish": "שאלו 'אתה יכול לחזור?', בסבלנות.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777642"
+    },
+    {
+      "english": "Learn 'where is the bathroom?', vital.",
+      "spanish": "למדו 'איפה השירותים?', חיוני.",
+      "category": "Success",
+      "generated_at": "2026-10-14T05:38:52.777643"
     }
   ],
-  "last_updated": "2026-10-13T07:14:24.609794"
+  "last_updated": "2026-10-14T05:38:52.777645"
 }
