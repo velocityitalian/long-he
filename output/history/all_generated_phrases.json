@@ -33035,7 +33035,727 @@
       "spanish": "למדו 'איפה השירותים?', חיוני.",
       "category": "Success",
       "generated_at": "2026-10-14T05:38:52.777643"
+    },
+    {
+      "english": "Wow, this is amazing, thank you.",
+      "spanish": "וואו, זה מדהים, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971810"
+    },
+    {
+      "english": "This really helped me, thanks a lot.",
+      "spanish": "זה ממש עזר לי, המון תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971820"
+    },
+    {
+      "english": "I appreciate your kindness, truly.",
+      "spanish": "אני מעריך את טוב הלב שלך, באמת.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971822"
+    },
+    {
+      "english": "So grateful for this moment, wow.",
+      "spanish": "כל כך אסיר תודה על הרגע הזה, וואו.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971823"
+    },
+    {
+      "english": "You're a lifesaver, thank you so much.",
+      "spanish": "אתה מציל חיים, תודה רבה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971825"
+    },
+    {
+      "english": "This gift is perfect, I love it.",
+      "spanish": "המתנה הזו מושלמת, אני אוהב אותה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971826"
+    },
+    {
+      "english": "Feeling very thankful right now.",
+      "spanish": "מרגיש מאוד אסיר תודה עכשיו.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971828"
+    },
+    {
+      "english": "This made my day, thank you.",
+      "spanish": "זה עשה לי את היום, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971831"
+    },
+    {
+      "english": "Such a thoughtful gesture, amazing.",
+      "spanish": "מחווה כל כך מתחשבת, מדהים.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971833"
+    },
+    {
+      "english": "Couldn't have done it without you.",
+      "spanish": "לא יכולתי לעשות את זה בלעדך.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971834"
+    },
+    {
+      "english": "You're too kind, honestly.",
+      "spanish": "אתה פשוט נחמד מדי, בכנות.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971836"
+    },
+    {
+      "english": "My heart is full, thank you.",
+      "spanish": "הלב שלי מלא, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971837"
+    },
+    {
+      "english": "This is more than I expected, wow.",
+      "spanish": "זה יותר ממה שציפיתי, וואו.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971838"
+    },
+    {
+      "english": "Forever grateful for your help.",
+      "spanish": "אסיר תודה לנצח על עזרתך.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971839"
+    },
+    {
+      "english": "This means so much to me.",
+      "spanish": "זה אומר לי כל כך הרבה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971840"
+    },
+    {
+      "english": "A true blessing, thank you.",
+      "spanish": "ברכה אמיתית, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971842"
+    },
+    {
+      "english": "I'm so lucky to have this.",
+      "spanish": "אני כל כך בר מזל שיש לי את זה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971843"
+    },
+    {
+      "english": "This experience was wonderful, thanks.",
+      "spanish": "החוויה הזו הייתה נהדרת, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971844"
+    },
+    {
+      "english": "What a lovely surprise, thank you.",
+      "spanish": "איזו הפתעה נעימה, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971845"
+    },
+    {
+      "english": "Deeply thankful for everything.",
+      "spanish": "אסיר תודה עמוקות על הכל.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971846"
+    },
+    {
+      "english": "This is just what I needed.",
+      "spanish": "זה בדיוק מה שהייתי צריך.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971847"
+    },
+    {
+      "english": "You're the best, truly, thank you.",
+      "spanish": "אתה הכי טוב, באמת, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971848"
+    },
+    {
+      "english": "So glad this worked out, amazing.",
+      "spanish": "כל כך שמח שזה עבד, מדהים.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971849"
+    },
+    {
+      "english": "This brought me so much joy.",
+      "spanish": "זה הביא לי כל כך הרבה שמחה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971850"
+    },
+    {
+      "english": "A heartfelt thank you, from me.",
+      "spanish": "תודה מכל הלב, ממני.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971851"
+    },
+    {
+      "english": "This is truly a gift, thanks.",
+      "spanish": "זו באמת מתנה, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971852"
+    },
+    {
+      "english": "Feeling so much gratitude now.",
+      "spanish": "מרגיש כל כך הרבה הכרת תודה עכשיו.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971853"
+    },
+    {
+      "english": "This outcome is fantastic, thanks.",
+      "spanish": "התוצאה הזו פנטסטית, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971855"
+    },
+    {
+      "english": "What a generous offer, thank you.",
+      "spanish": "איזו הצעה נדיבה, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971856"
+    },
+    {
+      "english": "I owe you one, big time.",
+      "spanish": "אני חייב לך, בגדול.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971857"
+    },
+    {
+      "english": "This means the world, thank you.",
+      "spanish": "זה אומר את העולם, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971858"
+    },
+    {
+      "english": "So thankful for this opportunity.",
+      "spanish": "אסיר תודה כל כך על ההזדמנות הזו.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971859"
+    },
+    {
+      "english": "You made it happen, amazing.",
+      "spanish": "אתה גרמת לזה לקרות, מדהים.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971860"
+    },
+    {
+      "english": "This is truly wonderful, thank you.",
+      "spanish": "זה באמת נפלא, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971861"
+    },
+    {
+      "english": "My gratitude is immense, truly.",
+      "spanish": "הכרת התודה שלי עצומה, באמת.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971862"
+    },
+    {
+      "english": "This is a pleasant surprise, thanks.",
+      "spanish": "זו הפתעה נעימה, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971863"
+    },
+    {
+      "english": "Couldn't have asked for more.",
+      "spanish": "לא יכולתי לבקש יותר.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971864"
+    },
+    {
+      "english": "So grateful for your presence.",
+      "spanish": "אסיר תודה כל כך על נוכחותך.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971865"
+    },
+    {
+      "english": "This is beyond helpful, thank you.",
+      "spanish": "זה יותר מעוזר, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971866"
+    },
+    {
+      "english": "What a stroke of luck, amazing.",
+      "spanish": "איזה מזל, מדהים.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971867"
+    },
+    {
+      "english": "Wow, this is amazing, thank you.",
+      "spanish": "וואו, זה מדהים, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971869"
+    },
+    {
+      "english": "This really helped me, thanks a lot.",
+      "spanish": "זה ממש עזר לי, המון תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971870"
+    },
+    {
+      "english": "I appreciate your kindness, truly.",
+      "spanish": "אני מעריך את טוב הלב שלך, באמת.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971871"
+    },
+    {
+      "english": "So grateful for this moment, wow.",
+      "spanish": "כל כך אסיר תודה על הרגע הזה, וואו.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971873"
+    },
+    {
+      "english": "You're a lifesaver, thank you so much.",
+      "spanish": "אתה מציל חיים, תודה רבה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971874"
+    },
+    {
+      "english": "This gift is perfect, I love it.",
+      "spanish": "המתנה הזו מושלמת, אני אוהב אותה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971875"
+    },
+    {
+      "english": "Feeling very thankful right now.",
+      "spanish": "מרגיש מאוד אסיר תודה עכשיו.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971876"
+    },
+    {
+      "english": "This made my day, thank you.",
+      "spanish": "זה עשה לי את היום, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971877"
+    },
+    {
+      "english": "Such a thoughtful gesture, amazing.",
+      "spanish": "מחווה כל כך מתחשבת, מדהים.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971878"
+    },
+    {
+      "english": "Couldn't have done it without you.",
+      "spanish": "לא יכולתי לעשות את זה בלעדך.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971880"
+    },
+    {
+      "english": "You're too kind, honestly.",
+      "spanish": "אתה פשוט נחמד מדי, בכנות.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971881"
+    },
+    {
+      "english": "My heart is full, thank you.",
+      "spanish": "הלב שלי מלא, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971882"
+    },
+    {
+      "english": "This is more than I expected, wow.",
+      "spanish": "זה יותר ממה שציפיתי, וואו.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971884"
+    },
+    {
+      "english": "Forever grateful for your help.",
+      "spanish": "אסיר תודה לנצח על עזרתך.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971885"
+    },
+    {
+      "english": "This means so much to me.",
+      "spanish": "זה אומר לי כל כך הרבה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971886"
+    },
+    {
+      "english": "A true blessing, thank you.",
+      "spanish": "ברכה אמיתית, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971887"
+    },
+    {
+      "english": "I'm so lucky to have this.",
+      "spanish": "אני כל כך בר מזל שיש לי את זה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971888"
+    },
+    {
+      "english": "This experience was wonderful, thanks.",
+      "spanish": "החוויה הזו הייתה נהדרת, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971890"
+    },
+    {
+      "english": "What a lovely surprise, thank you.",
+      "spanish": "איזו הפתעה נעימה, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971891"
+    },
+    {
+      "english": "Deeply thankful for everything.",
+      "spanish": "אסיר תודה עמוקות על הכל.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971892"
+    },
+    {
+      "english": "This is just what I needed.",
+      "spanish": "זה בדיוק מה שהייתי צריך.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971893"
+    },
+    {
+      "english": "You're the best, truly, thank you.",
+      "spanish": "אתה הכי טוב, באמת, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971894"
+    },
+    {
+      "english": "So glad this worked out, amazing.",
+      "spanish": "כל כך שמח שזה עבד, מדהים.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971895"
+    },
+    {
+      "english": "This brought me so much joy.",
+      "spanish": "זה הביא לי כל כך הרבה שמחה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971896"
+    },
+    {
+      "english": "A heartfelt thank you, from me.",
+      "spanish": "תודה מכל הלב, ממני.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971897"
+    },
+    {
+      "english": "This is truly a gift, thanks.",
+      "spanish": "זו באמת מתנה, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971899"
+    },
+    {
+      "english": "Feeling so much gratitude now.",
+      "spanish": "מרגיש כל כך הרבה הכרת תודה עכשיו.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971900"
+    },
+    {
+      "english": "This outcome is fantastic, thanks.",
+      "spanish": "התוצאה הזו פנטסטית, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971901"
+    },
+    {
+      "english": "What a generous offer, thank you.",
+      "spanish": "איזו הצעה נדיבה, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971902"
+    },
+    {
+      "english": "I owe you one, big time.",
+      "spanish": "אני חייב לך, בגדול.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971903"
+    },
+    {
+      "english": "This means the world, thank you.",
+      "spanish": "זה אומר את העולם, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971904"
+    },
+    {
+      "english": "So thankful for this opportunity.",
+      "spanish": "אסיר תודה כל כך על ההזדמנות הזו.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971905"
+    },
+    {
+      "english": "You made it happen, amazing.",
+      "spanish": "אתה גרמת לזה לקרות, מדהים.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971907"
+    },
+    {
+      "english": "This is truly wonderful, thank you.",
+      "spanish": "זה באמת נפלא, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971908"
+    },
+    {
+      "english": "My gratitude is immense, truly.",
+      "spanish": "הכרת התודה שלי עצומה, באמת.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971909"
+    },
+    {
+      "english": "This is a pleasant surprise, thanks.",
+      "spanish": "זו הפתעה נעימה, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971910"
+    },
+    {
+      "english": "Couldn't have asked for more.",
+      "spanish": "לא יכולתי לבקש יותר.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971911"
+    },
+    {
+      "english": "So grateful for your presence.",
+      "spanish": "אסיר תודה כל כך על נוכחותך.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971912"
+    },
+    {
+      "english": "This is beyond helpful, thank you.",
+      "spanish": "זה יותר מעוזר, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971913"
+    },
+    {
+      "english": "What a stroke of luck, amazing.",
+      "spanish": "איזה מזל, מדהים.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971914"
+    },
+    {
+      "english": "Wow, this is amazing, thank you.",
+      "spanish": "וואו, זה מדהים, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971915"
+    },
+    {
+      "english": "This really helped me, thanks a lot.",
+      "spanish": "זה ממש עזר לי, המון תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971917"
+    },
+    {
+      "english": "I appreciate your kindness, truly.",
+      "spanish": "אני מעריך את טוב הלב שלך, באמת.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971918"
+    },
+    {
+      "english": "So grateful for this moment, wow.",
+      "spanish": "כל כך אסיר תודה על הרגע הזה, וואו.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971919"
+    },
+    {
+      "english": "You're a lifesaver, thank you so much.",
+      "spanish": "אתה מציל חיים, תודה רבה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971921"
+    },
+    {
+      "english": "This gift is perfect, I love it.",
+      "spanish": "המתנה הזו מושלמת, אני אוהב אותה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971922"
+    },
+    {
+      "english": "Feeling very thankful right now.",
+      "spanish": "מרגיש מאוד אסיר תודה עכשיו.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971923"
+    },
+    {
+      "english": "This made my day, thank you.",
+      "spanish": "זה עשה לי את היום, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971924"
+    },
+    {
+      "english": "Such a thoughtful gesture, amazing.",
+      "spanish": "מחווה כל כך מתחשבת, מדהים.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971925"
+    },
+    {
+      "english": "Couldn't have done it without you.",
+      "spanish": "לא יכולתי לעשות את זה בלעדך.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971926"
+    },
+    {
+      "english": "You're too kind, honestly.",
+      "spanish": "אתה פשוט נחמד מדי, בכנות.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971928"
+    },
+    {
+      "english": "My heart is full, thank you.",
+      "spanish": "הלב שלי מלא, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971929"
+    },
+    {
+      "english": "This is more than I expected, wow.",
+      "spanish": "זה יותר ממה שציפיתי, וואו.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971930"
+    },
+    {
+      "english": "Forever grateful for your help.",
+      "spanish": "אסיר תודה לנצח על עזרתך.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971931"
+    },
+    {
+      "english": "This means so much to me.",
+      "spanish": "זה אומר לי כל כך הרבה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971932"
+    },
+    {
+      "english": "A true blessing, thank you.",
+      "spanish": "ברכה אמיתית, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971934"
+    },
+    {
+      "english": "I'm so lucky to have this.",
+      "spanish": "אני כל כך בר מזל שיש לי את זה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971935"
+    },
+    {
+      "english": "This experience was wonderful, thanks.",
+      "spanish": "החוויה הזו הייתה נהדרת, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971936"
+    },
+    {
+      "english": "What a lovely surprise, thank you.",
+      "spanish": "איזו הפתעה נעימה, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971937"
+    },
+    {
+      "english": "Deeply thankful for everything.",
+      "spanish": "אסיר תודה עמוקות על הכל.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971938"
+    },
+    {
+      "english": "This is just what I needed.",
+      "spanish": "זה בדיוק מה שהייתי צריך.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971939"
+    },
+    {
+      "english": "You're the best, truly, thank you.",
+      "spanish": "אתה הכי טוב, באמת, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971940"
+    },
+    {
+      "english": "So glad this worked out, amazing.",
+      "spanish": "כל כך שמח שזה עבד, מדהים.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971941"
+    },
+    {
+      "english": "This brought me so much joy.",
+      "spanish": "זה הביא לי כל כך הרבה שמחה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971943"
+    },
+    {
+      "english": "A heartfelt thank you, from me.",
+      "spanish": "תודה מכל הלב, ממני.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971944"
+    },
+    {
+      "english": "This is truly a gift, thanks.",
+      "spanish": "זו באמת מתנה, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971945"
+    },
+    {
+      "english": "Feeling so much gratitude now.",
+      "spanish": "מרגיש כל כך הרבה הכרת תודה עכשיו.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971946"
+    },
+    {
+      "english": "This outcome is fantastic, thanks.",
+      "spanish": "התוצאה הזו פנטסטית, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971947"
+    },
+    {
+      "english": "What a generous offer, thank you.",
+      "spanish": "איזו הצעה נדיבה, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971948"
+    },
+    {
+      "english": "I owe you one, big time.",
+      "spanish": "אני חייב לך, בגדול.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971949"
+    },
+    {
+      "english": "This means the world, thank you.",
+      "spanish": "זה אומר את העולם, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971950"
+    },
+    {
+      "english": "So thankful for this opportunity.",
+      "spanish": "אסיר תודה כל כך על ההזדמנות הזו.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971951"
+    },
+    {
+      "english": "You made it happen, amazing.",
+      "spanish": "אתה גרמת לזה לקרות, מדהים.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971952"
+    },
+    {
+      "english": "This is truly wonderful, thank you.",
+      "spanish": "זה באמת נפלא, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971953"
+    },
+    {
+      "english": "My gratitude is immense, truly.",
+      "spanish": "הכרת התודה שלי עצומה, באמת.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971954"
+    },
+    {
+      "english": "This is a pleasant surprise, thanks.",
+      "spanish": "זו הפתעה נעימה, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971956"
+    },
+    {
+      "english": "Couldn't have asked for more.",
+      "spanish": "לא יכולתי לבקש יותר.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971957"
+    },
+    {
+      "english": "So grateful for your presence.",
+      "spanish": "אסיר תודה כל כך על נוכחותך.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971958"
+    },
+    {
+      "english": "This is beyond helpful, thank you.",
+      "spanish": "זה יותר מעוזר, תודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971959"
+    },
+    {
+      "english": "What a stroke of luck, amazing.",
+      "spanish": "איזה מזל, מדהים.",
+      "category": "Gratitude",
+      "generated_at": "2026-10-15T05:25:45.971960"
     }
   ],
-  "last_updated": "2026-10-14T05:38:52.777645"
+  "last_updated": "2026-10-15T05:25:45.971961"
 }
