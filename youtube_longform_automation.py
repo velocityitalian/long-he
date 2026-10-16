@@ -279,7 +279,13 @@ def get_next_category(categories_dict: dict) -> str:
     if recent_file.exists():
         try:
             with open(recent_file, "r", encoding="utf-8") as f:
-                recent = json.load(f)
+                data = json.load(f)
+                if isinstance(data, list):
+                    recent = data
+                elif isinstance(data, dict):
+                    recent = data.get("recent_categories") or data.get("last_3_days") or []
+                else:
+                    recent = []
         except Exception:
             recent = []
 
@@ -393,7 +399,7 @@ For each phrase provide:
 3. "pronunciation": Pronunciation guide (phonetic spelling for English speakers, e.g. "Hej, hur mår du?")
 
 Return STRICTLY a JSON array:
-[{"english": "...", "hebrew": "...", "pronunciation": "..."}]"""
+[{{"english": "...", "hebrew": "...", "pronunciation": "..."}}]"""
 
                 url = "https://gen.pollinations.ai/v1/chat/completions"
                 headers = {
@@ -497,7 +503,7 @@ RULES:
 2. DO NOT REPEAT ANY OF THESE:\n""" + "\n".join(f"- {p}" for p in current_generated_en) + f"""
 
 Return STRICTLY a JSON array:
-[{"english": "...", "hebrew": "...", "pronunciation": "..."}]"""
+[{{"english": "...", "hebrew": "...", "pronunciation": "..."}}]"""
 
             url = "https://gen.pollinations.ai/v1/chat/completions"
             headers = {"Authorization": f"Bearer {POLLINATIONS_API_KEY}", "Content-Type": "application/json"}
@@ -1167,6 +1173,7 @@ Perfect for beginners and intermediate learners!
         f.write("\n" + "=" * 80 + "\n")
         f.write("🏷️ VIDEO TAGS (for YouTube):\n")
         f.write("-" * 80 + "\n")
+        brand_text = "Velocity Hebrew"
         tags = [
             f"Learn Hebrew",
             f"Hebrew Phrases",
@@ -1206,6 +1213,9 @@ Perfect for beginners and intermediate learners!
 
 def create_video_from_images_audio(image_files: list, audio_files: list, combined_audio: str, output_file: str):
     """Create video from images and audio with PERFECT synchronization"""
+    if not image_files or not audio_files:
+        raise ValueError(f"Cannot create video: 0 images ({len(image_files)}) or audio files ({len(audio_files)}) provided.")
+
 
     print(f"\n[video] Creating long-form video from {len(image_files)} images...")
     print(f"[video] Embedding audio in each clip for frame-perfect sync...")
@@ -1242,13 +1252,32 @@ def create_video_from_images_audio(image_files: list, audio_files: list, combine
 
     with open(concat_file, "w", encoding="utf-8") as f:
         for clip in temp_clips:
-            f.write(f"file '{clip.resolve().as_posix()}'\n")
+            f.write(f"file '{clip.name}'\n")
 
     cmd = ["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(concat_file), "-c", "copy", str(output_file)]
-    subprocess.run(cmd, check=True, capture_output=True)
+    res = subprocess.run(cmd, capture_output=True, text=True)
+    if res.returncode != 0:
+        print(f"[video] Concat copy warning (code {res.returncode}): {res.stderr[-300:] if res.stderr else ''}")
+        print(f"[video] Retrying concat with re-encode fallback...")
+        cmd_fallback = [
+            "ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(concat_file),
+            "-c:v", "libx264", "-preset", "ultrafast", "-c:a", "aac", "-b:a", "128k",
+            str(output_file)
+        ]
+        res_fb = subprocess.run(cmd_fallback, capture_output=True, text=True)
+        if res_fb.returncode != 0:
+            raise RuntimeError(f"FFmpeg concat failed: {res_fb.stderr}")
 
     if concat_file.exists():
         concat_file.unlink()
+
+    # Clean up temp clips to save runner disk space
+    for clip in temp_clips:
+        try:
+            if clip.exists():
+                clip.unlink()
+        except Exception:
+            pass
 
     video_duration = get_audio_duration(str(output_file))
     print(f"[video] ✓ Video created: {Path(output_file).name} ({video_duration:.2f}s)")
