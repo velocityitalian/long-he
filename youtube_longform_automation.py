@@ -36,8 +36,8 @@ for d in [OUTPUT_DIR, IMAGES_DIR, AUDIO_DIR, VIDEO_DIR, HISTORY_DIR, LONGFORM_DI
 VIDEO_WIDTH = 1920
 VIDEO_HEIGHT = 1080
 FPS = 30
-TARGET_DURATION_MINUTES = 5  # Target 5-minute videos (60 phrases)
-TARGET_PHRASES = 120
+TARGET_DURATION_MINUTES = 20  # Target ~20-minute videos (120 unique phrases with natural pedagogical pauses)
+TARGET_PHRASES = 120  # Number of unique phrases to generate
 
 # English category names (for American/European learners)
 CATEGORIES_ENGLISH = [
@@ -99,21 +99,49 @@ VIRAL_STYLES = [
 ]
 
 # AI Model
-AI_MODEL = os.getenv("AI_MODEL")
-
-if not AI_MODEL:
-    raise ValueError(
-        "AI_MODEL not set! Please add 'AI_MODEL=gemini-fast' to your .env file."
-    )
+AI_MODEL = os.getenv("AI_MODEL") or "gemini-fast"
 
 
-# ============== PHRASE HISTORY MANAGEMENT ==============
+# ============== PHRASE HISTORY MANAGEMENT & DEDUPLICATION ==============
+
+def normalize_phrase_text(text: str) -> str:
+    """Normalize phrase text for strict duplicate detection (lowercase, alphanumeric only)."""
+    import re
+    return re.sub(r'[^a-z0-9\s]', '', text.lower()).strip()
+
+
+def get_phrase_words(text: str) -> set:
+    """Extract set of words for similarity check, ignoring trivial single-letter words."""
+    import re
+    words = set(re.findall(r'\b[a-z0-9]+\b', text.lower()))
+    return {w for w in words if len(w) > 1}
+
+
+def is_phrase_similar_fast(cand_words: set, reference_words_list: list, threshold: float = 0.65) -> bool:
+    """Fast similarity check using Jaccard word overlap to prevent rephrased duplicates."""
+    if not cand_words:
+        return False
+    cand_len = len(cand_words)
+    for ref_words in reference_words_list:
+        if not ref_words:
+            continue
+        intersection_len = len(cand_words.intersection(ref_words))
+        if intersection_len == 0:
+            continue
+        union_len = cand_len + len(ref_words) - intersection_len
+        if union_len > 0 and (intersection_len / union_len) >= threshold:
+            return True
+    return False
+
 
 def load_phrase_history():
     """Load all previously generated phrases"""
     if PHRASE_HISTORY_FILE.exists():
-        with open(PHRASE_HISTORY_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
+        try:
+            with open(PHRASE_HISTORY_FILE, "r", encoding="utf-8-sig") as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"[history] Warning: Could not read history file ({e}), initializing fresh.")
     return {"phrases": [], "last_updated": None}
 
 
@@ -124,70 +152,31 @@ def save_phrase_history(data):
         json.dump(data, f, indent=2, ensure_ascii=False)
 
 
-def is_phrase_used(english_phrase):
-    """Check if phrase was already generated (exact match)"""
-    history = load_phrase_history()
-    english_lower = english_phrase.lower().strip()
-    for p in history.get("phrases", []):
-        if p.get("english", "").lower().strip() == english_lower:
-            return True
-    return False
-
-
-def is_phrase_similar(new_phrase, used_phrases, similarity_threshold=0.6):
-    """Check if a phrase is too similar to previously used phrases"""
-    new_words = set(new_phrase.lower().split())
-
-    if len(new_words) < 3:
-        for used in used_phrases:
-            if new_phrase.lower() in used.lower() or used.lower() in new_phrase.lower():
-                return True
-        return False
-
-    for used in used_phrases:
-        used_words = set(used.lower().split())
-
-        if len(new_words) == 0 or len(used_words) == 0:
-            continue
-
-        intersection = len(new_words.intersection(used_words))
-        union = len(new_words.union(used_words))
-        similarity = intersection / union if union > 0 else 0
-
-        if similarity >= similarity_threshold:
-            return True
-
-    return False
-
-
-def filter_similar_phrases(phrases, history, similarity_threshold=0.6):
-    """Filter out phrases that are too similar to previously used ones"""
-    used_phrases = [p.get("english", "") for p in history.get("phrases", [])]
-    unique_phrases = []
-
-    for phrase in phrases:
-        english_text = phrase.get("english", "")
-
-        if not is_phrase_similar(english_text, used_phrases, similarity_threshold):
-            unique_phrases.append(phrase)
-        else:
-            print(f"[filter] ⚠️ Skipping similar: {english_text[:50]}...")
-
-    return unique_phrases
-
-
 def add_phrases_to_history(phrases, category):
-    """Add new phrases to history"""
+    """Add new unique phrases to permanent history"""
     history = load_phrase_history()
+    existing_normalized = {
+        normalize_phrase_text(p.get("english", ""))
+        for p in history.get("phrases", [])
+        if p.get("english")
+    }
+    
+    added_count = 0
     for phrase in phrases:
-        history["phrases"].append({
-            "english": phrase["english"],
-            "spanish": phrase["hebrew"],
-            "category": category,
-            "generated_at": datetime.now().isoformat()
-        })
+        norm = normalize_phrase_text(phrase.get("english", ""))
+        if norm and norm not in existing_normalized:
+            existing_normalized.add(norm)
+            foreign_val = phrase.get("hebrew") or phrase.get("target") or phrase.get("foreign") or ""
+            history["phrases"].append({
+                "english": phrase["english"],
+                "hebrew": foreign_val,
+                "category": category,
+                "generated_at": datetime.now().isoformat()
+            })
+            added_count += 1
+            
     save_phrase_history(history)
-    print(f"[history] Added {len(phrases)} phrases to history (total: {len(history['phrases'])})")
+    print(f"[history] Added {added_count} unique phrases to permanent history (total: {len(history['phrases'])})")
 
 
 # ============== CONTENT GENERATION ==============
@@ -195,10 +184,10 @@ def add_phrases_to_history(phrases, category):
 def calculate_phrases_needed(target_minutes: int) -> int:
     """
     Calculate how many phrases needed for target video duration.
-    Average phrase takes ~5 seconds (English ~2s + pause 0.5s + Hebrew ~2.5s)
-    For 10 minutes (600 seconds): 600 / 5 = ~120 phrases
+    With pedagogical pauses (English ~2.5s + 1.2s pause + Foreign ~3.0s + 2.0s pause = ~8.7-10.0s per phrase):
+    For 20 minutes (1200 seconds): 1200 / 10 = ~120 phrases.
     """
-    avg_phrase_duration = 5.0  # seconds
+    avg_phrase_duration = 10.0  # seconds
     total_seconds = target_minutes * 60
     return int(total_seconds / avg_phrase_duration)
 
@@ -234,7 +223,7 @@ def repair_and_parse_json(content: str):
             except Exception:
                 pass
 
-    matches = re.findall(r'\{[^{}]*\"english\"[^{}]*\}', cleaned)
+    matches = re.findall(r'\{[^{}]*"english"[^{}]*\}', cleaned)
     results = []
     for m in matches:
         try:
@@ -249,73 +238,124 @@ def repair_and_parse_json(content: str):
     raise ValueError("Could not parse or repair JSON from content")
 
 
-def generate_phrases_for_longform(category_english: str, num_phrases: int) -> list:
-    """Generate unique bilingual phrases for long-form video"""
+# Sub-themes to guarantee rich vocabulary variety and completely prevent repetitive phrasing
+SUBTHEMES = [
+    ("Everyday Essentials & Reactions", "Focus on high-frequency everyday expressions, quick reactions, and essential conversational starters"),
+    ("Questions & Interactive Dialogue", "Focus on asking questions, polite inquiries, seeking advice, and two-way conversations"),
+    ("Mindset & Encouragement", "Focus on motivating thoughts, affirmations, giving praise, and positive mindset"),
+    ("Native Idioms & Cultural Sayings", "Focus on natural idioms, colloquial expressions, common sayings, and local phrasing"),
+    ("Reflections & Emotional Honesty", "Focus on expressing personal feelings, sincere reflections, patience, and deeper thoughts"),
+    ("Practical Life Situations & Tips", "Focus on daily habits, real-world social scenarios, practical problem-solving, and actionable advice")
+]
 
-    category_hebrew = CATEGORIES_HEBREW[category_english]
 
+def generate_phrases_for_longform(category_english: str, num_phrases: int = TARGET_PHRASES) -> list:
+    """
+    Generate 100% unique bilingual phrases for a ~20-minute long-form video.
+    Guarantees NO repetition within the video and NO repetition across past videos.
+    """
+    import requests
+    import time
+
+    category_foreign = CATEGORIES_HEBREW[category_english]
     history = load_phrase_history()
-    used_phrases = [p.get("english", "") for p in history.get("phrases", [])]
+    
+    # Pre-index all past phrases in history
+    history_phrases = history.get("phrases", [])
+    history_norm_set = {
+        normalize_phrase_text(p.get("english", ""))
+        for p in history_phrases
+        if p.get("english")
+    }
+    history_words_list = [
+        get_phrase_words(p.get("english", ""))
+        for p in history_phrases
+        if p.get("english")
+    ]
+    
+    # Category-specific past phrases (to feed directly into LLM exclusion prompts)
+    category_past_english = [
+        p.get("english", "")
+        for p in history_phrases
+        if p.get("category") == category_english and p.get("english")
+    ]
 
-    viral_style = random.choice(VIRAL_STYLES)
-
-    # Generate in batches to avoid API limits and ensure quality
     all_phrases = []
-    batch_size = 20
-    max_attempts = 5
+    current_video_norm_set = set()
+    current_video_words_list = []
 
-    for batch_num in range((num_phrases + batch_size - 1) // batch_size):
-        remaining = num_phrases - len(all_phrases)
-        current_batch_size = min(batch_size, remaining)
+    num_batches = len(SUBTHEMES)
+    target_per_batch = (num_phrases + num_batches - 1) // num_batches
+    max_batch_attempts = 4
 
-        if current_batch_size <= 0:
+    print(f"[content] Starting generation of {num_phrases} UNIQUE phrases for '{category_english}' ({category_foreign})...")
+
+    for batch_idx, (theme_name, theme_guidance) in enumerate(SUBTHEMES):
+        remaining_needed = num_phrases - len(all_phrases)
+        if remaining_needed <= 0:
             break
 
-        for attempt in range(max_attempts):
+        batch_target = min(target_per_batch, remaining_needed)
+        request_count = min(30, batch_target + 10)
+        temp = round(0.85 + (batch_idx * 0.05), 2)
+        viral_style = random.choice(VIRAL_STYLES)
+
+        for attempt in range(max_batch_attempts):
+            remaining_for_batch = batch_target - (len(all_phrases) - (batch_idx * target_per_batch))
+            if remaining_for_batch <= 0 and len(all_phrases) >= (batch_idx + 1) * target_per_batch:
+                break
+
             try:
-                import requests
+                # Dynamic exclusion list:
+                # 1. Phrases generated in THIS video run (prevents repeating across batches!)
+                # 2. Recent phrases from past history for this category
+                current_generated_en = [p["english"] for p in all_phrases[-40:]]
+                recent_cat_past = category_past_english[-25:] if category_past_english else []
+                combined_exclusions = list(dict.fromkeys(current_generated_en + recent_cat_past))
+                
+                exclusion_note = ""
+                if combined_exclusions:
+                    exclusion_note = (
+                        f"\n\nCRITICAL: DO NOT use, repeat, or slightly rephrase any of these phrases:\n"
+                        + "\n".join(f"- {p}" for p in combined_exclusions[:40])
+                    )
+
+                prompt = f"""Create {request_count} UNIQUE {category_english} phrases for English speakers learning Hebrew.
+
+Thematic Section {batch_idx + 1}/{num_batches}: {theme_name}
+Focus: {theme_guidance} related to {category_english}.
+Style: Natural, authentic {viral_style} format - phrasing real native speakers use.
+
+RULES FOR CLEAR, NATURAL SPEECH:
+1. Length: Short and clear (4 to 12 words per phrase).
+2. Natural pauses: Use commas (,) to indicate natural pauses for speaking practice (e.g. "Dream big, start small").
+3. Everyday vocabulary: Practical, high-frequency, modern conversational vocabulary.
+4. Variety: Varied grammatical forms (imperatives, questions, observations, short idioms).
+5. NO REPETITION: Every phrase must express a distinct idea.{exclusion_note}
+
+For each phrase provide:
+1. "english": English phrase with commas for natural pauses
+2. "hebrew": Natural Hebrew translation
+3. "pronunciation": Pronunciation guide (phonetic spelling for English speakers, e.g. "Hej, hur mår du?")
+
+Return STRICTLY a JSON array:
+[{"english": "...", "hebrew": "...", "pronunciation": "..."}]"""
+
                 url = "https://gen.pollinations.ai/v1/chat/completions"
                 headers = {
                     "Authorization": f"Bearer {POLLINATIONS_API_KEY}",
                     "Content-Type": "application/json"
                 }
-
-                exclusion_note = ""
-                if used_phrases:
-                    recent = used_phrases[-30:] if len(used_phrases) > 30 else used_phrases
-                    exclusion_note = f"\n\nAVOID these phrases (already used): {recent}"
-
-                prompt = f"""Create {current_batch_size * 2} unique {category_english} phrases for English speakers learning Hebrew.
-
-Style: Make each phrase feel like a {viral_style} - something people would want to share!
-
-IMPORTANT RULES FOR NATURAL SPEECH:
-1. Keep phrases SHORT (5-12 words max per language)
-2. Add NATURAL PAUSES using commas (e.g., "Dream big, start small")
-3. Use punctuation for breathing room in TTS
-4. Avoid long run-on sentences
-5. Each phrase should be speakable in 3-5 seconds
-6. Use everyday vocabulary - avoid exotic or rare words
-7. Avoid complex grammar - keep it simple and practical
-8. Vary sentence structure for natural flow
-
-For each phrase:
-1. English phrase (with commas for natural pauses)
-2. Hebrew translation
-3. Pronunciation guide (phonetic spelling for English speakers)
-
-Return as JSON array:
-[{{"english": "...", "hebrew": "...", "pronunciation": "..."}}]
-
-IMPORTANT: Create FRESH, UNIQUE phrases that haven't been used before.{exclusion_note}"""
-
                 payload = {
                     "model": AI_MODEL,
                     "messages": [
-                        {"role": "system", "content": "You are a viral Hebrew teacher creating engaging educational content for YouTube. Create short, natural phrases with pauses."},
+                        {
+                            "role": "system",
+                            "content": f"You are an expert native Hebrew language instructor creating viral, high-retention educational lessons for YouTube. Always return clean, valid JSON with fresh, non-repeating phrases."
+                        },
                         {"role": "user", "content": prompt}
                     ],
-                    "temperature": 1.0
+                    "temperature": temp
                 }
 
                 response = requests.post(url, headers=headers, json=payload, timeout=90)
@@ -323,217 +363,133 @@ IMPORTANT: Create FRESH, UNIQUE phrases that haven't been used before.{exclusion
 
                 data = response.json()
                 content = data["choices"][0]["message"]["content"].strip()
+                candidates = repair_and_parse_json(content)
 
-                # Extract JSON
-                if "```json" in content:
-                    content = content.split("```json")[1].split("```")[0].strip()
-                elif "```" in content:
-                    content = content.split("```")[1].split("```")[0].strip()
+                accepted_in_batch = 0
+                for cand in candidates:
+                    if len(all_phrases) >= num_phrases:
+                        break
 
-                phrases = repair_and_parse_json(content)
+                    en_text = cand.get("english", "").strip()
+                    foreign_text = (cand.get("hebrew") or cand.get("target") or cand.get("foreign") or "").strip()
+                    pron_text = (cand.get("pronunciation") or cand.get("pronunciation") or cand.get("pinyin") or cand.get("romaji") or cand.get("phonetic") or "").strip()
 
-                # Filter by similarity
-                filtered_phrases = filter_similar_phrases(phrases, history)
-
-                # Filter by length and exact duplicates
-                unique_phrases = []
-                for phrase in filtered_phrases:
-                    if len(phrase["english"].split()) > 15:
+                    if not en_text or not foreign_text:
                         continue
-                    if not is_phrase_used(phrase["english"]):
-                        unique_phrases.append(phrase)
 
-                # Add valid phrases
-                for phrase in unique_phrases:
-                    if len(all_phrases) < num_phrases:
-                        all_phrases.append(phrase)
+                    # Word count constraints (avoid single words or long run-ons)
+                    words_count = len(en_text.split())
+                    if words_count < 2 or words_count > 15:
+                        continue
 
-                if len(all_phrases) >= num_phrases:
+                    norm_en = normalize_phrase_text(en_text)
+                    if not norm_en:
+                        continue
+
+                    # 1. Check exact match in current video (STRICT ZERO DUPLICATES in same video!)
+                    if norm_en in current_video_norm_set:
+                        continue
+
+                    # 2. Check exact match in past history
+                    if norm_en in history_norm_set:
+                        continue
+
+                    # 3. Check similarity against phrases already accepted in THIS video (prevents rephrasing)
+                    cand_words = get_phrase_words(en_text)
+                    if is_phrase_similar_fast(cand_words, current_video_words_list, threshold=0.65):
+                        continue
+
+                    # 4. Check similarity against past history
+                    if is_phrase_similar_fast(cand_words, history_words_list, threshold=0.70):
+                        continue
+
+                    # Candidate is verified 100% unique!
+                    valid_phrase = {
+                        "english": en_text,
+                        "hebrew": foreign_text,
+                        "pronunciation": pron_text
+                    }
+                    current_video_norm_set.add(norm_en)
+                    current_video_words_list.append(cand_words)
+                    history_norm_set.add(norm_en)
+                    history_words_list.append(cand_words)
+                    all_phrases.append(valid_phrase)
+                    accepted_in_batch += 1
+
+                print(f"  [batch {batch_idx + 1}/{num_batches} '{theme_name}'] Added {accepted_in_batch} unique phrases (progress: {len(all_phrases)}/{num_phrases})")
+
+                if len(all_phrases) >= (batch_idx + 1) * target_per_batch or len(all_phrases) >= num_phrases:
                     break
 
             except Exception as e:
-                print(f"[content] Batch {batch_num + 1}, Attempt {attempt + 1} failed: {e}")
+                print(f"  [batch {batch_idx + 1}, attempt {attempt + 1}] Notice: {e}")
+                time.sleep(2)
 
-        # Small delay between batches
-        if len(all_phrases) < num_phrases:
-            import time
-            time.sleep(1)
+        time.sleep(0.5)
 
-    # Trim to exact count and save to history
-    if not all_phrases:
-        print(f"[content] AI generation produced 0 phrases. Loading fresh fallback phrases for '{category_english}'...")
-        all_phrases = get_fresh_fallback_phrases(category_english, num_phrases)
-    elif len(all_phrases) < num_phrases:
-        print(f"[content] Only {len(all_phrases)} phrases generated. Padding with fresh fallback phrases...")
-        extras = get_fresh_fallback_phrases(category_english, num_phrases - len(all_phrases))
-        for ex in extras:
-            if ex not in all_phrases:
-                all_phrases.append(ex)
+    # Secondary booster pass: if any slots remain to reach num_phrases, generate fresh conversational phrases
+    attempts_booster = 0
+    while len(all_phrases) < num_phrases and attempts_booster < 4:
+        attempts_booster += 1
+        needed = num_phrases - len(all_phrases)
+        print(f"[content] Booster pass {attempts_booster}: Generating {needed} additional unique phrases...")
+        try:
+            current_generated_en = [p["english"] for p in all_phrases[-40:]]
+            prompt = f"""Generate {needed + 8} FRESH, UNIQUE conversational phrases for English speakers learning Hebrew.
+Theme: Practical life, emotional intelligence, and interpersonal communication related to {category_english}.
+
+RULES:
+1. 3 to 12 words per phrase. Natural commas for pauses.
+2. DO NOT REPEAT ANY OF THESE:\n""" + "\n".join(f"- {p}" for p in current_generated_en) + f"""
+
+Return STRICTLY a JSON array:
+[{"english": "...", "hebrew": "...", "pronunciation": "..."}]"""
+
+            url = "https://gen.pollinations.ai/v1/chat/completions"
+            headers = {"Authorization": f"Bearer {POLLINATIONS_API_KEY}", "Content-Type": "application/json"}
+            payload = {
+                "model": AI_MODEL,
+                "messages": [
+                    {"role": "system", "content": f"You are a native Hebrew tutor. Return only valid JSON array of unique phrases."},
+                    {"role": "user", "content": prompt}
+                ],
+                "temperature": 1.05
+            }
+            resp = requests.post(url, headers=headers, json=payload, timeout=90)
+            resp.raise_for_status()
+            candidates = repair_and_parse_json(resp.json()["choices"][0]["message"]["content"])
+            
+            for cand in candidates:
+                if len(all_phrases) >= num_phrases:
+                    break
+                en_text = cand.get("english", "").strip()
+                foreign_text = (cand.get("hebrew") or cand.get("target") or cand.get("foreign") or "").strip()
+                pron_text = (cand.get("pronunciation") or cand.get("pronunciation") or cand.get("pinyin") or cand.get("romaji") or cand.get("phonetic") or "").strip()
+                if not en_text or not foreign_text:
+                    continue
+                norm_en = normalize_phrase_text(en_text)
+                if not norm_en or norm_en in current_video_norm_set or norm_en in history_norm_set:
+                    continue
+                cand_words = get_phrase_words(en_text)
+                if is_phrase_similar_fast(cand_words, current_video_words_list, threshold=0.65):
+                    continue
+                
+                valid_phrase = {"english": en_text, "hebrew": foreign_text, "pronunciation": pron_text}
+                current_video_norm_set.add(norm_en)
+                current_video_words_list.append(cand_words)
+                history_norm_set.add(norm_en)
+                history_words_list.append(cand_words)
+                all_phrases.append(valid_phrase)
+        except Exception as e:
+            print(f"  [booster attempt {attempts_booster}] Error: {e}")
+            time.sleep(2)
 
     final_phrases = all_phrases[:num_phrases]
     if final_phrases:
         add_phrases_to_history(final_phrases, category_english)
 
-    print(f"[content] Generated {len(final_phrases)} phrases for long-form video")
+    print(f"\n[content] Successfully generated {len(final_phrases)} 100% UNIQUE phrases for '{category_english}'")
     return final_phrases
-
-
-def get_fresh_fallback_phrases(category: str, num_phrases: int) -> list:
-    """Get fallback phrases, filtering out used ones with similarity check"""
-
-    all_fallbacks = {
-        "Motivation": [
-            {"english": "Believe in yourself.", "hebrew": "תאמין בעצמך.", "pronunciation": "ta-ah-MEEN be-atz-ME-cha"},
-            {"english": "You are capable of amazing things.", "hebrew": "אתה מסוגל לדברים מדהימים.", "pronunciation": "a-TA me-SU-gol le-dva-RIM me-da-HEE-mim"},
-            {"english": "Dream big, start small.", "hebrew": "חלום בגדול, התחל בקטן.", "pronunciation": "cha-LOM be-ga-DOL, hit-CHAL be-ka-TAN"},
-            {"english": "Your future is created by your actions.", "hebrew": "העתיד שלך נוצר מהמעשים שלך.", "pronunciation": "ha-a-TEED shel-CHA no-TZAR me-ha-ma-a-SEEM shel-CHA"},
-            {"english": "Never give up on your dreams.", "hebrew": "לעולם אל תוותר על החלומות שלך.", "pronunciation": "le-O-LAM al te-va-TER al ha-cha-lo-MOT shel-CHA"},
-            {"english": "Small steps lead to big changes.", "hebrew": "צעדים קטנים מובילים לשינויים גדולים.", "pronunciation": "tsa-A-DIM kta-NIM mo-vi-LIM le-shi-nu-YIM gdo-LIM"},
-            {"english": "You are stronger than you think.", "hebrew": "אתה חזק יותר ממה שאתה חושב.", "pronunciation": "a-TA cha-ZAK yo-TER mi-ma she-a-TA cho-shev"},
-        ],
-        "Love": [
-            {"english": "Love yourself first.", "hebrew": "תאהב את עצמך קודם.", "pronunciation": "te-a-HAV et atz-me-CHA ko-DEM"},
-            {"english": "Love makes everything possible.", "hebrew": "אהבה עושה הכל אפשרי.", "pronunciation": "a-ha-VA o-SET ha-KOL ef-sha-RI"},
-            {"english": "My heart beats for you.", "hebrew": "הלב שלי פועם בשבילך.", "pronunciation": "ha-LEV she-LI po-EM bish-vi-LECHA"},
-            {"english": "You are my everything.", "hebrew": "אתה הכל בשבילי.", "pronunciation": "a-TA ha-KOL bish-vi-LI"},
-            {"english": "Together forever, hand in hand.", "hebrew": "ביחד לנצח, יד ביד.", "pronunciation": "ya-CHAD le-ne-TZACH, yad be-yad"},
-        ],
-        "Success": [
-            {"english": "Success comes from hard work.", "hebrew": "הצלחה באה מעבודה קשה.", "pronunciation": "hatz-la-CHA ba-A me-a-vo-DA ka-SHA"},
-            {"english": "Keep going, you're getting there.", "hebrew": "תמשיך, אתה כמעט שם.", "pronunciation": "tam-SHICH, a-TA kim-AT sham"},
-            {"english": "Winners never quit.", "hebrew": "מנצחים אף פעם לא מוותרים.", "pronunciation": "me-na-tz-CHIM af pa-AM lo me-va-t-RIM"},
-            {"english": "Your effort will pay off.", "hebrew": "המאמץ שלך ישתלם.", "pronunciation": "ha-ma-AM-TZ shel-CHA yish-ta-LEM"},
-        ],
-        "Wisdom": [
-            {"english": "Knowledge is power.", "hebrew": "ידע הוא כוח.", "pronunciation": "de-AT hu ko-ACH"},
-            {"english": "Learn from yesterday, live for today.", "hebrew": "למד מאתמול, חי להיום.", "pronunciation": "le-MAD me-et-MOL, che-YE le-ha-YOM"},
-            {"english": "Think before you act.", "hebrew": "חשוב לפני שאתה פועל.", "pronunciation": "cha-SHOV lif-NE she-a-TA po-EL"},
-            {"english": "Experience is the best teacher.", "hebrew": "הניסיון הוא המורה הטוב ביותר.", "pronunciation": "ha-ni-sa-YON hu ha-mo-RE ha-TOV be-YO-TER"},
-        ],
-        "Happiness": [
-            {"english": "Happiness is a choice.", "hebrew": "האושר הוא בחירה.", "pronunciation": "ha-O-SHER hu bchi-RA"},
-            {"english": "Find joy in the little things.", "hebrew": "מצא שמחה בדברים הקטנים.", "pronunciation": "m-TZA sim-CHA ba-dva-RIM ha-kta-NIM"},
-            {"english": "Smile, it makes others happy.", "hebrew": "חייך, זה משמח אחרים.", "pronunciation": "cha-YECH, ze me-sa-ME-ACH a-che-RIM"},
-            {"english": "Today is a gift.", "hebrew": "היום הוא מתנה.", "pronunciation": "ha-YOM hu ma-ta-NA"},
-            {"english": "Be better than yesterday.", "hebrew": "היה טוב יותר מאתמול.", "pronunciation": "he-YE tov yo-TER me-et-MOL"},
-            {"english": "Grow through what you go through.", "hebrew": "גדל דרך מה שאתה עובר.", "pronunciation": "g-DAL de-REch ma she-a-TA o-VER"},
-            {"english": "Invest in yourself daily.", "hebrew": "השקע בעצמך כל יום.", "pronunciation": "hash-KA be-atz-mE-CHA kol yom"},
-        ],
-        "Gratitude": [
-            {"english": "Thank you for everything.", "hebrew": "תודה על הכל.", "pronunciation": "to-DA al ha-KOL"},
-            {"english": "I appreciate your help.", "hebrew": "אני מעריך את העזרה שלך.", "pronunciation": "a-NI ma-a-RICH et ha-ez-RA shel-CHA"},
-            {"english": "Grateful for this moment.", "hebrew": "מודה על הרגע הזה.", "pronunciation": "mo-DE al ha-RE-ga ha-ZE"},
-        ],
-        "Friendship": [
-            {"english": "Friends forever, no matter what.", "hebrew": "חברים לנצח, מה שלא יהיה.", "pronunciation": "cha-ve-RIM le-ne-TZACH, ma she-lo yih-YE"},
-            {"english": "You are my best friend.", "hebrew": "אתה החבר הכי טוב שלי.", "pronunciation": "a-TA ha-cha-VER ha-chi tov she-LI"},
-            {"english": "True friends stick together.", "hebrew": "חברים אמיתיים נשארים יחד.", "pronunciation": "cha-ve-RIM a-mi-ti-IM nish-a-RIM ya-CHAD"},
-        ],
-        "Hope": [
-            {"english": "There is always hope.", "hebrew": "תמיד יש תקווה.", "pronunciation": "ta-MID yesh tik-VA"},
-            {"english": "Better days are coming.", "hebrew": "ימים טובים יותר מגיעים.", "pronunciation": "ya-MIM to-VIM yo-TER me-gi-IM"},
-            {"english": "Keep faith, keep going.", "hebrew": "שמור על אמונה, תמשיך.", "pronunciation": "sh-MOR al e-mu-NA, tam-SHICH"},
-        ],
-        "Creativity": [
-            {"english": "Create something beautiful today.", "hebrew": "צור משהו יפה היום.", "pronunciation": "tZOR ma-she-HU ya-FE ha-YOM"},
-            {"english": "Your imagination is unlimited.", "hebrew": "הדמיון שלך בלתי מוגבל.", "pronunciation": "ha-di-mya-ON shel-CHA bil-tI mu-g-BAL"},
-            {"english": "Art comes from the heart.", "hebrew": "אמנות באה מהלב.", "pronunciation": "o-ma-NUT ba-A me-ha-LEV"},
-            {"english": "Express yourself freely.", "hebrew": "בטא את עצמך בחופשיות.", "pronunciation": "ba-TA et atz-me-CHA be-chof-shi-YUT"},
-            {"english": "Innovation starts with curiosity.", "hebrew": "חדשנות מתחילה בסקרנות.", "pronunciation": "chi-da-sho-NUT match-i-IL be-sak-ra-NUT"},
-            {"english": "Find peace within yourself.", "hebrew": "מצא שלווה בתוך עצמך.", "pronunciation": "m-TZA shal-VA be-toch atz-me-CHA"},
-            {"english": "Breathe, relax, let go.", "hebrew": "נשום, תירגע, תשחרר.", "pronunciation": "n-SHOM, tir-GA, tish-RER"},
-            {"english": "Calm mind, happy heart.", "hebrew": "מוח רגוע, לב שמח.", "pronunciation": "mo-ACH ra-GU-A, lev sa-ME-ACH"},
-        ],
-        "Confidence": [
-            {"english": "You are enough, just as you are.", "hebrew": "אתה מספיק, בדיוק כמו שאתה.", "pronunciation": "a-TA mas-PIK, bid-YUK k-mO she-a-TA"},
-            {"english": "Stand tall, speak up.", "hebrew": "עמוד זקוף, דבר בקול.", "pronunciation": "a-MOD za-KUF, da-BER be-KOL"},
-            {"english": "Believe in your abilities.", "hebrew": "תאמין ביכולות שלך.", "pronunciation": "ta-a-MIN be-yecho-LOT shel-CHA"},
-        ],
-        "Perseverance": [
-            {"english": "Never give up, keep pushing.", "hebrew": "לעולם אל תוותר, תמשיך לדחוף.", "pronunciation": "le-O-LAM al te-va-TER, tam-SHICH lid-CHOF"},
-            {"english": "Storms make trees take deeper roots.", "hebrew": "סערות גורמות לעצים להשריש עמוק יותר.", "pronunciation": "se-a-ROT gor-MOT la-etz-IM le-hash-RISH a-MOK yo-TER"},
-            {"english": "Patience and persistence win.", "hebrew": "סבלנות והתמדה מנצחות.", "pronunciation": "sav-la-NUT ve-hat-m-da me-na-tz-CHOT"},
-        ],
-        "Inspiration": [
-            {"english": "Let your light shine bright.", "hebrew": "תן לאור שלך לזרוח בבהירות.", "pronunciation": "ten la-OR shel-CHA liz-RACH be-bi-ru-T"},
-            {"english": "Inspire others by your actions.", "hebrew": "השראה לאחרים במעשיך.", "pronunciation": "hash-RA le-a-che-RIM be-ma-a-se-CHA"},
-            {"english": "Be the change you want to see.", "hebrew": "היה השינוי שאתה רוצה לראות.", "pronunciation": "he-YE ha-shi-NU-I she-a-TA ro-TZE lir-OT"},
-            {"english": "Choose positivity every day.", "hebrew": "בחר חיוביות כל יום.", "pronunciation": "b-CHAR chiyu-VI-yut kol yom"},
-            {"english": "Good vibes only.", "hebrew": "רק וייבים טובים.", "pronunciation": "rak VAIV-im to-VIM"},
-            {"english": "Life is what you make it.", "hebrew": "החיים הם מה שאתה עושה מהם.", "pronunciation": "ha-cha-YIM hem ma she-a-TA o-SE me-hem"},
-        ],
-        "Courage": [
-            {"english": "Be brave, take the first step.", "hebrew": "היה אמיץ, קח את הצעד הראשון.", "pronunciation": "he-YE a-MITZ, kach et ha-tsa-AD ha-ri-SHON"},
-            {"english": "Courage is not the absence of fear.", "hebrew": "אומץ הוא לא היעדר פחד.", "pronunciation": "o-METZ hu lo he-e-DAR pa-CHAD"},
-            {"english": "Face your fears head on.", "hebrew": "התמודד עם הפחדים שלך פנים אל פנים.", "pronunciation": "hit-mo-DED im ha-pa-cha-DIM shel-CHA pa-NIM el pa-NIM"},
-        ],
-        "Kindness": [
-            {"english": "Be kind to everyone you meet.", "hebrew": "היה טוב לכל מי שאתה פוגש.", "pronunciation": "he-YE tov le-chol mi she-a-TA po-GESH"},
-            {"english": "Kindness costs nothing, means everything.", "hebrew": "טוב לב לא עולה כלום, שווה הכל.", "pronunciation": "toV lev lo o-LE k-lUM, sha-VE ha-KOL"},
-            {"english": "Spread kindness wherever you go.", "hebrew": "הפץ טוב לב לכל מקום.", "pronunciation": "ha-FETZ toV lev le-chol ma-KOM"},
-        ],
-        "Patience": [
-            {"english": "Good things take time.", "hebrew": "דברים טובים דורשים זמן.", "pronunciation": "dva-RIM to-VIM dor-SHIM z-MAN"},
-            {"english": "Wait patiently, trust the process.", "hebrew": "חכה בסבלנות, סמוך על התהליך.", "pronunciation": "cha-KE be-sav-la-NUT, s-MOCH al ha-ta-ha-LICH"},
-            {"english": "Rome wasn't built in a day.", "hebrew": "רומא לא נבנתה ביום אחד.", "pronunciation": "RO-ma lo niv-ne-TA be-yom e-CHAD"},
-        ],
-        "Forgiveness": [
-            {"english": "Forgive and set yourself free.", "hebrew": "סלח ושחרר את עצמך.", "pronunciation": "s-LACH ve-sha-RER et atz-me-CHA"},
-            {"english": "Let go of grudges, find peace.", "hebrew": "עזוב את הטינה, מצא שלום.", "pronunciation": "a-ZOV et ha-ti-NA, m-TZA shaLOM"},
-            {"english": "Forgiveness is a gift to yourself.", "hebrew": "סליחה היא מתנה לעצמך.", "pronunciation": "sli-CH-A hi ma-ta-NA le-atz-me-CHA"},
-        ],
-        "Strength": [
-            {"english": "You are stronger than you know.", "hebrew": "אתה חזק יותר ממה שאתה יודע.", "pronunciation": "a-TA cha-ZAK yo-TER mi-ma she-a-TA yo-DE-A"},
-            {"english": "Inner strength comes from within.", "hebrew": "כוח פנימי בא מבפנים.", "pronunciation": "kO-ACH pni-MI ba me-bi-FNIM"},
-            {"english": "Challenges make you stronger.", "hebrew": "אתגרים הופכים אותך לחזק יותר.", "pronunciation": "et-gar-IM hof-CHIM ot-CHA le-cha-ZAK yo-TER"},
-        ],
-        "Joy": [
-            {"english": "Find joy in every moment.", "hebrew": "מצא שמחה בכל רגע.", "pronunciation": "m-TZA sim-CHA be-chol RE-ga"},
-            {"english": "Joy is contagious, spread it.", "hebrew": "שמחה מדבקת, הפץ אותה.", "pronunciation": "sim-CHA ma-da-VE-KET, ha-FETZ o-TA"},
-            {"english": "Dance like nobody's watching.", "hebrew": "רקוד כאילו אף אחד לא צופה.", "pronunciation": "r-KOD ke-i-LU af e-CHAD lo tzo-FE"},
-        ],
-        "Balance": [
-            {"english": "Find balance in your life.", "hebrew": "מצא איזון בחיים שלך.", "pronunciation": "m-TZA i-ZUN ba-cha-YIM shel-CHA"},
-            {"english": "Work hard, rest well.", "hebrew": "עבוד קשה, נוח היטב.", "pronunciation": "a-VOD ka-SHA, nu-ACH he-TEV"},
-            {"english": "Too much of anything is not good.", "hebrew": "יותר מדי מכל דבר זה לא טוב.", "pronunciation": "yo-TER mi-DA mi-kol da-VAR ze lo tov"},
-        ],
-        "Growth": [
-            {"english": "Growth happens outside your comfort zone.", "hebrew": "צמיחה מתרחשת מחוץ לאזור הנוחות.", "pronunciation": "tchi-MA mit-ra-CHESH me-chuTZ le-e-ZOR ha-no-CHUT"},
-            {"english": "Embrace change, grow stronger.", "hebrew": "חבק שינוי, גדל חזק יותר.", "pronunciation": "cha-BEK shi-NU-I, g-DAL cha-ZAK yo-TER"},
-            {"english": "Every challenge is a chance to grow.", "hebrew": "כל אתגר הוא הזדמנות לגדול.", "pronunciation": "kol et-GAR hu hiz-da-m-NUT li-g-DOL"},
-        ],
-        "Purpose": [
-            {"english": "Find your purpose, follow it.", "hebrew": "מצא את המטרה שלך, עקוב אחריה.", "pronunciation": "m-TZA et ha-mat-a-RA shel-CHA, a-KOV a-cha-REHA"},
-            {"english": "Your life has meaning.", "hebrew": "לחיים שלך יש משמעות.", "pronunciation": "le-cha-YIM shel-CHA yesh mash-ma-UT"},
-            {"english": "Live with intention, not accident.", "hebrew": "חיה בכוונה, לא במקרה.", "pronunciation": "che-YE be-ka-va-NA, lo be-mik-RE"},
-        ],
-        "Mindfulness": [
-            {"english": "Be present in this moment.", "hebrew": "היה נוכח ברגע הזה.", "pronunciation": "he-YE no-ched ba-RE-ga ha-ZE"},
-            {"english": "Breathe deeply, stay grounded.", "hebrew": "נשום עמוק, הישאר מקורקע.", "pronunciation": "n-SHOM a-MOK, hish-a-RER me-ku-RA"},
-            {"english": "Notice the little things around you.", "hebrew": "שימו לב לדברים הקטנים סביבך.", "pronunciation": "si-MU lev la-dva-RIM ha-kta-NIM se-vi-VECHA"},
-        ],
-    }
-    fallbacks = all_fallbacks.get(category, all_fallbacks["Motivation"])
-
-    history = load_phrase_history()
-    fresh_phrases = []
-    for p in fallbacks:
-        if not is_phrase_used(p["english"]) and not is_phrase_similar(p["english"], [h.get("english", "") for h in history.get("phrases", [])]):
-            fresh_phrases.append(p)
-
-    if len(fresh_phrases) < num_phrases:
-        for cat, cat_fallbacks in all_fallbacks.items():
-            if cat != category:
-                for p in cat_fallbacks:
-                    if not is_phrase_used(p["english"]) and not is_phrase_similar(p["english"], [h.get("english", "") for h in history.get("phrases", [])]):
-                        fresh_phrases.append(p)
-                    if len(fresh_phrases) >= num_phrases:
-                        break
-            if len(fresh_phrases) >= num_phrases:
-                break
-
-    return fresh_phrases[:num_phrases]
-
 
 # ============== AUDIO GENERATION ==============
 
@@ -622,18 +578,18 @@ async def generate_single_audio(text: str, voice: str, output_path: str, retries
 
 
 def generate_all_audio(phrases: list, output_dir: str):
-    """Generate audio for all phrases with proper timing"""
+    """Generate audio for all phrases with proper timing for a ~20-minute video"""
 
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
     audio_files = []
 
     for i, phrase in enumerate(phrases):
-        english_file = output_dir / f"english_{i}.mp3"
-        hebrew_file = output_dir / f"hebrew_{i}.mp3"
-        combined_file = output_dir / f"combined_{i}.mp3"
+        english_file = output_dir / f"english_{i:04d}.mp3"
+        foreign_file = output_dir / f"hebrew_{i:04d}.mp3"
+        combined_file = output_dir / f"combined_{i:04d}.mp3"
 
-        if (i + 1) % 20 == 0:
+        if (i + 1) % 20 == 0 or (i + 1) == len(phrases):
             print(f"  Generating audio {i+1}/{len(phrases)}...")
 
         # Generate English audio
@@ -642,26 +598,29 @@ def generate_all_audio(phrases: list, output_dir: str):
             cmd = ["ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono", "-t", "2", str(english_file)]
             subprocess.run(cmd, capture_output=True)
 
-        # Generate Hebrew audio
-        he_success = asyncio.run(generate_single_audio(phrase["hebrew"], HEBREW_VOICE, str(hebrew_file)))
-        if not he_success:
-            cmd = ["ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono", "-t", "2", str(hebrew_file)]
+        # Generate Foreign audio
+        foreign_text = phrase.get("hebrew") or phrase.get("target") or phrase.get("foreign") or ""
+        foreign_success = asyncio.run(generate_single_audio(foreign_text, HEBREW_VOICE, str(foreign_file)))
+        if not foreign_success:
+            cmd = ["ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono", "-t", "2", str(foreign_file)]
             subprocess.run(cmd, capture_output=True)
 
         # Get ACTUAL durations
         en_duration = get_audio_duration(str(english_file))
-        he_duration = get_audio_duration(str(hebrew_file))
+        foreign_duration = get_audio_duration(str(foreign_file))
 
-        # Add pause between English and Hebrew
-        pause_between = 0.5
-        total_duration = en_duration + pause_between + he_duration
+        # Pedagogical pauses for optimal learning:
+        # 1.2s pause after English: allows learner to process English meaning and anticipate translation
+        # 2.0s pause after foreign phrase: allows learner to repeat aloud and study pronunciation
+        pause_mid = 1.2
+        pause_end = 2.0
 
-        # Combine audio files
+        # Combine audio files with precise ffmpeg apad
         cmd = [
             "ffmpeg", "-y",
             "-i", str(english_file),
-            "-i", str(hebrew_file),
-            "-filter_complex", f"[0:a]apad=pad_dur=0.5[a0];[a0][1:a]concat=n=2:v=0:a=1[out]",
+            "-i", str(foreign_file),
+            "-filter_complex", f"[0:a]apad=pad_dur={pause_mid}[a0];[1:a]apad=pad_dur={pause_end}[a1];[a0][a1]concat=n=2:v=0:a=1[out]",
             "-map", "[out]",
             str(combined_file)
         ]
@@ -669,10 +628,10 @@ def generate_all_audio(phrases: list, output_dir: str):
         result = subprocess.run(cmd, capture_output=True, text=True)
 
         if result.returncode != 0:
-            concat_file = output_dir / f"concat_{i}.txt"
+            concat_file = output_dir / f"concat_{i:04d}.txt"
             with open(concat_file, "w", encoding="utf-8") as f:
                 f.write(f"file '{english_file.as_posix()}'\n")
-                f.write(f"file '{hebrew_file.as_posix()}'\n")
+                f.write(f"file '{foreign_file.as_posix()}'\n")
 
             cmd = [
                 "ffmpeg", "-y",
@@ -690,16 +649,15 @@ def generate_all_audio(phrases: list, output_dir: str):
         audio_files.append({
             "index": i,
             "english": str(english_file),
-            "hebrew": str(hebrew_file),
+            "hebrew": str(foreign_file),
             "combined": str(combined_file),
             "duration": actual_duration,
             "en_duration": en_duration,
-            "he_duration": he_duration
+            "foreign_duration": foreign_duration
         })
 
-    print(f"\n[audio] ✓ Generated {len(audio_files)} phrase audios")
+    print(f"\n[audio] Generated {len(audio_files)} phrase audios")
     return audio_files
-
 
 def get_audio_duration(audio_file: str) -> float:
     """Get audio duration in seconds"""
@@ -806,7 +764,7 @@ def generate_complete_image(phrase_data: dict, category_english: str, output_pat
 
     english = phrase_data.get("english", "")
     hebrew_text = phrase_data.get('hebrew') or phrase_data.get('spanish', '')
-    pronunciation = phrase_data.get("pronunciation", "")
+    pronunciation = phrase_data.get("pronunciation") or phrase_data.get("pronunciation") or phrase_data.get("pinyin") or phrase_data.get("romaji") or phrase_data.get("phonetic") or ""
 
     def wrap_text(text, font, max_width):
         words = text.split()
@@ -975,7 +933,7 @@ def generate_thumbnail(category_english: str, category_hebrew: str, output_path:
     draw.text((VIDEO_WIDTH // 2, 530), category_hebrew, fill=(45, 35, 65), font=font_main, anchor="mm")
 
     # Features / Call to Action (Lingexa Peach)
-    cta_text = "60 ESSENTIAL PHRASES"
+    cta_text = "120 ESSENTIAL PHRASES"
     draw.rounded_rectangle(
         [(VIDEO_WIDTH // 2 - 300, 650), (VIDEO_WIDTH // 2 + 300, 730)],
         radius=15, fill=(255, 210, 160, 255)
@@ -1019,35 +977,38 @@ def extract_video_thumbnail(video_path: str, output_path: str, timestamp_seconds
 
 # ============== TITLE & DESCRIPTION GENERATION ==============
 
-def generate_title_description(category_english: str, category_hebrew: str, phrases: list, duration_minutes: float, output_dir: str):
+def generate_title_description(category_english: str, category_foreign: str, phrases: list, duration_minutes: float, output_dir: str):
     """Generate viral YouTube title and description with all phrases - COMBINED in one file"""
+    
+    count = len(phrases)
+    est_mins = int(round(duration_minutes)) if duration_minutes > 0 else 20
     
     # Generate viral title variations
     titles = [
-        f"Learn Hebrew in 10 Minutes | {category_english} Phrases Every Beginner NEEDS to Know! ({category_hebrew})",
-        f"60 Hebrew Phrases for {category_english} | Speak Hebrew Like a Native! ({category_hebrew})",
-        f"Master Hebrew {category_english} | 60 Essential Hebrew Phrases with Pronunciation | Velocity Hebrew",
-        f"Hebrew Learning Made Easy | {category_english} Vocabulary | 10 Minute Lesson",
+        f"Learn Hebrew in {est_mins} Minutes | {count} {category_english} Phrases Every Beginner NEEDS to Know! ({category_foreign})",
+        f"{count} Hebrew Phrases for {category_english} | Speak Hebrew Like a Native! ({category_foreign})",
+        f"Master Hebrew {category_english} | {count} Essential Hebrew Phrases with Pronunciation | VELOCITY HEBREW",
+        f"Hebrew Learning Made Easy | {category_english} Vocabulary | {est_mins} Minute Lesson",
         f"Speak Hebrew Fluently | {category_english} Phrases | English + Hebrew + Pronunciation",
     ]
 
     # Generate comprehensive description
     description = f"""🇮🇱 Learn Hebrew with VELOCITY HEBREW! 🇮🇱
 
-In this video, you'll learn 60 essential Hebrew phrases about {category_english} ({category_hebrew}).
+In this video, you'll learn {count} essential Hebrew phrases about {category_english} ({category_foreign}).
 Perfect for beginners and intermediate learners!
 
 📚 WHAT YOU'LL LEARN:
-• 60 practical {category_english} phrases in Hebrew
-• Correct pronunciation guide
-• Natural pauses for speaking practice
+• {count} practical {category_english} phrases in Hebrew
+• Correct pronunciation with phonetics
+• Natural pedagogical pauses for speaking practice
 • Common expressions used by native speakers
 
 ⏱️ VIDEO TIMESTAMPS:
 """
 
     # Add timestamps for each phrase (every 10 phrases grouped)
-    avg_phrase_duration = duration_minutes * 60 / len(phrases)
+    avg_phrase_duration = (duration_minutes * 60) / max(len(phrases), 1)
     for i in range(0, len(phrases), 10):
         timestamp = int(i * avg_phrase_duration / 60)
         minute = timestamp
@@ -1061,22 +1022,24 @@ Perfect for beginners and intermediate learners!
 
     # Add all phrases
     for i, phrase in enumerate(phrases, 1):
+        foreign_phrase_text = phrase.get("hebrew") or phrase.get("target") or phrase.get("foreign") or ""
+        pron_phrase_text = phrase.get("pronunciation") or phrase.get("pronunciation") or phrase.get("pinyin") or phrase.get("romaji") or phrase.get("phonetic") or ""
         description += f"""
 {i}. {phrase['english']}
-   Hebrew: {phrase['hebrew']}
-   Pronunciation: {phrase['pronunciation']}
+   Hebrew: {foreign_phrase_text}
+   Pronunciation: {pron_phrase_text}
 """
 
     description += f"""
 🎯 PERFECT FOR:
 • Hebrew beginners wanting to expand vocabulary
 • Intermediate learners practicing pronunciation
-• Anyone interested in Hebrew
+• Anyone interested in Hebrew culture
 • Language enthusiasts and polyglots
-• Students preparing for exams
+• Students preparing for Hebrew language exams
 
 💡 TIPS FOR LEARNING:
-1. Repeat each phrase out loud
+1. Repeat each phrase out loud during the pause
 2. Practice daily for best results
 3. Use the pauses to speak along
 4. Write down phrases you find difficult
@@ -1095,9 +1058,10 @@ Perfect for beginners and intermediate learners!
 📖 RELATED VIDEOS:
 • Hebrew Motivation Phrases
 • Hebrew Love Expressions
+• Hebrew Basics
 • Basic Hebrew Greetings
 
-#LearnHebrew #HebrewPhrases #HebrewLanguage #{category_english.replace(' ', '')} #Hebrew #HebrewForBeginners #SpeakHebrew #HebrewVocabulary #Pronunciation #LanguageLearning #Hebrew101 #HebrewLesson
+#Hebrew #HebrewPhrases #HebrewLanguage #{category_english.replace(' ', '')} #VELOCITYHEBREW #HebrewForBeginners #SpeakHebrew #HebrewVocabulary #LanguageLearning #Hebrew101 #HebrewLesson
 
 ---
 © VELOCITY HEBREW - Making Hebrew learning accessible to everyone!
@@ -1107,7 +1071,6 @@ Perfect for beginners and intermediate learners!
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    # Combined YouTube upload file (title + description)
     with open(output_dir / "youtube_upload_info.txt", "w", encoding="utf-8") as f:
         f.write("=" * 80 + "\n")
         f.write("YOUTUBE VIDEO UPLOAD INFORMATION\n")
@@ -1132,18 +1095,18 @@ Perfect for beginners and intermediate learners!
         f.write("🏷️ VIDEO TAGS (for YouTube):\n")
         f.write("-" * 80 + "\n")
         tags = [
-            "Learn Hebrew",
-            "Hebrew Phrases",
-            "Hebrew Language",
+            f"Learn Hebrew",
+            f"Hebrew Phrases",
+            f"Hebrew",
             category_english,
-            "VELOCITY HEBREW",
-            "Hebrew for Beginners",
-            "Speak Hebrew",
-            "Hebrew Vocabulary",
+            brand_text,
+            f"Hebrew for Beginners",
+            f"Speak Hebrew",
+            f"Hebrew Vocabulary",
             "Pronunciation",
             "Language Learning",
-            "Hebrew 101",
-            "Hebrew Lesson"
+            f"Hebrew 101",
+            f"Hebrew Lesson"
         ]
         f.write(", ".join(tags) + "\n")
 
@@ -1153,7 +1116,7 @@ Perfect for beginners and intermediate learners!
         "selected_title": titles[0],
         "description": description,
         "category_english": category_english,
-        "category_hebrew": category_hebrew,
+        "category_hebrew": category_foreign,
         "phrases_count": len(phrases),
         "duration_minutes": round(duration_minutes, 2),
         "tags": tags
@@ -1162,14 +1125,11 @@ Perfect for beginners and intermediate learners!
     with open(output_dir / "video_metadata.json", "w", encoding="utf-8") as f:
         json.dump(metadata, f, indent=2, ensure_ascii=False)
 
-    print(f"\n[metadata] ✓ Generated YouTube upload files")
-    print(f"  📄 youtube_upload_info.txt (title + description + tags)")
-    print(f"  📄 video_metadata.json")
+    print(f"\n[metadata] Generated YouTube upload files")
+    print(f"  youtube_upload_info.txt (title + description + tags)")
+    print(f"  video_metadata.json")
 
     return metadata
-
-
-# ============== VIDEO CREATION WITH TRANSITIONS ==============
 
 def create_video_from_images_audio(image_files: list, audio_files: list, combined_audio: str, output_file: str):
     """Create video from images and audio with PERFECT synchronization"""
@@ -1183,7 +1143,7 @@ def create_video_from_images_audio(image_files: list, audio_files: list, combine
         duration = audio_info['duration']
         print(f"  Image {i+1}/{len(image_files)}: {duration:.2f}s (EN: {audio_info.get('en_duration', 0):.1f}s + ES: {audio_info.get('he_duration', 0):.1f}s)")
 
-        temp_clip = Path(output_file).parent / f"temp_clip_{i:02d}.mp4"
+        temp_clip = Path(output_file).parent / f"temp_clip_{i:04d}.mp4"
         temp_clips.append(temp_clip)
 
         cmd = [
@@ -1196,7 +1156,7 @@ def create_video_from_images_audio(image_files: list, audio_files: list, combine
             "-c:a", "aac",
             "-b:a", "128k",
             "-pix_fmt", "yuv420p",
-            "-preset", "medium",
+            "-preset", "ultrafast",
             "-shortest",
             "-vsync", "cfr",
             str(temp_clip)
@@ -1379,7 +1339,7 @@ def generate_multiple_longform(count: int = 1, target_phrases: int = None):
 if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser(description="Velocity Hebrew YouTube Long-form Video Generator")
-    parser.add_argument("--phrases", type=int, default=TARGET_PHRASES, help="Number of phrases to generate (determines video length, ~5.5s per phrase. 60 phrases = ~5.5 mins)")
+    parser.add_argument("--phrases", type=int, default=TARGET_PHRASES, help="Number of phrases to generate (120 phrases = ~20 min video with pedagogical pauses)")
     parser.add_argument("--category", type=str, default=None, help="Specific category to generate (e.g. 'Motivation', 'Friendship'). Random if not provided.")
     args = parser.parse_args()
 
@@ -1401,7 +1361,7 @@ if __name__ == "__main__":
     print(f"  • Resolution: {VIDEO_WIDTH}x{VIDEO_HEIGHT} (16:9)")
     print(f"  • Frame Rate: {FPS} FPS")
     print(f"  • Target Phrases: {args.phrases}")
-    print(f"  • Estimated Duration: ~{args.phrases * 5.5 / 60:.1f} minutes")
+    print(f"  • Estimated Duration: ~{args.phrases * 10.0 / 60:.1f} minutes")
     print(f"  • Phrase History: PERMANENT (never deletes)")
     print("="*80)
 
