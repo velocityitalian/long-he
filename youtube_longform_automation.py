@@ -861,6 +861,25 @@ def generate_complete_image(phrase_data: dict, category_english: str, output_pat
         anchor="mm"
     )
 
+    # Top Right Lesson Progress Indicator
+    prog_text = "120 ESSENTIAL PHRASES"
+    prog_bbox = draw.textbbox((0, 0), prog_text, font=font_branding)
+    prog_w = prog_bbox[2] - prog_bbox[0]
+    prog_pad_x = 30
+    prog_container_w = prog_w + (prog_pad_x * 2)
+    prog_x = VIDEO_WIDTH - prog_container_w - 60
+    draw.rounded_rectangle(
+        [(prog_x, container_y), (prog_x + prog_container_w, container_y + badge_h)],
+        radius=15, fill=(255, 210, 160, 255)
+    )
+    draw.text(
+        (prog_x + prog_container_w // 2, container_y + badge_h // 2 + 2),
+        prog_text,
+        fill=(70, 45, 25, 255),
+        font=font_branding,
+        anchor="mm"
+    )
+
     # Main Content Area - Center Vertical
     CONTENT_Y_CENTER = VIDEO_HEIGHT // 2
     GAP = 60
