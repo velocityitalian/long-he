@@ -2,7 +2,7 @@ name: Velocity Hebrew - Daily Long-Form Upload
 
 on:
   schedule:
-    - cron: '0 1 * * *'  # 8:00 PM EST (1:00 AM UTC)
+    - cron: '0 1 * * *'
   workflow_dispatch:
     inputs:
       upload_youtube:
@@ -14,16 +14,25 @@ on:
           - auto
           - 'true'
           - 'false'
+      category:
+        description: 'Category (optional, random if empty)'
+        required: false
+        default: ''
+      phrases:
+        description: 'Number of phrases (default: 120)'
+        required: false
+        default: '120'
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   generate-and-upload:
     runs-on: ubuntu-latest
 
     steps:
-      - name: ⬇️ Checkout
+      - name: ⬇️ Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -32,10 +41,10 @@ jobs:
         uses: actions/download-artifact@v4
         continue-on-error: true
         with:
-          name: longform-history
+          name: hebrew-phrase-history
           path: output/history/
 
-      - name: 📝 Init history
+      - name: 📝 Initialize history if not found
         run: |
           mkdir -p output/history
           if [ ! -f "output/history/all_generated_phrases.json" ]; then
@@ -50,15 +59,20 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: 📦 Install deps
+      - name: 📦 Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y ffmpeg fonts-noto
-          sudo fc-cache -fv
+          sudo apt-get install -y ffmpeg fonts-noto-cjk fonts-noto-cjk-extra fonts-noto-color-emoji
+          sudo fc-cache -fv || true
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          if [ -f "requirements.txt" ]; then
+            pip install -r requirements.txt
+          fi
+          if [ -f "upload/requirements.txt" ]; then
+            pip install -r upload/requirements.txt
+          fi
 
-      - name: 🔐 Create .env
+      - name: 🔐 Create .env file from secrets
         run: |
           echo "POLLINATIONS_API_KEY=${{ secrets.POLLINATIONS_API_KEY }}" >> .env
           echo "AI_MODEL=${{ secrets.AI_MODEL || 'gemini-fast' }}" >> .env
@@ -69,8 +83,12 @@ jobs:
           echo "FACEBOOK_ACCESS_TOKEN=${{ secrets.FACEBOOK_ACCESS_TOKEN }}" >> .env
           echo "FACEBOOK_PAGE_ID=${{ secrets.FACEBOOK_PAGE_ID }}" >> .env
 
-      - name: 🎬 Generate video
-        run: python youtube_longform_automation.py
+      - name: 🎬 Generate Long-Form Video
+        id: generate
+        run: |
+          python youtube_longform_automation.py
+          LATEST_DIR=$(ls -td output/longform_videos/*/ 2>/dev/null | head -1)
+          echo "LATEST_VIDEO_DIR=$LATEST_DIR" >> "$GITHUB_OUTPUT"
 
       - name: 📅 Check YouTube upload schedule (Alternate days)
         id: yt_schedule
@@ -97,17 +115,28 @@ jobs:
             fi
           fi
 
-      - name: 📺 Upload to YouTube
+      - name: 📺 Upload to YouTube (Alternate Days Only)
         if: steps.yt_schedule.outputs.should_upload == 'true'
+        id: youtube-upload
+        continue-on-error: true
         env:
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
         run: |
-          export PYTHONPATH="${{ github.workspace }}:$PYTHONPATH"
-          python upload_to_youtube.py
+          export PYTHONPATH="${{ github.workspace }}:${{ github.workspace }}/upload:$PYTHONPATH"
+          if [ -f "upload_to_youtube.py" ]; then
+            python upload_to_youtube.py
+          elif [ -f "upload/upload_youtube_longform.py" ]; then
+            cd upload && python upload_youtube_longform.py
+          elif [ -f "upload/upload_to_youtube.py" ]; then
+            cd upload && python upload_to_youtube.py
+          else
+            echo "❌ Error: Could not find YouTube upload script."
+            exit 1
+          fi
 
-      - name: 📘 Upload to Facebook Page
+      - name: 📘 Upload to Facebook Page (Daily)
         id: facebook-upload
         continue-on-error: true
         env:
@@ -119,37 +148,41 @@ jobs:
             python upload_to_facebook.py
           elif [ -f "upload/upload_facebook.py" ]; then
             cd upload && python upload_facebook.py
+          else
+            echo "ℹ️ No Facebook upload script found - skipping."
           fi
 
-      - name: 📤 Upload artifact
+      - name: 📤 Upload Video Artifact
         uses: actions/upload-artifact@v4
+        if: always()
         with:
-          name: longform-video-${{ github.run_number }}
+          name: velocity-hebrew-video-${{ github.run_number }}
           path: |
             output/longform_videos/*/final_video.mp4
             output/longform_videos/*/thumbnail.jpg
-            output/longform_videos/*/facebook_upload_result.json
             output/longform_videos/*/video_metadata.json
+            output/longform_videos/*/youtube_upload_info.txt
+            output/longform_videos/*/facebook_upload_result.json
           retention-days: 7
 
-      - name: 💾 Save history
+      - name: 💾 Upload Phrase History Artifact
         uses: actions/upload-artifact@v4
         if: success()
         with:
-          name: longform-history
+          name: hebrew-phrase-history
           path: |
             output/history/all_generated_phrases.json
             output/history/used_categories.json
           retention-days: 90
           overwrite: true
 
-      - name: 💾 Commit history
+      - name: 💾 Commit Phrase History to Repository
         if: success()
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add output/history/
           if ! git diff --staged --quiet; then
-            git commit -m "Update history - Run #${{ github.run_number }}"
-            git pull --rebase && git push
+            git commit -m "Update phrase history - Run #${{ github.run_number }}"
+            git push
           fi
