@@ -33755,7 +33755,727 @@
       "spanish": "איזה מזל, מדהים.",
       "category": "Gratitude",
       "generated_at": "2026-10-15T05:25:45.971960"
+    },
+    {
+      "english": "Excuse me, where is the bus stop?",
+      "hebrew": "סליחה, איפה תחנת האוטובוס?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604277"
+    },
+    {
+      "english": "Does this bus go to the city center?",
+      "hebrew": "האם האוטובוס הזה נוסע למרכז העיר?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604293"
+    },
+    {
+      "english": "How much is a ticket, please?",
+      "hebrew": "כמה עולה כרטיס, בבקשה?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604297"
+    },
+    {
+      "english": "I need to get off here.",
+      "hebrew": "אני צריך לרדת כאן.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604301"
+    },
+    {
+      "english": "Is the train on time?",
+      "hebrew": "הרכבת בזמן?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604304"
+    },
+    {
+      "english": "Can I pay with cash?",
+      "hebrew": "אפשר לשלם במזומן?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604307"
+    },
+    {
+      "english": "This is my stop.",
+      "hebrew": "זאת התחנה שלי.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604310"
+    },
+    {
+      "english": "Where do I buy a ticket?",
+      "hebrew": "איפה קונים כרטיס?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604315"
+    },
+    {
+      "english": "Is there a direct bus?",
+      "hebrew": "יש אוטובוס ישיר?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604319"
+    },
+    {
+      "english": "What time does the last bus leave?",
+      "hebrew": "באיזו שעה יוצא האוטובוס האחרון?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604322"
+    },
+    {
+      "english": "Can you tell me, please?",
+      "hebrew": "תוכל להגיד לי, בבקשה?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604325"
+    },
+    {
+      "english": "I'm lost, can you help?",
+      "hebrew": "אני אבוד, אתה יכול לעזור?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604329"
+    },
+    {
+      "english": "This seat is taken.",
+      "hebrew": "המקום הזה תפוס.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604331"
+    },
+    {
+      "english": "Could you move over, please?",
+      "hebrew": "אפשר להזיז קצת, בבקשה?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604334"
+    },
+    {
+      "english": "Is it far from here?",
+      "hebrew": "זה רחוק מכאן?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604336"
+    },
+    {
+      "english": "I'm heading to the airport.",
+      "hebrew": "אני נוסע לשדה התעופה.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604339"
+    },
+    {
+      "english": "Which platform is it?",
+      "hebrew": "איזו רציף זה?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604341"
+    },
+    {
+      "english": "Please drive carefully.",
+      "hebrew": "סע בזהירות, בבקשה.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604344"
+    },
+    {
+      "english": "How long is the ride?",
+      "hebrew": "כמה זמן הנסיעה?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604346"
+    },
+    {
+      "english": "I'm running late.",
+      "hebrew": "אני מאחר.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604349"
+    },
+    {
+      "english": "Is there Wi-Fi on board?",
+      "hebrew": "יש אינטרנט אלחוטי בפנים?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604351"
+    },
+    {
+      "english": "I need a one-way ticket.",
+      "hebrew": "אני צריך כרטיס בכיוון אחד.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604354"
+    },
+    {
+      "english": "Can I have a round trip ticket?",
+      "hebrew": "אפשר כרטיס הלוך ושוב?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604357"
+    },
+    {
+      "english": "This is very crowded.",
+      "hebrew": "מאוד צפוף כאן.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604360"
+    },
+    {
+      "english": "I think we missed our stop.",
+      "hebrew": "אני חושב שפספסנו את התחנה.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604362"
+    },
+    {
+      "english": "Is this the correct line?",
+      "hebrew": "זה הקו הנכון?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604367"
+    },
+    {
+      "english": "Where can I get a map?",
+      "hebrew": "איפה אפשר לקבל מפה?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604370"
+    },
+    {
+      "english": "Could you please lower the music?",
+      "hebrew": "אפשר להנמיך את המוזיקה, בבקשה?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604372"
+    },
+    {
+      "english": "I'm looking for the tram stop.",
+      "hebrew": "אני מחפש את תחנת החשמלית.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604377"
+    },
+    {
+      "english": "It's a bit bumpy.",
+      "hebrew": "קצת רועד פה.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604379"
+    },
+    {
+      "english": "Which bus, stops here?",
+      "hebrew": "איזו אוטובוס, עוצר פה?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604382"
+    },
+    {
+      "english": "Is this the right way, for Jaffa?",
+      "hebrew": "זה הכיוון, ליפו?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604385"
+    },
+    {
+      "english": "Can I get off, at the next station?",
+      "hebrew": "אפשר לרדת, בתחנה הבאה?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604389"
+    },
+    {
+      "english": "Do you know, where to change trains?",
+      "hebrew": "אתה יודע, איפה להחליף רכבת?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604392"
+    },
+    {
+      "english": "What's the next stop called?",
+      "hebrew": "איך קוראים לתחנה הבאה?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604395"
+    },
+    {
+      "english": "How often, does this bus run?",
+      "hebrew": "כל כמה זמן, האוטובוס הזה נוסע?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604398"
+    },
+    {
+      "english": "Is there a senior discount?",
+      "hebrew": "יש הנחה, לאזרחים ותיקים?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604400"
+    },
+    {
+      "english": "Can I use my phone, to pay?",
+      "hebrew": "אפשר לשלם, עם הטלפון?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604404"
+    },
+    {
+      "english": "Where is the nearest station?",
+      "hebrew": "איפה התחנה, הכי קרובה?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604407"
+    },
+    {
+      "english": "Will it be crowded, later?",
+      "hebrew": "יהיה עמוס, אחר כך?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604409"
+    },
+    {
+      "english": "Is this seat, available?",
+      "hebrew": "הכיסא הזה, פנוי?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604413"
+    },
+    {
+      "english": "Could you help me, with my bag?",
+      "hebrew": "תוכל לעזור לי, עם התיק?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604415"
+    },
+    {
+      "english": "Are we there, yet?",
+      "hebrew": "כבר הגענו?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604418"
+    },
+    {
+      "english": "I need to get to, the museum.",
+      "hebrew": "אני צריך להגיע, למוזיאון.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604421"
+    },
+    {
+      "english": "Which platform, for Haifa?",
+      "hebrew": "איזו רציף, להייפה?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604426"
+    },
+    {
+      "english": "Is it safe, to travel alone?",
+      "hebrew": "זה בטוח, לנסוע לבד?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604429"
+    },
+    {
+      "english": "How much time, until we arrive?",
+      "hebrew": "כמה זמן, עד שנגיע?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604432"
+    },
+    {
+      "english": "I think I'm early, for my connection.",
+      "hebrew": "אני חושב שאני מקדים, להחלפה שלי.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604435"
+    },
+    {
+      "english": "Is there a toilet, on the train?",
+      "hebrew": "יש שירותים, ברכבת?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604438"
+    },
+    {
+      "english": "I need a return ticket, please.",
+      "hebrew": "אני צריך כרטיס הלוך ושוב, בבקשה.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604440"
+    },
+    {
+      "english": "It's very noisy, inside.",
+      "hebrew": "מאוד רועש, בפנים.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604443"
+    },
+    {
+      "english": "Did we pass, the right stop?",
+      "hebrew": "עברנו, את התחנה הנכונה?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604446"
+    },
+    {
+      "english": "Is this the express, or local?",
+      "hebrew": "זה אקספרס, או מקומי?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604449"
+    },
+    {
+      "english": "Where can I get, a city guide?",
+      "hebrew": "איפה אפשר לקבל, מפה של העיר?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604451"
+    },
+    {
+      "english": "Could you turn down, the radio?",
+      "hebrew": "אפשר להנמיך, את הרדיו?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604454"
+    },
+    {
+      "english": "I'm looking for, the main station.",
+      "hebrew": "אני מחפש, את התחנה המרכזית.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604459"
+    },
+    {
+      "english": "It's a bit rocky, today.",
+      "hebrew": "קצת טלטלות, היום.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604463"
+    },
+    {
+      "english": "What's the fare, to the university?",
+      "hebrew": "מה המחיר, לאוניברסיטה?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604466"
+    },
+    {
+      "english": "Do you speak English?",
+      "hebrew": "אתה מדבר, אנגלית?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604469"
+    },
+    {
+      "english": "Could you repeat that, please?",
+      "hebrew": "תוכל לחזור על זה, בבקשה?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604472"
+    },
+    {
+      "english": "This line, is always packed.",
+      "hebrew": "הקו הזה, תמיד מפוצץ.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604475"
+    },
+    {
+      "english": "It's a real shlep, to get there.",
+      "hebrew": "זו נסיעה רצינית, להגיע לשם.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604478"
+    },
+    {
+      "english": "I'll take the scenic route, of course.",
+      "hebrew": "אני אקח את הדרך הנופית, כמובן.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604481"
+    },
+    {
+      "english": "Don't miss the connection, it's tight.",
+      "hebrew": "אל תפספס את ההחלפה, זה צמוד.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604484"
+    },
+    {
+      "english": "Just gotta go with the flow, you know?",
+      "hebrew": "פשוט צריך לזרום עם הזרם, אתה מבין?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604487"
+    },
+    {
+      "english": "It's worth the wait, for this bus.",
+      "hebrew": "זה שווה את ההמתנה, לאוטובוס הזה.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604490"
+    },
+    {
+      "english": "Always late, like clockwork.",
+      "hebrew": "תמיד מאחר, כמו שעון.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604493"
+    },
+    {
+      "english": "This is the shortcut, believe me.",
+      "hebrew": "זו קיצור הדרך, תאמין לי.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604496"
+    },
+    {
+      "english": "It's a long haul, this trip.",
+      "hebrew": "זו נסיעה ארוכה, הטיול הזה.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604499"
+    },
+    {
+      "english": "Just follow the signs, easy peasy.",
+      "hebrew": "פשוט עקוב אחרי השלטים, קל מאוד.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604502"
+    },
+    {
+      "english": "It's the best way, to see the city.",
+      "hebrew": "זו הדרך הכי טובה, לראות את העיר.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604505"
+    },
+    {
+      "english": "It's a real adventure, this commute.",
+      "hebrew": "זו הרפתקה אמיתית, הנסיעה הזו.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604508"
+    },
+    {
+      "english": "Just wing it, you'll figure it out.",
+      "hebrew": "פשוט אלתור, תבין את זה.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604511"
+    },
+    {
+      "english": "Mind the gap, it's a big one.",
+      "hebrew": "שים לב לפער, הוא גדול.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604514"
+    },
+    {
+      "english": "This bus, is my second home.",
+      "hebrew": "האוטובוס הזה, הוא הבית השני שלי.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604517"
+    },
+    {
+      "english": "Can't beat the price, for this view.",
+      "hebrew": "אי אפשר לנצח את המחיר, לנוף הזה.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604520"
+    },
+    {
+      "english": "It's a classic move, to take the tram.",
+      "hebrew": "זה מהלך קלאסי, לקחת את החשמלית.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604523"
+    },
+    {
+      "english": "We're on the same wavelength, thankfully.",
+      "hebrew": "אנחנו באותו גל, למזלנו.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604526"
+    },
+    {
+      "english": "This is the express lane, to happiness.",
+      "hebrew": "זוהי נתיב האקספרס, לאושר.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604529"
+    },
+    {
+      "english": "Just gotta roll with it, you know.",
+      "hebrew": "פשוט צריך לזרום עם זה, אתה יודע.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604531"
+    },
+    {
+      "english": "It's a whole other world, on the train.",
+      "hebrew": "זה עולם אחר לגמרי, ברכבת.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604534"
+    },
+    {
+      "english": "This is the fast track, to downtown.",
+      "hebrew": "זה המסלול המהיר, למרכז העיר.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604537"
+    },
+    {
+      "english": "It's a tight squeeze, get on!",
+      "hebrew": "זה צפוף, עלה!",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604540"
+    },
+    {
+      "english": "We're making good time, finally.",
+      "hebrew": "אנחנו מתקדמים יפה, סוף סוף.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604543"
+    },
+    {
+      "english": "This is my daily grind, you see.",
+      "hebrew": "זו השחיקה היומיומית שלי, אתה מבין.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604545"
+    },
+    {
+      "english": "Just enjoy the ride, relax.",
+      "hebrew": "פשוט תהנה מהנסיעה, תירגע.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604548"
+    },
+    {
+      "english": "It's a small world, on the bus.",
+      "hebrew": "זה עולם קטן, באוטובוס.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604551"
+    },
+    {
+      "english": "This is the main artery, of the city.",
+      "hebrew": "זה העורק הראשי, של העיר.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604554"
+    },
+    {
+      "english": "This wait, feels so long.",
+      "hebrew": "ההמתנה הזו, מרגישה כל כך ארוכה.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604562"
+    },
+    {
+      "english": "I'm actually enjoying, this quiet ride.",
+      "hebrew": "אני דווקא נהנה/נהנית, מהנסיעה השקטה הזו.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604567"
+    },
+    {
+      "english": "It gives me time, to think.",
+      "hebrew": "זה נותן לי זמן, לחשוב.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604569"
+    },
+    {
+      "english": "Sometimes, I just stare out the window.",
+      "hebrew": "לפעמים, אני פשוט בוהה בחלון.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604572"
+    },
+    {
+      "english": "This journey, teaches me patience.",
+      "hebrew": "המסע הזה, מלמד אותי סבלנות.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604575"
+    },
+    {
+      "english": "It's a chance, to disconnect.",
+      "hebrew": "זו הזדמנות, להתנתק.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604578"
+    },
+    {
+      "english": "I feel a sense, of calm here.",
+      "hebrew": "אני מרגיש/ה תחושת, רוגע כאן.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604581"
+    },
+    {
+      "english": "It's peaceful, unlike the street.",
+      "hebrew": "זה שליו, בניגוד לרחוב.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604584"
+    },
+    {
+      "english": "I appreciate, the slow pace.",
+      "hebrew": "אני מעריך/ה, את הקצב האיטי.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604587"
+    },
+    {
+      "english": "This commute, is my meditation.",
+      "hebrew": "הנסיעה הזו, היא המדיטציה שלי.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604590"
+    },
+    {
+      "english": "It makes me reflect, on life.",
+      "hebrew": "זה גורם לי להרהר, על החיים.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604593"
+    },
+    {
+      "english": "I'm grateful, for this moment.",
+      "hebrew": "אני אסיר/ה תודה, על הרגע הזה.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604596"
+    },
+    {
+      "english": "It's a good time, to be present.",
+      "hebrew": "זה זמן טוב, להיות נוכח/ת.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604599"
+    },
+    {
+      "english": "I feel connected, to the city.",
+      "hebrew": "אני מרגיש/ה מחובר/ת, לעיר.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604602"
+    },
+    {
+      "english": "This rhythm, is quite soothing.",
+      "hebrew": "הקצב הזה, די מרגיע.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604604"
+    },
+    {
+      "english": "I find solace, on this bus.",
+      "hebrew": "אני מוצא/ת נחמה, באוטובוס הזה.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604607"
+    },
+    {
+      "english": "It's a welcome pause, from the rush.",
+      "hebrew": "זו הפסקה מבורכת, מהמרוץ.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604610"
+    },
+    {
+      "english": "I feel thoughtful, during the ride.",
+      "hebrew": "אני מרגיש/ה מהורהר/ת, במהלך הנסיעה.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604613"
+    },
+    {
+      "english": "This journey, feels meaningful.",
+      "hebrew": "המסע הזה, מרגיש משמעותי.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604615"
+    },
+    {
+      "english": "I'm learning, to let go.",
+      "hebrew": "אני לומד/ת, לשחרר.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604620"
+    },
+    {
+      "english": "It's a humble experience, really.",
+      "hebrew": "זו חוויה צנועה, באמת.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604623"
+    },
+    {
+      "english": "I embrace, the uncertainty.",
+      "hebrew": "אני מאמץ/ת, את אי-הוודאות.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604626"
+    },
+    {
+      "english": "This is my time, for reflection.",
+      "hebrew": "זה הזמן שלי, להתבוננות.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604629"
+    },
+    {
+      "english": "I feel grounded, on the move.",
+      "hebrew": "אני מרגיש/ה קרקוע, תוך כדי תנועה.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604632"
+    },
+    {
+      "english": "It's a simple pleasure, this ride.",
+      "hebrew": "זה תענוג פשוט, הנסיעה הזו.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604635"
+    },
+    {
+      "english": "I'm observing, the world pass by.",
+      "hebrew": "אני צופה, בעולם חולף.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604638"
+    },
+    {
+      "english": "There's a beauty, in the mundane.",
+      "hebrew": "יש יופי, בשגרה.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604641"
+    },
+    {
+      "english": "This journey, makes me thoughtful.",
+      "hebrew": "המסע הזה, גורם לי להיות מהורהר/ת.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604643"
+    },
+    {
+      "english": "I'm finding peace, in transit.",
+      "hebrew": "אני מוצא/ת שלווה, במעבר.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604646"
+    },
+    {
+      "english": "It's a moment, of pure being.",
+      "hebrew": "זה רגע, של הוויה טהורה.",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604649"
+    },
+    {
+      "english": "Excuse me, where does this bus go?",
+      "hebrew": "סליחה, לאן האוטובוס הזה נוסע?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604655"
+    },
+    {
+      "english": "How much is a ticket, to the airport?",
+      "hebrew": "כמה עולה כרטיס, לשדה התעופה?",
+      "category": "Public Transportation",
+      "generated_at": "2026-10-17T05:13:09.604658"
     }
   ],
-  "last_updated": "2026-10-15T05:25:45.971961"
+  "last_updated": "2026-10-17T05:13:09.604662"
 }
