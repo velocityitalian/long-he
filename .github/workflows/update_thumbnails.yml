@@ -1,0 +1,58 @@
+name: Update Previous Video Thumbnails
+
+on:
+  workflow_dispatch:
+    inputs:
+      count:
+        description: 'Number of recent videos to update thumbnails for'
+        required: false
+        default: '10'
+
+permissions:
+  contents: write
+
+jobs:
+  update-thumbnails:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: ⬇️ Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 📦 Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto-cjk fonts-noto-color-emoji
+          python -m pip install --upgrade pip
+          if [ -f "requirements.txt" ]; then
+            pip install -r requirements.txt
+          fi
+
+      - name: 🔐 Create .env file from secrets
+        run: |
+          echo "YT_CLIENT_ID=${{ secrets.YT_CLIENT_ID }}" >> .env
+          echo "YT_CLIENT_SECRET=${{ secrets.YT_CLIENT_SECRET }}" >> .env
+          echo "YT_REFRESH_TOKEN=${{ secrets.YT_REFRESH_TOKEN }}" >> .env
+          echo "GDRIVE_FOLDER_ID=${{ secrets.GDRIVE_FOLDER_ID || '1nIA9jI0w2imEuTEbjtME0kGfGSmmgSHJ' }}" >> .env
+
+      - name: 🖼️ Update Previous Video Thumbnails
+        run: |
+          python update_previous_thumbnails.py --count ${{ github.event.inputs.count || '10' }}
+
+      - name: 💾 Commit Updated Thumbnail History
+        if: always()
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add output/history/
+          if ! git diff --staged --quiet; then
+            git commit -m "Update thumbnail history after updating previous videos"
+            git push
+          fi
