@@ -1,6 +1,89 @@
 {
-  "used_counts": {},
-  "last_used": {},
-  "history": [],
+  "used_counts": {
+    "hebrew_bg_001.jpg": 1,
+    "hebrew_bg_002.jpg": 1,
+    "hebrew_bg_003.jpg": 1,
+    "hebrew_bg_004.jpg": 1,
+    "hebrew_bg_005.jpg": 1,
+    "hebrew_bg_006.jpg": 1,
+    "hebrew_bg_007.jpg": 1,
+    "hebrew_bg_008.jpg": 1,
+    "hebrew_bg_009.jpg": 1,
+    "hebrew_bg_010.jpg": 1
+  },
+  "last_used": {
+    "hebrew_bg_001.jpg": "2026-10-17T04:51:43.053496+00:00",
+    "hebrew_bg_002.jpg": "2026-10-17T04:51:47.301022+00:00",
+    "hebrew_bg_003.jpg": "2026-10-17T04:51:49.716193+00:00",
+    "hebrew_bg_004.jpg": "2026-10-17T04:51:54.617368+00:00",
+    "hebrew_bg_005.jpg": "2026-10-17T04:51:57.187126+00:00",
+    "hebrew_bg_006.jpg": "2026-10-17T04:51:59.949740+00:00",
+    "hebrew_bg_007.jpg": "2026-10-17T04:52:03.047296+00:00",
+    "hebrew_bg_008.jpg": "2026-10-17T04:52:05.521589+00:00",
+    "hebrew_bg_009.jpg": "2026-10-17T04:52:07.595435+00:00",
+    "hebrew_bg_010.jpg": "2026-10-17T04:52:10.398896+00:00"
+  },
+  "history": [
+    {
+      "filename": "hebrew_bg_001.jpg",
+      "category": "Success",
+      "timestamp": "2026-10-17T04:51:43.053496+00:00",
+      "cycle": 1
+    },
+    {
+      "filename": "hebrew_bg_002.jpg",
+      "category": "Friendship",
+      "timestamp": "2026-10-17T04:51:47.301022+00:00",
+      "cycle": 1
+    },
+    {
+      "filename": "hebrew_bg_003.jpg",
+      "category": "Patience",
+      "timestamp": "2026-10-17T04:51:49.716193+00:00",
+      "cycle": 1
+    },
+    {
+      "filename": "hebrew_bg_004.jpg",
+      "category": "Positive Life",
+      "timestamp": "2026-10-17T04:51:54.617368+00:00",
+      "cycle": 1
+    },
+    {
+      "filename": "hebrew_bg_005.jpg",
+      "category": "Kindness",
+      "timestamp": "2026-10-17T04:51:57.187126+00:00",
+      "cycle": 1
+    },
+    {
+      "filename": "hebrew_bg_006.jpg",
+      "category": "Love",
+      "timestamp": "2026-10-17T04:51:59.949740+00:00",
+      "cycle": 1
+    },
+    {
+      "filename": "hebrew_bg_007.jpg",
+      "category": "Strength",
+      "timestamp": "2026-10-17T04:52:03.047296+00:00",
+      "cycle": 1
+    },
+    {
+      "filename": "hebrew_bg_008.jpg",
+      "category": "Joy",
+      "timestamp": "2026-10-17T04:52:05.521589+00:00",
+      "cycle": 1
+    },
+    {
+      "filename": "hebrew_bg_009.jpg",
+      "category": "Balance",
+      "timestamp": "2026-10-17T04:52:07.595435+00:00",
+      "cycle": 1
+    },
+    {
+      "filename": "hebrew_bg_010.jpg",
+      "category": "Self Improvement",
+      "timestamp": "2026-10-17T04:52:10.398896+00:00",
+      "cycle": 1
+    }
+  ],
   "cycle": 1
 }
