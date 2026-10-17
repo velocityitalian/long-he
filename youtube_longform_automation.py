@@ -1324,26 +1324,21 @@ def generate_longform_video(category_english: str = None, target_phrases: int = 
         if (i + 1) % 10 == 0:
             print(f"  Progress: {i+1}/{len(phrases)} images...")
 
-    # Step 3: Generate thumbnail using gpt-image-2 via Pollinations
-    print(f"\n[3/6] Using first phrase image as thumbnail...")
+    # Step 3: Generate custom YouTube thumbnail with LRU background recycling
+    print(f"\n[3/6] Generating custom bilingual thumbnail...")
     thumbnail_path = video_dir / "thumbnail.jpg"
-    first_phrase = sorted(video_dir.glob("phrase_*.jpg"))
-    if first_phrase:
-        import shutil
-        shutil.copy2(str(first_phrase[0]), str(thumbnail_path))
-        print(f"  Thumbnail: {first_phrase[0].name} (content-based)")
-    else:
-        try:
-            from generate_thumbnail import generate_scenic_image
-            result = generate_scenic_image(category_english, category_english, str(thumbnail_path))
-            if result and Path(result).exists():
-                print(f"  gpt-image-2 thumbnail saved")
-            else:
-                print(f"  gpt-image-2 failed, using built-in")
-                generate_thumbnail(category_english, CATEGORIES_HEBREW[category_english], str(thumbnail_path))
-        except Exception as e:
-            print(f"  Thumbnail error: {e}, using built-in")
-            generate_thumbnail(category_english, CATEGORIES_HEBREW[category_english], str(thumbnail_path))
+    try:
+        from generate_thumbnail import generate_thumbnail
+        cat_hebrew = CATEGORIES_HEBREW.get(category_english, category_english)
+        generate_thumbnail(category_english, cat_hebrew, str(thumbnail_path))
+        print(f"  Custom thumbnail created: {thumbnail_path.name}")
+    except Exception as e:
+        print(f"  Warning: Custom thumbnail generation error ({e}), falling back to first slide")
+        first_phrase = sorted(video_dir.glob("phrase_*.jpg"))
+        if first_phrase:
+            import shutil
+            shutil.copy2(str(first_phrase[0]), str(thumbnail_path))
+            print(f"  Fallback thumbnail copied from: {first_phrase[0].name}")
     video_thumbnail_path = video_dir / "video_thumbnail_frame.jpg"
     print(f"\n[4/6] Generating audio for {len(phrases)} phrases...")
     audio_files = generate_all_audio(phrases, str(video_dir))

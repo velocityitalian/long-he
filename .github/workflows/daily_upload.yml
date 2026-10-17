@@ -53,6 +53,9 @@ jobs:
           if [ ! -f "output/history/used_categories.json" ]; then
             echo '{"categories": []}' > output/history/used_categories.json
           fi
+          if [ ! -f "output/history/thumbnail_history.json" ]; then
+            echo '{"used_counts": {}, "last_used": {}, "history": [], "cycle": 1}' > output/history/thumbnail_history.json
+          fi
 
       - name: 🐍 Set up Python
         uses: actions/setup-python@v5
@@ -82,6 +85,7 @@ jobs:
           echo "YT_REFRESH_TOKEN=${{ secrets.YT_REFRESH_TOKEN }}" >> .env
           echo "FACEBOOK_ACCESS_TOKEN=${{ secrets.FACEBOOK_ACCESS_TOKEN }}" >> .env
           echo "FACEBOOK_PAGE_ID=${{ secrets.FACEBOOK_PAGE_ID }}" >> .env
+          echo "GDRIVE_FOLDER_ID=${{ secrets.GDRIVE_FOLDER_ID || '1nIA9jI0w2imEuTEbjtME0kGfGSmmgSHJ' }}" >> .env
 
       - name: 🎬 Generate Long-Form Video
         id: generate
@@ -173,6 +177,7 @@ jobs:
           path: |
             output/history/all_generated_phrases.json
             output/history/used_categories.json
+            output/history/thumbnail_history.json
           retention-days: 90
           overwrite: true
 
