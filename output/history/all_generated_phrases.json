@@ -36635,7 +36635,727 @@
       "hebrew": "הרגשות הכנים שלי, אליך.",
       "category": "Love",
       "generated_at": "2026-10-20T05:35:14.014286"
+    },
+    {
+      "english": "Shabbat Shalom, enjoy your weekend.",
+      "hebrew": "שבת שלום, תיהנו מהסופ\"ש.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026123"
+    },
+    {
+      "english": "Happy holidays, may they be joyous.",
+      "hebrew": "חג שמח, שיהיו שמחים.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026134"
+    },
+    {
+      "english": "This is a special tradition, right?",
+      "hebrew": "זו מסורת מיוחדת, נכון?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026138"
+    },
+    {
+      "english": "We always do this, it's a must.",
+      "hebrew": "אנחנו תמיד עושים את זה, זה חובה.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026142"
+    },
+    {
+      "english": "What's the meaning behind this custom?",
+      "hebrew": "מה המשמעות מאחורי המנהג הזה?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026145"
+    },
+    {
+      "english": "It reminds me of childhood.",
+      "hebrew": "זה מזכיר לי ילדות.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026148"
+    },
+    {
+      "english": "Let's continue the tradition.",
+      "hebrew": "בואו נמשיך את המסורת.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026151"
+    },
+    {
+      "english": "Is this an old custom?",
+      "hebrew": "האם זה מנהג ישן?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026156"
+    },
+    {
+      "english": "Family gatherings are important.",
+      "hebrew": "מפגשי משפחה חשובים.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026160"
+    },
+    {
+      "english": "We cherish these moments.",
+      "hebrew": "אנחנו מעריכים את הרגעים האלה.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026162"
+    },
+    {
+      "english": "It's a beautiful way to connect.",
+      "hebrew": "זו דרך יפה להתחבר.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026165"
+    },
+    {
+      "english": "Do you celebrate this too?",
+      "hebrew": "גם אתם חוגגים את זה?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026168"
+    },
+    {
+      "english": "This food is part of the tradition.",
+      "hebrew": "האוכל הזה חלק מהמסורת.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026171"
+    },
+    {
+      "english": "It feels very authentic.",
+      "hebrew": "זה מרגיש מאוד אותנטי.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026174"
+    },
+    {
+      "english": "Let's pass it on.",
+      "hebrew": "בואו נעביר את זה הלאה.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026176"
+    },
+    {
+      "english": "This song has history.",
+      "hebrew": "לשיר הזה יש היסטוריה.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026179"
+    },
+    {
+      "english": "It's a symbol of our culture.",
+      "hebrew": "זה סמל לתרבות שלנו.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026183"
+    },
+    {
+      "english": "We honor our ancestors.",
+      "hebrew": "אנו מכבדים את אבותינו.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026186"
+    },
+    {
+      "english": "A time for reflection, a time for joy.",
+      "hebrew": "זמן למחשבה, זמן לשמחה.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026189"
+    },
+    {
+      "english": "Every generation adds its own touch.",
+      "hebrew": "כל דור מוסיף את הטאץ' שלו.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026194"
+    },
+    {
+      "english": "It's more than just a ritual.",
+      "hebrew": "זה יותר מסתם טקס.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026196"
+    },
+    {
+      "english": "We learn from the past.",
+      "hebrew": "אנחנו לומדים מהעבר.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026199"
+    },
+    {
+      "english": "This is how we stay connected.",
+      "hebrew": "ככה אנחנו נשארים מחוברים.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026201"
+    },
+    {
+      "english": "I feel the spirit of tradition.",
+      "hebrew": "אני מרגיש את רוח המסורת.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026204"
+    },
+    {
+      "english": "It's a shared experience.",
+      "hebrew": "זו חוויה משותפת.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026206"
+    },
+    {
+      "english": "Respect for customs is key.",
+      "hebrew": "כבוד למנהגים הוא המפתח.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026209"
+    },
+    {
+      "english": "This brings us all together.",
+      "hebrew": "זה מאחד את כולנו.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026211"
+    },
+    {
+      "english": "What a wonderful tradition!",
+      "hebrew": "איזו מסורת נפלאה!",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026214"
+    },
+    {
+      "english": "May it continue for years.",
+      "hebrew": "שתמשיך לשנים.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026216"
+    },
+    {
+      "english": "Can you explain this practice, please?",
+      "hebrew": "את/ה יכול/ה להסביר את המנהג הזה, בבקשה?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026219"
+    },
+    {
+      "english": "What is the significance of this event?",
+      "hebrew": "מה המשמעות של האירוע הזה?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026222"
+    },
+    {
+      "english": "How do you usually prepare for this holiday?",
+      "hebrew": "איך את/ה בדרך כלל מתכונן/ת לחג הזה?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026225"
+    },
+    {
+      "english": "Is there a specific way to participate?",
+      "hebrew": "יש דרך מסוימת להשתתף?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026228"
+    },
+    {
+      "english": "What advice do you have for newcomers?",
+      "hebrew": "איזו עצה יש לך לחדשים?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026231"
+    },
+    {
+      "english": "Can we try that activity together?",
+      "hebrew": "אפשר לנסות את הפעילות הזו ביחד?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026234"
+    },
+    {
+      "english": "What are your thoughts on this tradition?",
+      "hebrew": "מה דעתך על המסורת הזו?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026236"
+    },
+    {
+      "english": "Could you show me how it's done?",
+      "hebrew": "תוכל/י להראות לי איך עושים את זה?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026239"
+    },
+    {
+      "english": "What makes this celebration unique for you?",
+      "hebrew": "מה הופך את החגיגה הזו לייחודית עבורך?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026242"
+    },
+    {
+      "english": "Are there any common mistakes to avoid?",
+      "hebrew": "יש טעויות נפוצות שכדאי להימנע מהן?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026245"
+    },
+    {
+      "english": "Tell me more about your family's customs.",
+      "hebrew": "ספר/י לי עוד על מנהגי המשפחה שלך.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026253"
+    },
+    {
+      "english": "What's the best part of this observance?",
+      "hebrew": "מה החלק הכי טוב במצווה הזו?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026256"
+    },
+    {
+      "english": "Do you have any recommendations for learning more?",
+      "hebrew": "יש לך המלצות ללמוד עוד?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026259"
+    },
+    {
+      "english": "How do people typically interact during this time?",
+      "hebrew": "איך אנשים מתקשרים בדרך כלל בזמן הזה?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026262"
+    },
+    {
+      "english": "What's a typical greeting for this occasion?",
+      "hebrew": "מה ברכה אופיינית לאירוע הזה?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026265"
+    },
+    {
+      "english": "Can you share a personal story related to this?",
+      "hebrew": "את/ה יכול/ה לשתף סיפור אישי שקשור לזה?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026268"
+    },
+    {
+      "english": "What are the essential elements of this celebration?",
+      "hebrew": "מהם המרכיבים החיוניים של החגיגה הזו?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026271"
+    },
+    {
+      "english": "Is it appropriate to ask about the origins?",
+      "hebrew": "זה מתאים לשאול על המקורות?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026273"
+    },
+    {
+      "english": "What should I bring if invited?",
+      "hebrew": "מה כדאי להביא אם מוזמן/ת?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026276"
+    },
+    {
+      "english": "How do you express gratitude during this time?",
+      "hebrew": "איך מביעים הכרת תודה בזמן הזה?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026279"
+    },
+    {
+      "english": "What's considered respectful behavior here?",
+      "hebrew": "מה נחשב התנהגות מכבדת כאן?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026281"
+    },
+    {
+      "english": "Can we discuss the next steps involved?",
+      "hebrew": "אפשר לדון בצעדים הבאים הכרוכים?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026284"
+    },
+    {
+      "english": "What's a common phrase used in conversations?",
+      "hebrew": "איזו אמירה נפוצה בשיחות?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026289"
+    },
+    {
+      "english": "How can I be a good guest?",
+      "hebrew": "איך אני יכול/ה להיות אורח/ת טוב/ה?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026291"
+    },
+    {
+      "english": "What does this symbol represent to you?",
+      "hebrew": "מה הסמל הזה מייצג עבורך?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026294"
+    },
+    {
+      "english": "Is there a particular song associated with this?",
+      "hebrew": "יש שיר מסוים שקשור לזה?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026297"
+    },
+    {
+      "english": "What is the main purpose of this observance?",
+      "hebrew": "מה המטרה העיקרית של המצווה הזו?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026302"
+    },
+    {
+      "english": "Could you share some common blessings?",
+      "hebrew": "אפשר לחלוק כמה ברכות נפוצות?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026304"
+    },
+    {
+      "english": "What's the most memorable aspect for you?",
+      "hebrew": "מה ההיבט הכי זכור לך?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026307"
+    },
+    {
+      "english": "How do we respectfully acknowledge elders?",
+      "hebrew": "איך מכבדים בכבוד את המבוגרים?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026310"
+    },
+    {
+      "english": "Embrace the moment, feel the joy.",
+      "hebrew": "קבל את הרגע, הרגש את השמחה.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026313"
+    },
+    {
+      "english": "Your effort, truly appreciated.",
+      "hebrew": "המאמץ שלך, מוערך באמת.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026316"
+    },
+    {
+      "english": "Let curiosity guide your learning.",
+      "hebrew": "תן לסקרנות להוביל את הלמידה שלך.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026321"
+    },
+    {
+      "english": "Every small step, builds something great.",
+      "hebrew": "כל צעד קטן, בונה משהו גדול.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026324"
+    },
+    {
+      "english": "This practice, enriches your soul.",
+      "hebrew": "הנוהג הזה, מעשיר את נשמתך.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026327"
+    },
+    {
+      "english": "Let's create new memories, together.",
+      "hebrew": "בוא ניצור זיכרונות חדשים, יחד.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026330"
+    },
+    {
+      "english": "Your enthusiasm, is inspiring.",
+      "hebrew": "ההתלהבות שלך, מעוררת השראה.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026333"
+    },
+    {
+      "english": "Open heart, open mind, full experience.",
+      "hebrew": "לב פתוח, ראש פתוח, חוויה מלאה.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026336"
+    },
+    {
+      "english": "Finding beauty, in simple moments.",
+      "hebrew": "למצוא יופי, ברגעים פשוטים.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026339"
+    },
+    {
+      "english": "Your participation, makes it special.",
+      "hebrew": "ההשתתפות שלך, הופכת את זה למיוחד.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026342"
+    },
+    {
+      "english": "Let go of doubt, embrace understanding.",
+      "hebrew": "שחרר ספק, קבל הבנה.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026345"
+    },
+    {
+      "english": "This is a chance, for growth.",
+      "hebrew": "זו הזדמנות, לצמיחה.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026348"
+    },
+    {
+      "english": "Feel the positive energy, flow.",
+      "hebrew": "הרגיש את האנרגיה החיובית, זורמת.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026351"
+    },
+    {
+      "english": "You're doing wonderfully, keep exploring.",
+      "hebrew": "אתה עושה נפלא, המשך לחקור.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026354"
+    },
+    {
+      "english": "Wisdom is passed, with kindness.",
+      "hebrew": "חוכמה עוברת, בחביבות.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026357"
+    },
+    {
+      "english": "Generosity, truly shines here.",
+      "hebrew": "נדיבות, באמת זורחת כאן.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026359"
+    },
+    {
+      "english": "May you find, inspiration today.",
+      "hebrew": "שתמצא, השראה היום.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026362"
+    },
+    {
+      "english": "Let's celebrate, with open hearts.",
+      "hebrew": "בוא נחגוג, בלבבות פתוחים.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026365"
+    },
+    {
+      "english": "Your curiosity, is a great asset.",
+      "hebrew": "הסקרנות שלך, היא נכס גדול.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026368"
+    },
+    {
+      "english": "Cherish these moments, they matter.",
+      "hebrew": "טפח את הרגעים האלה, הם חשובים.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026371"
+    },
+    {
+      "english": "Keep an open mind, absorb it all.",
+      "hebrew": "שמור על ראש פתוח, ספוג הכל.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026374"
+    },
+    {
+      "english": "This connection, feels so real.",
+      "hebrew": "הקשר הזה, מרגיש כל כך אמיתי.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026377"
+    },
+    {
+      "english": "You're learning fast, well done!",
+      "hebrew": "אתה לומד מהר, כל הכבוד!",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026380"
+    },
+    {
+      "english": "Find your own rhythm, within the tradition.",
+      "hebrew": "מצא את הקצב שלך, בתוך המסורת.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026383"
+    },
+    {
+      "english": "Let the spirit of celebration, lift you.",
+      "hebrew": "תן לרוח החגיגה, להרים אותך.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026387"
+    },
+    {
+      "english": "Every tradition, has a unique lesson.",
+      "hebrew": "לכל מסורת, יש שיעור ייחודי.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026390"
+    },
+    {
+      "english": "Positive thoughts, create positive outcomes.",
+      "hebrew": "מחשבות חיוביות, יוצרות תוצאות חיוביות.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026393"
+    },
+    {
+      "english": "It makes me feel peaceful, here.",
+      "hebrew": "זה גורם לי להרגיש שלווה, כאן.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026396"
+    },
+    {
+      "english": "I'm reflecting deeply, on this.",
+      "hebrew": "אני מהרהר/ת לעומק, בזה.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026399"
+    },
+    {
+      "english": "Patience is key, I'm learning.",
+      "hebrew": "סבלנות היא המפתח, אני לומד/ת.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026402"
+    },
+    {
+      "english": "This tradition, touches my heart.",
+      "hebrew": "המסורת הזו, נוגעת בליבי.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026405"
+    },
+    {
+      "english": "I feel a connection, to the past.",
+      "hebrew": "אני מרגיש/ה חיבור, לעבר.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026410"
+    },
+    {
+      "english": "What is your honest feeling, about it?",
+      "hebrew": "מה התחושה הכנה שלך, לגבי זה?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026413"
+    },
+    {
+      "english": "Let's speak openly, about feelings.",
+      "hebrew": "בוא/י נדבר בפתיחות, על רגשות.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026416"
+    },
+    {
+      "english": "My sincere hope, for peace.",
+      "hebrew": "התקווה הכנה שלי, לשלום.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026418"
+    },
+    {
+      "english": "This moment, feels very authentic.",
+      "hebrew": "הרגע הזה, מרגיש מאוד אותנטי.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026421"
+    },
+    {
+      "english": "It requires a lot, of patience.",
+      "hebrew": "זה דורש הרבה, של סבלנות.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026424"
+    },
+    {
+      "english": "I value this, honest reflection.",
+      "hebrew": "אני מעריך/ה את ההשתקפות, הכנה הזו.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026427"
+    },
+    {
+      "english": "How do you truly feel, inside?",
+      "hebrew": "איך את/ה באמת מרגיש/ה, בפנים?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026429"
+    },
+    {
+      "english": "Sharing feelings, builds community.",
+      "hebrew": "שיתוף רגשות, בונה קהילה.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026432"
+    },
+    {
+      "english": "My inner thoughts, are with you.",
+      "hebrew": "המחשבות הפנימיות שלי, איתך/כן.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026435"
+    },
+    {
+      "english": "It's important, to be genuine.",
+      "hebrew": "זה חשוב, להיות אמיתי/ת.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026440"
+    },
+    {
+      "english": "Let's be honest, with each other.",
+      "hebrew": "בוא/י נהיה כנים, אחד עם השני.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026443"
+    },
+    {
+      "english": "This process, takes time.",
+      "hebrew": "התהליך הזה, לוקח זמן.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026446"
+    },
+    {
+      "english": "I feel a deep respect, for this.",
+      "hebrew": "אני חש/ה כבוד עמוק, לזה.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026449"
+    },
+    {
+      "english": "What thoughts, are on your mind?",
+      "hebrew": "אילו מחשבות, עולות בראשך/ך?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026451"
+    },
+    {
+      "english": "We need time, to understand.",
+      "hebrew": "אנחנו צריכים זמן, להבין.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026454"
+    },
+    {
+      "english": "Your sincerity, is very moving.",
+      "hebrew": "הכנות שלך, מאוד מרגשת.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026457"
+    },
+    {
+      "english": "Letting go, requires trust.",
+      "hebrew": "להרפות, דורש אמון.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026459"
+    },
+    {
+      "english": "This feeling, is hard to describe.",
+      "hebrew": "את התחושה הזו, קשה לתאר.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026462"
+    },
+    {
+      "english": "Reflecting on life, brings wisdom.",
+      "hebrew": "הרהורים על החיים, מביאים חוכמה.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026465"
+    },
+    {
+      "english": "Patience with myself, is important.",
+      "hebrew": "סבלנות עם עצמי, חשובה.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026468"
+    },
+    {
+      "english": "I feel truly present, right now.",
+      "hebrew": "אני מרגיש/ה נוכח/ת באמת, כרגע.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026471"
+    },
+    {
+      "english": "Honest conversation, means a lot.",
+      "hebrew": "שיחה כנה, משמעותה רבה.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026473"
+    },
+    {
+      "english": "May we find, understanding together.",
+      "hebrew": "שתמצא/י, הבנה יחד.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026476"
+    },
+    {
+      "english": "This quiet reflection, is needed.",
+      "hebrew": "ההתבוננות השקטה הזו, נחוצה.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026480"
+    },
+    {
+      "english": "Trust the process, it unfolds.",
+      "hebrew": "סמוך/י על התהליך, הוא נפרש.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026483"
+    },
+    {
+      "english": "Ask for help, when you need it.",
+      "hebrew": "תבקשו עזרה, כשאתם צריכים.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026486"
+    },
+    {
+      "english": "Try the local food, it's delicious!",
+      "hebrew": "תטעמו את האוכל המקומי, זה טעים!",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026489"
+    },
+    {
+      "english": "Where can I buy souvenirs?",
+      "hebrew": "איפה אפשר לקנות מזכרות?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026491"
+    },
+    {
+      "english": "How do I get to the main square?",
+      "hebrew": "איך מגיעים לכיכר המרכזית?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-10-21T05:34:27.026496"
     }
   ],
-  "last_updated": "2026-10-20T05:35:14.014288"
+  "last_updated": "2026-10-21T05:34:27.026497"
 }
