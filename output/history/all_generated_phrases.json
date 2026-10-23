@@ -38075,7 +38075,727 @@
       "hebrew": "אנַחְנוּ צְרִיכִים עוֹד כִּיסְאוֹת.",
       "category": "Celebrations & Parties",
       "generated_at": "2026-10-22T05:38:20.147962"
+    },
+    {
+      "english": "Yes, please, I'm hungry.",
+      "hebrew": "כן, בבקשה, אני רעב/רעבה.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324755"
+    },
+    {
+      "english": "What do you recommend?, it's delicious.",
+      "hebrew": "מה אתה/את ממליץ/ממליצה?, זה טעים.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324767"
+    },
+    {
+      "english": "I'll take this one, please.",
+      "hebrew": "אני אקח את זה, בבקשה.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324769"
+    },
+    {
+      "english": "Can I see the menu?, please.",
+      "hebrew": "אפשר לראות את התפריט?, בבקשה.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324771"
+    },
+    {
+      "english": "Just water, thank you.",
+      "hebrew": "רק מים, תודה.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324773"
+    },
+    {
+      "english": "How much is this?, it looks good.",
+      "hebrew": "כמה זה עולה?, זה נראה טוב.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324775"
+    },
+    {
+      "english": "One coffee, to go.",
+      "hebrew": "קפה אחד, לקחת.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324777"
+    },
+    {
+      "english": "Is it spicy?, I don't like spice.",
+      "hebrew": "זה חריף?, אני לא אוהב/אוהבת חריף.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324781"
+    },
+    {
+      "english": "What's the special?, today.",
+      "hebrew": "מה המיוחד?, היום.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324784"
+    },
+    {
+      "english": "We're ready, to order.",
+      "hebrew": "אנחנו מוכנים, להזמין.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324786"
+    },
+    {
+      "english": "I'm a vegetarian, actually.",
+      "hebrew": "אני צמחוני/צמחונית, למען האמת.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324787"
+    },
+    {
+      "english": "Can I have the bill?, please.",
+      "hebrew": "אפשר את החשבון?, בבקשה.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324789"
+    },
+    {
+      "english": "This is amazing!, I love it.",
+      "hebrew": "זה מדהים!, אני אוהב/אוהבת את זה.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324791"
+    },
+    {
+      "english": "Do you have wifi?, password please.",
+      "hebrew": "יש לכם ווי-פיי?, סיסמה בבקשה.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324793"
+    },
+    {
+      "english": "It's too salty, for me.",
+      "hebrew": "זה מלוח מדי, בשבילי.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324795"
+    },
+    {
+      "english": "One moment, please.",
+      "hebrew": "רגע אחד, בבקשה.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324797"
+    },
+    {
+      "english": "Can I get a doggy bag?, please.",
+      "hebrew": "אפשר לקחת את השאריות?, בבקשה.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324798"
+    },
+    {
+      "english": "Enjoy your meal!, thank you.",
+      "hebrew": "בתיאבון!, תודה.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324800"
+    },
+    {
+      "english": "That's perfect!, exactly what I wanted.",
+      "hebrew": "זה מושלם!, בדיוק מה שרציתי.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324802"
+    },
+    {
+      "english": "Could we have a table?, for two.",
+      "hebrew": "אפשר שולחן?, לשניים.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324804"
+    },
+    {
+      "english": "I need a napkin, please.",
+      "hebrew": "אני צריך/צריכה מפה, בבקשה.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324805"
+    },
+    {
+      "english": "Not too much sugar, please.",
+      "hebrew": "לא יותר מדי סוכר, בבקשה.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324807"
+    },
+    {
+      "english": "It's cold, unfortunately.",
+      "hebrew": "זה קר, לצערי.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324813"
+    },
+    {
+      "english": "Where is the restroom?, thanks.",
+      "hebrew": "איפה השירותים?, תודה.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324815"
+    },
+    {
+      "english": "This is too much, for one person.",
+      "hebrew": "זה יותר מדי, לאדם אחד.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324817"
+    },
+    {
+      "english": "I'll have the soup, first.",
+      "hebrew": "אני אקח את המרק, ראשון.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324819"
+    },
+    {
+      "english": "This is a bit bland, needs salt.",
+      "hebrew": "זה קצת תפל, צריך מלח.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324821"
+    },
+    {
+      "english": "Another glass, please.",
+      "hebrew": "עוד כוס, בבקשה.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324822"
+    },
+    {
+      "english": "I'm full, thank you.",
+      "hebrew": "אני שבע/שבעה, תודה.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324824"
+    },
+    {
+      "english": "That was excellent!, highly recommend.",
+      "hebrew": "זה היה מעולה!, ממליץ/ממליצה בחום.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324827"
+    },
+    {
+      "english": "Anything else, for now?",
+      "hebrew": "משהו נוסף, לעכשיו?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324829"
+    },
+    {
+      "english": "Could you explain this dish?",
+      "hebrew": "אפשר להסביר על המנה הזו?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324831"
+    },
+    {
+      "english": "What are today's specials?",
+      "hebrew": "מהן המנות המיוחדות להיום?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324833"
+    },
+    {
+      "english": "Is this good for sharing?",
+      "hebrew": "זה טוב לחלוק?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324834"
+    },
+    {
+      "english": "How spicy is that dish?",
+      "hebrew": "כמה חריף המאכל הזה?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324836"
+    },
+    {
+      "english": "What do you suggest, for a light meal?",
+      "hebrew": "מה אתה מציע, לארוחה קלה?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324838"
+    },
+    {
+      "english": "Can we get some more bread?",
+      "hebrew": "אפשר עוד לחם, בבקשה?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324840"
+    },
+    {
+      "english": "Do you have vegetarian options?",
+      "hebrew": "יש לכם אופציות צמחוניות?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324842"
+    },
+    {
+      "english": "What's popular here?",
+      "hebrew": "מה פופולרי כאן?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324844"
+    },
+    {
+      "english": "Can I try a little bit first?",
+      "hebrew": "אפשר לטעום קצת קודם?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324845"
+    },
+    {
+      "english": "Is this a big portion?",
+      "hebrew": "זו מנה גדולה?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324847"
+    },
+    {
+      "english": "What comes with the steak?",
+      "hebrew": "מה מגיע עם הסטייק?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324849"
+    },
+    {
+      "english": "Could we have some ice, please?",
+      "hebrew": "אפשר קצת קרח, בבקשה?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324851"
+    },
+    {
+      "english": "Do you have gluten-free bread?",
+      "hebrew": "יש לכם לחם ללא גלוטן?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324853"
+    },
+    {
+      "english": "What kind of fish do you have?",
+      "hebrew": "איזה דג יש לכם?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324854"
+    },
+    {
+      "english": "Can I substitute the side dish?",
+      "hebrew": "אפשר להחליף את התוספת?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324856"
+    },
+    {
+      "english": "Is this made fresh?",
+      "hebrew": "זה מוכן טרי?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324857"
+    },
+    {
+      "english": "How long will it take?",
+      "hebrew": "כמה זמן זה ייקח?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324870"
+    },
+    {
+      "english": "Can we order dessert now?",
+      "hebrew": "אפשר להזמין קינוח עכשיו?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324874"
+    },
+    {
+      "english": "What are the dessert options?",
+      "hebrew": "מה יש בקינוחים?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324877"
+    },
+    {
+      "english": "Do you have any local wines?",
+      "hebrew": "יש לכם יינות מקומיים?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324879"
+    },
+    {
+      "english": "Can I have the check split?",
+      "hebrew": "אפשר לחלק את החשבון?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324882"
+    },
+    {
+      "english": "Is service included?",
+      "hebrew": "האם השירות כלול?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324884"
+    },
+    {
+      "english": "What's your signature dish?",
+      "hebrew": "מה המנה המיוחדת שלכם?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324887"
+    },
+    {
+      "english": "Could you make it less salty?",
+      "hebrew": "אפשר פחות מלוח?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324889"
+    },
+    {
+      "english": "I have a nut allergy.",
+      "hebrew": "יש לי אלרגיה לאגוזים.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324891"
+    },
+    {
+      "english": "Can we get some recommendations?",
+      "hebrew": "אתה יכול להמליץ לנו?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324892"
+    },
+    {
+      "english": "Is everything okay with the food?",
+      "hebrew": "הכל בסדר עם האוכל?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324894"
+    },
+    {
+      "english": "Can we have some more time?",
+      "hebrew": "אפשר עוד קצת זמן?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324896"
+    },
+    {
+      "english": "We loved our meal, thank you.",
+      "hebrew": "נהננו מאוד, תודה רבה.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324898"
+    },
+    {
+      "english": "It's really worth the money.",
+      "hebrew": "זה באמת שווה את הכסף.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324900"
+    },
+    {
+      "english": "This is a real taste of home.",
+      "hebrew": "זה טעם של בית אמיתי.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324903"
+    },
+    {
+      "english": "Don't skip the dessert, it's amazing.",
+      "hebrew": "אל תדלגו על הקינוח, זה מדהים.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324907"
+    },
+    {
+      "english": "It tastes just like grandma used to make.",
+      "hebrew": "זה בדיוק כמו שסבתא הייתה מכינה.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324909"
+    },
+    {
+      "english": "The chef really knows his stuff.",
+      "hebrew": "השף באמת יודע מה הוא עושה.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324910"
+    },
+    {
+      "english": "This dish is a classic, a must-try.",
+      "hebrew": "המנה הזו היא קלאסיקה, חובה לנסות.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324912"
+    },
+    {
+      "english": "It's a bit of a hidden gem.",
+      "hebrew": "זה קצת פנינה נסתרת.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324914"
+    },
+    {
+      "english": "You can't go wrong with this choice.",
+      "hebrew": "אי אפשר לטעות עם הבחירה הזו.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324916"
+    },
+    {
+      "english": "This is what Israeli food is all about.",
+      "hebrew": "זה מה שישראלי זה הכל.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324918"
+    },
+    {
+      "english": "It's worth waiting for, even if there's a line.",
+      "hebrew": "שווה לחכות, גם אם יש תור.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324920"
+    },
+    {
+      "english": "They really put their heart into it.",
+      "hebrew": "הם באמת שמו את הלב שלהם בזה.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324922"
+    },
+    {
+      "english": "This is how you do it right.",
+      "hebrew": "ככה עושים את זה נכון.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324923"
+    },
+    {
+      "english": "It's a feast for the eyes, and the stomach.",
+      "hebrew": "זה חגיגה לעיניים, ולבטן.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324925"
+    },
+    {
+      "english": "Don't be shy, order more!",
+      "hebrew": "אל תתביישו, תזמינו עוד!",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324927"
+    },
+    {
+      "english": "This is comfort food, pure and simple.",
+      "hebrew": "זו אוכל מנחם, טהור ופשוט.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324929"
+    },
+    {
+      "english": "A little bit of heaven on a plate.",
+      "hebrew": "קצת גן עדן על צלחת.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324931"
+    },
+    {
+      "english": "The flavors are playing a party in my mouth.",
+      "hebrew": "הטעמים עושים מסיבה בפה שלי.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324933"
+    },
+    {
+      "english": "This is exactly what I was craving.",
+      "hebrew": "זה בדיוק מה שהתחשק לי.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324935"
+    },
+    {
+      "english": "You really get your money's worth here.",
+      "hebrew": "אתה באמת מקבל תמורה לכסף שלך כאן.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324937"
+    },
+    {
+      "english": "This is the real deal, no compromises.",
+      "hebrew": "זה הדבר האמיתי, בלי פשרות.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324940"
+    },
+    {
+      "english": "They clearly take pride in their cooking.",
+      "hebrew": "ברור שהם גאים בבישולים שלהם.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324941"
+    },
+    {
+      "english": "This dish is legendary, try it.",
+      "hebrew": "המנה הזו אגדית, תנסו אותה.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324944"
+    },
+    {
+      "english": "It's a taste I won't forget soon.",
+      "hebrew": "זה טעם שלא אשכח בקרוב.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324946"
+    },
+    {
+      "english": "This is what dreams are made of.",
+      "hebrew": "זה מה שחלומות עשויים ממנו.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324948"
+    },
+    {
+      "english": "The atmosphere is as good as the food.",
+      "hebrew": "האווירה טובה כמו האוכל.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324949"
+    },
+    {
+      "english": "You have to try their special sauce.",
+      "hebrew": "חייבים לנסות את הרוטב המיוחד שלהם.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324951"
+    },
+    {
+      "english": "This is a true culinary experience.",
+      "hebrew": "זו חוויה קולינרית אמיתית.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324953"
+    },
+    {
+      "english": "My taste buds are singing!",
+      "hebrew": "בלוטות הטעם שלי שרות!",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324955"
+    },
+    {
+      "english": "You won't find anything like this elsewhere.",
+      "hebrew": "לא תמצאו דבר כזה במקום אחר.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324956"
+    },
+    {
+      "english": "This is a meal fit for a king.",
+      "hebrew": "זו ארוחה ראויה למלך.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324958"
+    },
+    {
+      "english": "I'm really enjoying this, actually.",
+      "hebrew": "אני באמת נהנה מזה, האמת.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324960"
+    },
+    {
+      "english": "This place, it feels so peaceful.",
+      "hebrew": "המקום הזה, הוא כל כך שקט.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324962"
+    },
+    {
+      "english": "I'm thinking, maybe something new?",
+      "hebrew": "אני חושב, אולי משהו חדש?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324963"
+    },
+    {
+      "english": "It's more than just food, you know?",
+      "hebrew": "זה יותר מסתם אוכל, אתה יודע?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324966"
+    },
+    {
+      "english": "I need to be patient, it's worth it.",
+      "hebrew": "אני צריך להיות סבלני, זה שווה.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324968"
+    },
+    {
+      "english": "This reminds me of something important.",
+      "hebrew": "זה מזכיר לי משהו חשוב.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324970"
+    },
+    {
+      "english": "Let's savor this moment, slowly.",
+      "hebrew": "בוא נטעם את הרגע הזה, לאט.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324972"
+    },
+    {
+      "english": "I'm feeling a real connection here.",
+      "hebrew": "אני מרגיש חיבור אמיתי כאן.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324974"
+    },
+    {
+      "english": "This taste, it brings back memories.",
+      "hebrew": "הטעם הזה, הוא מחזיר זיכרונות.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324975"
+    },
+    {
+      "english": "I appreciate the effort they put in.",
+      "hebrew": "אני מעריך את המאמץ שלהם.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324977"
+    },
+    {
+      "english": "It's not just about eating, it's about sharing.",
+      "hebrew": "זה לא רק לאכול, זה לשתף.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324979"
+    },
+    {
+      "english": "I'm really contemplating my next bite.",
+      "hebrew": "אני באמת שוקל את הביס הבא.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324980"
+    },
+    {
+      "english": "This flavor, it's surprisingly deep.",
+      "hebrew": "הטעם הזה, הוא עמוק באופן מפתיע.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324982"
+    },
+    {
+      "english": "I feel genuinely happy right now.",
+      "hebrew": "אני מרגיש מאושר באמת עכשיו.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324984"
+    },
+    {
+      "english": "This experience, it nourishes the soul.",
+      "hebrew": "החוויה הזו, מזינה את הנשמה.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324986"
+    },
+    {
+      "english": "I need a moment, to let it sink in.",
+      "hebrew": "אני צריך רגע, לתת לזה לחלחל.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324987"
+    },
+    {
+      "english": "My thoughts are wandering, pleasantly.",
+      "hebrew": "המחשבות שלי נודדות, בנעימות.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324989"
+    },
+    {
+      "english": "I'm reflecting on simple pleasures.",
+      "hebrew": "אני מהרהר בהנאות פשוטות.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324991"
+    },
+    {
+      "english": "This feels like a treat, honestly.",
+      "hebrew": "זה מרגיש כמו פינוק, בכנות.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324993"
+    },
+    {
+      "english": "I'm grateful for this quiet time.",
+      "hebrew": "אני אסיר תודה על הזמן השקט הזה.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324994"
+    },
+    {
+      "english": "This reminds me to slow down.",
+      "hebrew": "זה מזכיר לי להאט.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324996"
+    },
+    {
+      "english": "I'm finding real joy in this.",
+      "hebrew": "אני מוצא שמחה אמיתית בזה.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.324998"
+    },
+    {
+      "english": "Let's appreciate the little things.",
+      "hebrew": "בואו נעריך את הדברים הקטנים.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.325000"
+    },
+    {
+      "english": "This is a moment of pure contentment.",
+      "hebrew": "זה רגע של סיפוק טהור.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.325002"
+    },
+    {
+      "english": "I feel so relaxed, truly.",
+      "hebrew": "אני מרגיש כל כך רגוע, באמת.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.325004"
+    },
+    {
+      "english": "This conversation, it means something.",
+      "hebrew": "השיחה הזו, יש לה משמעות.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.325005"
+    },
+    {
+      "english": "I'm allowing myself to enjoy this.",
+      "hebrew": "אני מרשה לעצמי ליהנות מזה.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.325007"
+    },
+    {
+      "english": "This is a pause, for reflection.",
+      "hebrew": "זו הפסקה, למחשבה.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.325009"
+    },
+    {
+      "english": "It's nice to just be present.",
+      "hebrew": "נחמד פשוט להיות נוכח.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.325010"
+    },
+    {
+      "english": "What's the daily special, please?",
+      "hebrew": "מה המנה של היום, בבקשה?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-10-23T05:36:12.325013"
     }
   ],
-  "last_updated": "2026-10-22T05:38:20.147964"
+  "last_updated": "2026-10-23T05:36:12.325015"
 }
