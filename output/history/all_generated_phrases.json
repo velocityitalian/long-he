@@ -38795,7 +38795,727 @@
       "hebrew": "מה המנה של היום, בבקשה?",
       "category": "Ordering Food & Dining",
       "generated_at": "2026-10-23T05:36:12.325013"
+    },
+    {
+      "english": "What's next on the agenda?",
+      "hebrew": "מה הלאה בסדר היום?",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640094"
+    },
+    {
+      "english": "This is a great opportunity.",
+      "hebrew": "זו הזדמנות מצוינת.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640108"
+    },
+    {
+      "english": "Focus on your goals.",
+      "hebrew": "התמקד במטרות שלך.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640111"
+    },
+    {
+      "english": "We're moving forward, together.",
+      "hebrew": "אנחנו מתקדמים, ביחד.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640115"
+    },
+    {
+      "english": "I'm really excited about this.",
+      "hebrew": "אני ממש מתרגש לגבי זה.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640118"
+    },
+    {
+      "english": "Let's try something different.",
+      "hebrew": "בוא ננסה משהו אחר.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640121"
+    },
+    {
+      "english": "This is taking shape nicely.",
+      "hebrew": "זה מקבל צורה יפה.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640124"
+    },
+    {
+      "english": "I'm ready for the next challenge.",
+      "hebrew": "אני מוכן לאתגר הבא.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640129"
+    },
+    {
+      "english": "What progress have we made?",
+      "hebrew": "איזה התקדמות עשינו?",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640133"
+    },
+    {
+      "english": "Let's aim higher.",
+      "hebrew": "בואו נכוון גבוה יותר.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640136"
+    },
+    {
+      "english": "Let's innovate and create.",
+      "hebrew": "בואו נחדש וניצור.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640139"
+    },
+    {
+      "english": "I see potential here.",
+      "hebrew": "אני רואה פוטנציאל כאן.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640142"
+    },
+    {
+      "english": "Keep evolving, keep improving.",
+      "hebrew": "תמשיך להתפתח, תמשיך להשתפר.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640145"
+    },
+    {
+      "english": "What's the vision for tomorrow?",
+      "hebrew": "מה החזון למחר?",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640148"
+    },
+    {
+      "english": "This idea has merit.",
+      "hebrew": "לרעיון הזה יש ערך.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640150"
+    },
+    {
+      "english": "How can we optimize this?",
+      "hebrew": "איך אפשר לייעל את זה?",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640153"
+    },
+    {
+      "english": "Your effort is noticeable.",
+      "hebrew": "המאמץ שלך ניכר.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640155"
+    },
+    {
+      "english": "Let's expand our reach.",
+      "hebrew": "בואו נרחיב את טווח ההגעה שלנו.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640158"
+    },
+    {
+      "english": "This is a moment for growth.",
+      "hebrew": "זוהי הזדמנות לצמיחה.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640161"
+    },
+    {
+      "english": "Keep planting seeds.",
+      "hebrew": "תמשיך לזרוע זרעים.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640165"
+    },
+    {
+      "english": "What new skills are we learning?",
+      "hebrew": "אילו כישורים חדשים אנו לומדים?",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640168"
+    },
+    {
+      "english": "What's your take, on this?",
+      "hebrew": "מה דעתך, על זה?",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640171"
+    },
+    {
+      "english": "Can you elaborate, please?",
+      "hebrew": "אתה יכול להרחיב, בבקשה?",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640174"
+    },
+    {
+      "english": "How can we help, each other?",
+      "hebrew": "איך נוכל לעזור, אחד לשני?",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640177"
+    },
+    {
+      "english": "What's your advice, for me?",
+      "hebrew": "מה העצה שלך, בשבילי?",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640180"
+    },
+    {
+      "english": "Let's brainstorm, together.",
+      "hebrew": "בוא נחשוב ביחד, על רעיונות.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640184"
+    },
+    {
+      "english": "Where do you see this, going?",
+      "hebrew": "לאן אתה רואה את זה, הולך?",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640186"
+    },
+    {
+      "english": "Could you clarify, that point?",
+      "hebrew": "תוכל להבהיר, את הנקודה הזאת?",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640189"
+    },
+    {
+      "english": "What's your perspective, on growth?",
+      "hebrew": "מה התפיסה שלך, לגבי צמיחה?",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640192"
+    },
+    {
+      "english": "How do you handle, setbacks?",
+      "hebrew": "איך אתה מתמודד, עם קשיים?",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640195"
+    },
+    {
+      "english": "What's working, well so far?",
+      "hebrew": "מה עובד, טוב עד כה?",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640198"
+    },
+    {
+      "english": "Do you have any, suggestions?",
+      "hebrew": "יש לך הצעות, כלשהן?",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640201"
+    },
+    {
+      "english": "What feedback, do you have?",
+      "hebrew": "איזה משוב, יש לך לתת?",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640206"
+    },
+    {
+      "english": "How can we improve, this process?",
+      "hebrew": "איך אפשר לשפר, את התהליך הזה?",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640209"
+    },
+    {
+      "english": "What's the next, logical step?",
+      "hebrew": "מה הצעד, הבא וההגיוני?",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640212"
+    },
+    {
+      "english": "Can we discuss, this further?",
+      "hebrew": "אפשר לדון, בזה יותר לעומק?",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640215"
+    },
+    {
+      "english": "What are your, key takeaways?",
+      "hebrew": "מה המסקנות, העיקריות שלך?",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640229"
+    },
+    {
+      "english": "What challenges, do you anticipate?",
+      "hebrew": "אילו אתגרים, אתה צופה?",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640233"
+    },
+    {
+      "english": "Is there anything, I missed?",
+      "hebrew": "יש משהו, שפספסתי?",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640236"
+    },
+    {
+      "english": "What resources, do you recommend?",
+      "hebrew": "אילו משאבים, אתה ממליץ עליהם?",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640239"
+    },
+    {
+      "english": "How do you measure, success?",
+      "hebrew": "איך אתה מודד, הצלחה?",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640242"
+    },
+    {
+      "english": "What's your learning style?",
+      "hebrew": "מה סגנון הלמידה, שלך?",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640245"
+    },
+    {
+      "english": "Can we set, some goals?",
+      "hebrew": "אפשר לקבוע, כמה מטרות?",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640247"
+    },
+    {
+      "english": "What's the biggest, lesson learned?",
+      "hebrew": "מה הלקח, הכי גדול שנלמד?",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640250"
+    },
+    {
+      "english": "How do you approach, new ideas?",
+      "hebrew": "איך אתה ניגש, לרעיונות חדשים?",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640253"
+    },
+    {
+      "english": "What makes you tick, daily?",
+      "hebrew": "מה מניע אותך, כל יום?",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640256"
+    },
+    {
+      "english": "What's your dream, scenario?",
+      "hebrew": "מה התרחיש, החלומי שלך?",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640259"
+    },
+    {
+      "english": "How can we collaborate, effectively?",
+      "hebrew": "איך נוכל לשתף פעולה, ביעילות?",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640262"
+    },
+    {
+      "english": "This is a fantastic step forward.",
+      "hebrew": "זו התקדמות פנטסטית.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640267"
+    },
+    {
+      "english": "Believe in your abilities, you can!",
+      "hebrew": "תאמין/י ביכולות שלך, אתה/את יכול/ה!",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640270"
+    },
+    {
+      "english": "Your dedication is truly inspiring.",
+      "hebrew": "המסירות שלך באמת מעוררת השראה.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640275"
+    },
+    {
+      "english": "You're mastering this, bit by bit.",
+      "hebrew": "את/ה שולט/ת בזה, לאט לאט.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640278"
+    },
+    {
+      "english": "Think big, act boldly.",
+      "hebrew": "לחשוב בגדול, לפעול באומץ.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640281"
+    },
+    {
+      "english": "This is a journey, enjoy the ride.",
+      "hebrew": "זה מסע, תהנה/תהני מהדרך.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640284"
+    },
+    {
+      "english": "You've got this, absolutely.",
+      "hebrew": "יש לך את זה, לגמרי.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640289"
+    },
+    {
+      "english": "Your perspective is valuable, share it.",
+      "hebrew": "הפרספקטיבה שלך חשובה, שתפ/י אותה.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640292"
+    },
+    {
+      "english": "Keep pushing your boundaries.",
+      "hebrew": "תמשיכ/י לפרוץ את הגבולות שלך.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640295"
+    },
+    {
+      "english": "This is how real growth happens.",
+      "hebrew": "ככה צומחים באמת.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640298"
+    },
+    {
+      "english": "You're making excellent progress.",
+      "hebrew": "את/ה עושה התקדמות מצוינת.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640301"
+    },
+    {
+      "english": "Never stop learning, it's key.",
+      "hebrew": "לעולם אל תפסיק/י ללמוד, זה המפתח.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640304"
+    },
+    {
+      "english": "Your effort is paying off.",
+      "hebrew": "המאמץ שלך משתלם.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640307"
+    },
+    {
+      "english": "That's a smart way to look at it.",
+      "hebrew": "זו דרך חכמה להסתכל על זה.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640310"
+    },
+    {
+      "english": "This is progress, pure and simple.",
+      "hebrew": "זו התקדמות, פשוטה וישירה.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640312"
+    },
+    {
+      "english": "You're exceeding expectations.",
+      "hebrew": "את/ה עולה על הציפיות.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640316"
+    },
+    {
+      "english": "Let your ideas flourish.",
+      "hebrew": "תן/תני לרעיונות שלך לפרוח.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640320"
+    },
+    {
+      "english": "You're building something amazing.",
+      "hebrew": "את/ה בונה משהו מדהים.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640323"
+    },
+    {
+      "english": "Keep that growth mindset active.",
+      "hebrew": "תשמור/י על חשיבה צומחת פעילה.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640326"
+    },
+    {
+      "english": "You've learned so much already.",
+      "hebrew": "כבר למדת כל כך הרבה.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640329"
+    },
+    {
+      "english": "Awesome job, truly.",
+      "hebrew": "עבודה מדהימה, באמת.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640331"
+    },
+    {
+      "english": "From zero to hero, step by step.",
+      "hebrew": "מאפס לגיבור, צעד צעד.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640334"
+    },
+    {
+      "english": "Plant seeds, watch them grow.",
+      "hebrew": "זורעים זרעים, רואים צומחים.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640337"
+    },
+    {
+      "english": "Every drop fills the bucket.",
+      "hebrew": "כל טיפה, ממלאת את הדלי.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640340"
+    },
+    {
+      "english": "Don't rush the process, let it bloom.",
+      "hebrew": "אל תמהרו לתהליך, תנו לו לפרוח.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640343"
+    },
+    {
+      "english": "Climb mountains, reach new heights.",
+      "hebrew": "מטפסים הרים, מגיעים לפסגות.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640346"
+    },
+    {
+      "english": "A little progress each day.",
+      "hebrew": "קצת התקדמות, כל יום.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640349"
+    },
+    {
+      "english": "Dig deep, find your strength.",
+      "hebrew": "חופרים עמוק, מוצאים כוח.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640352"
+    },
+    {
+      "english": "The sky's the limit, aim higher.",
+      "hebrew": "השמיים הם הגבול, כונו גבוה.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640355"
+    },
+    {
+      "english": "Learn from mistakes, then move on.",
+      "hebrew": "לומדים מטעויות, ממשיכים הלאה.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640358"
+    },
+    {
+      "english": "Building blocks for success.",
+      "hebrew": "אבני בניין להצלחה.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640362"
+    },
+    {
+      "english": "Invest in yourself, it pays.",
+      "hebrew": "השקיעו בעצמכם, זה משתלם.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640365"
+    },
+    {
+      "english": "Cultivate your mind, it's fertile.",
+      "hebrew": "טפחו את מוחכם, הוא פורה.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640368"
+    },
+    {
+      "english": "Every ending, a new beginning.",
+      "hebrew": "כל סוף, התחלה חדשה.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640371"
+    },
+    {
+      "english": "Don't be afraid to start over.",
+      "hebrew": "אל תפחדו להתחיל מחדש.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640374"
+    },
+    {
+      "english": "Water your dreams, they will sprout.",
+      "hebrew": "השקו את חלומותיכם, הם יצמחו.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640377"
+    },
+    {
+      "english": "Keep evolving, keep striving.",
+      "hebrew": "המשיכו להתפתח, המשיכו לשאוף.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640380"
+    },
+    {
+      "english": "Be honest with yourself, first.",
+      "hebrew": "תִּהְיֶה כֵּנִים עם עצמך, קודם.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640383"
+    },
+    {
+      "english": "Reflect on your feelings, daily.",
+      "hebrew": "הִתְבּוֹנֵן ברגשות שלך, יומיומי.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640386"
+    },
+    {
+      "english": "What truly makes you happy?",
+      "hebrew": "מה באמת גורם לך אושר?",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640388"
+    },
+    {
+      "english": "Embrace vulnerability, it's strength.",
+      "hebrew": "חבק פגיעות, זו חוזק.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640391"
+    },
+    {
+      "english": "Accept where you are, now.",
+      "hebrew": "קבל איפה שאתה נמצא, עכשיו.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640395"
+    },
+    {
+      "english": "Deeper thoughts, lead to growth.",
+      "hebrew": "מחשבות עמוקות, מובילות לצמיחה.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640397"
+    },
+    {
+      "english": "What lessons did you learn?",
+      "hebrew": "אילו שיעורים למדת?",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640400"
+    },
+    {
+      "english": "Share your true feelings, openly.",
+      "hebrew": "שתף את רגשותיך האמיתיים, בגלוי.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640403"
+    },
+    {
+      "english": "Forgive yourself, and others.",
+      "hebrew": "סלח לעצמך, ולאחרים.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640406"
+    },
+    {
+      "english": "Authenticity brings peace, inside.",
+      "hebrew": "אותנטיות מביאה שלווה, בפנים.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640409"
+    },
+    {
+      "english": "How do you recharge, yourself?",
+      "hebrew": "איך אתה מטעין את עצמך?",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640411"
+    },
+    {
+      "english": "Your inner world matters, most.",
+      "hebrew": "העולם הפנימי שלך חשוב, ביותר.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640416"
+    },
+    {
+      "english": "Allow yourself to feel, deeply.",
+      "hebrew": "אפשר לעצמך להרגיש, עמוקות.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640419"
+    },
+    {
+      "english": "What brings you calm, these days?",
+      "hebrew": "מה מביא לך רוגע, בימים אלו?",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640422"
+    },
+    {
+      "english": "Growth is often quiet, internal.",
+      "hebrew": "צמיחה היא לעיתים קרובות שקטה, פנימית.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640425"
+    },
+    {
+      "english": "Are you kind to yourself?",
+      "hebrew": "האם אתה נחמד לעצמך?",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640427"
+    },
+    {
+      "english": "Process your emotions, don't hide.",
+      "hebrew": "עבד את רגשותיך, אל תסתתר.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640430"
+    },
+    {
+      "english": "Self-awareness is the first step.",
+      "hebrew": "מודעות עצמית היא הצעד הראשון.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640433"
+    },
+    {
+      "english": "Slow down, and truly listen.",
+      "hebrew": "האט, והקשב באמת.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640436"
+    },
+    {
+      "english": "Are you taking time, for you?",
+      "hebrew": "האם אתה לוקח זמן, לעצמך?",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640441"
+    },
+    {
+      "english": "Understand your motivations, deeply.",
+      "hebrew": "הבן את המניעים שלך, לעומק.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640444"
+    },
+    {
+      "english": "Honest reflection, fuels progress.",
+      "hebrew": "התבוננות כנה, מזינה התקדמות.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640447"
+    },
+    {
+      "english": "Cultivate kindness, towards yourself.",
+      "hebrew": "טפח חסד, כלפי עצמך.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640450"
+    },
+    {
+      "english": "Small wins add up, you know.",
+      "hebrew": "ניצחונות קטנים מצטברים, אתה יודע.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640453"
+    },
+    {
+      "english": "Ask for help, it's okay.",
+      "hebrew": "תבקש עזרה, זה בסדר.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640456"
+    },
+    {
+      "english": "Try new things, often.",
+      "hebrew": "נסה דברים חדשים, לעיתים קרובות.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640459"
+    },
+    {
+      "english": "Don't compare, just do.",
+      "hebrew": "אל תשווה, פשוט תעשה.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640462"
+    },
+    {
+      "english": "Breathe deeply, calm down.",
+      "hebrew": "נשום עמוק, תירגע.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640465"
+    },
+    {
+      "english": "Mistakes are learning opportunities.",
+      "hebrew": "טעויות הן הזדמנויות למידה.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640467"
+    },
+    {
+      "english": "Find your tribe, connect.",
+      "hebrew": "מצא את השבט שלך, תתחבר.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640470"
+    },
+    {
+      "english": "Plan ahead, but stay flexible.",
+      "hebrew": "תתכנן מראש, אבל תישאר גמיש.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640473"
+    },
+    {
+      "english": "Small acts of kindness count.",
+      "hebrew": "מעשי חסד קטנים נחשבים.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640475"
+    },
+    {
+      "english": "Trust your intuition, it's smart.",
+      "hebrew": "סמוך על האינטואיציה שלך, היא חכמה.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640480"
+    },
+    {
+      "english": "Ask 'why' more often.",
+      "hebrew": "שאל 'למה' יותר.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640483"
+    },
+    {
+      "english": "Don't overthink, just act.",
+      "hebrew": "אל תחשוב יותר מדי, פשוט פעל.",
+      "category": "Growth",
+      "generated_at": "2026-10-24T05:15:01.640486"
     }
   ],
-  "last_updated": "2026-10-23T05:36:12.325015"
+  "last_updated": "2026-10-24T05:15:01.640488"
 }
