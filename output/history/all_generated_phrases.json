@@ -40235,7 +40235,727 @@
       "hebrew": "הרגלים יומיים, בונים חוסן.",
       "category": "Strength",
       "generated_at": "2026-10-25T05:33:12.252655"
+    },
+    {
+      "english": "Take a deep breath, and exhale.",
+      "hebrew": "קח נשימה עמוקה, ונשוף.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155176"
+    },
+    {
+      "english": "What are you feeling, right now?",
+      "hebrew": "מה אתה מרגיש, עכשיו?",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155190"
+    },
+    {
+      "english": "Notice the sounds, around you.",
+      "hebrew": "שים לב לקולות, שסביבך.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155193"
+    },
+    {
+      "english": "Just observe, without judgment.",
+      "hebrew": "פשוט התבונן, בלי שיפוט.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155195"
+    },
+    {
+      "english": "How does your body feel, today?",
+      "hebrew": "איך הגוף שלך מרגיש, היום?",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155197"
+    },
+    {
+      "english": "A moment of quiet, is good.",
+      "hebrew": "רגע של שקט, זה טוב.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155199"
+    },
+    {
+      "english": "Focus on your breath, again.",
+      "hebrew": "התמקד בנשימה שלך, שוב.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155200"
+    },
+    {
+      "english": "What is present, in this moment?",
+      "hebrew": "מה נוכח, ברגע הזה?",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155205"
+    },
+    {
+      "english": "Let thoughts pass, like clouds.",
+      "hebrew": "תן למחשבות לחלוף, כמו עננים.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155210"
+    },
+    {
+      "english": "Appreciate this simple breath.",
+      "hebrew": "הערך את הנשימה הפשוטה הזו.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155211"
+    },
+    {
+      "english": "Ground yourself, feel the earth.",
+      "hebrew": "קרקע את עצמך, הרגש את האדמה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155213"
+    },
+    {
+      "english": "A gentle pause, can help.",
+      "hebrew": "הפסקה עדינה, יכולה לעזור.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155215"
+    },
+    {
+      "english": "What do you notice, inside?",
+      "hebrew": "מה אתה מבחין, בפנים?",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155217"
+    },
+    {
+      "english": "This moment, is enough.",
+      "hebrew": "הרגע הזה, מספיק.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155219"
+    },
+    {
+      "english": "Connect with your senses, now.",
+      "hebrew": "התחבר לחושים שלך, עכשיו.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155221"
+    },
+    {
+      "english": "Acknowledge your feelings, gently.",
+      "hebrew": "הכיר ברגשות שלך, בעדינות.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155223"
+    },
+    {
+      "english": "Find a sense of wonder, today.",
+      "hebrew": "מצא תחושת פליאה, היום.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155224"
+    },
+    {
+      "english": "Simply be, without striving.",
+      "hebrew": "פשוט היה, בלי לשאוף.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155226"
+    },
+    {
+      "english": "Let go of what was.",
+      "hebrew": "שחרר את מה שהיה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155228"
+    },
+    {
+      "english": "This is a fresh start.",
+      "hebrew": "זו התחלה חדשה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155229"
+    },
+    {
+      "english": "Find ease, in this moment.",
+      "hebrew": "מצא נוחות, ברגע הזה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155231"
+    },
+    {
+      "english": "Your mind, can be calm.",
+      "hebrew": "המוח שלך, יכול להיות רגוע.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155233"
+    },
+    {
+      "english": "What's happening, within you?",
+      "hebrew": "מה קורה, בפנים?",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155236"
+    },
+    {
+      "english": "Can you share, what you hear?",
+      "hebrew": "את/ה יכול/ה לשתף, מה את/ה שומע/ת?",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155238"
+    },
+    {
+      "english": "How do you navigate, this feeling?",
+      "hebrew": "איך מתמודדים, עם התחושה הזו?",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155240"
+    },
+    {
+      "english": "What insight, did you gain?",
+      "hebrew": "איזה תובנה, השגת?",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155243"
+    },
+    {
+      "english": "Any thoughts, on this practice?",
+      "hebrew": "יש מחשבות, על התרגול הזה?",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155245"
+    },
+    {
+      "english": "What helps you, to relax?",
+      "hebrew": "מה עוזר לך, להירגע?",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155246"
+    },
+    {
+      "english": "Can we try, something new?",
+      "hebrew": "אפשר לנסות, משהו חדש?",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155248"
+    },
+    {
+      "english": "What brings you, peace?",
+      "hebrew": "מה מביא לך, שלווה?",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155250"
+    },
+    {
+      "english": "How was your experience, today?",
+      "hebrew": "איך הייתה החוויה שלך, היום?",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155252"
+    },
+    {
+      "english": "Any questions, about this?",
+      "hebrew": "יש שאלות, לגבי זה?",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155253"
+    },
+    {
+      "english": "What helps, to stay centered?",
+      "hebrew": "מה עוזר, להישאר ממורכז?",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155255"
+    },
+    {
+      "english": "Could you explain, that again?",
+      "hebrew": "אפשר להסביר, את זה שוב?",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155257"
+    },
+    {
+      "english": "What are you noticing, now?",
+      "hebrew": "מה את/ה מבחין/ה, עכשיו?",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155260"
+    },
+    {
+      "english": "Seeking guidance, on this path.",
+      "hebrew": "מחפש/ת הדרכה, בדרך הזו.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155262"
+    },
+    {
+      "english": "What's your advice, for calm?",
+      "hebrew": "מה העצה שלך, לשלווה?",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155264"
+    },
+    {
+      "english": "What should I focus, on next?",
+      "hebrew": "על מה כדאי לי, להתמקד עכשיו?",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155266"
+    },
+    {
+      "english": "Can you suggest, a technique?",
+      "hebrew": "את/ה יכול/ה להציע, טכניקה?",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155267"
+    },
+    {
+      "english": "What if, I feel stuck?",
+      "hebrew": "מה אם, אני מרגיש/ה תקוע/ה?",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155270"
+    },
+    {
+      "english": "Tell me more, please.",
+      "hebrew": "ספר/י לי עוד, בבקשה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155272"
+    },
+    {
+      "english": "What's your opinion, here?",
+      "hebrew": "מה דעתך, כאן?",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155274"
+    },
+    {
+      "english": "How can I deepen, this practice?",
+      "hebrew": "איך אפשר להעמיק, את התרגול הזה?",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155275"
+    },
+    {
+      "english": "What arises, when you sit?",
+      "hebrew": "מה עולה, כשאת/ה יושב/ת?",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155277"
+    },
+    {
+      "english": "What helps, during challenges?",
+      "hebrew": "מה עוזר, בזמנים קשים?",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155278"
+    },
+    {
+      "english": "What are you hoping, for?",
+      "hebrew": "למה את/ה מקווה?",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155280"
+    },
+    {
+      "english": "Is there a better, approach?",
+      "hebrew": "יש גישה, טובה יותר?",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155282"
+    },
+    {
+      "english": "What insights, do you have?",
+      "hebrew": "אילו תובנות, יש לך?",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155283"
+    },
+    {
+      "english": "Can you show me, how?",
+      "hebrew": "את/ה יכול/ה להראות לי, איך?",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155285"
+    },
+    {
+      "english": "What's the essence, of this?",
+      "hebrew": "מה המהות, של זה?",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155287"
+    },
+    {
+      "english": "You are doing great, really.",
+      "hebrew": "את/ה ממש מצליח/ה, באמת.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155289"
+    },
+    {
+      "english": "Every small step counts, you know.",
+      "hebrew": "כל צעד קטן נחשב, אתה יודע.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155291"
+    },
+    {
+      "english": "Your effort is noticed, greatly.",
+      "hebrew": "המאמץ שלך ניכר, מאוד.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155293"
+    },
+    {
+      "english": "You have inner strength, discover it.",
+      "hebrew": "יש לך כוח פנימי, גלה אותו.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155295"
+    },
+    {
+      "english": "Fantastic! That's a big win.",
+      "hebrew": "מעולה! זו הצלחה גדולה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155297"
+    },
+    {
+      "english": "You're learning so fast, wow.",
+      "hebrew": "את/ה לומד/ת כל כך מהר, וואו.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155299"
+    },
+    {
+      "english": "What a great attitude, amazing.",
+      "hebrew": "איזו גישה נהדרת, מדהים.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155300"
+    },
+    {
+      "english": "You are capable of so much.",
+      "hebrew": "את/ה מסוגל/ת להרבה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155302"
+    },
+    {
+      "english": "You've got this, no doubt.",
+      "hebrew": "את/ה יכול/ה על זה, בלי ספק.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155304"
+    },
+    {
+      "english": "Keep shining, you bright star.",
+      "hebrew": "תמשיך/י לזהור, כוכב בהיר.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155305"
+    },
+    {
+      "english": "That's excellent insight, well done.",
+      "hebrew": "זו תובנה מצוינת, כל הכבוד.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155307"
+    },
+    {
+      "english": "You're building resilience, step by step.",
+      "hebrew": "את/ה בונה חוסן, צעד אחר צעד.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155309"
+    },
+    {
+      "english": "Your calm is infectious, good work.",
+      "hebrew": "הרוגע שלך מדבק, עבודה טובה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155311"
+    },
+    {
+      "english": "Embrace your journey, with joy.",
+      "hebrew": "חבק/י את המסע שלך, בשמחה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155317"
+    },
+    {
+      "english": "You're mastering this, it shows.",
+      "hebrew": "את/ה שולט/ת בזה, זה ניכר.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155320"
+    },
+    {
+      "english": "What a wonderful observation, bravo.",
+      "hebrew": "איזו תצפית נפלאה, בראבו.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155321"
+    },
+    {
+      "english": "Your inner peace is growing, lovely.",
+      "hebrew": "השקט הפנימי שלך גדל, יפה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155323"
+    },
+    {
+      "english": "You are enough, just as you are.",
+      "hebrew": "את/ה מספיק/ה, בדיוק כמו שאת/ה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155325"
+    },
+    {
+      "english": "This is your power, own it.",
+      "hebrew": "זה הכוח שלך, תבע/י אותו.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155327"
+    },
+    {
+      "english": "You handle challenges with grace.",
+      "hebrew": "את/ה מתמודד/ת עם אתגרים בחן.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155329"
+    },
+    {
+      "english": "Incredible focus, keep it up.",
+      "hebrew": "פוקוס מדהים, תמשיך/י כך.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155330"
+    },
+    {
+      "english": "Your presence is valuable, truly.",
+      "hebrew": "הנוכחות שלך חשובה, באמת.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155333"
+    },
+    {
+      "english": "You are creating calm, beautifully.",
+      "hebrew": "את/ה יוצר/ת רוגע, יפהפה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155335"
+    },
+    {
+      "english": "A moment of stillness, well earned.",
+      "hebrew": "רגע של דממה, מגיע לך.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155337"
+    },
+    {
+      "english": "Fantastic effort, congratulations.",
+      "hebrew": "מאמץ פנטסטי, מזל טוב.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155339"
+    },
+    {
+      "english": "This moment, is all there is.",
+      "hebrew": "הרגע הזה, הוא כל מה שיש.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155340"
+    },
+    {
+      "english": "Your mind, is like a sky.",
+      "hebrew": "המוח שלך, הוא כמו שמיים.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155342"
+    },
+    {
+      "english": "Thoughts like clouds, will pass by.",
+      "hebrew": "מחשבות כמו עננים, יחלפו.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155344"
+    },
+    {
+      "english": "Feel your body, grounded and calm.",
+      "hebrew": "הרגש את גופך, יציב ושקט.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155345"
+    },
+    {
+      "english": "Accept what is, without judgment.",
+      "hebrew": "קבל את מה שיש, בלי שיפוטיות.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155347"
+    },
+    {
+      "english": "Find stillness, in the everyday.",
+      "hebrew": "מצא שקט, בתוך היומיום.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155349"
+    },
+    {
+      "english": "Kindness towards self, is essential.",
+      "hebrew": "חמלה עצמית, היא הכרחית.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155351"
+    },
+    {
+      "english": "Observe feelings, don't identify.",
+      "hebrew": "צפה ברגשות, אל תזדהה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155353"
+    },
+    {
+      "english": "The present moment, is a gift.",
+      "hebrew": "הרגע הנוכחי, הוא מתנה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155354"
+    },
+    {
+      "english": "Cultivate awareness, day by day.",
+      "hebrew": "טפח מודעות, יום אחר יום.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155356"
+    },
+    {
+      "english": "Peace begins, within your heart.",
+      "hebrew": "השלום מתחיל, בתוך ליבך.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155358"
+    },
+    {
+      "english": "Let worries fade, like mist.",
+      "hebrew": "תן לדאגות לדעוך, כמו ערפל.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155359"
+    },
+    {
+      "english": "Savor the simple things, truly.",
+      "hebrew": "התענג על הדברים הפשוטים, באמת.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155361"
+    },
+    {
+      "english": "Your breath, is your anchor always.",
+      "hebrew": "הנשימה שלך, היא העוגן שלך תמיד.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155364"
+    },
+    {
+      "english": "This practice, takes time and patience.",
+      "hebrew": "התרגול הזה, דורש זמן וסבלנות.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155366"
+    },
+    {
+      "english": "Find joy, in the present calm.",
+      "hebrew": "מצא שמחה, בשקט הנוכחי.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155369"
+    },
+    {
+      "english": "Release tension, from your shoulders.",
+      "hebrew": "שחרר מתח, מהכתפיים שלך.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155371"
+    },
+    {
+      "english": "Inner peace, is your natural state.",
+      "hebrew": "שלווה פנימית, היא מצבך הטבעי.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155373"
+    },
+    {
+      "english": "Notice the small wonders, around you.",
+      "hebrew": "שים לב לפלאים הקטנים, סביבך.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155375"
+    },
+    {
+      "english": "Stay centered, in this chaos.",
+      "hebrew": "הישאר ממורכז, בתוך הכאוס הזה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155376"
+    },
+    {
+      "english": "Let go, of the mental chatter.",
+      "hebrew": "שחרר, את הלחישות המנטליות.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155379"
+    },
+    {
+      "english": "Be here now, fully alive.",
+      "hebrew": "היה כאן עכשיו, חי במלואך.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155380"
+    },
+    {
+      "english": "Mindfulness, a journey not a destination.",
+      "hebrew": "מודעות, מסע ולא יעד.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155382"
+    },
+    {
+      "english": "What am I feeling, right now?",
+      "hebrew": "מה אני מרגיש/ה, עכשיו?",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155384"
+    },
+    {
+      "english": "This feeling, will pass.",
+      "hebrew": "הרגש הזה, יעבור.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155386"
+    },
+    {
+      "english": "I can be patient, with myself.",
+      "hebrew": "אני יכול/ה להיות סבלני/ת, עם עצמי.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155388"
+    },
+    {
+      "english": "Deep breaths, release tension.",
+      "hebrew": "נשימות עמוקות, משחררות מתח.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155390"
+    },
+    {
+      "english": "My mind wanders, that's okay.",
+      "hebrew": "המחשבות שלי נודדות, זה בסדר.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155392"
+    },
+    {
+      "english": "Honesty with feelings, is key.",
+      "hebrew": "כנות עם רגשות, זה המפתח.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155395"
+    },
+    {
+      "english": "What am I truly needing?",
+      "hebrew": "מה אני באמת זקוק/ה לו?",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155396"
+    },
+    {
+      "english": "Allowing emotions, to just be.",
+      "hebrew": "לאפשר לרגשות, פשוט להיות.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155398"
+    },
+    {
+      "english": "This is a learning process.",
+      "hebrew": "זה תהליך למידה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155400"
+    },
+    {
+      "english": "I am learning to accept.",
+      "hebrew": "אני לומד/ת לקבל.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155401"
+    },
+    {
+      "english": "Gentle reflection, on my day.",
+      "hebrew": "הרהור עדין, על היום שלי.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155403"
+    },
+    {
+      "english": "What brings me, genuine joy?",
+      "hebrew": "מה מביא לי, שמחה אמיתית?",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155405"
+    },
+    {
+      "english": "Listening to my inner voice.",
+      "hebrew": "להקשיב לקול הפנימי שלי.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155406"
+    },
+    {
+      "english": "There is wisdom, in stillness.",
+      "hebrew": "יש חוכמה, בדממה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155408"
+    },
+    {
+      "english": "Trusting my own intuition.",
+      "hebrew": "לבטוח באינטואיציה שלי.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155410"
+    },
+    {
+      "english": "Acknowledging my needs, gently.",
+      "hebrew": "להכיר בצורך שלי, בעדינות.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155411"
+    },
+    {
+      "english": "This moment, offers insight.",
+      "hebrew": "הרגע הזה, מציע תובנה.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155413"
+    },
+    {
+      "english": "I am allowing space, to grow.",
+      "hebrew": "אני מאפשר/ת מקום, לצמוח.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155415"
+    },
+    {
+      "english": "Finding peace, in complexity.",
+      "hebrew": "למצוא שלווה, במורכבות.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155416"
+    },
+    {
+      "english": "What is truly, important now?",
+      "hebrew": "מה באמת, חשוב עכשיו?",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155418"
+    },
+    {
+      "english": "My reflection, holds truth.",
+      "hebrew": "ההשתקפות שלי, מחזיקה אמת.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155420"
+    },
+    {
+      "english": "Giving myself, grace.",
+      "hebrew": "לתת לעצמי, חסד.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-26T05:38:10.155422"
     }
   ],
-  "last_updated": "2026-10-25T05:33:12.252657"
+  "last_updated": "2026-10-26T05:38:10.155423"
 }

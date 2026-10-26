@@ -18,7 +18,8 @@
     "hebrew_bg_016.jpg": 1,
     "hebrew_bg_017.jpg": 1,
     "hebrew_bg_018.jpg": 1,
-    "hebrew_bg_019.jpg": 1
+    "hebrew_bg_019.jpg": 1,
+    "hebrew_bg_020.jpg": 1
   },
   "last_used": {
     "hebrew_bg_001.jpg": "2026-10-17T04:51:43.053496+00:00",
@@ -39,7 +40,8 @@
     "hebrew_bg_016.jpg": "2026-10-22T05:38:22.888146+00:00",
     "hebrew_bg_017.jpg": "2026-10-23T05:36:14.291075+00:00",
     "hebrew_bg_018.jpg": "2026-10-24T05:15:04.888275+00:00",
-    "hebrew_bg_019.jpg": "2026-10-25T05:33:15.665193+00:00"
+    "hebrew_bg_019.jpg": "2026-10-25T05:33:15.665193+00:00",
+    "hebrew_bg_020.jpg": "2026-10-26T05:38:12.249573+00:00"
   },
   "history": [
     {
@@ -154,6 +156,12 @@
       "filename": "hebrew_bg_019.jpg",
       "category": "Strength",
       "timestamp": "2026-10-25T05:33:15.665193+00:00",
+      "cycle": 1
+    },
+    {
+      "filename": "hebrew_bg_020.jpg",
+      "category": "Mindfulness",
+      "timestamp": "2026-10-26T05:38:12.249573+00:00",
       "cycle": 1
     }
   ],
