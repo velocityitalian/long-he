@@ -40955,7 +40955,727 @@
       "hebrew": "לתת לעצמי, חסד.",
       "category": "Mindfulness",
       "generated_at": "2026-10-26T05:38:10.155422"
+    },
+    {
+      "english": "What are you doing, later?",
+      "hebrew": "מה אתה עושה, אחר כך?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415141"
+    },
+    {
+      "english": "Got any plans, today?",
+      "hebrew": "יש לך תוכניות, היום?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415157"
+    },
+    {
+      "english": "Are you free, this weekend?",
+      "hebrew": "אתה פנוי, בסוף השבוע?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415160"
+    },
+    {
+      "english": "Want to grab a coffee, sometime?",
+      "hebrew": "רוצה לשתות קפה, מתישהו?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415162"
+    },
+    {
+      "english": "We should meet up, properly.",
+      "hebrew": "אנחנו צריכים להיפגש, כמו שצריך.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415167"
+    },
+    {
+      "english": "What’s the plan, boss?",
+      "hebrew": "מה התוכנית, шеф?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415170"
+    },
+    {
+      "english": "I'm open, to suggestions.",
+      "hebrew": "אני פתוח, להצעות.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415172"
+    },
+    {
+      "english": "How about, Tuesday evening?",
+      "hebrew": "מה דעתך, על יום שלישי בערב?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415177"
+    },
+    {
+      "english": "Is that, convenient for you?",
+      "hebrew": "זה נוח, לך?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415180"
+    },
+    {
+      "english": "Sounds good, works for me.",
+      "hebrew": "נשמע טוב, מסתדר לי.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415182"
+    },
+    {
+      "english": "Let me check, my calendar.",
+      "hebrew": "תן לי לבדוק, ביומן.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415184"
+    },
+    {
+      "english": "I'm busy, that night.",
+      "hebrew": "אני עסוק, באותו לילה.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415186"
+    },
+    {
+      "english": "Can we reschedule, maybe?",
+      "hebrew": "אפשר לדחות, אולי?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415188"
+    },
+    {
+      "english": "What time, should we meet?",
+      "hebrew": "באיזו שעה, ניפגש?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415190"
+    },
+    {
+      "english": "Where, would you like to go?",
+      "hebrew": "לאן, תרצה ללכת?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415192"
+    },
+    {
+      "english": "I was thinking, about the park.",
+      "hebrew": "חשבתי, על הפארק.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415194"
+    },
+    {
+      "english": "Perfect, I love that idea.",
+      "hebrew": "מושלם, אני אוהב את הרעיון.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415209"
+    },
+    {
+      "english": "Count me in, definitely.",
+      "hebrew": "ספור עליי, בטוח.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415213"
+    },
+    {
+      "english": "I'll bring, some snacks.",
+      "hebrew": "אני אביא, כמה חטיפים.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415216"
+    },
+    {
+      "english": "Don't be late, please.",
+      "hebrew": "אל תאחר, בבקשה.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415218"
+    },
+    {
+      "english": "Any fun plans, coming up?",
+      "hebrew": "יש תוכניות, כיפיות בקרוב?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415220"
+    },
+    {
+      "english": "I'm free, after work.",
+      "hebrew": "אני פנוי, אחרי העבודה.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415222"
+    },
+    {
+      "english": "What’s happening, this evening?",
+      "hebrew": "מה קורה, הערב?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415225"
+    },
+    {
+      "english": "Can we do, tomorrow instead?",
+      "hebrew": "אפשר לעשות, מחר במקום?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415230"
+    },
+    {
+      "english": "Are you up for, a movie?",
+      "hebrew": "מתחשק לך, סרט?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415232"
+    },
+    {
+      "english": "Let’s confirm, the details.",
+      "hebrew": "בואו נאשר, את הפרטים.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415234"
+    },
+    {
+      "english": "What’s on your mind, for tonight?",
+      "hebrew": "מה התוכניות שלך, להערב?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415237"
+    },
+    {
+      "english": "Do you have, anything planned, yet?",
+      "hebrew": "יש לך, משהו מתוכנן, כבר?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415239"
+    },
+    {
+      "english": "When would be, a good time, for you?",
+      "hebrew": "מתי תהיה, זמן טוב, בשבילך?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415242"
+    },
+    {
+      "english": "Is there, a specific day, you prefer?",
+      "hebrew": "יש איזה יום, ספציפי, שאתה מעדיף?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415244"
+    },
+    {
+      "english": "What do you feel, like doing, generally?",
+      "hebrew": "מה בא לך, לעשות, באופן כללי?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415247"
+    },
+    {
+      "english": "Let’s brainstorm, some ideas, together.",
+      "hebrew": "בוא נחשוב, על כמה רעיונות, ביחד.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415249"
+    },
+    {
+      "english": "Are you leaning, towards anything, in particular?",
+      "hebrew": "האם אתה נוטה, למשהו מסוים, בפרט?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415252"
+    },
+    {
+      "english": "What’s your current, availability, like?",
+      "hebrew": "איך זמינותך, הנוכחית, נראית?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415255"
+    },
+    {
+      "english": "Should we try, something new, this time?",
+      "hebrew": "כדאי שננסה, משהו חדש, הפעם?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415257"
+    },
+    {
+      "english": "What’s your vibe, for the weekend?",
+      "hebrew": "מה הווייב שלך, לסוף השבוע?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415262"
+    },
+    {
+      "english": "Any thoughts, on how to spend, the day?",
+      "hebrew": "יש מחשבות, איך לבלות, את היום?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415264"
+    },
+    {
+      "english": "Would you prefer, indoors, or outdoors?",
+      "hebrew": "האם תעדיף, בפנים, או בחוץ?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415266"
+    },
+    {
+      "english": "I’m flexible, with the timing, honestly.",
+      "hebrew": "אני גמיש, עם התזמון, בכנות.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415269"
+    },
+    {
+      "english": "What’s your energy, level, right now?",
+      "hebrew": "מה רמת האנרגיה, שלך, כרגע?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415274"
+    },
+    {
+      "english": "Are you feeling, more adventurous, or relaxed?",
+      "hebrew": "אתה מרגיש, יותר הרפתקני, או רגוע?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415276"
+    },
+    {
+      "english": "We need to sync up, soon.",
+      "hebrew": "אנחנו צריכים, להסתנכרן, בקרוב.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415278"
+    },
+    {
+      "english": "What kind of atmosphere, are you looking for?",
+      "hebrew": "איזה סוג אווירה, אתה מחפש?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415280"
+    },
+    {
+      "english": "Do you have, a specific cuisine, in mind?",
+      "hebrew": "יש לך, מטבח ספציפי, בראש?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415282"
+    },
+    {
+      "english": "Let me know, what works best, for you.",
+      "hebrew": "תעדכן אותי, מה עובד הכי טוב, בשבילך.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415284"
+    },
+    {
+      "english": "Are you free, for a quick chat, maybe?",
+      "hebrew": "אתה פנוי, לשיחה קצרה, אולי?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415287"
+    },
+    {
+      "english": "How about we play, it by ear, today?",
+      "hebrew": "מה דעתך שנזרום, עם מה שבא, היום?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415289"
+    },
+    {
+      "english": "What are your, general interests, these days?",
+      "hebrew": "מה תחומי העניין, הכלליים שלך, בימים אלה?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415291"
+    },
+    {
+      "english": "Is there anything, you absolutely, want to avoid?",
+      "hebrew": "יש משהו, שאתה חייב, להימנע ממנו?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415294"
+    },
+    {
+      "english": "Tell me, what your ideal, day looks like.",
+      "hebrew": "ספר לי, איך נראה, היום האידיאלי שלך.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415296"
+    },
+    {
+      "english": "Are we aiming, for something active, or chill?",
+      "hebrew": "אנחנו מכוונים, למשהו פעיל, או רגוע?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415298"
+    },
+    {
+      "english": "What time, does your schedule, open up?",
+      "hebrew": "באיזו שעה, הלו\"ז שלך, נפתח?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415300"
+    },
+    {
+      "english": "Let’s pin down, a concrete plan.",
+      "hebrew": "בוא נקבע, תוכנית קונקרטית.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415302"
+    },
+    {
+      "english": "What’s the general, mood, you’re going for?",
+      "hebrew": "מה האווירה, הכללית, שאתה מכוון אליה?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415305"
+    },
+    {
+      "english": "Do you have, any preferences, or constraints?",
+      "hebrew": "יש לך, העדפות, או מגבלות?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415308"
+    },
+    {
+      "english": "What are you thinking, might be fun, for us?",
+      "hebrew": "מה אתה חושב, שיכול להיות כיף, לנו?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415310"
+    },
+    {
+      "english": "Believe you can, achieve it.",
+      "hebrew": "תאמין שאתה יכול, ותשיג את זה.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415312"
+    },
+    {
+      "english": "Small steps, big dreams.",
+      "hebrew": "צעדים קטנים, חלומות גדולים.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415314"
+    },
+    {
+      "english": "You've got this, totally.",
+      "hebrew": "יש לך את זה, לגמרי.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415316"
+    },
+    {
+      "english": "Your positive attitude, is key.",
+      "hebrew": "הגישה החיובית שלך, היא המפתח.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415319"
+    },
+    {
+      "english": "Great job, on that step!",
+      "hebrew": "עבודה מצוינת, על הצעד הזה!",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415321"
+    },
+    {
+      "english": "You're doing wonderfully, truly.",
+      "hebrew": "אתה עושה נפלא, באמת.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415323"
+    },
+    {
+      "english": "Think big, plan smart.",
+      "hebrew": "חשוב בגדול, תכנן בחוכמה.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415327"
+    },
+    {
+      "english": "This is totally achievable, friend.",
+      "hebrew": "זה לגמרי בר השגה, חבר.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415329"
+    },
+    {
+      "english": "You have a great vision.",
+      "hebrew": "יש לך חזון נהדר.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415331"
+    },
+    {
+      "english": "Don't underestimate your power.",
+      "hebrew": "אל תזלזל בכוח שלך.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415334"
+    },
+    {
+      "english": "Positive vibes only, please.",
+      "hebrew": "רק ויברציות חיוביות, בבקשה.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415335"
+    },
+    {
+      "english": "Let's manifest this success.",
+      "hebrew": "בוא נגשים את ההצלחה הזו.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415339"
+    },
+    {
+      "english": "Confidence is your superpower.",
+      "hebrew": "ביטחון עצמי הוא כוח העל שלך.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415341"
+    },
+    {
+      "english": "This plan looks solid, great.",
+      "hebrew": "התוכנית הזו נראית מוצקה, מעולה.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415343"
+    },
+    {
+      "english": "Stay focused, stay strong.",
+      "hebrew": "הישאר ממוקד, הישאר חזק.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415347"
+    },
+    {
+      "english": "We can make it happen.",
+      "hebrew": "אנחנו יכולים לגרום לזה לקרות.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415349"
+    },
+    {
+      "english": "Your enthusiasm is contagious.",
+      "hebrew": "ההתלהבות שלך מדבקת.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415351"
+    },
+    {
+      "english": "This idea has potential, yes.",
+      "hebrew": "לרעיון הזה יש פוטנציאל, כן.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415353"
+    },
+    {
+      "english": "You're a natural planner.",
+      "hebrew": "אתה מתכנן טבעי.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415355"
+    },
+    {
+      "english": "What are we up to, later today?",
+      "hebrew": "מה עושים, בהמשך היום?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415357"
+    },
+    {
+      "english": "Got any ideas, for the evening?",
+      "hebrew": "יש לך רעיונות, לערב?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415359"
+    },
+    {
+      "english": "Let's grab a coffee, sometime soon.",
+      "hebrew": "בוא/י ניפגש לקפה, מתישהו.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415362"
+    },
+    {
+      "english": "What's the plan, for tomorrow?",
+      "hebrew": "מה התוכנית, למחר?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415364"
+    },
+    {
+      "english": "Should we meet up, this week?",
+      "hebrew": "נפגשים, השבוע?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415366"
+    },
+    {
+      "english": "What time, works for you?",
+      "hebrew": "באיזו שעה, נוח לך?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415368"
+    },
+    {
+      "english": "We should totally do, something fun.",
+      "hebrew": "חייבים לעשות, משהו כיף.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415370"
+    },
+    {
+      "english": "Any interest, in going out?",
+      "hebrew": "יש עניין, לצאת?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415372"
+    },
+    {
+      "english": "Let's schedule, a get-together.",
+      "hebrew": "נקבע, להיפגש.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415375"
+    },
+    {
+      "english": "What are you thinking, for the weekend?",
+      "hebrew": "מה אתה/את חושב/ת, לסופ\"ש?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415377"
+    },
+    {
+      "english": "How about, we catch a movie?",
+      "hebrew": "מה דעתך, ללכת לסרט?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415379"
+    },
+    {
+      "english": "Are you busy, on Friday night?",
+      "hebrew": "את/ה עסוק/ה, בשישי בערב?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415381"
+    },
+    {
+      "english": "Let's make some, concrete plans.",
+      "hebrew": "בוא/י נעשה, תוכניות ברורות.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415383"
+    },
+    {
+      "english": "What's on your mind, activity-wise?",
+      "hebrew": "מה על הפרק, מבחינת פעילות?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415386"
+    },
+    {
+      "english": "We need to nail down, the details.",
+      "hebrew": "צריך לסגור, את הפרטים.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415388"
+    },
+    {
+      "english": "Thinking of something, low-key, maybe?",
+      "hebrew": "חשבתי על משהו, רגוע, אולי?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415390"
+    },
+    {
+      "english": "Let's set a date, for lunch.",
+      "hebrew": "נקבע דייט, לארוחת צהריים.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415395"
+    },
+    {
+      "english": "When's a good time, to connect?",
+      "hebrew": "מתי זמן טוב, להתחבר?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415397"
+    },
+    {
+      "english": "Let's figure out, what to do.",
+      "hebrew": "בוא/י נבין, מה עושים.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415399"
+    },
+    {
+      "english": "Fancy a walk, in the park?",
+      "hebrew": "בא לך ללכת, לטייל בפארק?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415401"
+    },
+    {
+      "english": "We need to coordinate, our schedules.",
+      "hebrew": "צריך לתאם, את היומנים.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415404"
+    },
+    {
+      "english": "What are you feeling, like doing?",
+      "hebrew": "מה בא לך, לעשות?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415405"
+    },
+    {
+      "english": "Let's lock this, down officially.",
+      "hebrew": "בוא/י נקבע את זה, רשמית.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415408"
+    },
+    {
+      "english": "I'm game, for most things.",
+      "hebrew": "אני בעניין, של רוב הדברים.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415410"
+    },
+    {
+      "english": "What about, dinner, this Saturday?",
+      "hebrew": "מה לגבי, ארוחת ערב, שבת?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415417"
+    },
+    {
+      "english": "Let's get our act, together, soon.",
+      "hebrew": "בוא/י נסדר, את העניינים, בקרוב.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415419"
+    },
+    {
+      "english": "What's for dinner, tonight?",
+      "hebrew": "מה אוכלים לארוחת ערב, הערב?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415421"
+    },
+    {
+      "english": "Let's decide, where to go.",
+      "hebrew": "בוא נחליט, לאן ניסע.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415424"
+    },
+    {
+      "english": "Do you have, a moment, to chat?",
+      "hebrew": "יש לך, רגע, לדבר?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415426"
+    },
+    {
+      "english": "We should reschedule, maybe next week.",
+      "hebrew": "אולי נתאם מחדש, לשבוע הבא.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415428"
+    },
+    {
+      "english": "Don't forget, to buy milk.",
+      "hebrew": "אל תשכח, לקנות חלב.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415430"
+    },
+    {
+      "english": "Can we confirm, the reservation?",
+      "hebrew": "אפשר לאשר, את ההזמנה?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415432"
+    },
+    {
+      "english": "What time, should I arrive?",
+      "hebrew": "באיזו שעה, כדאי לי להגיע?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415435"
+    },
+    {
+      "english": "Let's stick, to the schedule.",
+      "hebrew": "בואו נדבק, ללוח זמנים.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415437"
+    },
+    {
+      "english": "Is this still, on for tonight?",
+      "hebrew": "זה עדיין, קורה להערב?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415439"
+    },
+    {
+      "english": "We need, to make a decision.",
+      "hebrew": "אנחנו צריכים, לקבל החלטה.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415441"
+    },
+    {
+      "english": "What are your, free hours, this week?",
+      "hebrew": "מהן, השעות הפנויות שלך, השבוע?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415443"
+    },
+    {
+      "english": "Let's go over, the details, again.",
+      "hebrew": "בוא נעבור, על הפרטים, שוב.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415446"
+    },
+    {
+      "english": "Can you pick me up, around eight?",
+      "hebrew": "תוכל לאסוף אותי, בסביבות שמונה?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415448"
+    },
+    {
+      "english": "The weather, looks good, for Saturday.",
+      "hebrew": "ה מזג האוויר, נראה טוב, ליום שבת.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415450"
+    },
+    {
+      "english": "Let's plan, a backup option.",
+      "hebrew": "בוא נתכנן, אפשרות חלופית.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415452"
+    },
+    {
+      "english": "What do you recommend, we do?",
+      "hebrew": "מה אתה ממליץ, שנעשה?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415454"
+    },
+    {
+      "english": "I'm running late, apologies.",
+      "hebrew": "אני מתעכב, מתנצל.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415456"
+    },
+    {
+      "english": "Should we leave, by ten?",
+      "hebrew": "כדאי לנו לצאת, עד עשר?",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415460"
+    },
+    {
+      "english": "This works, perfectly for me.",
+      "hebrew": "זה עובד, מושלם בשבילי.",
+      "category": "Making Plans",
+      "generated_at": "2026-10-27T05:50:24.415462"
     }
   ],
-  "last_updated": "2026-10-26T05:38:10.155423"
+  "last_updated": "2026-10-27T05:50:24.415464"
 }
