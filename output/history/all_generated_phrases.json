@@ -41675,7 +41675,727 @@
       "hebrew": "זה עובד, מושלם בשבילי.",
       "category": "Making Plans",
       "generated_at": "2026-10-27T05:50:24.415462"
+    },
+    {
+      "english": "Good morning, everyone, let's start.",
+      "hebrew": "בוקר טוב לכולם, בואו נתחיל.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280629"
+    },
+    {
+      "english": "What's on the agenda today?",
+      "hebrew": "מה על הפרק היום?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280648"
+    },
+    {
+      "english": "I need a coffee, urgently.",
+      "hebrew": "אני חייב קפה, בדחיפות.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280656"
+    },
+    {
+      "english": "Can you repeat that, please?",
+      "hebrew": "אתה יכול לחזור על זה, בבקשה?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280663"
+    },
+    {
+      "english": "I'm having trouble with this.",
+      "hebrew": "יש לי בעיה עם זה.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280669"
+    },
+    {
+      "english": "Let's think outside the box.",
+      "hebrew": "בואו נחשוב מחוץ לקופסה.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280675"
+    },
+    {
+      "english": "What do you think about this?",
+      "hebrew": "מה דעתך על זה?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280681"
+    },
+    {
+      "english": "I'll get back to you soon.",
+      "hebrew": "אני אחזור אליך בקרוב.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280687"
+    },
+    {
+      "english": "This is a great idea.",
+      "hebrew": "זו רעיון מעולה.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280691"
+    },
+    {
+      "english": "Let's schedule a meeting.",
+      "hebrew": "בואו נקבע פגישה.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280694"
+    },
+    {
+      "english": "Is there any news on this?",
+      "hebrew": "יש חדש בנושא הזה?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280697"
+    },
+    {
+      "english": "I'm almost done with it.",
+      "hebrew": "אני כמעט מסיים עם זה.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280700"
+    },
+    {
+      "english": "Can you send me the file?",
+      "hebrew": "אתה יכול לשלוח לי את הקובץ?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280702"
+    },
+    {
+      "english": "Let's brainstorm some solutions.",
+      "hebrew": "בואו נעשה סיעור מוחות.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280705"
+    },
+    {
+      "english": "I'm feeling a bit overwhelmed.",
+      "hebrew": "אני מרגיש קצת מוצף.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280708"
+    },
+    {
+      "english": "That's not what I meant.",
+      "hebrew": "זה לא מה שהתכוונתי.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280711"
+    },
+    {
+      "english": "How's the project coming along?",
+      "hebrew": "איך הפרויקט מתקדם?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280713"
+    },
+    {
+      "english": "We need to prioritize tasks.",
+      "hebrew": "אנחנו צריכים לתעדף משימות.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280716"
+    },
+    {
+      "english": "I'll take care of that.",
+      "hebrew": "אני אטפל בזה.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280724"
+    },
+    {
+      "english": "Can we discuss this later?",
+      "hebrew": "אפשר לדבר על זה אחר כך?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280727"
+    },
+    {
+      "english": "That sounds like a plan.",
+      "hebrew": "נשמע כמו תוכנית.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280730"
+    },
+    {
+      "english": "I need a quick break.",
+      "hebrew": "אני צריך הפסקה קצרה.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280732"
+    },
+    {
+      "english": "Are we on the same page?",
+      "hebrew": "אנחנו באותו ראש?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280735"
+    },
+    {
+      "english": "Let's wrap this up.",
+      "hebrew": "בואו נסיים עם זה.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280737"
+    },
+    {
+      "english": "What's the deadline for this?",
+      "hebrew": "מה הדד-ליין לזה?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280740"
+    },
+    {
+      "english": "Let's get down to business.",
+      "hebrew": "בואו ניגש לעבודה.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280743"
+    },
+    {
+      "english": "I'm happy to help.",
+      "hebrew": "אשמח לעזור.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280746"
+    },
+    {
+      "english": "This requires more attention.",
+      "hebrew": "זה דורש יותר תשומת לב.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280748"
+    },
+    {
+      "english": "Have a productive day!",
+      "hebrew": "יום פרודוקטיבי!",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280751"
+    },
+    {
+      "english": "Who is in charge, of this project?",
+      "hebrew": "מי אחראי, על הפרויקט הזה?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280754"
+    },
+    {
+      "english": "Do you need help, with that task?",
+      "hebrew": "את/ה צריך/ה עזרה, עם המשימה הזו?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280757"
+    },
+    {
+      "english": "How can we improve, our workflow?",
+      "hebrew": "איך נוכל לשפר, את זרימת העבודה שלנו?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280760"
+    },
+    {
+      "english": "When is the best time, to follow up?",
+      "hebrew": "מתי הזמן הכי טוב, לעשות מעקב?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280762"
+    },
+    {
+      "english": "Could we delegate, this responsibility?",
+      "hebrew": "אפשר להאציל, את האחריות הזו?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280765"
+    },
+    {
+      "english": "What's the main challenge, we face?",
+      "hebrew": "מה האתגר המרכזי, שאנחנו מתמודדים איתו?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280768"
+    },
+    {
+      "english": "How should we approach, this situation?",
+      "hebrew": "איך כדאי שניגש, למצב הזה?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280772"
+    },
+    {
+      "english": "Are you available, for a quick chat?",
+      "hebrew": "את/ה פנוי/ה, לשיחה קצרה?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280782"
+    },
+    {
+      "english": "What are your priorities, for this week?",
+      "hebrew": "מה סדרי העדיפויות שלך, לשבוע הזה?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280788"
+    },
+    {
+      "english": "Can you clarify, that point?",
+      "hebrew": "אפשר להבהיר, את הנקודה הזו?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280794"
+    },
+    {
+      "english": "Who should I contact, for this?",
+      "hebrew": "עם מי עלי ליצור קשר, בנוגע לזה?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280799"
+    },
+    {
+      "english": "What resources, do we need?",
+      "hebrew": "אילו משאבים, אנחנו צריכים?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280806"
+    },
+    {
+      "english": "How do you suggest, we proceed?",
+      "hebrew": "איך את/ה מציע/ה, שנמשיך?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280810"
+    },
+    {
+      "english": "What is the expected outcome, of this?",
+      "hebrew": "מה התוצאה הצפויה, מזה?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280813"
+    },
+    {
+      "english": "Could you walk me through, this process?",
+      "hebrew": "אפשר להסביר לי, את התהליך הזה?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280816"
+    },
+    {
+      "english": "What are your expectations, from this?",
+      "hebrew": "מה הציפיות שלך, מזה?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280819"
+    },
+    {
+      "english": "Are there any dependencies, we should know?",
+      "hebrew": "יש תלויות כלשהן, שאנחנו צריכים לדעת?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280821"
+    },
+    {
+      "english": "Who is the point person, for this?",
+      "hebrew": "מי איש הקשר, בשביל זה?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280824"
+    },
+    {
+      "english": "What's the biggest risk, involved?",
+      "hebrew": "מה הסיכון הגדול ביותר, הכרוך בזה?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280830"
+    },
+    {
+      "english": "How do we measure success, here?",
+      "hebrew": "איך אנחנו מודדים הצלחה, כאן?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280833"
+    },
+    {
+      "english": "Could you elaborate, on that point?",
+      "hebrew": "אפשר לפרט, על הנקודה הזו?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280837"
+    },
+    {
+      "english": "What's the best way, to communicate?",
+      "hebrew": "מה הדרך הכי טובה, לתקשר?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280841"
+    },
+    {
+      "english": "Are there any alternative options, available?",
+      "hebrew": "יש אופציות חלופיות, זמינות?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280845"
+    },
+    {
+      "english": "Who is responsible, for the final decision?",
+      "hebrew": "מי אחראי, להחלטה הסופית?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280848"
+    },
+    {
+      "english": "What is the scope, of this task?",
+      "hebrew": "מה ההיקף, של המשימה הזו?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280866"
+    },
+    {
+      "english": "Great job, keep up the excellent work.",
+      "hebrew": "עבודה מעולה, המשך/י כך.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280874"
+    },
+    {
+      "english": "Your contribution is truly valued.",
+      "hebrew": "התרומה שלך מוערכת מאוד.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280880"
+    },
+    {
+      "english": "Let's stay positive, and push forward.",
+      "hebrew": "בוא/י נישאר חיוביים, ונתקדם.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280886"
+    },
+    {
+      "english": "Think outside the box, be creative.",
+      "hebrew": "תחשוב/י מחוץ לקופסה, תהיה/י יצירתי/ת.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280889"
+    },
+    {
+      "english": "Every challenge is an opportunity.",
+      "hebrew": "כל אתגר הוא הזדמנות.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280892"
+    },
+    {
+      "english": "You are making a real difference.",
+      "hebrew": "את/ה עושה שינוי אמיתי.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280895"
+    },
+    {
+      "english": "I'm proud of your progress.",
+      "hebrew": "גאה בהתקדמות שלך.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280898"
+    },
+    {
+      "english": "Let's aim high, and achieve it.",
+      "hebrew": "בוא/י נכוון גבוה, ונגשים זאת.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280901"
+    },
+    {
+      "english": "We can do this, together.",
+      "hebrew": "אנחנו יכולים לעשות את זה, ביחד.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280909"
+    },
+    {
+      "english": "You exceeded expectations.",
+      "hebrew": "עלית על כל הציפיות.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280915"
+    },
+    {
+      "english": "This is a great learning experience.",
+      "hebrew": "זו חוויה לימודית נהדרת.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280921"
+    },
+    {
+      "english": "Your ideas are brilliant.",
+      "hebrew": "הרעיונות שלך מבריקים.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280927"
+    },
+    {
+      "english": "Don't give up, keep trying.",
+      "hebrew": "אל תוותר/י, המשך/י לנסות.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280934"
+    },
+    {
+      "english": "You are a valuable team member.",
+      "hebrew": "את/ה חבר/ה צוות יקר/ה.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280939"
+    },
+    {
+      "english": "Let's focus, and execute.",
+      "hebrew": "בוא/י נתמקד, ונוציא לפועל.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280943"
+    },
+    {
+      "english": "You handled that very well.",
+      "hebrew": "טיפלת בזה מצוין.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280946"
+    },
+    {
+      "english": "Your efforts are noticed.",
+      "hebrew": "המאמצים שלך מורגשים.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280948"
+    },
+    {
+      "english": "Let's make progress, every day.",
+      "hebrew": "בוא/י נעשה התקדמות, כל יום.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280951"
+    },
+    {
+      "english": "You're doing a fantastic job.",
+      "hebrew": "את/ה עושה עבודה פנטסטית.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280954"
+    },
+    {
+      "english": "Stay motivated, stay driven.",
+      "hebrew": "הישאר/י נחוש/ה, דחוף/ה.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280957"
+    },
+    {
+      "english": "Your resilience is admirable.",
+      "hebrew": "החוסן שלך ראוי להערכה.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280959"
+    },
+    {
+      "english": "He's always playing hooky, you know?",
+      "hebrew": "הוא תמיד עושה 'סיבוב', אתה יודע?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280963"
+    },
+    {
+      "english": "Don't get your knickers in a twist, it's fine.",
+      "hebrew": "אל תיכנס לסרטים, הכל בסדר.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280966"
+    },
+    {
+      "english": "He's really pushing the envelope here.",
+      "hebrew": "הוא באמת פורץ את הדרך פה.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280969"
+    },
+    {
+      "english": "Let's not reinvent the wheel, okay?",
+      "hebrew": "בוא לא נמציא את הגלגל מחדש, בסדר?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280972"
+    },
+    {
+      "english": "This is a bit of a tough nut to crack.",
+      "hebrew": "זה קצת סיפור, להתמודד עם זה.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280975"
+    },
+    {
+      "english": "He's got his finger in every pie.",
+      "hebrew": "הוא בכל מקום, בכל סיפור.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280978"
+    },
+    {
+      "english": "Let's not beat around the bush, what's the plan?",
+      "hebrew": "בוא לא נסבב, מה התוכנית?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280985"
+    },
+    {
+      "english": "He's really pulling my leg here.",
+      "hebrew": "הוא ממש צוחק עליי פה.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280988"
+    },
+    {
+      "english": "We're in the same boat, unfortunately.",
+      "hebrew": "אנחנו באותו סירה, לצערי.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280991"
+    },
+    {
+      "english": "Let's get our ducks in a row first.",
+      "hebrew": "בוא נסדר את הדברים, קודם.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280993"
+    },
+    {
+      "english": "He's always shooting from the hip.",
+      "hebrew": "הוא תמיד יורה מהמותן.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.280999"
+    },
+    {
+      "english": "This is really a drop in the ocean.",
+      "hebrew": "זה באמת טיפה בים.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.281002"
+    },
+    {
+      "english": "He's just spinning his wheels, isn't he?",
+      "hebrew": "הוא סתם מסתובב, לא?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.281005"
+    },
+    {
+      "english": "Let's not count our chickens, too early.",
+      "hebrew": "בוא לא נקדים את המאוחר.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.281008"
+    },
+    {
+      "english": "He's really a breath of fresh air.",
+      "hebrew": "הוא באמת רוח מרעננת.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.281010"
+    },
+    {
+      "english": "This is a real can of worms.",
+      "hebrew": "זה באמת סיפור בלתי נגמר.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.281013"
+    },
+    {
+      "english": "He's always got his nose to the grindstone.",
+      "hebrew": "הוא תמיד שקוע בעבודה.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.281016"
+    },
+    {
+      "english": "Let's not get ahead of ourselves, okay?",
+      "hebrew": "בוא לא נקדים את המאוחר, בסדר?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.281019"
+    },
+    {
+      "english": "He's really playing with fire here.",
+      "hebrew": "הוא באמת משחק באש פה.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.281022"
+    },
+    {
+      "english": "This is a no-brainer, really.",
+      "hebrew": "זה ברור מאליו, באמת.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.281025"
+    },
+    {
+      "english": "He's just trying to stir the pot.",
+      "hebrew": "הוא סתם מנסה לעורר מהומה.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.281027"
+    },
+    {
+      "english": "Let's put all our eggs in one basket.",
+      "hebrew": "בוא נשים את כל הביצים בסל אחד.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.281038"
+    },
+    {
+      "english": "He's really got the Midas touch.",
+      "hebrew": "יש לו באמת יד זהב.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.281044"
+    },
+    {
+      "english": "This is like finding a needle in a haystack.",
+      "hebrew": "זה כמו למצוא מחט בערימת שחת.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.281050"
+    },
+    {
+      "english": "He's always got his head in the clouds.",
+      "hebrew": "הוא תמיד עם הראש בעננים.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.281056"
+    },
+    {
+      "english": "Let's not rock the boat, for now.",
+      "hebrew": "בוא לא נערער את הספינה, כרגע.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.281062"
+    },
+    {
+      "english": "He's really barking up the wrong tree.",
+      "hebrew": "הוא באמת טועה לחלוטין.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.281068"
+    },
+    {
+      "english": "This is a tough pill to swallow.",
+      "hebrew": "זה באמת קשה לעיכול.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.281071"
+    },
+    {
+      "english": "He's always running around like a headless chicken.",
+      "hebrew": "הוא תמיד רץ כמו עוף בלי ראש.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.281074"
+    },
+    {
+      "english": "Let's not cry over spilled milk.",
+      "hebrew": "בוא לא נבכה על חלב שנשפך.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.281076"
+    },
+    {
+      "english": "I need to schedule a meeting, soon.",
+      "hebrew": "אני צריך/ה לקבוע פגישה, בקרוב.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.281079"
+    },
+    {
+      "english": "Where is the nearest coffee machine?",
+      "hebrew": "איפה מכונת הקפה הכי קרובה?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.281082"
+    },
+    {
+      "english": "I'll take care of it, right away.",
+      "hebrew": "אני אטפל בזה, מיד.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.281085"
+    },
+    {
+      "english": "Who is responsible for this project?",
+      "hebrew": "מי אחראי על הפרויקט הזה?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.281088"
+    },
+    {
+      "english": "Can we get an extension, maybe?",
+      "hebrew": "אפשר לקבל ארכה, אולי?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.281091"
+    },
+    {
+      "english": "Let's review the notes, quickly.",
+      "hebrew": "בואו נסקור את הפתקים, מהר.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.281096"
+    },
+    {
+      "english": "I'm working remotely, today.",
+      "hebrew": "אני עובד/ת מהבית, היום.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.281100"
+    },
+    {
+      "english": "Did you get my email, by chance?",
+      "hebrew": "קיבלת את המייל שלי, במקרה?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.281102"
+    },
+    {
+      "english": "This needs urgent attention, now.",
+      "hebrew": "זה דורש טיפול דחוף, עכשיו.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.281107"
+    },
+    {
+      "english": "Let's delegate these tasks, efficiently.",
+      "hebrew": "בואו נחלק את המשימות האלה, ביעילות.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.281110"
+    },
+    {
+      "english": "Where do we store the supplies?",
+      "hebrew": "איפה אנחנו מאחסנים את הציוד?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.281113"
+    },
+    {
+      "english": "Let's follow up on this, later.",
+      "hebrew": "בואו נעקוב אחרי זה, אחר כך.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.281116"
+    },
+    {
+      "english": "Can you explain this, again?",
+      "hebrew": "את/ה יכול/ה להסביר את זה, שוב?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.281119"
+    },
+    {
+      "english": "I'm facing a technical issue.",
+      "hebrew": "אני נתקל/ת בבעיה טכנית.",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.281123"
+    },
+    {
+      "english": "What's the company policy on this?",
+      "hebrew": "מה מדיניות החברה לגבי זה?",
+      "category": "Work & Office",
+      "generated_at": "2026-10-28T06:28:16.281126"
     }
   ],
-  "last_updated": "2026-10-27T05:50:24.415464"
+  "last_updated": "2026-10-28T06:28:16.281128"
 }
