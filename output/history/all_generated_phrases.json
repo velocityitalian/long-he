@@ -43115,7 +43115,727 @@
       "hebrew": "זה, חדשני.",
       "category": "Creativity",
       "generated_at": "2026-10-29T06:39:34.219868"
+    },
+    {
+      "english": "What do you do, in your free time?",
+      "hebrew": "מה אתה עושה, בזמנך הפנוי?",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054439"
+    },
+    {
+      "english": "I like to relax, after work.",
+      "hebrew": "אני אוהב להירגע, אחרי העבודה.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054453"
+    },
+    {
+      "english": "My hobby is reading, books.",
+      "hebrew": "תחביב שלי זה קריאת, ספרים.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054457"
+    },
+    {
+      "english": "Do you have any hobbies?",
+      "hebrew": "יש לך תחביבים?",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054460"
+    },
+    {
+      "english": "I enjoy listening, to music.",
+      "hebrew": "אני נהנה להקשיב, למוזיקה.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054465"
+    },
+    {
+      "english": "I'm learning to play, the guitar.",
+      "hebrew": "אני לומד לנגן, בגיטרה.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054468"
+    },
+    {
+      "english": "Weekends are for, relaxing.",
+      "hebrew": "סופי שבוע זה, למנוחה.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054473"
+    },
+    {
+      "english": "What are you up to, today?",
+      "hebrew": "מה אתה עושה, היום?",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054479"
+    },
+    {
+      "english": "I love spending time, outdoors.",
+      "hebrew": "אני אוהב לבלות, בחוץ.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054483"
+    },
+    {
+      "english": "Cooking is my passion, really.",
+      "hebrew": "בישול זה התשוקה שלי, באמת.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054486"
+    },
+    {
+      "english": "Are you busy, this evening?",
+      "hebrew": "אתה עסוק, הערב?",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054489"
+    },
+    {
+      "english": "I enjoy watching, movies at home.",
+      "hebrew": "אני אוהב לראות, סרטים בבית.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054492"
+    },
+    {
+      "english": "We should go hiking, soon.",
+      "hebrew": "אנחנו צריכים לטייל, בקרוב.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054494"
+    },
+    {
+      "english": "My favorite pastime is, gardening.",
+      "hebrew": "שעות הפנאי האהובות עליי, גינון.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054499"
+    },
+    {
+      "english": "I need some downtime, badly.",
+      "hebrew": "אני ממש צריך, זמן מנוחה.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054502"
+    },
+    {
+      "english": "Let's catch up, sometime.",
+      "hebrew": "בוא ניפגש, מתישהו.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054505"
+    },
+    {
+      "english": "I'm into photography, lately.",
+      "hebrew": "אני מתעניין בצילום, בזמן האחרון.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054508"
+    },
+    {
+      "english": "What did you do, yesterday?",
+      "hebrew": "מה עשית, אתמול?",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054511"
+    },
+    {
+      "english": "I like to go for, walks.",
+      "hebrew": "אני אוהב לצאת, לטיולים.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054513"
+    },
+    {
+      "english": "Playing video games, is fun.",
+      "hebrew": "לשחק משחקי וידאו, זה כיף.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054516"
+    },
+    {
+      "english": "I'm learning Hebrew, for fun.",
+      "hebrew": "אני לומד עברית, בשביל הכיף.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054521"
+    },
+    {
+      "english": "We could see a, play.",
+      "hebrew": "אפשר ללכת לראות, הצגה.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054524"
+    },
+    {
+      "english": "I'm trying new things, always.",
+      "hebrew": "אני מנסה דברים חדשים, תמיד.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054526"
+    },
+    {
+      "english": "Do you like to, travel?",
+      "hebrew": "אתה אוהב, לטייל?",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054529"
+    },
+    {
+      "english": "My free time is, precious.",
+      "hebrew": "הזמן הפנוי שלי, יקר.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054532"
+    },
+    {
+      "english": "I enjoy painting, sometimes.",
+      "hebrew": "אני אוהב לצייר, לפעמים.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054534"
+    },
+    {
+      "english": "What's your favorite, activity?",
+      "hebrew": "מה הפעילות, האהובה עליך?",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054537"
+    },
+    {
+      "english": "I need a break, really.",
+      "hebrew": "אני באמת צריך, הפסקה.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054539"
+    },
+    {
+      "english": "What do you do, for fun?",
+      "hebrew": "מה אתה עושה, בשביל הכיף?",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054542"
+    },
+    {
+      "english": "Got any plans, this weekend?",
+      "hebrew": "יש לך תוכניות, לסוף השבוע?",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054545"
+    },
+    {
+      "english": "How do you usually, unwind?",
+      "hebrew": "איך אתה בדרך כלל, נרגע?",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054548"
+    },
+    {
+      "english": "Tell me about, your interests.",
+      "hebrew": "ספר לי על, תחומי העניין שלך.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054550"
+    },
+    {
+      "english": "What's a good way, to de-stress?",
+      "hebrew": "מה דרך טובה, להוריד מתח?",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054554"
+    },
+    {
+      "english": "Anything exciting, coming up?",
+      "hebrew": "משהו מרגש, בקרוב?",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054558"
+    },
+    {
+      "english": "Mind if I join, you sometimes?",
+      "hebrew": "אכפת לך אם אצטרף, לפעמים?",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054561"
+    },
+    {
+      "english": "What do you recommend, doing here?",
+      "hebrew": "מה אתה ממליץ, לעשות כאן?",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054564"
+    },
+    {
+      "english": "Is there anything, I should try?",
+      "hebrew": "יש משהו, שכדאי לי לנסות?",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054568"
+    },
+    {
+      "english": "What do you do, when you're bored?",
+      "hebrew": "מה אתה עושה, כשמשעמם לך?",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054571"
+    },
+    {
+      "english": "I'm looking for, a new hobby.",
+      "hebrew": "אני מחפש, תחביב חדש.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054574"
+    },
+    {
+      "english": "Can you suggest, something fun?",
+      "hebrew": "אתה יכול להציע, משהו כיפי?",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054577"
+    },
+    {
+      "english": "What did you do, last night?",
+      "hebrew": "מה עשית, אמש?",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054579"
+    },
+    {
+      "english": "I need a distraction, urgently.",
+      "hebrew": "אני צריך הסחת דעת, בדחיפות.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054582"
+    },
+    {
+      "english": "What's your go-to, relaxation technique?",
+      "hebrew": "מה שיטת, ההרגעה המועדפת עליך?",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054585"
+    },
+    {
+      "english": "Do you ever, get lazy?",
+      "hebrew": "האם אתה, לפעמים מתעצל?",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054588"
+    },
+    {
+      "english": "What are you passionate, about?",
+      "hebrew": "מה אתה נלהב, לגביו?",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054591"
+    },
+    {
+      "english": "Is this something, you enjoy?",
+      "hebrew": "האם זה משהו, שאתה נהנה ממנו?",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054593"
+    },
+    {
+      "english": "What's the best part, of your day?",
+      "hebrew": "מה החלק הכי טוב, ביום שלך?",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054596"
+    },
+    {
+      "english": "Can we plan, something fun?",
+      "hebrew": "אפשר לתכנן, משהו כיפי?",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054599"
+    },
+    {
+      "english": "What's your idea, of a good time?",
+      "hebrew": "מה הרעיון שלך, לבילוי נעים?",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054602"
+    },
+    {
+      "english": "Do you ever, take breaks?",
+      "hebrew": "אתה לוקח, הפסקות לפעמים?",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054604"
+    },
+    {
+      "english": "How do you spend, your holidays?",
+      "hebrew": "איך אתה מבלה, בחגים שלך?",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054607"
+    },
+    {
+      "english": "Anything new, you've tried?",
+      "hebrew": "משהו חדש, שניסית?",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054609"
+    },
+    {
+      "english": "Tell me, what's up?",
+      "hebrew": "ספר לי, מה קורה?",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054612"
+    },
+    {
+      "english": "Are you free, right now?",
+      "hebrew": "אתה פנוי, עכשיו?",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054615"
+    },
+    {
+      "english": "What's your favourite, way to chill?",
+      "hebrew": "מה הדרך האהובה עליך, להירגע?",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054617"
+    },
+    {
+      "english": "What do you do, to recharge?",
+      "hebrew": "מה אתה עושה, כדי להיטען?",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054620"
+    },
+    {
+      "english": "You're really talented, at this.",
+      "hebrew": "את/ה באמת מוכשר/ת בזה.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054623"
+    },
+    {
+      "english": "It's inspiring, to see you grow.",
+      "hebrew": "זה מעורר השראה, לראות אותך מתפתח/ת.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054626"
+    },
+    {
+      "english": "Embrace the process, enjoy the journey.",
+      "hebrew": "תתחבק/י עם התהליך, תהנה/י מהדרך.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054629"
+    },
+    {
+      "english": "Your passion shines, through.",
+      "hebrew": "התשוקה שלך זורחת, החוצה.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054632"
+    },
+    {
+      "english": "This is your time, to shine.",
+      "hebrew": "זה הזמן שלך, לזהור.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054637"
+    },
+    {
+      "english": "Relax and have, some fun.",
+      "hebrew": "תירגע/י ותהנה/י, קצת.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054639"
+    },
+    {
+      "english": "You're doing great, seriously.",
+      "hebrew": "את/ה עושה את זה מצוין, ברצינות.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054642"
+    },
+    {
+      "english": "Let your creativity, flow.",
+      "hebrew": "תן/י ליצירתיות שלך, לזרום.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054645"
+    },
+    {
+      "english": "You're making, great progress.",
+      "hebrew": "את/ה עושה התקדמות, יפה.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054648"
+    },
+    {
+      "english": "It's okay, to be imperfect.",
+      "hebrew": "זה בסדר, לא להיות מושלם/מת.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054651"
+    },
+    {
+      "english": "Focus on, your strengths.",
+      "hebrew": "תתמקד/י, בחזקות שלך.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054653"
+    },
+    {
+      "english": "You have a unique, perspective.",
+      "hebrew": "יש לך נקודת מבט, מיוחדת.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054658"
+    },
+    {
+      "english": "Keep that spark, alive.",
+      "hebrew": "תשמור/י על הניצוץ, הזה.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054660"
+    },
+    {
+      "english": "Your effort, is admirable.",
+      "hebrew": "המאמץ שלך, ראוי להערכה.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054663"
+    },
+    {
+      "english": "This is rewarding, work.",
+      "hebrew": "זו עבודה, מתגמלת.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054666"
+    },
+    {
+      "english": "You're inspiring, others.",
+      "hebrew": "את/ה מעורר/ת השראה, באחרים.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054669"
+    },
+    {
+      "english": "Embrace the challenge, head-on.",
+      "hebrew": "קבל/י את האתגר, בפנים.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054671"
+    },
+    {
+      "english": "Let go, of perfectionism.",
+      "hebrew": "שחרר/י, מפרפקציוניזם.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054674"
+    },
+    {
+      "english": "Your dedication, is amazing.",
+      "hebrew": "המסירות שלך, מדהימה.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054677"
+    },
+    {
+      "english": "You're capable, of great things.",
+      "hebrew": "את/ה מסוגל/ת, לדברים גדולים.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054680"
+    },
+    {
+      "english": "This is a great, way to learn.",
+      "hebrew": "זו דרך מצוינת, ללמוד.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054682"
+    },
+    {
+      "english": "Enjoy your personal, time.",
+      "hebrew": "תיהנה/י מהזמן, האישי שלך.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054689"
+    },
+    {
+      "english": "I like to unwind, with a good book.",
+      "hebrew": "אני אוהב/ת להירגע, עם ספר טוב.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054692"
+    },
+    {
+      "english": "Let's grab some air, outdoors.",
+      "hebrew": "בוא/י ניקח אוויר, בחוץ.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054695"
+    },
+    {
+      "english": "It's time to disconnect, and recharge.",
+      "hebrew": "הגיע הזמן להתנתק, ולהטעין מצברים.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054698"
+    },
+    {
+      "english": "I'm just, tinkering around.",
+      "hebrew": "אני סתם, מתעסק/ת פה ושם.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054701"
+    },
+    {
+      "english": "Making stuff, is my therapy.",
+      "hebrew": "יצירה, זה הטיפול שלי.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054704"
+    },
+    {
+      "english": "I need to, switch off my brain.",
+      "hebrew": "אני צריך/ה לכבות את הראש.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054706"
+    },
+    {
+      "english": "Just chilling, no pressure.",
+      "hebrew": "סתם נרגע, בלי לחץ.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054711"
+    },
+    {
+      "english": "My happy place, is anywhere quiet.",
+      "hebrew": "המקום המאושר שלי, זה איפה שיש שקט.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054714"
+    },
+    {
+      "english": "Filling my cup, with joy.",
+      "hebrew": "ממלא/ה את הכוס שלי, בשמחה.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054717"
+    },
+    {
+      "english": "A little escapism, goes a long way.",
+      "hebrew": "קצת בריחה, עושה פלאים.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054721"
+    },
+    {
+      "english": "Investing in myself, this weekend.",
+      "hebrew": "משקיע/ה בעצמי, בסופ\"ש הזה.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054724"
+    },
+    {
+      "english": "Downtime, is productive time.",
+      "hebrew": "זמן מנוחה, זה זמן פרודוקטיבי.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054727"
+    },
+    {
+      "english": "Lost in my own world, happily.",
+      "hebrew": "אבוד/ה בעולם שלי, בשמחה.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054729"
+    },
+    {
+      "english": "My favorite way, to decompress.",
+      "hebrew": "הדרך האהובה עליי, להוריד הילוך.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054732"
+    },
+    {
+      "english": "This makes my soul, sing.",
+      "hebrew": "זה גורם לנשמה שלי, לשיר.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054735"
+    },
+    {
+      "english": "Finding peace, in simple things.",
+      "hebrew": "מוצא/ת שלווה, בדברים פשוטים.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054737"
+    },
+    {
+      "english": "It's good to, do nothing sometimes.",
+      "hebrew": "זה טוב, לא לעשות כלום לפעמים.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054741"
+    },
+    {
+      "english": "Letting my mind, wander freely.",
+      "hebrew": "נותן/ת למחשבות שלי, לנדוד בחופשיות.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054743"
+    },
+    {
+      "english": "My little slice, of heaven.",
+      "hebrew": "הפיסה הקטנה שלי, של גן עדן.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054746"
+    },
+    {
+      "english": "Doing what I love, purely.",
+      "hebrew": "עושה את מה שאני אוהב/ת, בטהרה.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054748"
+    },
+    {
+      "english": "This is my, happy hour.",
+      "hebrew": "זו השעה השמחה שלי.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054751"
+    },
+    {
+      "english": "Recharging my, inner batteries.",
+      "hebrew": "מטעין/ה את המצברים הפנימיים שלי.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054755"
+    },
+    {
+      "english": "Escaping the daily grind, briefly.",
+      "hebrew": "בורח/ת מהשגרה, לרגע.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054758"
+    },
+    {
+      "english": "This is my, personal treat.",
+      "hebrew": "זו הפינוק האישי שלי.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054761"
+    },
+    {
+      "english": "I need some, me-time.",
+      "hebrew": "אני צריכ/ה קצת, זמן לעצמי.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054763"
+    },
+    {
+      "english": "Just enjoying, the moment.",
+      "hebrew": "פשוט נהנה/ית, מהרגע.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054766"
+    },
+    {
+      "english": "My favorite way, to zone out.",
+      "hebrew": "הדרך האהובה עליי, להתנתק.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054768"
+    },
+    {
+      "english": "My way of, getting centered.",
+      "hebrew": "הדרך שלי, להתמרכז.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054771"
+    },
+    {
+      "english": "Need a break, from the screen.",
+      "hebrew": "צריך הפסקה, מהמסך.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054774"
+    },
+    {
+      "english": "What are you up to, this weekend?",
+      "hebrew": "מה אתה מתכנן, לסופ\"ש?",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054777"
+    },
+    {
+      "english": "Let's plan, a fun activity.",
+      "hebrew": "בוא נתכנן, משהו כיפי.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054780"
+    },
+    {
+      "english": "Got any new, hobbies lately?",
+      "hebrew": "יש לך תחביבים חדשים, לאחרונה?",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054782"
+    },
+    {
+      "english": "Just messing around, with some tools.",
+      "hebrew": "סתם מתעסק, עם כמה כלים.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054785"
+    },
+    {
+      "english": "Making things, clears my head.",
+      "hebrew": "יצירה, מנקה לי את הראש.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054788"
+    },
+    {
+      "english": "I need to, unplug completely.",
+      "hebrew": "אני חייב, להתנתק לגמרי.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054791"
+    },
+    {
+      "english": "Just relaxing, no agenda today.",
+      "hebrew": "פשוט נרגע, בלי תוכניות היום.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054793"
+    },
+    {
+      "english": "My sanctuary, is my workshop.",
+      "hebrew": "המקדש שלי, זה הסדנה שלי.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054796"
+    },
+    {
+      "english": "It's all about, self-care now.",
+      "hebrew": "הכל עניין, של טיפוח עצמי עכשיו.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054801"
+    },
+    {
+      "english": "A little adventure, always good.",
+      "hebrew": "קצת הרפתקה, תמיד טוב.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054803"
+    },
+    {
+      "english": "Investing time, in what I love.",
+      "hebrew": "משקיע זמן, במה שאני אוהב.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054806"
+    },
+    {
+      "english": "Rest and recovery, are key.",
+      "hebrew": "מנוחה והתאוששות, זה העיקר.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054808"
+    },
+    {
+      "english": "Just drifting, in peaceful thoughts.",
+      "hebrew": "פשוט משייט, במחשבות שלווה.",
+      "category": "Hobbies & Free Time",
+      "generated_at": "2026-10-30T06:39:24.054811"
     }
   ],
-  "last_updated": "2026-10-29T06:39:34.219870"
+  "last_updated": "2026-10-30T06:39:24.054813"
 }
