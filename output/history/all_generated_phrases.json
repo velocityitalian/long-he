@@ -44555,7 +44555,727 @@
       "hebrew": "האם אפשר להציע, חסד לעצמנו?",
       "category": "Inner Peace",
       "generated_at": "2026-10-31T06:29:30.164380"
+    },
+    {
+      "english": "Hello, nice to meet you.",
+      "hebrew": "שלום, נעים מאוד.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220844"
+    },
+    {
+      "english": "Good morning, how are you?",
+      "hebrew": "בוקר טוב, מה שלומך?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220862"
+    },
+    {
+      "english": "Good evening, how's it going?",
+      "hebrew": "ערב טוב, מה קורה?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220865"
+    },
+    {
+      "english": "Hi, what's your name?",
+      "hebrew": "היי, מה שמך?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220868"
+    },
+    {
+      "english": "My name is David.",
+      "hebrew": "שמי דוד.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220870"
+    },
+    {
+      "english": "Where are you from?",
+      "hebrew": "מאיפה אתה?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220872"
+    },
+    {
+      "english": "I'm from America.",
+      "hebrew": "אני מאמריקה.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220874"
+    },
+    {
+      "english": "What do you do?",
+      "hebrew": "במה אתה עוסק?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220879"
+    },
+    {
+      "english": "I'm a student.",
+      "hebrew": "אני סטודנט.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220882"
+    },
+    {
+      "english": "It's a pleasure to meet you.",
+      "hebrew": "כיף להכיר אותך.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220884"
+    },
+    {
+      "english": "Everything's good, thanks.",
+      "hebrew": "הכל בסדר, תודה.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220887"
+    },
+    {
+      "english": "Not bad, and you?",
+      "hebrew": "לא רע, ואתה?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220889"
+    },
+    {
+      "english": "Welcome, please come in.",
+      "hebrew": "ברוך הבא, כנס בבקשה.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220892"
+    },
+    {
+      "english": "It's so nice to see you.",
+      "hebrew": "כל כך נחמד לראות אותך.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220894"
+    },
+    {
+      "english": "Have a great day!",
+      "hebrew": "יום נעים!",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220896"
+    },
+    {
+      "english": "Goodbye for now.",
+      "hebrew": "להתראות בינתיים.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220898"
+    },
+    {
+      "english": "See you later.",
+      "hebrew": "נתראה אחר כך.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220900"
+    },
+    {
+      "english": "How have you been?",
+      "hebrew": "מה שלומך לאחרונה?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220902"
+    },
+    {
+      "english": "I'm doing great, thanks.",
+      "hebrew": "אני מרגיש מצוין, תודה.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220904"
+    },
+    {
+      "english": "Long time no see.",
+      "hebrew": "המון זמן לא התראינו.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220906"
+    },
+    {
+      "english": "Just looking, thanks.",
+      "hebrew": "רק מסתכל, תודה.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220911"
+    },
+    {
+      "english": "What a coincidence!",
+      "hebrew": "איזה צירוף מקרים!",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220913"
+    },
+    {
+      "english": "It's a small world.",
+      "hebrew": "העולם קטן.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220915"
+    },
+    {
+      "english": "Nice to have you here.",
+      "hebrew": "שמח שהגעת.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220917"
+    },
+    {
+      "english": "How do you know him/her?",
+      "hebrew": "איך את/ה מכיר אותו/אותה?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220920"
+    },
+    {
+      "english": "I'm new here.",
+      "hebrew": "אני חדש פה.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220922"
+    },
+    {
+      "english": "Let's stay in touch.",
+      "hebrew": "שמור איתי קשר.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220924"
+    },
+    {
+      "english": "So, where are you headed next?",
+      "hebrew": "אז, לאן אתה ממשיך מכאן?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220926"
+    },
+    {
+      "english": "What brings you to this event?",
+      "hebrew": "מה מביא אותך לאירוע הזה?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220931"
+    },
+    {
+      "english": "Are you enjoying your time here?",
+      "hebrew": "האם אתה נהנה מהזמן שלך כאן?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220933"
+    },
+    {
+      "english": "Have you tried the [food/drink] yet?",
+      "hebrew": "ניסית כבר את ה[אוכל/שתייה]?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220936"
+    },
+    {
+      "english": "What do you think of the music?",
+      "hebrew": "מה דעתך על המוזיקה?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220939"
+    },
+    {
+      "english": "Is this your first time in Tel Aviv?",
+      "hebrew": "זו פעם ראשונה שלך בתל אביב?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220944"
+    },
+    {
+      "english": "How did you hear about this gathering?",
+      "hebrew": "איך שמעת על ההתכנסות הזו?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220946"
+    },
+    {
+      "english": "What's your favorite part so far?",
+      "hebrew": "מה החלק האהוב עליך עד כה?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220948"
+    },
+    {
+      "english": "Can you recommend a good restaurant?",
+      "hebrew": "אתה יכול להמליץ על מסעדה טובה?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220951"
+    },
+    {
+      "english": "What are your plans for the weekend?",
+      "hebrew": "מה התוכניות שלך לסוף השבוע?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220953"
+    },
+    {
+      "english": "Do you live around here?",
+      "hebrew": "אתה גר בסביבה?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220956"
+    },
+    {
+      "english": "What’s your opinion on this topic?",
+      "hebrew": "מה דעתך בנושא הזה?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220959"
+    },
+    {
+      "english": "I’m curious about your background.",
+      "hebrew": "אני סקרן לגבי הרקע שלך.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220962"
+    },
+    {
+      "english": "What’s something interesting you’ve learned recently?",
+      "hebrew": "מה משהו מעניין שלמדת לאחרונה?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220965"
+    },
+    {
+      "english": "What’s your favorite type of music?",
+      "hebrew": "מה סוג המוזיקה האהוב עליך?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220967"
+    },
+    {
+      "english": "Are you traveling alone?",
+      "hebrew": "אתה מטייל לבד?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220969"
+    },
+    {
+      "english": "What’s your biggest dream right now?",
+      "hebrew": "מה החלום הכי גדול שלך כרגע?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220972"
+    },
+    {
+      "english": "How do you handle stress?",
+      "hebrew": "איך אתה מתמודד עם לחץ?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220974"
+    },
+    {
+      "english": "What’s one piece of advice you’d give?",
+      "hebrew": "איזו עצה אחת היית נותן?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220977"
+    },
+    {
+      "english": "Is there anything I can help with?",
+      "hebrew": "יש משהו שאני יכול לעזור בו?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220979"
+    },
+    {
+      "english": "What’s your favorite thing about this city?",
+      "hebrew": "מה הדבר האהוב עליך בעיר הזו?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220981"
+    },
+    {
+      "english": "Do you speak any other languages?",
+      "hebrew": "אתה מדבר שפות אחרות?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220984"
+    },
+    {
+      "english": "What’s the best way to learn Hebrew?",
+      "hebrew": "מה הדרך הכי טובה ללמוד עברית?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220986"
+    },
+    {
+      "english": "Are you familiar with Israeli culture?",
+      "hebrew": "אתה מכיר את התרבות הישראלית?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220988"
+    },
+    {
+      "english": "What’s a common misconception about your country?",
+      "hebrew": "מה תפיסה מוטעית נפוצה לגבי המדינה שלך?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220991"
+    },
+    {
+      "english": "Can you tell me a bit about yourself?",
+      "hebrew": "אתה יכול לספר לי קצת על עצמך?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.220995"
+    },
+    {
+      "english": "What’s one thing you always carry with you?",
+      "hebrew": "מה הדבר האחד שאתה תמיד נושא איתך?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221000"
+    },
+    {
+      "english": "You radiate such positive energy.",
+      "hebrew": "את/ה מקרין/ה אנרגיה חיובית כל כך.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221002"
+    },
+    {
+      "english": "Every conversation, a new lesson.",
+      "hebrew": "כל שיחה, שיעור חדש.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221004"
+    },
+    {
+      "english": "Embrace the learning process, enjoy it.",
+      "hebrew": "תאמצ/י את תהליך הלמידה, תהנה/י.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221007"
+    },
+    {
+      "english": "Confidence, builds connection instantly.",
+      "hebrew": "ביטחון, בונה חיבור מיד.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221009"
+    },
+    {
+      "english": "Don't be afraid, to be yourself.",
+      "hebrew": "אל תפחד/י, להיות עצמך.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221011"
+    },
+    {
+      "english": "Connect with kindness, always.",
+      "hebrew": "תתחבר/י בחביבות, תמיד.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221014"
+    },
+    {
+      "english": "A positive outlook, opens doors.",
+      "hebrew": "גישה חיובית, פותחת דלתות.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221016"
+    },
+    {
+      "english": "You have a great way, with people.",
+      "hebrew": "יש לך דרך נהדרת, עם אנשים.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221018"
+    },
+    {
+      "english": "Let curiosity, guide your talks.",
+      "hebrew": "תן לסקרנות, להוביל את השיחות.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221021"
+    },
+    {
+      "english": "Every interaction, is a chance.",
+      "hebrew": "כל אינטראקציה, היא הזדמנות.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221023"
+    },
+    {
+      "english": "Be open, to new experiences.",
+      "hebrew": "היה פתוח/ה, לחוויות חדשות.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221026"
+    },
+    {
+      "english": "You make people feel, comfortable.",
+      "hebrew": "את/ה גורם/ת לאנשים להרגיש, בנוח.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221028"
+    },
+    {
+      "english": "Let your kindness, shine through.",
+      "hebrew": "תן לחסד שלך, לזרוח.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221041"
+    },
+    {
+      "english": "Each encounter, enriches life.",
+      "hebrew": "כל מפגש, מעשיר את החיים.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221044"
+    },
+    {
+      "english": "Your positive attitude, is admirable.",
+      "hebrew": "הגישה החיובית שלך, ראויה להערצה.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221046"
+    },
+    {
+      "english": "Dare to connect, authentically.",
+      "hebrew": "העז/י להתחבר, באותנטיות.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221049"
+    },
+    {
+      "english": "You have a gift, for listening.",
+      "hebrew": "יש לך מתנה, להקשיב.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221051"
+    },
+    {
+      "english": "Embrace the awkwardness, it's human.",
+      "hebrew": "תאמצ/י את המבוכה, זה אנושי.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221054"
+    },
+    {
+      "english": "You're making progress, keep going.",
+      "hebrew": "את/ה מתקדם/ת, המשך/י כך.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221056"
+    },
+    {
+      "english": "Every interaction, counts for something.",
+      "hebrew": "כל אינטראקציה, נחשבת למשהו.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221059"
+    },
+    {
+      "english": "Be brave, and speak your truth.",
+      "hebrew": "היה/י אמיץ/ה, ודבר/י את האמת שלך.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221061"
+    },
+    {
+      "english": "You look familiar, have we met?",
+      "hebrew": "את/ה נראה/ה לי מוכר/ת, נפגשנו?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221063"
+    },
+    {
+      "english": "What's shaking, what's new?",
+      "hebrew": "מה קורה, מה חדש?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221066"
+    },
+    {
+      "english": "Come on over, let's chat.",
+      "hebrew": "בוא/י, נדבר.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221068"
+    },
+    {
+      "english": "This is my friend, say hello.",
+      "hebrew": "זה החבר/ה שלי, תגיד/י שלום.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221071"
+    },
+    {
+      "english": "What brings you here today?",
+      "hebrew": "מה מביא/ה אותך לכאן היום?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221073"
+    },
+    {
+      "english": "Always nice to see a friendly face.",
+      "hebrew": "תמיד נחמד לראות פנים ידידותיות.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221075"
+    },
+    {
+      "english": "What a small world, right?",
+      "hebrew": "איזה עולם קטן, הא?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221077"
+    },
+    {
+      "english": "Hope to see you around again.",
+      "hebrew": "נקווה לראות אותך שוב.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221079"
+    },
+    {
+      "english": "Making friends, is the best souvenir.",
+      "hebrew": "יצירת קשרים, זה המזכרת הכי טובה.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221084"
+    },
+    {
+      "english": "Don't be a stranger, okay?",
+      "hebrew": "אל תהיה זר/ה, בסדר?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221086"
+    },
+    {
+      "english": "Glad we bumped into each other.",
+      "hebrew": "שמח/ה שנפגשנו במקרה.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221088"
+    },
+    {
+      "english": "You have a good vibe, I like it.",
+      "hebrew": "יש לך אנרגיות טובות, אני אוהב/ת את זה.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221090"
+    },
+    {
+      "english": "What's the story, morning glory?",
+      "hebrew": "מה הסיפור, בחור/ה?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221093"
+    },
+    {
+      "english": "Always good to connect, my friend.",
+      "hebrew": "תמיד טוב להתחבר, חבר/ה.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221095"
+    },
+    {
+      "english": "Fancy meeting you here!",
+      "hebrew": "איזה קטע שניפגש כאן!",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221097"
+    },
+    {
+      "english": "My pleasure, truly.",
+      "hebrew": "היה תענוג, באמת.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221099"
+    },
+    {
+      "english": "Let's keep in touch, yeah?",
+      "hebrew": "בוא/י נשמור על קשר, כן?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221102"
+    },
+    {
+      "english": "What's the latest buzz?",
+      "hebrew": "מה הפלאידינג?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221104"
+    },
+    {
+      "english": "You seem like a cool person.",
+      "hebrew": "נשמע/ת שאת/ה אדם מגניב/ה.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221106"
+    },
+    {
+      "english": "Great to make your acquaintance.",
+      "hebrew": "שמח/ה להכיר אותך.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221108"
+    },
+    {
+      "english": "What's cooking, good looking?",
+      "hebrew": "מה קורה, יפה/יפה?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221112"
+    },
+    {
+      "english": "Hope our paths cross again.",
+      "hebrew": "מקווה שהדרכים שלנו יצטלבו שוב.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221114"
+    },
+    {
+      "english": "How's it hanging?",
+      "hebrew": "מה המצב?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221117"
+    },
+    {
+      "english": "Ready for some good times?",
+      "hebrew": "מוכנ/ה לזמנים טובים?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221119"
+    },
+    {
+      "english": "It was lovely talking to you.",
+      "hebrew": "היה נעים לדבר איתך.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221121"
+    },
+    {
+      "english": "Let's connect, what do you say?",
+      "hebrew": "בוא/י נתחבר, מה אתה/את אומר/ת?",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221123"
+    },
+    {
+      "english": "Small talk, can open big doors.",
+      "hebrew": "שיחת חולין, יכולה לפתוח דלתות גדולות.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221125"
+    },
+    {
+      "english": "Ask a question, start a connection.",
+      "hebrew": "תשאל שאלה, תתחיל קשר.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221128"
+    },
+    {
+      "english": "Offer help, build a bridge.",
+      "hebrew": "הצע עזרה, תבנה גשר.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221130"
+    },
+    {
+      "english": "Remember names, makes people feel special.",
+      "hebrew": "תזכור שמות, גורם לאנשים להרגיש מיוחדים.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221133"
+    },
+    {
+      "english": "Be yourself, authenticity is key.",
+      "hebrew": "תהיה עצמך, אותנטיות היא המפתח.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221135"
+    },
+    {
+      "english": "Find common ground, easily connect.",
+      "hebrew": "מצא מכנה משותף, התחבר בקלות.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221137"
+    },
+    {
+      "english": "Don't fear silence, it's okay.",
+      "hebrew": "אל תפחד משתיקה, זה בסדר.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221140"
+    },
+    {
+      "english": "Introduce yourself clearly, no ambiguity.",
+      "hebrew": "הצג את עצמך בבירור, בלי עמימות.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221143"
+    },
+    {
+      "english": "Offer a compliment, sincerely.",
+      "hebrew": "תן מחמאה, בכנות.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221145"
+    },
+    {
+      "english": "Show genuine interest, ask follow-ups.",
+      "hebrew": "גלה עניין אמיתי, שאל שאלות המשך.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221148"
+    },
+    {
+      "english": "Step outside your comfort zone.",
+      "hebrew": "צא מאזור הנוחות שלך.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221150"
+    },
+    {
+      "english": "Be approachable, friendly body language.",
+      "hebrew": "היה נגיש, שפת גוף ידידותית.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221152"
+    },
+    {
+      "english": "Respect boundaries, always.",
+      "hebrew": "כבד גבולות, תמיד.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221154"
+    },
+    {
+      "english": "Learn a few Hebrew phrases, locals appreciate.",
+      "hebrew": "למד כמה ביטויים בעברית, המקומיים מעריכים.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221157"
+    },
+    {
+      "english": "Initiate a conversation, don't wait.",
+      "hebrew": "התחל שיחה, אל תחכה.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221163"
+    },
+    {
+      "english": "Find shared activities, bond over interests.",
+      "hebrew": "מצא פעילויות משותפות, התחברו דרך תחומי עניין.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221165"
+    },
+    {
+      "english": "End a conversation gracefully, leave them wanting more.",
+      "hebrew": "סיים שיחה באלגנטיות, השאר טעם של עוד.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221168"
+    },
+    {
+      "english": "Be patient, building connections takes time.",
+      "hebrew": "היה סבלני, בניית קשרים לוקחת זמן.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221170"
+    },
+    {
+      "english": "Ask about their day, show care.",
+      "hebrew": "שאל על היום שלהם, גלה אכפתיות.",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-01T07:01:11.221172"
     }
   ],
-  "last_updated": "2026-10-31T06:29:30.164382"
+  "last_updated": "2026-11-01T07:01:11.221174"
 }
