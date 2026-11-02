@@ -45275,7 +45275,727 @@
       "hebrew": "שאל על היום שלהם, גלה אכפתיות.",
       "category": "Meeting People & Greetings",
       "generated_at": "2026-11-01T07:01:11.221172"
+    },
+    {
+      "english": "Help, please, I need help.",
+      "hebrew": "עזרה, בבקשה, אני צריך עזרה.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498685"
+    },
+    {
+      "english": "I don't feel well, at all.",
+      "hebrew": "אני לא מרגיש טוב, בכלל.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498705"
+    },
+    {
+      "english": "Where is the nearest hospital?",
+      "hebrew": "איפה בית החולים הכי קרוב?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498709"
+    },
+    {
+      "english": "Call an ambulance, quickly!",
+      "hebrew": "תזמינו אמבולנס, מהר!",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498712"
+    },
+    {
+      "english": "I think I'm sick.",
+      "hebrew": "אני חושב שאני חולה.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498715"
+    },
+    {
+      "english": "It really hurts here.",
+      "hebrew": "זה ממש כואב פה.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498717"
+    },
+    {
+      "english": "Do you have any medicine?",
+      "hebrew": "יש לך תרופות כלשהן?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498720"
+    },
+    {
+      "english": "I need a doctor, urgently.",
+      "hebrew": "אני צריך רופא, בדחיפות.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498728"
+    },
+    {
+      "english": "Is someone here a doctor?",
+      "hebrew": "יש פה מישהו רופא?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498732"
+    },
+    {
+      "english": "I'm having trouble breathing.",
+      "hebrew": "אני מתקשה לנשום.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498734"
+    },
+    {
+      "english": "My head is really aching.",
+      "hebrew": "הראש שלי ממש כואב.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498737"
+    },
+    {
+      "english": "What happened, exactly?",
+      "hebrew": "מה קרה, בדיוק?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498742"
+    },
+    {
+      "english": "I fainted, I think.",
+      "hebrew": "אני חושב שהתעלפתי.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498754"
+    },
+    {
+      "english": "Is this an emergency?",
+      "hebrew": "זו חירום?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498757"
+    },
+    {
+      "english": "I need to lie down.",
+      "hebrew": "אני צריך לשכב.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498759"
+    },
+    {
+      "english": "Can you call my family?",
+      "hebrew": "אתה יכול להתקשר למשפחה שלי?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498762"
+    },
+    {
+      "english": "I have a high fever.",
+      "hebrew": "יש לי חום גבוה.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498764"
+    },
+    {
+      "english": "Don't move, stay still.",
+      "hebrew": "אל תזוז, תישארו במקום.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498767"
+    },
+    {
+      "english": "Where is the pharmacy?",
+      "hebrew": "איפה בית המרקחת?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498769"
+    },
+    {
+      "english": "I feel dizzy, a lot.",
+      "hebrew": "אני מרגיש סחרחורת, הרבה.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498771"
+    },
+    {
+      "english": "Be careful, please.",
+      "hebrew": "תיזהר, בבקשה.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498774"
+    },
+    {
+      "english": "It's an emergency, I swear.",
+      "hebrew": "זו חירום, אני נשבע.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498776"
+    },
+    {
+      "english": "I need to sit down.",
+      "hebrew": "אני צריך לשבת.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498780"
+    },
+    {
+      "english": "Don't panic, it's okay.",
+      "hebrew": "אל תיבהל, הכל בסדר.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498783"
+    },
+    {
+      "english": "My stomach hurts badly.",
+      "hebrew": "הבטן שלי כואבת מאוד.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498785"
+    },
+    {
+      "english": "Is anyone injured?",
+      "hebrew": "מישהו נפגע?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498787"
+    },
+    {
+      "english": "I need water, please.",
+      "hebrew": "אני צריך מים, בבקשה.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498791"
+    },
+    {
+      "english": "This is serious, isn't it?",
+      "hebrew": "זה רציני, נכון?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498794"
+    },
+    {
+      "english": "I have a bad cough.",
+      "hebrew": "יש לי שיעול חזק.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498796"
+    },
+    {
+      "english": "Stay calm, help is coming.",
+      "hebrew": "תשארו רגועים, העזרה בדרך.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498798"
+    },
+    {
+      "english": "Can you help me, please?",
+      "hebrew": "את/ה יכול/ה לעזור לי, בבקשה?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498801"
+    },
+    {
+      "english": "What should I do, now?",
+      "hebrew": "מה אני צריך/ה לעשות, עכשיו?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498804"
+    },
+    {
+      "english": "Where can I find a doctor?",
+      "hebrew": "איפה אפשר למצוא רופא?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498807"
+    },
+    {
+      "english": "Do you know any good doctors?",
+      "hebrew": "את/ה מכיר/ה רופאים טובים?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498810"
+    },
+    {
+      "english": "Is this a serious problem?",
+      "hebrew": "זו בעיה רצינית, לדעתך?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498812"
+    },
+    {
+      "english": "What are the symptoms, again?",
+      "hebrew": "מה התסמינים, שוב?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498815"
+    },
+    {
+      "english": "Should I go to the clinic?",
+      "hebrew": "כדאי לי ללכת למרפאה?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498817"
+    },
+    {
+      "english": "Can you describe the pain?",
+      "hebrew": "תוכל/י לתאר את הכאב?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498819"
+    },
+    {
+      "english": "How long have you felt this?",
+      "hebrew": "כמה זמן את/ה מרגיש/ה ככה?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498822"
+    },
+    {
+      "english": "Is there a nurse nearby?",
+      "hebrew": "יש אחות קרובה?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498824"
+    },
+    {
+      "english": "What do you recommend, doctor?",
+      "hebrew": "מה את/ה ממליץ/ה, דוקטור?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498827"
+    },
+    {
+      "english": "Can I take this medication?",
+      "hebrew": "אפשר לקחת את התרופה הזו?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498829"
+    },
+    {
+      "english": "Are there any side effects?",
+      "hebrew": "יש תופעות לוואי?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498832"
+    },
+    {
+      "english": "When should I take it?",
+      "hebrew": "מתי לקחת את זה?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498834"
+    },
+    {
+      "english": "What is this condition called?",
+      "hebrew": "איך קוראים למצב הזה?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498836"
+    },
+    {
+      "english": "Is there a treatment available?",
+      "hebrew": "יש טיפול זמין?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498838"
+    },
+    {
+      "english": "How do I prevent this?",
+      "hebrew": "איך אפשר למנוע את זה?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498840"
+    },
+    {
+      "english": "What is your medical opinion?",
+      "hebrew": "מה הדעה הרפואית שלך?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498843"
+    },
+    {
+      "english": "Can you explain, slowly?",
+      "hebrew": "אפשר להסביר, לאט?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498847"
+    },
+    {
+      "english": "Are you feeling any better?",
+      "hebrew": "את/ה מרגיש/ה יותר טוב?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498849"
+    },
+    {
+      "english": "What are the next steps?",
+      "hebrew": "מה הצעדים הבאים?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498851"
+    },
+    {
+      "english": "Can I get a second opinion?",
+      "hebrew": "אפשר חוות דעת שנייה?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498854"
+    },
+    {
+      "english": "Who is in charge here?",
+      "hebrew": "מי אחראי פה?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498856"
+    },
+    {
+      "english": "What kind of specialist do I need?",
+      "hebrew": "לאיזה מומחה אני צריך/ה?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498859"
+    },
+    {
+      "english": "Is there an emergency room open?",
+      "hebrew": "חדר מיון פתוח?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498862"
+    },
+    {
+      "english": "Can you confirm the diagnosis?",
+      "hebrew": "אפשר לאשר את האבחנה?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498864"
+    },
+    {
+      "english": "What are the risks involved?",
+      "hebrew": "מה הסיכונים?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498866"
+    },
+    {
+      "english": "Should I call a specialist?",
+      "hebrew": "כדאי להתקשר למומחה?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498869"
+    },
+    {
+      "english": "How can I manage the pain?",
+      "hebrew": "איך אפשר לנהל את הכאב?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498872"
+    },
+    {
+      "english": "Is this contagious, do you know?",
+      "hebrew": "זה מדבק, את/ה יודע/ת?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498875"
+    },
+    {
+      "english": "It's a real headache, this.",
+      "hebrew": "זו ממש כאב ראש, זה.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498878"
+    },
+    {
+      "english": "I'm feeling under the weather, today.",
+      "hebrew": "אני מרגיש קצת לא משהו, היום.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498881"
+    },
+    {
+      "english": "He's got a screw loose, maybe.",
+      "hebrew": "יש לו בורג חסר, אולי.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498884"
+    },
+    {
+      "english": "My head is spinning, a bit.",
+      "hebrew": "הראש שלי מסתובב, קצת.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498887"
+    },
+    {
+      "english": "She's always got her nose in the air.",
+      "hebrew": "היא תמיד עם האף למעלה.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498889"
+    },
+    {
+      "english": "I can barely keep my eyes open.",
+      "hebrew": "בקושי אני מחזיק עיניים פקוחות.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498892"
+    },
+    {
+      "english": "He's totally lost his marbles.",
+      "hebrew": "הוא לגמרי איבד את זה.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498895"
+    },
+    {
+      "english": "My feet are killing me, now.",
+      "hebrew": "הרגליי הורגות אותי, עכשיו.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498897"
+    },
+    {
+      "english": "She's got eyes bigger than her stomach.",
+      "hebrew": "יש לה עיניים גדולות מהבטן.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498900"
+    },
+    {
+      "english": "I'm running on fumes, really.",
+      "hebrew": "אני רץ על אדים, באמת.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498903"
+    },
+    {
+      "english": "He's a hypochondriac, you know?",
+      "hebrew": "הוא היפוכונדר, אתה יודע?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498906"
+    },
+    {
+      "english": "My back is killing me, lately.",
+      "hebrew": "הגב שלי הורג אותי, בזמן האחרון.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498909"
+    },
+    {
+      "english": "She's got a bun in the oven.",
+      "hebrew": "יש לה פיתה בתנור.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498911"
+    },
+    {
+      "english": "I'm dead on my feet, today.",
+      "hebrew": "אני גמור על הרגליים, היום.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498914"
+    },
+    {
+      "english": "He thinks he's got all the answers.",
+      "hebrew": "הוא חושב שיש לו את כל התשובות.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498917"
+    },
+    {
+      "english": "My head is pounding, hard.",
+      "hebrew": "הראש שלי מתופף, חזק.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498920"
+    },
+    {
+      "english": "She's just winging it, probably.",
+      "hebrew": "היא פשוט מאלתרת את זה, כנראה.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498924"
+    },
+    {
+      "english": "I'm feeling a bit off, today.",
+      "hebrew": "אני מרגיש קצת מוזר, היום.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498928"
+    },
+    {
+      "english": "He's acting like a drama queen.",
+      "hebrew": "הוא מתנהג כמו מלכת הדרמה.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498931"
+    },
+    {
+      "english": "My whole body aches, really.",
+      "hebrew": "כל הגוף שלי כואב, באמת.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498933"
+    },
+    {
+      "english": "She's got butterflies in her stomach.",
+      "hebrew": "יש לה פרפרים בבטן.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498936"
+    },
+    {
+      "english": "I'm on my last legs, folks.",
+      "hebrew": "אני על הרגליים האחרונות שלי, חברים.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498939"
+    },
+    {
+      "english": "He's got a bee in his bonnet.",
+      "hebrew": "יש לו דבורה בכובע.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498941"
+    },
+    {
+      "english": "My vision is blurry, sometimes.",
+      "hebrew": "הראייה שלי מטושטשת, לפעמים.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498944"
+    },
+    {
+      "english": "She's a real pain in the neck.",
+      "hebrew": "היא באמת מטרד, עקיץ.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498946"
+    },
+    {
+      "english": "I'm feeling quite unwell, today.",
+      "hebrew": "אני מרגיש די לא טוב, היום.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498949"
+    },
+    {
+      "english": "He's got two left feet, dancing.",
+      "hebrew": "יש לו שתי רגליים שמאליות, בריקוד.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498952"
+    },
+    {
+      "english": "My joints are stiff, lately.",
+      "hebrew": "המפרקים שלי נוקשים, בזמן האחרון.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498954"
+    },
+    {
+      "english": "She's got ants in her pants.",
+      "hebrew": "יש לה נמלים במכנסיים.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498957"
+    },
+    {
+      "english": "I'm at death's door, almost.",
+      "hebrew": "אני על סף מוות, כמעט.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498959"
+    },
+    {
+      "english": "I need to trust the process, slowly.",
+      "hebrew": "אני צריך לסמוך על התהליך, לאט.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498963"
+    },
+    {
+      "english": "This is taking longer, than expected.",
+      "hebrew": "זה לוקח יותר זמן, מהצפוי.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498966"
+    },
+    {
+      "english": "I'm trying to be patient, really.",
+      "hebrew": "אני משתדל להיות סבלני, באמת.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498969"
+    },
+    {
+      "english": "It's hard to accept, this situation.",
+      "hebrew": "קשה לקבל, את המצב הזה.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498972"
+    },
+    {
+      "english": "I'm reflecting on my health, lately.",
+      "hebrew": "אני חושב על הבריאות שלי, לאחרונה.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498974"
+    },
+    {
+      "english": "I need time, to process this.",
+      "hebrew": "אני צריך זמן, לעבד את זה.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498977"
+    },
+    {
+      "english": "It’s a learning curve, for sure.",
+      "hebrew": "זה תהליך למידה, בוודאות.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498981"
+    },
+    {
+      "english": "I hope for the best, always.",
+      "hebrew": "אני מקווה לטוב, תמיד.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498983"
+    },
+    {
+      "english": "This makes me think, deeply.",
+      "hebrew": "זה גורם לי לחשוב, לעומק.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498986"
+    },
+    {
+      "english": "We must be honest, with ourselves.",
+      "hebrew": "אנחנו חייבים להיות כנים, עם עצמנו.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498988"
+    },
+    {
+      "english": "What truly matters, now?",
+      "hebrew": "מה באמת חשוב, עכשיו?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498991"
+    },
+    {
+      "english": "I'm trying to find peace, here.",
+      "hebrew": "אני מנסה למצוא שלווה, כאן.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498993"
+    },
+    {
+      "english": "This requires, deep reflection.",
+      "hebrew": "זה דורש, מחשבה מעמיקה.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498996"
+    },
+    {
+      "english": "I'm feeling vulnerable, today.",
+      "hebrew": "אני מרגיש פגיע, היום.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.498999"
+    },
+    {
+      "english": "Let’s take a moment, breathe.",
+      "hebrew": "בוא ניקח רגע, לנשום.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.499002"
+    },
+    {
+      "english": "My perspective has changed, a lot.",
+      "hebrew": "הפרספקטיבה שלי השתנתה, הרבה.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.499006"
+    },
+    {
+      "english": "We need to be understanding, now.",
+      "hebrew": "אנחנו צריכים להיות מבינים, עכשיו.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.499008"
+    },
+    {
+      "english": "I'm seeking clarity, honestly.",
+      "hebrew": "אני מחפש בהירות, בכנות.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.499011"
+    },
+    {
+      "english": "This is a serious matter, truly.",
+      "hebrew": "זה עניין רציני, באמת.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.499013"
+    },
+    {
+      "english": "I'm trying to stay positive, still.",
+      "hebrew": "אני מנסה להישאר חיובי, עדיין.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.499016"
+    },
+    {
+      "english": "What is the ultimate goal, here?",
+      "hebrew": "מהי המטרה הסופית, כאן?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.499019"
+    },
+    {
+      "english": "I need to reconnect, with myself.",
+      "hebrew": "אני צריך להתחבר מחדש, לעצמי.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.499021"
+    },
+    {
+      "english": "This experience is humbling, greatly.",
+      "hebrew": "החוויה הזו משפילה, מאוד.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.499024"
+    },
+    {
+      "english": "This situation demands, wisdom.",
+      "hebrew": "המצב הזה דורש, חוכמה.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.499026"
+    },
+    {
+      "english": "What is the deeper meaning, here?",
+      "hebrew": "מה המשמעות העמוקה, כאן?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.499029"
+    },
+    {
+      "english": "Take deep breaths, slowly.",
+      "hebrew": "קח נשימות עמוקות, לאט.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.499031"
+    },
+    {
+      "english": "Drink plenty of water, always.",
+      "hebrew": "שתה הרבה מים, תמיד.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.499034"
+    },
+    {
+      "english": "Get enough sleep, tonight.",
+      "hebrew": "תשן מספיק, הלילה.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.499036"
+    },
+    {
+      "english": "Eat healthy food, daily.",
+      "hebrew": "אכול אוכל בריא, יומיומי.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.499039"
+    },
+    {
+      "english": "Wash your hands, often.",
+      "hebrew": "שטוף ידיים, לעיתים קרובות.",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-02T07:00:56.499041"
     }
   ],
-  "last_updated": "2026-11-01T07:01:11.221174"
+  "last_updated": "2026-11-02T07:00:56.499043"
 }
