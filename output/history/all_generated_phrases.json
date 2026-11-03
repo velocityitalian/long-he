@@ -45995,7 +45995,727 @@
       "hebrew": "שטוף ידיים, לעיתים קרובות.",
       "category": "Emergency & Health",
       "generated_at": "2026-11-02T07:00:56.499041"
+    },
+    {
+      "english": "Okay, I’m ready, let’s go now.",
+      "hebrew": "סבבה, אני מוכן/ה, בוא נלך עכשיו.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688726"
+    },
+    {
+      "english": "Wait, what do you mean, exactly?",
+      "hebrew": "רגע, למה אתה מתכוון, בדיוק?",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688744"
+    },
+    {
+      "english": "Tell me the plan, step by step.",
+      "hebrew": "תגיד לי את התוכנית, צעד צעד.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688749"
+    },
+    {
+      "english": "Don’t worry, we’ll handle it, together.",
+      "hebrew": "אל תדאג, נטפל בזה, ביחד.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688753"
+    },
+    {
+      "english": "I get it, so what’s next?",
+      "hebrew": "הבנתי, אז מה הלאה?",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688758"
+    },
+    {
+      "english": "Hold on, I need a minute.",
+      "hebrew": "רק רגע, אני צריך/ה דקה.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688761"
+    },
+    {
+      "english": "Yes, that’s right, I agree.",
+      "hebrew": "כן, בדיוק, אני מסכים/ה.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688767"
+    },
+    {
+      "english": "Nope, not like that, please.",
+      "hebrew": "לא, לא ככה, בבקשה.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688774"
+    },
+    {
+      "english": "Really? Wow, that’s actually great.",
+      "hebrew": "באמת? וואו, זה ממש טוב.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688779"
+    },
+    {
+      "english": "Sorry, I misunderstood, my bad.",
+      "hebrew": "סליחה, לא הבנתי נכון, טעיתי.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688783"
+    },
+    {
+      "english": "Okay, start small, then build momentum.",
+      "hebrew": "סבבה, נתחיל בקטן, ואז נתקדם.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688787"
+    },
+    {
+      "english": "I’m busy today, can we reschedule?",
+      "hebrew": "אני עסוק היום, אפשר לדחות?",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688790"
+    },
+    {
+      "english": "Let’s make it simple, right now.",
+      "hebrew": "בוא נעשה את זה פשוט, עכשיו.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688793"
+    },
+    {
+      "english": "Where should we begin, honestly?",
+      "hebrew": "מאיפה כדאי להתחיל, באמת?",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688796"
+    },
+    {
+      "english": "I’m trying, so please be patient.",
+      "hebrew": "אני משתדל/ת, אז בבקשה סבלנות.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688799"
+    },
+    {
+      "english": "That makes sense, thanks for explaining.",
+      "hebrew": "זה הגיוני, תודה שהסברת.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688802"
+    },
+    {
+      "english": "I’m in, let’s do it today.",
+      "hebrew": "אני בעניין, בוא נעשה את זה היום.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688807"
+    },
+    {
+      "english": "I’ll take care of it, don’t worry.",
+      "hebrew": "אני מטפל בזה, אל תדאג.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688810"
+    },
+    {
+      "english": "Quick question, are you free now?",
+      "hebrew": "שאלה קצרה, אתה/את פנוי/ה עכשיו?",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688813"
+    },
+    {
+      "english": "Good idea, let’s follow that.",
+      "hebrew": "רעיון טוב, בוא נלך עם זה.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688816"
+    },
+    {
+      "english": "Not yet, I need more time.",
+      "hebrew": "לא עדיין, אני צריך/ה יותר זמן.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688819"
+    },
+    {
+      "english": "Tell me one thing, what do you want?",
+      "hebrew": "תגיד לי משהו, מה אתה רוצה?",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688821"
+    },
+    {
+      "english": "Let’s go step by step, no rush.",
+      "hebrew": "בוא נעשה צעד צעד, בלי לחץ.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688825"
+    },
+    {
+      "english": "I’m nervous, but I’ll try.",
+      "hebrew": "אני לחוץ/ה, אבל אני אנסה.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688828"
+    },
+    {
+      "english": "Nice, you nailed it, seriously.",
+      "hebrew": "כל הכבוד, עשית את זה בול.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688831"
+    },
+    {
+      "english": "Pause, think first, then answer.",
+      "hebrew": "עצור, תחשוב קודם, ואז תענה.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688833"
+    },
+    {
+      "english": "Be careful, it’s easy to mess up.",
+      "hebrew": "תזהר/י, זה קל לטעות.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688837"
+    },
+    {
+      "english": "I’m ready for feedback, tell me.",
+      "hebrew": "אני מוכן/ה למשוב, תן/י לי.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688840"
+    },
+    {
+      "english": "Let’s keep moving, small steps count.",
+      "hebrew": "בוא נמשיך להתקדם, צעדים קטנים עוזרים.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688843"
+    },
+    {
+      "english": "That’s enough for now, we’ll continue later.",
+      "hebrew": "זה מספיק לעכשיו, נמשיך אחר כך.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688847"
+    },
+    {
+      "english": "What’s your real goal, today, though?",
+      "hebrew": "מה המטרה האמיתית שלך, היום, בעצם?",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688850"
+    },
+    {
+      "english": "Can you help me phrase this question?",
+      "hebrew": "אפשר שתעזור לי לנסח את השאלה?",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688853"
+    },
+    {
+      "english": "How do you usually ask for advice?",
+      "hebrew": "איך אתה בדרך כלל מבקש עצה?",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688856"
+    },
+    {
+      "english": "Where do I start, with confidence?",
+      "hebrew": "מאיפה מתחילים, עם ביטחון?",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688859"
+    },
+    {
+      "english": "I want to understand, what do you mean?",
+      "hebrew": "אני רוצה להבין, למה אתה מתכוון?",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688862"
+    },
+    {
+      "english": "What should I do first, practical steps?",
+      "hebrew": "מה לעשות קודם, צעדים מעשיים?",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688865"
+    },
+    {
+      "english": "When is the best time to ask?",
+      "hebrew": "מתי הכי כדאי לשאול?",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688867"
+    },
+    {
+      "english": "Do you think this fits my purpose?",
+      "hebrew": "אתה חושב שזה מתאים למטרה שלי?",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688871"
+    },
+    {
+      "english": "Can we check if I understood correctly?",
+      "hebrew": "אפשר לבדוק אם הבנתי נכון?",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688875"
+    },
+    {
+      "english": "Please, ask me again, in simpler words.",
+      "hebrew": "בבקשה, תשאל אותי שוב, במילים פשוטות.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688878"
+    },
+    {
+      "english": "What’s the next decision, after this?",
+      "hebrew": "מה ההחלטה הבאה, אחרי זה?",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688881"
+    },
+    {
+      "english": "Should I ask directly, or be polite first?",
+      "hebrew": "לשאול ישירות, או קודם להיות מנומס?",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688884"
+    },
+    {
+      "english": "How can I turn this idea into action?",
+      "hebrew": "איך הופכים רעיון הזה לביצוע?",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688886"
+    },
+    {
+      "english": "Tell me, what matters most for you?",
+      "hebrew": "תגיד לי, מה הכי חשוב לך?",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688888"
+    },
+    {
+      "english": "Can you recommend a small starting task?",
+      "hebrew": "אתה יכול להמליץ על משימה קטנה להתחיל?",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688892"
+    },
+    {
+      "english": "Do you prefer advice, or just listening?",
+      "hebrew": "אתה מעדיף עצה, או רק להקשיב?",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688895"
+    },
+    {
+      "english": "What’s your honest opinion, right now?",
+      "hebrew": "מה דעתך הכנה, עכשיו?",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688898"
+    },
+    {
+      "english": "Let’s clarify the goal, before we move.",
+      "hebrew": "בוא נבהיר את המטרה, לפני שממשיכים.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688901"
+    },
+    {
+      "english": "Which option helps you feel more focused?",
+      "hebrew": "איזו אפשרות עוזרת לך להיות יותר ממוקד?",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688904"
+    },
+    {
+      "english": "Can I ask one more thing, quickly?",
+      "hebrew": "אפשר לשאול עוד דבר אחד, מהר?",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688906"
+    },
+    {
+      "english": "If I’m stuck, what do you suggest?",
+      "hebrew": "אם אני נתקע, מה אתה מציע?",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688909"
+    },
+    {
+      "english": "What questions should I ask myself daily?",
+      "hebrew": "אילו שאלות כדאי לי לשאול את עצמי כל יום?",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688912"
+    },
+    {
+      "english": "How do you keep it going, when it’s hard?",
+      "hebrew": "איך אתה ממשיך, כשקשה?",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688915"
+    },
+    {
+      "english": "Can we practice this dialogue, together now?",
+      "hebrew": "אפשר לתרגל את הדיאלוג הזה, ביחד עכשיו?",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688918"
+    },
+    {
+      "english": "What evidence makes you believe that?",
+      "hebrew": "איזה הוכחה גורמת לך להאמין לזה?",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688920"
+    },
+    {
+      "english": "Do you have time for a quick chat?",
+      "hebrew": "יש לך זמן לשיחה קצרה?",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688923"
+    },
+    {
+      "english": "How do you set boundaries, without being rude?",
+      "hebrew": "איך מציבים גבולות, בלי להיות גסים?",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688925"
+    },
+    {
+      "english": "What’s the one lesson you’d repeat to me?",
+      "hebrew": "מה הלקח האחד שהיית חוזר עליו איתי?",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688929"
+    },
+    {
+      "english": "Can you say it again, slower for me?",
+      "hebrew": "אפשר שוב, לאט יותר, בשבילי?",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688931"
+    },
+    {
+      "english": "What do you want to improve, starting today?",
+      "hebrew": "מה אתה רוצה לשפר, החל מהיום?",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688934"
+    },
+    {
+      "english": "Go for it, start while it’s fresh.",
+      "hebrew": "יאללה, תתחיל כשהכול טרי.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688937"
+    },
+    {
+      "english": "Aim high, but make it doable today.",
+      "hebrew": "לכו על גבוה, אבל שיהיה אפשרי היום.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688940"
+    },
+    {
+      "english": "Don’t overthink, do one small thing.",
+      "hebrew": "לא להסתבך בראש, תעשה משהו קטן.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688943"
+    },
+    {
+      "english": "Purpose first, noise later.",
+      "hebrew": "מטרה קודם, רעש אחר כך.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688946"
+    },
+    {
+      "english": "If it’s clear, commit, don’t wait.",
+      "hebrew": "אם זה ברור, תתחייב, אל תחכה.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688950"
+    },
+    {
+      "english": "Show up, even if it’s messy.",
+      "hebrew": "תופיע, גם אם זה לא מושלם.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688953"
+    },
+    {
+      "english": "Make it real, not just talk.",
+      "hebrew": "תעשה את זה אמיתי, לא רק דיבורים.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688956"
+    },
+    {
+      "english": "Better a little, than nothing at all.",
+      "hebrew": "עדיף קצת, מאשר כלום.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688959"
+    },
+    {
+      "english": "Put your money where your mouth is.",
+      "hebrew": "תשקיע איפה שהפה שלך.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688961"
+    },
+    {
+      "english": "Start simple, let progress do the rest.",
+      "hebrew": "תתחיל פשוט, ההתקדמות תעשה את השאר.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688964"
+    },
+    {
+      "english": "Make a plan, then breathe and move.",
+      "hebrew": "תבנה תוכנית, תנשום ואז תזוז.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688971"
+    },
+    {
+      "english": "Choose one thing, focus and go.",
+      "hebrew": "תבחר דבר אחד, פוקוס ותזוז.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688974"
+    },
+    {
+      "english": "Small wins, big motivation.",
+      "hebrew": "ניצחונות קטנים, מוטיבציה גדולה.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688978"
+    },
+    {
+      "english": "Don’t chase perfection, chase direction.",
+      "hebrew": "לא פרפקציה, רק כיוון.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688981"
+    },
+    {
+      "english": "Today counts, even if it’s tiny.",
+      "hebrew": "היום חשוב, גם אם זה קטן.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688984"
+    },
+    {
+      "english": "Try it once, you’ll learn fast.",
+      "hebrew": "תנסה פעם אחת, תלמד מהר.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688988"
+    },
+    {
+      "english": "Turn the idea over, test it.",
+      "hebrew": "תסובב את הרעיון, תבדוק.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688991"
+    },
+    {
+      "english": "Don’t wait for motivation, create it.",
+      "hebrew": "אל תחכה למוטיבציה, תייצר אותה.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688994"
+    },
+    {
+      "english": "If it matters, schedule it.",
+      "hebrew": "אם זה חשוב, תכניס ליומן.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688996"
+    },
+    {
+      "english": "One step now, keeps you moving.",
+      "hebrew": "צעד אחד עכשיו, זה מחזיק אותך.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.688999"
+    },
+    {
+      "english": "You can’t change everything, choose one lever.",
+      "hebrew": "אי אפשר הכול לשנות, תבחר מנוף אחד.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689004"
+    },
+    {
+      "english": "Talk less, do more, that’s the point.",
+      "hebrew": "לדבר פחות, לעשות יותר, זו הכוונה.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689007"
+    },
+    {
+      "english": "Make it a habit, not a mood.",
+      "hebrew": "תעשה מזה הרגל, לא מצב רוח.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689010"
+    },
+    {
+      "english": "If you fell, reset and continue.",
+      "hebrew": "נפלת? מאפסים וממשיכים.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689012"
+    },
+    {
+      "english": "Keep it simple, your brain will thank you.",
+      "hebrew": "תשמור על זה פשוט, המוח יודה לך.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689015"
+    },
+    {
+      "english": "Don’t let excuses drive the day.",
+      "hebrew": "אל תתן לתירוצים לנהוג ביום.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689018"
+    },
+    {
+      "english": "Decide, then handle the details later.",
+      "hebrew": "תחליט קודם, את הפרטים נסתדר אחר כך.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689021"
+    },
+    {
+      "english": "When in doubt, follow the simplest next action.",
+      "hebrew": "כשיש ספק, תלך על הצעד הבא הכי פשוט.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689024"
+    },
+    {
+      "english": "Your purpose shows up in what you repeat.",
+      "hebrew": "הייעוד שלך ניכר במה שאתה חוזר עליו.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689027"
+    },
+    {
+      "english": "I’m learning to be honest with myself.",
+      "hebrew": "אני לומד להיות כנה עם עצמי.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689030"
+    },
+    {
+      "english": "Some days, I just need patience.",
+      "hebrew": "יש ימים שאני פשוט צריך סבלנות.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689032"
+    },
+    {
+      "english": "I notice my feelings, then I decide.",
+      "hebrew": "אני שם לב לרגשות שלי, ואז מחליט.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689035"
+    },
+    {
+      "english": "When it hurts, I slow down on purpose.",
+      "hebrew": "כשכואב לי, אני מאט בכוונה.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689038"
+    },
+    {
+      "english": "My purpose feels bigger than my mood.",
+      "hebrew": "הייעוד שלי מרגיש גדול יותר מהמצב רוח שלי.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689040"
+    },
+    {
+      "english": "I’m allowed to take time, without guilt.",
+      "hebrew": "מותר לי לקחת זמן, בלי אשמה.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689044"
+    },
+    {
+      "english": "I reflect, I adjust, and I keep going.",
+      "hebrew": "אני מתבונן, מתאים, וממשיך.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689047"
+    },
+    {
+      "english": "I choose calm, even when my mind races.",
+      "hebrew": "אני בוחר רוגע, גם כשהמוח רץ.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689051"
+    },
+    {
+      "english": "Right now, I’m doing my best, quietly.",
+      "hebrew": "עכשיו, אני עושה את הכי טוב שלי בשקט.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689054"
+    },
+    {
+      "english": "I want truth, not just positive vibes.",
+      "hebrew": "אני רוצה אמת, לא רק וייבים חיוביים.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689057"
+    },
+    {
+      "english": "I can be tired, and still move forward.",
+      "hebrew": "אני יכול להיות עייף, ועדיין להתקדם.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689060"
+    },
+    {
+      "english": "I let reality be, and plan anyway.",
+      "hebrew": "אני מאפשר למציאות להיות, ומתכנן בכל זאת.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689062"
+    },
+    {
+      "english": "I’m not behind, I’m building my pace.",
+      "hebrew": "אני לא מאחור, אני בונה קצב.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689066"
+    },
+    {
+      "english": "I check in with myself, every evening.",
+      "hebrew": "אני בודק עם עצמי, כל ערב.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689070"
+    },
+    {
+      "english": "I admit mistakes, then I learn quickly.",
+      "hebrew": "אני מודה בטעויות, ואז לומד מהר.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689073"
+    },
+    {
+      "english": "My purpose grows when I stay patient.",
+      "hebrew": "הייעוד שלי גדל כשאני נשאר סבלני.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689075"
+    },
+    {
+      "english": "I stop comparing, and come back to me.",
+      "hebrew": "אני מפסיק להשוות, וחוזר אליי.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689078"
+    },
+    {
+      "english": "I listen first, then I act on purpose.",
+      "hebrew": "אני מקשיב קודם, ואז פועל בכוונה.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689080"
+    },
+    {
+      "english": "Even silence can help me think clearly.",
+      "hebrew": "גם שקט יכול לעזור לי לחשוב ברור.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689083"
+    },
+    {
+      "english": "I’m honest about what I can handle.",
+      "hebrew": "אני כנה לגבי מה שאני יכול להתמודד.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689086"
+    },
+    {
+      "english": "I forgive myself, and choose the next step.",
+      "hebrew": "אני סולח לעצמי, ובוחר בצעד הבא.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689089"
+    },
+    {
+      "english": "I face my doubts, with steady breath.",
+      "hebrew": "אני מתמודד עם הספקות שלי, עם נשימה רגועה.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689091"
+    },
+    {
+      "english": "I don’t need perfect, I need real.",
+      "hebrew": "אני לא צריך מושלם, אני צריך אמיתי.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689094"
+    },
+    {
+      "english": "I name the emotion, then I move.",
+      "hebrew": "אני נותן שם לרגש, ואז זז.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689097"
+    },
+    {
+      "english": "I keep my promises, even to myself.",
+      "hebrew": "אני שומר על ההבטחות שלי, גם לעצמי.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689099"
+    },
+    {
+      "english": "When I’m overwhelmed, I simplify things.",
+      "hebrew": "כשהכל מציף אותי, אני מפשט.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689102"
+    },
+    {
+      "english": "I value small progress, it builds trust.",
+      "hebrew": "אני מעריך התקדמות קטנה, זה בונה אמון.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689105"
+    },
+    {
+      "english": "My heart guides me, my plan supports it.",
+      "hebrew": "הלב שלי מוביל אותי, התוכנית תומכת בזה.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689108"
+    },
+    {
+      "english": "I choose growth, even when I feel unsure.",
+      "hebrew": "אני בוחר בצמיחה, גם כשאני מרגיש לא בטוח.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689110"
+    },
+    {
+      "english": "Before speaking, pause, choose kinder words.",
+      "hebrew": "לפני שמדברים, עוצרים, בוחרים מילים יותר טובות.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689113"
+    },
+    {
+      "english": "Text back soon, but don’t rush replies.",
+      "hebrew": "תענה בקרוב, אבל אל תדחוף תשובות.",
+      "category": "Purpose",
+      "generated_at": "2026-11-03T07:26:10.689116"
     }
   ],
-  "last_updated": "2026-11-02T07:00:56.499043"
+  "last_updated": "2026-11-03T07:26:10.689118"
 }
