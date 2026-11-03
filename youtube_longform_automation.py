@@ -122,7 +122,7 @@ VIRAL_STYLES = [
 ]
 
 # AI Model
-AI_MODEL = os.getenv("AI_MODEL") or "gemini-fast"
+AI_MODEL = os.getenv("AI_MODEL") or "openai/gpt-5.4-nano"
 
 
 # ============== PHRASE HISTORY MANAGEMENT & DEDUPLICATION ==============
