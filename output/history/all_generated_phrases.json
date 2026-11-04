@@ -46715,7 +46715,727 @@
       "hebrew": "תענה בקרוב, אבל אל תדחוף תשובות.",
       "category": "Purpose",
       "generated_at": "2026-11-03T07:26:10.689116"
+    },
+    {
+      "english": "Okay, I’ll try again, no worries.",
+      "hebrew": "בסדר, אני אנסה שוב, בלי דאגות.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178657"
+    },
+    {
+      "english": "Let’s keep going, we’ll make it.",
+      "hebrew": "בוא נמשיך, נצליח.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178675"
+    },
+    {
+      "english": "Hope on, today can work out.",
+      "hebrew": "רק תקווה, היום יכול להסתדר.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178680"
+    },
+    {
+      "english": "Quick question, are you okay?",
+      "hebrew": "שאלה קטנה, אתה בסדר?",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178683"
+    },
+    {
+      "english": "I’m fine, just tired, thanks.",
+      "hebrew": "אני בסדר, רק עייף, תודה.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178687"
+    },
+    {
+      "english": "Really? Wow, that’s hopeful.",
+      "hebrew": "באמת? וואו, זה מעודד.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178691"
+    },
+    {
+      "english": "Don’t stress, we have time.",
+      "hebrew": "אל תילחץ, יש לנו זמן.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178694"
+    },
+    {
+      "english": "What’s the plan, step by step?",
+      "hebrew": "מה התוכנית, צעד אחרי צעד?",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178702"
+    },
+    {
+      "english": "Let’s start small, then grow.",
+      "hebrew": "נתחיל בקטן, ואז נגדל.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178706"
+    },
+    {
+      "english": "Good news? Tell me right now.",
+      "hebrew": "בשורות טובות? תגיד עכשיו.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178709"
+    },
+    {
+      "english": "It’ll work out, trust me.",
+      "hebrew": "זה יסתדר, תאמין לי.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178713"
+    },
+    {
+      "english": "Stay strong, tomorrow looks better.",
+      "hebrew": "תישאר חזק, מחר נראה טוב יותר.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178716"
+    },
+    {
+      "english": "I’m here for you, really.",
+      "hebrew": "אני פה בשבילך, באמת.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178720"
+    },
+    {
+      "english": "No panic, we’ll figure it out.",
+      "hebrew": "בלי פאניקה, נסתדר.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178723"
+    },
+    {
+      "english": "That sounds good, I’m hopeful.",
+      "hebrew": "זה נשמע טוב, אני עם תקווה.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178732"
+    },
+    {
+      "english": "How’s it going, any progress?",
+      "hebrew": "איך הולך, יש התקדמות?",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178738"
+    },
+    {
+      "english": "One day at a time, okay?",
+      "hebrew": "יום אחד בכל פעם, בסדר?",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178740"
+    },
+    {
+      "english": "Let’s make space for hope.",
+      "hebrew": "בוא נפנה מקום לתקווה.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178744"
+    },
+    {
+      "english": "Hope is real, just keep trying.",
+      "hebrew": "תקווה אמיתית, רק תמשיך לנסות.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178749"
+    },
+    {
+      "english": "I hear you, it’s been rough.",
+      "hebrew": "אני מבין אותך, היה קשה.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178752"
+    },
+    {
+      "english": "Let’s talk later, you’ll be okay.",
+      "hebrew": "נדבר אחר כך, יהיה בסדר.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178756"
+    },
+    {
+      "english": "Thanks, you helped me breathe.",
+      "hebrew": "תודה, עזרת לי לנשום.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178759"
+    },
+    {
+      "english": "I’ve got a good feeling, go.",
+      "hebrew": "יש לי הרגשה טובה, קדימה.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178762"
+    },
+    {
+      "english": "Tell me, what do you need?",
+      "hebrew": "תגיד לי, מה אתה צריך?",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178765"
+    },
+    {
+      "english": "We’ll meet the challenge together.",
+      "hebrew": "נעמוד בזה יחד.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178768"
+    },
+    {
+      "english": "Keep it simple, one move now.",
+      "hebrew": "בוא נעשה פשוט, צעד אחד עכשיו.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178771"
+    },
+    {
+      "english": "Even small steps count, okay?",
+      "hebrew": "גם צעדים קטנים חשובים, כן?",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178773"
+    },
+    {
+      "english": "I’m grateful, things can improve.",
+      "hebrew": "אני מעריך, דברים יכולים להשתפר.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178777"
+    },
+    {
+      "english": "Can I ask, what’s your plan today?",
+      "hebrew": "אפשר לשאול, מה התוכנית שלך היום?",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178780"
+    },
+    {
+      "english": "Where do you usually find hope?",
+      "hebrew": "איפה אתה בדרך כלל מוצא תקווה?",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178783"
+    },
+    {
+      "english": "What helps you feel better, honestly?",
+      "hebrew": "מה באמת עוזר לך להרגיש יותר טוב?",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178786"
+    },
+    {
+      "english": "Could you give me advice, please?",
+      "hebrew": "אפשר עצה ממך, בבקשה?",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178789"
+    },
+    {
+      "english": "How do you stay hopeful, even tired?",
+      "hebrew": "איך אתה נשאר עם תקווה, גם כשעייף?",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178792"
+    },
+    {
+      "english": "Should we try something small right now?",
+      "hebrew": "כדאי לנו לנסות משהו קטן עכשיו?",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178794"
+    },
+    {
+      "english": "Can I join you for a chat?",
+      "hebrew": "אפשר להצטרף אליך לשיחה?",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178797"
+    },
+    {
+      "english": "Tell me, what are you worried about?",
+      "hebrew": "תגיד לי, מה מדאיג אותך?",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178800"
+    },
+    {
+      "english": "Which question do you ask yourself first?",
+      "hebrew": "איזו שאלה אתה שואל את עצמך קודם?",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178803"
+    },
+    {
+      "english": "Do you want a solution, or support?",
+      "hebrew": "אתה רוצה פתרון, או תמיכה?",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178806"
+    },
+    {
+      "english": "What do you want to improve this week?",
+      "hebrew": "מה אתה רוצה לשפר השבוע?",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178813"
+    },
+    {
+      "english": "Can we talk about what feels heavy?",
+      "hebrew": "אפשר לדבר על מה שמכביד?",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178816"
+    },
+    {
+      "english": "How do you keep your courage up?",
+      "hebrew": "איך אתה שומר על אומץ?",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178819"
+    },
+    {
+      "english": "What would make tomorrow easier for you?",
+      "hebrew": "מה יכול להפוך את מחר לקל יותר?",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178821"
+    },
+    {
+      "english": "Are you open to trying again together?",
+      "hebrew": "אתה פתוח לנסות שוב יחד?",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178824"
+    },
+    {
+      "english": "What’s one small win you had today?",
+      "hebrew": "איזו הצלחה קטנה הייתה לך היום?",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178827"
+    },
+    {
+      "english": "Can you help me find the right words?",
+      "hebrew": "אתה יכול לעזור לי למצוא מילים נכונות?",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178830"
+    },
+    {
+      "english": "Do you want to vent, or plan?",
+      "hebrew": "אתה רוצה לפרוק, או לתכנן?",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178835"
+    },
+    {
+      "english": "Where should we start, what’s priority?",
+      "hebrew": "מאיפה נתחיל, מה הדבר הכי חשוב?",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178838"
+    },
+    {
+      "english": "How can I support you right now?",
+      "hebrew": "איך אני יכול לתמוך בך עכשיו?",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178841"
+    },
+    {
+      "english": "What’s the hopeful thing you noticed lately?",
+      "hebrew": "איזו נקודה תקווה שמעת בזמן האחרון?",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178845"
+    },
+    {
+      "english": "Can we swap ideas for a better mood?",
+      "hebrew": "אפשר להחליף רעיונות בשביל מצב רוח טוב יותר?",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178847"
+    },
+    {
+      "english": "If you could, what would you change today?",
+      "hebrew": "אם היית יכול, מה היית משנה היום?",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178850"
+    },
+    {
+      "english": "What’s one brave thing you can do?",
+      "hebrew": "איזו פעולה אמיצה אתה יכול לעשות?",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178866"
+    },
+    {
+      "english": "Do you want a pep talk, or silence?",
+      "hebrew": "אתה רוצה עידוד, או שקט?",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178869"
+    },
+    {
+      "english": "Can I check in, how’s your heart today?",
+      "hebrew": "אפשר לבדוק, מה שלומך בלב היום?",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178873"
+    },
+    {
+      "english": "What’s your next step, when hope fades?",
+      "hebrew": "מה הצעד הבא שלך, כשאין תקווה?",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178876"
+    },
+    {
+      "english": "You’ve got strength, even on hard days.",
+      "hebrew": "יש לך כוח, גם בימים קשים.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178880"
+    },
+    {
+      "english": "Breathe in hope, exhale the noise.",
+      "hebrew": "תכניס תקווה, תוציא את הרעש.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178886"
+    },
+    {
+      "english": "Say it to yourself, I can handle this.",
+      "hebrew": "תגיד לעצמך, אני יכול להתמודד.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178889"
+    },
+    {
+      "english": "Good thoughts, small actions, steady progress.",
+      "hebrew": "מחשבות טובות, מעשים קטנים, התקדמות יציבה.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178892"
+    },
+    {
+      "english": "Focus on what you can do today.",
+      "hebrew": "תתרכז במה שאתה יכול היום.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178896"
+    },
+    {
+      "english": "Your effort matters, even if it’s quiet.",
+      "hebrew": "המאמץ שלך חשוב, גם אם זה בשקט.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178899"
+    },
+    {
+      "english": "You’re not stuck, you’re learning your way.",
+      "hebrew": "אתה לא תקוע, אתה לומד דרך.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178903"
+    },
+    {
+      "english": "Keep your head up, one breath at time.",
+      "hebrew": "תרים את הראש, נשימה אחת בכל פעם.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178905"
+    },
+    {
+      "english": "Let your hope be practical, not perfect.",
+      "hebrew": "תן לתקווה להיות פרקטית, לא מושלמת.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178909"
+    },
+    {
+      "english": "I’m proud of you, for showing up.",
+      "hebrew": "אני גאה בך, על שבאת.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178912"
+    },
+    {
+      "english": "Trust your pace, slow is still forward.",
+      "hebrew": "תאמין בקצב שלך, לאט זה עדיין קדימה.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178915"
+    },
+    {
+      "english": "When doubts come, answer with action.",
+      "hebrew": "כשספק מגיע, תענה בעשייה.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178918"
+    },
+    {
+      "english": "Hope grows, when you keep your routine.",
+      "hebrew": "התקווה גדלה, כשאתה שומר על שגרה.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178921"
+    },
+    {
+      "english": "You can start small, and stay steady.",
+      "hebrew": "אפשר להתחיל קטן, ולהישאר יציב.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178924"
+    },
+    {
+      "english": "Give yourself credit, you’re trying.",
+      "hebrew": "תן לעצמך קרדיט, אתה מנסה.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178927"
+    },
+    {
+      "english": "Even silence can be a hopeful moment.",
+      "hebrew": "גם שקט יכול להיות רגע של תקווה.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178930"
+    },
+    {
+      "english": "Don’t lose hope, just reset your focus.",
+      "hebrew": "אל תאבד תקווה, רק תאפס מיקוד.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178933"
+    },
+    {
+      "english": "Celebrate the effort, not just the outcome.",
+      "hebrew": "תחגוג את המאמץ, לא רק את התוצאה.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178938"
+    },
+    {
+      "english": "Your future listens to how you talk now.",
+      "hebrew": "העתיד שומע איך אתה מדבר עכשיו.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178941"
+    },
+    {
+      "english": "Choose kindness inside, it changes everything.",
+      "hebrew": "תבחרו טוב לב בפנים, זה משנה הכול.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178944"
+    },
+    {
+      "english": "Tell yourself, I belong in this moment.",
+      "hebrew": "תגיד לעצמך, אני שייך לרגע הזה.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178947"
+    },
+    {
+      "english": "Hope is a habit, practice it today.",
+      "hebrew": "תקווה זה הרגל, תתרגל היום.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178950"
+    },
+    {
+      "english": "When things feel heavy, be gentle with you.",
+      "hebrew": "כשכבד לך, תתייחס אליך בעדינות.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178955"
+    },
+    {
+      "english": "Say, I can, even if it’s hard.",
+      "hebrew": "תגיד, אני יכול, גם אם קשה.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178961"
+    },
+    {
+      "english": "Keep moving, hope follows your footsteps.",
+      "hebrew": "תמשיך לזוז, התקווה באה בעקבותיך.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178964"
+    },
+    {
+      "english": "You’re building something, one day at a time.",
+      "hebrew": "אתה בונה משהו, יום יום.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178967"
+    },
+    {
+      "english": "Every try is a vote for hope.",
+      "hebrew": "כל ניסיון הוא הצבע לתקווה.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178970"
+    },
+    {
+      "english": "Let hope sound like a plan, now.",
+      "hebrew": "תן לתקווה להישמע כמו תכנית, עכשיו.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178973"
+    },
+    {
+      "english": "Stay grateful, and still aim higher.",
+      "hebrew": "תישאר אסיר תודה, ותכוון גבוה יותר.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178976"
+    },
+    {
+      "english": "You’re closer than you think, keep going.",
+      "hebrew": "אתה יותר קרוב ממה שנדמה, תמשיך.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178979"
+    },
+    {
+      "english": "I feel shaky, but I still believe.",
+      "hebrew": "אני מרגיש קצת רועד, אבל עדיין מאמין.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178982"
+    },
+    {
+      "english": "I’m listening to myself, without rushing.",
+      "hebrew": "אני מקשיב לעצמי, בלי למהר.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178985"
+    },
+    {
+      "english": "I notice hope in small calm moments.",
+      "hebrew": "אני שם לב לתקווה ברגעים קטנים ושקטים.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178988"
+    },
+    {
+      "english": "I don’t deny fear, I choose hope.",
+      "hebrew": "אני לא מכחיש פחד, אני בוחר תקווה.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178992"
+    },
+    {
+      "english": "Even when I doubt, I try again.",
+      "hebrew": "גם כשאני מסופק, אני מנסה שוב.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178995"
+    },
+    {
+      "english": "I can be honest, and still hopeful.",
+      "hebrew": "אני יכול להיות כנה, ועדיין לקוות.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.178998"
+    },
+    {
+      "english": "Today, I’m giving my feelings room.",
+      "hebrew": "היום, אני נותן לרגשות שלי מקום.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.179001"
+    },
+    {
+      "english": "I let the moment pass, gently.",
+      "hebrew": "אני נותן לרגע לעבור, בעדינות.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.179004"
+    },
+    {
+      "english": "My hope speaks softly, but it stays.",
+      "hebrew": "התקווה שלי מדברת בשקט, והיא נשארת.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.179007"
+    },
+    {
+      "english": "I’m not failing, I’m figuring it out.",
+      "hebrew": "אני לא נכשל, אני פשוט לומד להבין.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.179010"
+    },
+    {
+      "english": "I’ll be patient with my own pace.",
+      "hebrew": "אני אהיה סבלני עם הקצב שלי.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.179013"
+    },
+    {
+      "english": "I trust tomorrow, while honoring today.",
+      "hebrew": "אני סומך על מחר, תוך שמכבד את היום.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.179018"
+    },
+    {
+      "english": "I can miss, and still move forward.",
+      "hebrew": "אני יכול להתגעגע, ועדיין להתקדם.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.179021"
+    },
+    {
+      "english": "I speak hope to myself, honestly.",
+      "hebrew": "אני מדבר תקווה לעצמי, בכנות.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.179024"
+    },
+    {
+      "english": "When it hurts, I don’t turn away.",
+      "hebrew": "כואב לי, אני לא מפנה מבט.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.179027"
+    },
+    {
+      "english": "My heart needs rest, not pressure.",
+      "hebrew": "הלב שלי צריך מנוחה, לא לחץ.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.179030"
+    },
+    {
+      "english": "I can pause, and choose what’s true.",
+      "hebrew": "אני יכול לעצור, ולבחור במה שנכון.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.179033"
+    },
+    {
+      "english": "I’m learning to breathe through uncertainty.",
+      "hebrew": "אני לומד לנשום דרך אי־ודאות.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.179036"
+    },
+    {
+      "english": "Hope is quieter when I’m kind.",
+      "hebrew": "תקווה נהיית שקטה יותר כשאני אדיב.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.179040"
+    },
+    {
+      "english": "I let myself feel it, then continue.",
+      "hebrew": "אני מרשה לעצמי להרגיש, ואז ממשיך.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.179042"
+    },
+    {
+      "english": "I don’t need answers right now.",
+      "hebrew": "אני לא צריך תשובות עכשיו.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.179046"
+    },
+    {
+      "english": "I’m building trust with my own mind.",
+      "hebrew": "אני בונה אמון עם הראש שלי.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.179049"
+    },
+    {
+      "english": "Sometimes hope looks like staying in.",
+      "hebrew": "לפעמים תקווה נראית כמו להישאר בפנים.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.179052"
+    },
+    {
+      "english": "I choose meaning, even in messy days.",
+      "hebrew": "אני בוחר משמעות, גם בימים מבולגנים.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.179055"
+    },
+    {
+      "english": "I’ll journal my feelings, just to steady.",
+      "hebrew": "אני אכתוב יומן רגשות, כדי להתייצב.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.179060"
+    },
+    {
+      "english": "Hope grows when I stay present.",
+      "hebrew": "תקווה גדלה כשאני נשאר ברגע.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.179063"
+    },
+    {
+      "english": "I admit it’s hard, and I cope.",
+      "hebrew": "אני מודה שזה קשה, ואני מתמודד.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.179066"
+    },
+    {
+      "english": "I keep going, because I care.",
+      "hebrew": "אני ממשיך, כי חשוב לי.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.179069"
+    },
+    {
+      "english": "Before you respond, take a breath, hope.",
+      "hebrew": "לפני שאת/ה עונה, תנשום/י נשימה, תקווה.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.179072"
+    },
+    {
+      "english": "Plan one small step, then check in.",
+      "hebrew": "תכנן/י צעד קטן אחד, ואז תבדוק/י.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.179075"
+    },
+    {
+      "english": "In a tough day, text someone safe.",
+      "hebrew": "ביום קשה, תכתוב/י למישהו בטוח.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.179077"
+    },
+    {
+      "english": "If you’re stuck, start with water and silence.",
+      "hebrew": "אם נתקעת, תתחיל/י עם מים ושקט.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.179081"
+    },
+    {
+      "english": "When plans break, make a backup hope.",
+      "hebrew": "כשהתוכניות נשברות, תכין/י תוכנית גיבוי לתקווה.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.179084"
+    },
+    {
+      "english": "Ask, what would help today, honestly?",
+      "hebrew": "תשאל/י, מה באמת יעזור היום?",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.179087"
+    },
+    {
+      "english": "Say thanks first, even when it’s messy.",
+      "hebrew": "תגיד/י תודה קודם, גם כשהכול מבולגן.",
+      "category": "Hope",
+      "generated_at": "2026-11-04T07:11:55.179090"
     }
   ],
-  "last_updated": "2026-11-03T07:26:10.689118"
+  "last_updated": "2026-11-04T07:11:55.179092"
 }
