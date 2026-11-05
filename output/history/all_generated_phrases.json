@@ -47435,7 +47435,727 @@
       "hebrew": "תגיד/י תודה קודם, גם כשהכול מבולגן.",
       "category": "Hope",
       "generated_at": "2026-11-04T07:11:55.179090"
+    },
+    {
+      "english": "Hi, do you have rooms available, today?",
+      "hebrew": "היי, יש לכם חדרים פנויים, היום?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719724"
+    },
+    {
+      "english": "Excuse me, where's the reception desk?",
+      "hebrew": "סליחה, איפה דלפק הקבלה?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719742"
+    },
+    {
+      "english": "Do you accept credit cards, please?",
+      "hebrew": "אתם מקבלים כרטיסי אשראי, בבקשה?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719746"
+    },
+    {
+      "english": "I have a reservation, under my name.",
+      "hebrew": "יש לי הזמנה, על השם שלי.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719749"
+    },
+    {
+      "english": "Can I check in now, please?",
+      "hebrew": "אפשר לעשות צ'ק-אין עכשיו, בבקשה?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719752"
+    },
+    {
+      "english": "What time is check-out, exactly?",
+      "hebrew": "באיזו שעה יוצאים, בדיוק?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719755"
+    },
+    {
+      "english": "Is breakfast included in the price?",
+      "hebrew": "ארוחת בוקר כלולה במחיר?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719760"
+    },
+    {
+      "english": "Does the room have Wi‑Fi, of course?",
+      "hebrew": "בחדר יש Wi‑Fi, נכון?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719769"
+    },
+    {
+      "english": "Could I have extra towels, please?",
+      "hebrew": "אפשר עוד מגבות, בבקשה?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719773"
+    },
+    {
+      "english": "Where's the elevator, please?",
+      "hebrew": "איפה המעלית, בבקשה?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719776"
+    },
+    {
+      "english": "Is parking available, on-site?",
+      "hebrew": "יש חניה במקום?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719780"
+    },
+    {
+      "english": "How much is parking, per day?",
+      "hebrew": "כמה עולה חניה ליום?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719782"
+    },
+    {
+      "english": "I need an iron, right now.",
+      "hebrew": "אני צריך מגהץ, עכשיו מיד.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719785"
+    },
+    {
+      "english": "Where can I store my luggage?",
+      "hebrew": "איפה אפשר להשאיר מזוודות?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719787"
+    },
+    {
+      "english": "Can I leave my bags, please?",
+      "hebrew": "אפשר להשאיר את התיקים, בבקשה?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719790"
+    },
+    {
+      "english": "My key doesn't work, sorry.",
+      "hebrew": "המפתח לא עובד, סליחה.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719793"
+    },
+    {
+      "english": "Could you fix the air conditioner?",
+      "hebrew": "אתה יכול לתקן את המזגן?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719796"
+    },
+    {
+      "english": "The heater isn't working, unfortunately.",
+      "hebrew": "החימום לא עובד, לצערי.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719799"
+    },
+    {
+      "english": "Is there hot water, right now?",
+      "hebrew": "יש מים חמים, עכשיו?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719801"
+    },
+    {
+      "english": "How do I turn on the TV?",
+      "hebrew": "איך מדליקים את הטלוויזיה?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719806"
+    },
+    {
+      "english": "What are the room rules, please?",
+      "hebrew": "מה הכללים בחדר, בבקשה?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719809"
+    },
+    {
+      "english": "No problem, I’ll wait in the lobby.",
+      "hebrew": "אין בעיה, אני אחכה בלובי.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719812"
+    },
+    {
+      "english": "Sorry, I booked the wrong date.",
+      "hebrew": "סליחה, הזמנתי תאריך לא נכון.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719815"
+    },
+    {
+      "english": "I need a quiet room, please.",
+      "hebrew": "אני צריך חדר שקט, בבקשה.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719818"
+    },
+    {
+      "english": "Can I upgrade to a better room?",
+      "hebrew": "אפשר לשדרג לחדר יותר טוב?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719821"
+    },
+    {
+      "english": "Do you have late checkout, maybe?",
+      "hebrew": "יש אפשרות ליציאה מאוחרת?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719824"
+    },
+    {
+      "english": "Where do I get the towels?",
+      "hebrew": "איפה לוקחים את המגבות?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719826"
+    },
+    {
+      "english": "Is there a pool, or a gym?",
+      "hebrew": "יש בריכה, או חדר כושר?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719829"
+    },
+    {
+      "english": "Thank you, I’m all set now.",
+      "hebrew": "תודה, אני מסודר עכשיו.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719832"
+    },
+    {
+      "english": "Hi, can I ask something about breakfast?",
+      "hebrew": "היי, אפשר לשאול משהו על ארוחת הבוקר?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719835"
+    },
+    {
+      "english": "Is there a quiet floor, maybe?",
+      "hebrew": "יש קומה שקטה, אולי?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719838"
+    },
+    {
+      "english": "What’s the best time to check in?",
+      "hebrew": "מתי הכי כדאי להגיע לצ’ק-אין?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719842"
+    },
+    {
+      "english": "Do you have rooms facing the sea?",
+      "hebrew": "יש חדרים עם נוף לים?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719845"
+    },
+    {
+      "english": "Do I need an ID for check-in?",
+      "hebrew": "צריך תעודה כדי לבצע צ’ק-אין?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719847"
+    },
+    {
+      "english": "Could you recommend a nearby restaurant?",
+      "hebrew": "אתה יכול להמליץ על מסעדה קרובה?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719850"
+    },
+    {
+      "english": "Which elevators go to the upper floors?",
+      "hebrew": "לאילו מעליות עולים לקומות למעלה?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719853"
+    },
+    {
+      "english": "Is there a lobby Wi‑Fi code I should use?",
+      "hebrew": "יש קוד ל-Wi‑Fi של הלובי?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719856"
+    },
+    {
+      "english": "Can I get directions to the parking entrance?",
+      "hebrew": "אפשר לקבל הכוונה לכניסה לחניה?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719861"
+    },
+    {
+      "english": "Do you have a concierge service here?",
+      "hebrew": "יש פה שירות קונסיירז’?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719866"
+    },
+    {
+      "english": "What’s included in the room price?",
+      "hebrew": "מה כלול במחיר של החדר?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719884"
+    },
+    {
+      "english": "Is there a breakfast schedule I should know?",
+      "hebrew": "יש שעות קבועות לארוחת בוקר?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719887"
+    },
+    {
+      "english": "Where can I buy a coffee nearby?",
+      "hebrew": "איפה אפשר לקנות קפה בסביבה?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719890"
+    },
+    {
+      "english": "Do you offer airport shuttle, by any chance?",
+      "hebrew": "יש הסעה לשדה התעופה?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719893"
+    },
+    {
+      "english": "How do I request a wake-up call?",
+      "hebrew": "איך מבקשים שיחת התעוררות?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719895"
+    },
+    {
+      "english": "Is late check-in possible today?",
+      "hebrew": "צ’ק-אין מאוחר אפשרי היום?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719898"
+    },
+    {
+      "english": "Do you have a room for families?",
+      "hebrew": "יש חדר למשפחות?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719901"
+    },
+    {
+      "english": "Can I bring my child to breakfast?",
+      "hebrew": "אפשר להביא ילד לארוחת בוקר?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719903"
+    },
+    {
+      "english": "What’s the Wi‑Fi speed like here?",
+      "hebrew": "איך מהירות ה-Wi‑Fi כאן?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719907"
+    },
+    {
+      "english": "Do you have charging stations in rooms?",
+      "hebrew": "יש עמדות טעינה בחדרים?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719909"
+    },
+    {
+      "english": "Are there non-smoking rooms available?",
+      "hebrew": "יש חדרים ללא עישון?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719912"
+    },
+    {
+      "english": "Could I see the room before booking?",
+      "hebrew": "אפשר לראות את החדר לפני שמזמינים?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719915"
+    },
+    {
+      "english": "What’s the best way to contact reception?",
+      "hebrew": "מה הדרך הכי טובה ליצור קשר עם הקבלה?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719921"
+    },
+    {
+      "english": "Do you allow early luggage drop-off?",
+      "hebrew": "אפשר להשאיר מזוודות מוקדם?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719923"
+    },
+    {
+      "english": "Is there a quiet policy after 10pm?",
+      "hebrew": "יש שקט אחרי עשר בערב?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719926"
+    },
+    {
+      "english": "Can I get a late answer, please?",
+      "hebrew": "אפשר תשובה מאוחרת, בבקשה?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719929"
+    },
+    {
+      "english": "How much is the deposit, roughly?",
+      "hebrew": "בערך כמה הפיקדון?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719932"
+    },
+    {
+      "english": "Do you have rooms with a balcony?",
+      "hebrew": "יש חדרים עם מרפסת?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719935"
+    },
+    {
+      "english": "Is it okay to store my luggage here?",
+      "hebrew": "מותר לי לאחסן פה את המזוודות?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719937"
+    },
+    {
+      "english": "What do you suggest for first-time guests?",
+      "hebrew": "מה אתם ממליצים לאורחים בפעם הראשונה?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719940"
+    },
+    {
+      "english": "You’ve got this, ask confidently, step by step.",
+      "hebrew": "יש לך את זה, תשאל בביטחון, צעד צעד.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719944"
+    },
+    {
+      "english": "Breathe first, then tell them what you need.",
+      "hebrew": "תנשום קודם, ואז תגיד מה צריך.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719947"
+    },
+    {
+      "english": "Great job, you’re checking in like a pro.",
+      "hebrew": "כל הכבוד, אתה מצ’ק-אין כמו מקצוען.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719951"
+    },
+    {
+      "english": "I’m proud of you, you chose the right place.",
+      "hebrew": "אני גאה בך, בחרת במקום הנכון.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719954"
+    },
+    {
+      "english": "It’s okay to be specific, they can help.",
+      "hebrew": "זה בסדר להיות ספציפי, הם יכולים לעזור.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719958"
+    },
+    {
+      "english": "Start with a smile, it opens doors.",
+      "hebrew": "תתחיל עם חיוך, זה פותח דלתות.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719961"
+    },
+    {
+      "english": "Ask calmly, you’ll get a clear answer.",
+      "hebrew": "תשאל בשקט, תקבל תשובה ברורה.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719965"
+    },
+    {
+      "english": "You handled the check-in, now relax.",
+      "hebrew": "טיפלת בצ’ק-אין, עכשיו תנוח.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719968"
+    },
+    {
+      "english": "Let’s find the best option for you.",
+      "hebrew": "בוא נמצא את האפשרות הכי טובה בשבילך.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719971"
+    },
+    {
+      "english": "Nice try, tell them again, with clearer details.",
+      "hebrew": "ניסיון טוב, תגיד שוב, עם פרטים ברורים יותר.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719974"
+    },
+    {
+      "english": "I appreciate your help, that means a lot.",
+      "hebrew": "אני מעריך את העזרה שלך, זה המון.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719977"
+    },
+    {
+      "english": "Good vibes only, enjoy your stay today.",
+      "hebrew": "רק אווירה טובה, תהנה מהשהייה היום.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719980"
+    },
+    {
+      "english": "You’re not bothering anyone, ask away.",
+      "hebrew": "אתה לא מטריד אף אחד, תשאל חופשי.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719983"
+    },
+    {
+      "english": "Stay positive, the solution is coming soon.",
+      "hebrew": "תשמור על אופטימיות, הפתרון יגיע בקרוב.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719986"
+    },
+    {
+      "english": "Smart choice, you’re making this easy.",
+      "hebrew": "בחירה חכמה, אתה עושה את זה קל.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719990"
+    },
+    {
+      "english": "Just one more question, and you’re set.",
+      "hebrew": "עוד שאלה אחת, ואז הכול מסודר.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719993"
+    },
+    {
+      "english": "You’re doing great, thanks for being patient.",
+      "hebrew": "אתה עושה מצוין, תודה על הסבלנות.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.719997"
+    },
+    {
+      "english": "Even small requests can make a big difference.",
+      "hebrew": "גם בקשות קטנות משנות הרבה.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720001"
+    },
+    {
+      "english": "Say it clearly, they’ll know exactly what you want.",
+      "hebrew": "תגיד את זה ברור, הם יבינו בדיוק מה אתה רוצה.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720005"
+    },
+    {
+      "english": "You’ll be comfortable, trust the process.",
+      "hebrew": "יהיה לך נעים, תסמוך על התהליך.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720008"
+    },
+    {
+      "english": "That’s a fair question, ask it with confidence.",
+      "hebrew": "זאת שאלה הוגנת, תשאל בביטחון.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720012"
+    },
+    {
+      "english": "Keep going, tomorrow will feel even better.",
+      "hebrew": "תמשיך, מחר ירגיש אפילו יותר טוב.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720015"
+    },
+    {
+      "english": "Nice and simple, you’ll figure it out.",
+      "hebrew": "יפה ופשוט, אתה תסתדר.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720018"
+    },
+    {
+      "english": "No stress, I’m sure they’ll explain everything.",
+      "hebrew": "בלי לחץ, אני בטוח שהם יסבירו הכול.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720026"
+    },
+    {
+      "english": "You found the right desk, great move.",
+      "hebrew": "מצאת את הדלפק הנכון, מהלך מצוין.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720029"
+    },
+    {
+      "english": "Be kind to yourself, this trip matters.",
+      "hebrew": "תהיה נחמד לעצמך, הטיול הזה חשוב.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720032"
+    },
+    {
+      "english": "Now relax, you’re safe and well taken care of.",
+      "hebrew": "עכשיו תירגע, אתם בידיים טובות.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720035"
+    },
+    {
+      "english": "Good call, asking early saves time later.",
+      "hebrew": "בחירה טובה, לשאול מוקדם חוסך זמן.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720038"
+    },
+    {
+      "english": "You’re learning fast, and it’s showing.",
+      "hebrew": "אתה לומד מהר, רואים את זה.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720041"
+    },
+    {
+      "english": "Stay brave, hotel staff are here to help.",
+      "hebrew": "תהיה אמיץ, צוות המלון כאן כדי לעזור.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720044"
+    },
+    {
+      "english": "I really just need a calm corner, please.",
+      "hebrew": "אני ממש צריך פינה שקטה, בבקשה.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720047"
+    },
+    {
+      "english": "Honestly, I’m nervous about settling in.",
+      "hebrew": "בכנות, אני קצת עצבני להסתדר.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720050"
+    },
+    {
+      "english": "I want to feel comfortable, not rushed.",
+      "hebrew": "אני רוצה להרגיש בנוח, לא ממהר.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720053"
+    },
+    {
+      "english": "Can I check in slowly, at my pace?",
+      "hebrew": "אפשר להיכנס לאט, בקצב שלי?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720056"
+    },
+    {
+      "english": "I’m grateful, I needed this quiet today.",
+      "hebrew": "אני אסיר תודה, הייתי חייב שקט היום.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720059"
+    },
+    {
+      "english": "Please take your time, I’m here for comfort.",
+      "hebrew": "בבקשה קחו את הזמן, אני פה בשביל נוחות.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720063"
+    },
+    {
+      "english": "I’m thinking ahead, so I can relax later.",
+      "hebrew": "אני חושב מראש, כדי להרגע אחר כך.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720066"
+    },
+    {
+      "english": "I’d love something simple, no big drama.",
+      "hebrew": "אשמח למשהו פשוט, בלי דרמות גדולות.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720069"
+    },
+    {
+      "english": "After travel, I just want a fresh start.",
+      "hebrew": "אחרי נסיעות, אני רק רוצה התחלה רעננה.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720072"
+    },
+    {
+      "english": "I’m trying to be patient, thank you.",
+      "hebrew": "אני משתדל להיות סבלני, תודה.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720077"
+    },
+    {
+      "english": "I feel better when things are clear.",
+      "hebrew": "אני מרגיש יותר טוב כשדברים ברורים.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720080"
+    },
+    {
+      "english": "I appreciate honest guidance, it helps me choose.",
+      "hebrew": "אני מעריך הכוונה כנה, זה עוזר לי לבחור.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720083"
+    },
+    {
+      "english": "Right now, I need peace more than luxury.",
+      "hebrew": "כרגע, אני צריך שקט יותר ממותרות.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720086"
+    },
+    {
+      "english": "Honestly, I’m looking for a supportive place.",
+      "hebrew": "בכנות, אני מחפש מקום שמרגיש תומך.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720089"
+    },
+    {
+      "english": "I’d like my stay to feel safe.",
+      "hebrew": "אני רוצה שהשהייה תרגיש בטוחה.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720092"
+    },
+    {
+      "english": "Is there a friendly staff vibe here?",
+      "hebrew": "יש פה אווירה של צוות ידידותי?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720096"
+    },
+    {
+      "english": "I’m not picky, I just want consistency.",
+      "hebrew": "אני לא בררן, אני רק רוצה עקביות.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720099"
+    },
+    {
+      "english": "I’m keeping expectations realistic, please understand.",
+      "hebrew": "אני שומר על ציפיות ריאליות, תבינו.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720103"
+    },
+    {
+      "english": "I’d rather hear the truth, kindly.",
+      "hebrew": "אני מעדיף לשמוע את האמת, בצורה נעימה.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720106"
+    },
+    {
+      "english": "I’m tired, so a smooth process matters.",
+      "hebrew": "אני עייף, אז תהליך חלק חשוב לי.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720109"
+    },
+    {
+      "english": "I’m hoping for a warm, welcoming feel.",
+      "hebrew": "אני מקווה להרגיש חם ומזמין.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720112"
+    },
+    {
+      "english": "Sometimes I need extra time to relax.",
+      "hebrew": "לפעמים אני צריך עוד קצת זמן להירגע.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720115"
+    },
+    {
+      "english": "I want my room to match the photos.",
+      "hebrew": "אני רוצה שהחדר יתאים לתמונות.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720117"
+    },
+    {
+      "english": "I’m trying to plan quietly, day by day.",
+      "hebrew": "אני מנסה לתכנן בשקט, יום אחרי יום.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720120"
+    },
+    {
+      "english": "Please let me know what’s possible, calmly.",
+      "hebrew": "בבקשה תגידו לי מה אפשרי, בנחת.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720124"
+    },
+    {
+      "english": "I feel relieved when answers come quickly.",
+      "hebrew": "אני נרגע כשיש תשובות מהר.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720129"
+    },
+    {
+      "english": "My priority is rest, so thank you.",
+      "hebrew": "העדיפות שלי היא מנוחה, אז תודה.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720132"
+    },
+    {
+      "english": "I’m grateful you’re handling everything stepwise.",
+      "hebrew": "אני מודה שאתם מטפלים בזה צעד-צעד.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720135"
+    },
+    {
+      "english": "I just want honesty, even if it’s small.",
+      "hebrew": "אני רק רוצה כנות, גם אם זה קטן.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720139"
+    },
+    {
+      "english": "Before I sleep, I want one clear update.",
+      "hebrew": "לפני שאני נרדם, אני צריך עדכון ברור אחד.",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720142"
+    },
+    {
+      "english": "Can I store my luggage for today?",
+      "hebrew": "אפשר להשאיר את המזוודות פה להיום?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-05T07:36:04.720145"
     }
   ],
-  "last_updated": "2026-11-04T07:11:55.179092"
+  "last_updated": "2026-11-05T07:36:04.720146"
 }

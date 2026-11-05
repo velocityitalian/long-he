@@ -28,7 +28,8 @@
     "hebrew_bg_026.jpg": 1,
     "hebrew_bg_027.jpg": 1,
     "hebrew_bg_028.jpg": 1,
-    "hebrew_bg_029.jpg": 1
+    "hebrew_bg_029.jpg": 1,
+    "hebrew_bg_030.jpg": 1
   },
   "last_used": {
     "hebrew_bg_001.jpg": "2026-10-17T04:51:43.053496+00:00",
@@ -59,7 +60,8 @@
     "hebrew_bg_026.jpg": "2026-11-01T07:01:14.901217+00:00",
     "hebrew_bg_027.jpg": "2026-11-02T07:01:00.567589+00:00",
     "hebrew_bg_028.jpg": "2026-11-03T07:26:14.829797+00:00",
-    "hebrew_bg_029.jpg": "2026-11-04T07:11:59.437752+00:00"
+    "hebrew_bg_029.jpg": "2026-11-04T07:11:59.437752+00:00",
+    "hebrew_bg_030.jpg": "2026-11-05T07:36:09.167560+00:00"
   },
   "history": [
     {
@@ -234,6 +236,12 @@
       "filename": "hebrew_bg_029.jpg",
       "category": "Hope",
       "timestamp": "2026-11-04T07:11:59.437752+00:00",
+      "cycle": 1
+    },
+    {
+      "filename": "hebrew_bg_030.jpg",
+      "category": "Hotel & Accommodation",
+      "timestamp": "2026-11-05T07:36:09.167560+00:00",
       "cycle": 1
     }
   ],
