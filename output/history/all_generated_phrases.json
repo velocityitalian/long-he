@@ -48155,7 +48155,727 @@
       "hebrew": "אפשר להשאיר את המזוודות פה להיום?",
       "category": "Hotel & Accommodation",
       "generated_at": "2026-11-05T07:36:04.720145"
+    },
+    {
+      "english": "Thanks for checking on me, I appreciate it.",
+      "hebrew": "תודה שבדקת עליי, אני מעריך את זה.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083216"
+    },
+    {
+      "english": "I’m grateful you answered so fast, really.",
+      "hebrew": "אני מודה לך שענית כל כך מהר, באמת.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083232"
+    },
+    {
+      "english": "Thank you for helping me out, seriously.",
+      "hebrew": "תודה שעזרת לי, ברצינות.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083235"
+    },
+    {
+      "english": "That worked, thank you, you saved me.",
+      "hebrew": "זה עבד, תודה, הצלת אותי.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083238"
+    },
+    {
+      "english": "I really appreciate your patience, thank you.",
+      "hebrew": "באמת תודה על הסבלנות שלך.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083241"
+    },
+    {
+      "english": "Thanks for the heads-up, that helped a lot.",
+      "hebrew": "תודה על ההודעה מראש, זה ממש עזר.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083243"
+    },
+    {
+      "english": "I’m glad you explained it, I got it.",
+      "hebrew": "טוב שהסברת, הבנתי.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083246"
+    },
+    {
+      "english": "Thanks for listening, it means a lot.",
+      "hebrew": "תודה שהקשבת, זה הרבה בשבילי.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083250"
+    },
+    {
+      "english": "Thank you for making time for me.",
+      "hebrew": "תודה שלקחת זמן בשבילי.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083253"
+    },
+    {
+      "english": "I’m thankful you handled it, smoothly.",
+      "hebrew": "אני מודה לך שטיפלת בזה, חלק.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083256"
+    },
+    {
+      "english": "Thanks, I’m totally okay now, really.",
+      "hebrew": "תודה, אני לגמרי בסדר עכשיו, באמת.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083259"
+    },
+    {
+      "english": "I appreciate the check-in, it felt kind.",
+      "hebrew": "תודה שעדכנת, זה הרגיש כל כך טוב.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083261"
+    },
+    {
+      "english": "Thanks for your help today, genuinely.",
+      "hebrew": "תודה על העזרה היום, באמת.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083264"
+    },
+    {
+      "english": "You didn’t have to, thank you anyway.",
+      "hebrew": "לא היית חייב, תודה בכל זאת.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083266"
+    },
+    {
+      "english": "Thanks for the small thing, it mattered.",
+      "hebrew": "תודה על הדבר הקטן, זה היה חשוב.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083269"
+    },
+    {
+      "english": "I’m grateful for the reminder, seriously.",
+      "hebrew": "אני מודה על התזכורת, ברצינות.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083271"
+    },
+    {
+      "english": "That was thoughtful, thank you from me.",
+      "hebrew": "זה היה מאוד אכפתי, תודה ממני.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083275"
+    },
+    {
+      "english": "Thanks for the ride, you were great.",
+      "hebrew": "תודה על הטרמפ, היית מקסים.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083278"
+    },
+    {
+      "english": "I appreciate it, I won’t forget this.",
+      "hebrew": "תודה, אני לא אשכח את זה.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083280"
+    },
+    {
+      "english": "Thank you for sorting it out for me.",
+      "hebrew": "תודה שסידרת את זה בשבילי.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083282"
+    },
+    {
+      "english": "Thanks, you made my day better, honestly.",
+      "hebrew": "תודה, עשית לי את היום יותר טוב, באמת.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083285"
+    },
+    {
+      "english": "I’m grateful you kept me in the loop.",
+      "hebrew": "אני מודה לך ששמרת אותי בעניינים.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083289"
+    },
+    {
+      "english": "Thanks for noticing, that was really kind.",
+      "hebrew": "תודה ששמת לב, זה היה ממש נחמד.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083291"
+    },
+    {
+      "english": "I appreciate your effort, it showed.",
+      "hebrew": "תודה על ההשקעה, רואים את זה.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083293"
+    },
+    {
+      "english": "Thanks for being there, I felt supported.",
+      "hebrew": "תודה שהיית איתי, הרגשתי תמיכה.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083295"
+    },
+    {
+      "english": "Thanks, that saves me time, seriously.",
+      "hebrew": "תודה, זה חוסך לי זמן, ברצינות.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083298"
+    },
+    {
+      "english": "I’m grateful you stayed calm with me.",
+      "hebrew": "אני מודה לך שנשארת רגוע איתי.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083302"
+    },
+    {
+      "english": "Thanks for sharing, it helped me a lot.",
+      "hebrew": "תודה ששיתפת, זה ממש עזר לי.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083305"
+    },
+    {
+      "english": "I appreciate the reminder, you’re a lifesaver.",
+      "hebrew": "תודה על התזכורת, מציל חיים.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083308"
+    },
+    {
+      "english": "Thanks for taking care of that, fast.",
+      "hebrew": "תודה שטיפלת בזה מהר.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083310"
+    },
+    {
+      "english": "Thanks, what would you recommend next?",
+      "hebrew": "תודה, מה היית ממליץ הלאה?",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083312"
+    },
+    {
+      "english": "Thanks for the update, how’s it going?",
+      "hebrew": "תודה על העדכון, איך זה מתקדם?",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083315"
+    },
+    {
+      "english": "Really helpful, can you share one tip?",
+      "hebrew": "עזר מאוד, אפשר טיפ אחד?",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083317"
+    },
+    {
+      "english": "Thanks, could you guide me, please?",
+      "hebrew": "תודה, אתה יכול לכוון אותי, בבקשה?",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083320"
+    },
+    {
+      "english": "Thank you, do you know where to go?",
+      "hebrew": "תודה, אתה יודע איפה הולכים?",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083322"
+    },
+    {
+      "english": "Thanks a lot, what should I do now?",
+      "hebrew": "תודה רבה, מה אני צריך לעשות עכשיו?",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083325"
+    },
+    {
+      "english": "Appreciate it, how can I repay you?",
+      "hebrew": "מעריך את זה, איך אני יכול להחזיר לך?",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083327"
+    },
+    {
+      "english": "Thank you, what’s the best way to ask?",
+      "hebrew": "תודה, מה הדרך הכי טובה לשאול?",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083331"
+    },
+    {
+      "english": "Thanks, I’m curious, what do you think?",
+      "hebrew": "תודה, סקרן אותי, מה אתה חושב?",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083334"
+    },
+    {
+      "english": "That’s kind, what should I check first?",
+      "hebrew": "איזה כיף, מה כדאי לבדוק קודם?",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083336"
+    },
+    {
+      "english": "Thank you, could you explain it simply?",
+      "hebrew": "תודה, אפשר להסביר פשוט?",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083339"
+    },
+    {
+      "english": "Thanks, do you have a moment to help?",
+      "hebrew": "תודה, יש לך רגע לעזור?",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083341"
+    },
+    {
+      "english": "I’m grateful, should I call or message?",
+      "hebrew": "אני מודה, להתקשר או לשלוח הודעה?",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083343"
+    },
+    {
+      "english": "Thanks, what’s the quickest option?",
+      "hebrew": "תודה, מה הכי מהיר?",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083346"
+    },
+    {
+      "english": "Appreciate it, can we talk for two minutes?",
+      "hebrew": "תודה, אפשר לדבר שתי דקות?",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083348"
+    },
+    {
+      "english": "Thanks, what did you do to fix it?",
+      "hebrew": "תודה, מה עשית כדי לפתור את זה?",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083350"
+    },
+    {
+      "english": "Thank you, is this the right place?",
+      "hebrew": "תודה, זה המקום הנכון?",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083352"
+    },
+    {
+      "english": "Thanks, any advice for a beginner?",
+      "hebrew": "תודה, יש לך עצה למתחילים?",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083354"
+    },
+    {
+      "english": "Really appreciate it, should I wait?",
+      "hebrew": "תודה רבה, לחכות או לא?",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083356"
+    },
+    {
+      "english": "Thanks, I just want to confirm—right?",
+      "hebrew": "תודה, רק לאשר—נכון?",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083359"
+    },
+    {
+      "english": "Thank you, what’s the plan from here?",
+      "hebrew": "תודה, מה התוכנית מכאן?",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083362"
+    },
+    {
+      "english": "Thanks, can you check that for me?",
+      "hebrew": "תודה, אפשר לבדוק את זה בשבילי?",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083363"
+    },
+    {
+      "english": "Appreciate your help, do you know anyone?",
+      "hebrew": "תודה על העזרה, אתה מכיר מישהו?",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083366"
+    },
+    {
+      "english": "Thanks, I needed this, where do we start?",
+      "hebrew": "תודה, זה היה חסר לי, מאיפה מתחילים?",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083368"
+    },
+    {
+      "english": "Thanks, what’s a good next step?",
+      "hebrew": "תודה, מה הצעד הבא הטוב?",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083370"
+    },
+    {
+      "english": "Thank you, can you recommend a place nearby?",
+      "hebrew": "תודה, אתה יכול להמליץ על מקום קרוב?",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083372"
+    },
+    {
+      "english": "Thanks, how do I phrase this politely?",
+      "hebrew": "תודה, איך אומרים את זה בנימוס?",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083375"
+    },
+    {
+      "english": "Appreciate you, what should I bring?",
+      "hebrew": "תודה לך, מה כדאי להביא?",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083377"
+    },
+    {
+      "english": "Thanks, can we confirm the details together?",
+      "hebrew": "תודה, אפשר לאמת את הפרטים יחד?",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083383"
+    },
+    {
+      "english": "I’m grateful for your steady, calm attitude.",
+      "hebrew": "אני אסיר תודה על הגישה השקטה והיציבה שלך.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083385"
+    },
+    {
+      "english": "Today, I notice what’s going right, first.",
+      "hebrew": "היום אני שם לב למה הולך נכון קודם.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083388"
+    },
+    {
+      "english": "I appreciate the little wins, they matter.",
+      "hebrew": "אני מעריך את הניצחונות הקטנים, הם חשובים.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083390"
+    },
+    {
+      "english": "Keep going, your effort is showing.",
+      "hebrew": "תמשיך, רואים את ההשקעה שלך.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083393"
+    },
+    {
+      "english": "I’m thankful you didn’t give up.",
+      "hebrew": "אני מודה שלא ויתרת.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083395"
+    },
+    {
+      "english": "I’m grateful for the good energy today.",
+      "hebrew": "תודה על האנרגיה הטובה שיש היום.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083398"
+    },
+    {
+      "english": "You make things feel lighter, really.",
+      "hebrew": "את/ה עושה הכול מרגיש יותר קל, באמת.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083400"
+    },
+    {
+      "english": "Thanks for reminding me to breathe.",
+      "hebrew": "תודה שהזכרת לי לנשום.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083402"
+    },
+    {
+      "english": "I’m proud of you, you handled it.",
+      "hebrew": "אני גאה בך, את/ה טיפלת בזה.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083405"
+    },
+    {
+      "english": "I’m grateful for your honesty and clarity.",
+      "hebrew": "אני אסיר תודה על הכנות ועל הבהירות שלך.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083409"
+    },
+    {
+      "english": "Good vibes, I’m grateful for this moment.",
+      "hebrew": "וייבים טובים, אני מודה על הרגע הזה.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083411"
+    },
+    {
+      "english": "Let’s stay positive, one day at a time.",
+      "hebrew": "בוא/י נשמור על חיוביות, יום אחרי יום.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083414"
+    },
+    {
+      "english": "I appreciate you, your kindness is real.",
+      "hebrew": "אני מעריך אותך, החביבות שלך אמיתית.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083416"
+    },
+    {
+      "english": "Thank you, I feel supported and understood.",
+      "hebrew": "תודה, אני מרגיש נתמך ומובן.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083418"
+    },
+    {
+      "english": "I’m grateful for your patience with me.",
+      "hebrew": "אני מודה על הסבלנות שלך אליי.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083421"
+    },
+    {
+      "english": "Keep your head up, we’ll be okay.",
+      "hebrew": "תרים/י את הראש, יהיה בסדר.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083423"
+    },
+    {
+      "english": "I notice the effort, and I’m grateful.",
+      "hebrew": "אני רואה את המאמץ, וזה עושה לי טוב.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083426"
+    },
+    {
+      "english": "Your words helped, thank you for that.",
+      "hebrew": "המילים שלך עזרו, תודה על זה.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083429"
+    },
+    {
+      "english": "I’m thankful for this fresh start today.",
+      "hebrew": "אני מודה על התחלה חדשה היום.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083432"
+    },
+    {
+      "english": "We’ve got this, I’m really grateful.",
+      "hebrew": "יש לנו את זה, אני ממש מודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083434"
+    },
+    {
+      "english": "Slow down, gratitude grows when I pause.",
+      "hebrew": "תאט/י קצת, תודה צומחת כשעוצרים.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083437"
+    },
+    {
+      "english": "I appreciate your encouragement, it changes everything.",
+      "hebrew": "אני מעריך את העידוד שלך, זה משנה הכול.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083439"
+    },
+    {
+      "english": "I’m grateful for the lessons, even hard ones.",
+      "hebrew": "אני מודה על הלקחים, גם הקשים.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083442"
+    },
+    {
+      "english": "Thanks, I needed that confidence boost.",
+      "hebrew": "תודה, הייתי צריך/ה את הדחיפה לביטחון.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083444"
+    },
+    {
+      "english": "I’m grateful for doors that open, quietly.",
+      "hebrew": "אני מודה על דלתות שנפתחות, בשקט.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083446"
+    },
+    {
+      "english": "Let’s focus on what we can do now.",
+      "hebrew": "בוא/י נתמקד במה שאנחנו יכולים לעשות עכשיו.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083449"
+    },
+    {
+      "english": "I’m thankful for your steady support.",
+      "hebrew": "אני מודה על התמיכה העקבית שלך.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083451"
+    },
+    {
+      "english": "Your effort means a lot to me.",
+      "hebrew": "ההשקעה שלך חשובה לי מאוד.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083453"
+    },
+    {
+      "english": "I’m grateful, because you believed in me.",
+      "hebrew": "אני מודה, כי האמנת בי.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083456"
+    },
+    {
+      "english": "Keep choosing gratitude, it makes life better.",
+      "hebrew": "תמשיך לבחור בגישה של תודה, זה משפר חיים.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083458"
+    },
+    {
+      "english": "I’m grateful, for how you listened carefully.",
+      "hebrew": "אני אסיר תודה, על איך שהקשבת בזהירות.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083461"
+    },
+    {
+      "english": "Honestly, I needed your steady reassurance.",
+      "hebrew": "בכנות, הייתי צריך את ההרגעה היציבה שלך.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083465"
+    },
+    {
+      "english": "I’m grateful, even for the tough days.",
+      "hebrew": "אני אסיר תודה, גם על הימים הקשים.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083467"
+    },
+    {
+      "english": "Thank you, I can feel my anxiety soften.",
+      "hebrew": "תודה, אני מרגיש שהחרדה שלי נרגעת.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083470"
+    },
+    {
+      "english": "I see your kindness, it changes my mood.",
+      "hebrew": "אני רואה את החמלה שלך, זה משנה לי את מצב הרוח.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083472"
+    },
+    {
+      "english": "I’m grateful, for the space you gave me.",
+      "hebrew": "אני אסיר תודה, על המקום שהענקת לי.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083474"
+    },
+    {
+      "english": "Sometimes I forget, then I remember your words.",
+      "hebrew": "לפעמים אני שוכח, ואז אני נזכר במילים שלך.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083476"
+    },
+    {
+      "english": "I’m thankful, for the honest pause you made.",
+      "hebrew": "אני מודה, על העצירה הכנה שעשית.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083479"
+    },
+    {
+      "english": "Your support, helps me stay kind inside.",
+      "hebrew": "התמיכה שלך, עוזרת לי להישאר טוב בפנים.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083481"
+    },
+    {
+      "english": "I’m grateful, for progress that looks small.",
+      "hebrew": "אני אסיר תודה, על התקדמות שנראית קטנה.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083484"
+    },
+    {
+      "english": "I appreciate it, when you don’t rush me.",
+      "hebrew": "אני מעריך את זה, כשאתה לא ממהר אותי.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083489"
+    },
+    {
+      "english": "Right now, I’m grateful for your calm.",
+      "hebrew": "כרגע, אני אסיר תודה על השקט שלך.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083491"
+    },
+    {
+      "english": "I’m grateful, for the lessons hidden in setbacks.",
+      "hebrew": "אני אסיר תודה, על השיעורים שמתחבאים בכישלונות.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083494"
+    },
+    {
+      "english": "I feel seen, and that’s a lot for me.",
+      "hebrew": "אני מרגיש שנראיתי, וזה המון בשבילי.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083497"
+    },
+    {
+      "english": "I’m grateful, for your gentle truth.",
+      "hebrew": "אני אסיר תודה, על האמת העדינה שלך.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083499"
+    },
+    {
+      "english": "Let me be real, I’m thankful for you.",
+      "hebrew": "בוא נהיה כנים, אני אסיר תודה לך.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083501"
+    },
+    {
+      "english": "I’m grateful, that you kept showing up.",
+      "hebrew": "אני אסיר תודה, שהמשכת להופיע.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083504"
+    },
+    {
+      "english": "Even my doubts feel lighter, thanks to you.",
+      "hebrew": "גם הספקות שלי מרגישים קלים יותר, בזכותך.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083508"
+    },
+    {
+      "english": "I’m grateful, for the small courage you gave.",
+      "hebrew": "אני אסיר תודה, על האומץ הקטן שנתת.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083511"
+    },
+    {
+      "english": "I notice my breathing, I’m grateful for that.",
+      "hebrew": "אני שם לב לנשימה שלי, אני אסיר תודה על זה.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083513"
+    },
+    {
+      "english": "I’m grateful, for the reminder to slow down.",
+      "hebrew": "אני אסיר תודה, על התזכורת להאט.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083516"
+    },
+    {
+      "english": "Your words landed softly, and I believed them.",
+      "hebrew": "המילים שלך נחתו בעדינות, והאמנתי.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083518"
+    },
+    {
+      "english": "I’m grateful, for how you handled it with care.",
+      "hebrew": "אני אסיר תודה, על הדרך שבה טיפלת בזה בזהירות.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083520"
+    },
+    {
+      "english": "I didn’t expect this comfort, and I’m thankful.",
+      "hebrew": "לא ציפיתי לנחמה הזאת, ואני מודה.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083523"
+    },
+    {
+      "english": "I’m grateful, for your patience with my slow answers.",
+      "hebrew": "אני אסיר תודה, על הסבלנות שלך לתשובות האיטיות שלי.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083526"
+    },
+    {
+      "english": "I feel hope, because you didn’t judge me.",
+      "hebrew": "אני מרגיש תקווה, כי לא שפטת אותי.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083528"
+    },
+    {
+      "english": "I’m grateful, for the moments we didn’t fix fast.",
+      "hebrew": "אני אסיר תודה, לרגעים שלא תיקנו מהר.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083531"
+    },
+    {
+      "english": "I’ll admit it, I’m changed by your support.",
+      "hebrew": "אני מודה בזה, אני השתניתי מהתמיכה שלך.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083533"
+    },
+    {
+      "english": "I’m grateful, for the honesty that kept us safe.",
+      "hebrew": "אני אסיר תודה, על הכנות ששמרה עלינו.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083538"
+    },
+    {
+      "english": "Right now, I choose gratitude, because you showed love.",
+      "hebrew": "כרגע, אני בוחר בהכרת תודה, כי הראית אהבה.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083541"
+    },
+    {
+      "english": "Thanks, I’m trying again today, with focus.",
+      "hebrew": "תודה, אני מנסה שוב היום, עם פוקוס.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-06T08:55:27.083544"
     }
   ],
-  "last_updated": "2026-11-05T07:36:04.720146"
+  "last_updated": "2026-11-06T08:55:27.083545"
 }
