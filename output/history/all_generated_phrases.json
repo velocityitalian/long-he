@@ -48875,7 +48875,727 @@
       "hebrew": "תודה, אני מנסה שוב היום, עם פוקוס.",
       "category": "Gratitude",
       "generated_at": "2026-11-06T08:55:27.083544"
+    },
+    {
+      "english": "Okay, try again, you’ve got this.",
+      "hebrew": "בסדר, תנסה שוב, יש לך את זה.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198073"
+    },
+    {
+      "english": "Slow down, learn the rhythm, keep going.",
+      "hebrew": "תאט, תלמד את הקצב, תמשיך.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198086"
+    },
+    {
+      "english": "Even if it’s messy, don’t quit.",
+      "hebrew": "גם אם זה מבולגן, אל תוותר.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198090"
+    },
+    {
+      "english": "Take one step, then another, no panic.",
+      "hebrew": "צעד אחד, ואז עוד אחד, בלי פאניקה.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198094"
+    },
+    {
+      "english": "Stay calm, fix what broke, move on.",
+      "hebrew": "תהיה רגוע, תתקן מה נשבר, תמשיך.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198097"
+    },
+    {
+      "english": "Ask for help, then return to work.",
+      "hebrew": "תבקש עזרה, ואז תחזור לעבודה.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198102"
+    },
+    {
+      "english": "Make a plan, do the next small thing.",
+      "hebrew": "תעשה תוכנית, תעשה את הדבר הבא.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198105"
+    },
+    {
+      "english": "No drama, just keep showing up.",
+      "hebrew": "בלי דרמה, פשוט תמשיך להופיע.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198110"
+    },
+    {
+      "english": "Weather change, same goal, steady pace.",
+      "hebrew": "השתנה מזג האוויר, המטרה אותה מטרה, קצב קבוע.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198114"
+    },
+    {
+      "english": "If it hurts, breathe, then continue.",
+      "hebrew": "אם כואב, תנשום, ואז תמשיך.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198120"
+    },
+    {
+      "english": "You’re learning, not failing, stay with it.",
+      "hebrew": "אתה לומד, לא נכשל, תישאר עם זה.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198124"
+    },
+    {
+      "english": "Start late, still arrive, keep trying.",
+      "hebrew": "תתחיל מאוחר, עדיין תגיע, תנסה.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198127"
+    },
+    {
+      "english": "Don’t overthink, just act, one minute at time.",
+      "hebrew": "אל תסתבך בראש, פשוט תעשה, דקה-דקה.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198130"
+    },
+    {
+      "english": "When you fall, stand up quietly.",
+      "hebrew": "כשתיפול, תקום בשקט.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198134"
+    },
+    {
+      "english": "Save energy, work smart, keep moving.",
+      "hebrew": "תחסוך אנרגיה, תעבוד חכם, תמשיך לזוז.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198137"
+    },
+    {
+      "english": "Tiny wins count, keep stacking them.",
+      "hebrew": "הצלחות קטנות נספרות, תמשיך לצבור.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198139"
+    },
+    {
+      "english": "Not perfect, but improving, that’s the point.",
+      "hebrew": "לא מושלם, אבל משתפרים, זה העיקר.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198143"
+    },
+    {
+      "english": "Reset your mind, try again, same goal.",
+      "hebrew": "תאפס את הראש, תנסה שוב, אותה מטרה.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198146"
+    },
+    {
+      "english": "If it’s too much, break it down.",
+      "hebrew": "אם זה גדול מדי, תפרק את זה.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198149"
+    },
+    {
+      "english": "Keep it simple, finish the task first.",
+      "hebrew": "תשמור פשוט, תסיים קודם את המשימה.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198152"
+    },
+    {
+      "english": "I’ll handle today, one challenge at a time.",
+      "hebrew": "אני מתמודד עם היום, אתגר אחד בכל פעם.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198155"
+    },
+    {
+      "english": "Stay consistent, even when nobody notices.",
+      "hebrew": "תהיה עקבי, גם כשאף אחד לא רואה.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198163"
+    },
+    {
+      "english": "Make progress, not excuses, keep going.",
+      "hebrew": "התקדמות ולא תירוצים, תמשיך.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198166"
+    },
+    {
+      "english": "Tell yourself, ‘I can do this’.",
+      "hebrew": "תגיד לעצמך, 'אני יכול'.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198170"
+    },
+    {
+      "english": "One more attempt, then evaluate, calmly.",
+      "hebrew": "עוד ניסיון אחד, ואז תבדוק, ברוגע.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198173"
+    },
+    {
+      "english": "Keep your schedule tight, show up daily.",
+      "hebrew": "שמור על לוח זמנים, תופיע כל יום.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198175"
+    },
+    {
+      "english": "When motivation drops, use discipline instead.",
+      "hebrew": "כשאין חשק, תפעיל משמעת.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198178"
+    },
+    {
+      "english": "Don’t rush, steady effort beats stress.",
+      "hebrew": "אל תמהר, מאמץ יציב מנצח לחץ.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198181"
+    },
+    {
+      "english": "Make it through tonight, tomorrow is yours.",
+      "hebrew": "תעבור את הלילה, מחר כבר שלך.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198184"
+    },
+    {
+      "english": "You’ll thank yourself, so keep going.",
+      "hebrew": "עוד תודֶה לעצמך, אז תמשיך.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198187"
+    },
+    {
+      "english": "What’s the next step, where do I start?",
+      "hebrew": "מה הצעד הבא, מאיפה אני מתחיל?",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198191"
+    },
+    {
+      "english": "Can you help me, which phrase should I use?",
+      "hebrew": "אתה יכול לעזור לי, איזו מילה כדאי להגיד?",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198194"
+    },
+    {
+      "english": "How do I keep going, even when tired?",
+      "hebrew": "איך אני ממשיך, גם כשעייפים?",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198196"
+    },
+    {
+      "english": "What should I practice today, one thing only?",
+      "hebrew": "מה כדאי לי לתרגל היום, דבר אחד?",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198199"
+    },
+    {
+      "english": "Should I ask questions, or just try?",
+      "hebrew": "כדאי לי לשאול שאלות, או פשוט לנסות?",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198202"
+    },
+    {
+      "english": "Where can I find examples, for this topic?",
+      "hebrew": "איפה אפשר למצוא דוגמאות לנושא הזה?",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198205"
+    },
+    {
+      "english": "Is my sentence correct, what should I fix?",
+      "hebrew": "המשפט שלי נכון, מה לתקן?",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198207"
+    },
+    {
+      "english": "Can we review together, before I continue?",
+      "hebrew": "אפשר נעבור יחד, לפני שאני ממשיך?",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198210"
+    },
+    {
+      "english": "What motivates you, when it gets hard?",
+      "hebrew": "מה נותן לך כוח, כשקשה?",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198213"
+    },
+    {
+      "english": "Do you have a tip, for staying consistent?",
+      "hebrew": "יש לך טיפ, איך להישאר עקבי?",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198215"
+    },
+    {
+      "english": "How many minutes should I do today?",
+      "hebrew": "כמה דקות לעשות היום?",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198218"
+    },
+    {
+      "english": "What if I make mistakes, should I stop?",
+      "hebrew": "אם אני טועה, לעצור או להמשיך?",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198223"
+    },
+    {
+      "english": "Which workbook page do you recommend, please?",
+      "hebrew": "איזו עמוד בספר תרגול אתה ממליץ?",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198225"
+    },
+    {
+      "english": "Can you repeat slowly, I need the rhythm?",
+      "hebrew": "אפשר לחזור לאט, אני צריך את הקצב?",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198228"
+    },
+    {
+      "english": "What’s the fastest way to improve, honestly?",
+      "hebrew": "מה הדרך הכי מהירה להשתפר, באמת?",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198234"
+    },
+    {
+      "english": "Should I write answers first, then check?",
+      "hebrew": "לכתוב תשובות קודם, ואז לבדוק?",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198236"
+    },
+    {
+      "english": "How do you manage setbacks, without quitting?",
+      "hebrew": "איך מתמודדים עם נפילות, בלי לוותר?",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198239"
+    },
+    {
+      "english": "Can you give me an example sentence?",
+      "hebrew": "אפשר משפט לדוגמה, בבקשה?",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198242"
+    },
+    {
+      "english": "What’s your daily routine, for practice?",
+      "hebrew": "מה השגרה היומית שלך לתרגול?",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198245"
+    },
+    {
+      "english": "Do you think I’m improving, lately?",
+      "hebrew": "אתה חושב שאני משתפר, בזמן האחרון?",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198248"
+    },
+    {
+      "english": "Which questions are worth asking right now?",
+      "hebrew": "איזה שאלות שוות לשאול עכשיו?",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198251"
+    },
+    {
+      "english": "Can I get feedback, what’s the weak spot?",
+      "hebrew": "אפשר לקבל פידבק, איפה אני נחלש?",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198254"
+    },
+    {
+      "english": "What should I do next, after this lesson?",
+      "hebrew": "מה אני עושה אחר כך, אחרי השיעור?",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198258"
+    },
+    {
+      "english": "How can I stay motivated, without pressure?",
+      "hebrew": "איך אני שומר על מוטיבציה, בלי לחץ?",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198261"
+    },
+    {
+      "english": "If I miss a day, what then?",
+      "hebrew": "אם אני מפספס יום, מה עושים אז?",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198264"
+    },
+    {
+      "english": "Can we set a goal, small and clear?",
+      "hebrew": "אפשר לקבוע מטרה, קטנה וברורה?",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198267"
+    },
+    {
+      "english": "Do you prefer short sessions, or longer?",
+      "hebrew": "אתה מעדיף מפגשים קצרים, או ארוכים?",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198269"
+    },
+    {
+      "english": "What can I do when I feel stuck?",
+      "hebrew": "מה אני עושה כשאני תקוע?",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198272"
+    },
+    {
+      "english": "Can I practice with you, for ten minutes?",
+      "hebrew": "אפשר לתרגל איתך, עשר דקות?",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198274"
+    },
+    {
+      "english": "Where can I ask more questions, safely?",
+      "hebrew": "איפה אפשר לשאול עוד שאלות, בבטחה?",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198277"
+    },
+    {
+      "english": "Little by little, you’ll reach the goal.",
+      "hebrew": "לאט לאט, תגיע למטרה.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198280"
+    },
+    {
+      "english": "Don’t give up, it’s just a phase.",
+      "hebrew": "אל תוותר, זה רק שלב.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198284"
+    },
+    {
+      "english": "Keep going, even if it’s messy.",
+      "hebrew": "תמשיך, גם אם זה מבולגן.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198288"
+    },
+    {
+      "english": "Step by step, the road opens.",
+      "hebrew": "צעד צעד, הדרך נפתחת.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198291"
+    },
+    {
+      "english": "Today’s work, tomorrow’s results, ככה זה.",
+      "hebrew": "עבודה של היום, תוצאות של מחר, ככה זה.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198308"
+    },
+    {
+      "english": "Push on, stubbornness pays off.",
+      "hebrew": "תדחוף קדימה, העקשנות משתלמת.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198312"
+    },
+    {
+      "english": "The key is not quitting, ever.",
+      "hebrew": "המפתח הוא לא להפסיק, אף פעם.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198315"
+    },
+    {
+      "english": "When it’s hard, keep the rhythm.",
+      "hebrew": "כשהכי קשה, שומר על הקצב.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198318"
+    },
+    {
+      "english": "You don’t need speed, just persistence.",
+      "hebrew": "אתה לא צריך מהירות, רק התמדה.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198322"
+    },
+    {
+      "english": "Little wins, keep you moving forward.",
+      "hebrew": "נצחונות קטנים, דוחפים קדימה.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198324"
+    },
+    {
+      "english": "Results come from showing up again.",
+      "hebrew": "תוצאות באות כשמופיעים שוב.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198327"
+    },
+    {
+      "english": "Break it down, don’t freeze.",
+      "hebrew": "תפרק את זה, לא לקפוא.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198330"
+    },
+    {
+      "english": "Slow work, but it stacks up.",
+      "hebrew": "עבודה איטית, זה מצטבר.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198333"
+    },
+    {
+      "english": "If you fall, get up and continue.",
+      "hebrew": "נפלת? קום והמשך.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198338"
+    },
+    {
+      "english": "Hold on, courage grows through doing.",
+      "hebrew": "תאחז, אומץ גדל בעשייה.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198341"
+    },
+    {
+      "english": "Keep the promise to yourself.",
+      "hebrew": "תעמוד במילה שלך.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198343"
+    },
+    {
+      "english": "Not perfect, just steady, יום ועוד יום.",
+      "hebrew": "לא מושלם, רק קבוע, יום ועוד יום.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198348"
+    },
+    {
+      "english": "Don’t wait for “ready”, start anyway.",
+      "hebrew": "אל תחכה ל“מוכן”, תתחיל בכל מקרה.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198352"
+    },
+    {
+      "english": "Consistency beats talent when days are rough.",
+      "hebrew": "עקביות מנצחת כשרון בימים קשים.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198357"
+    },
+    {
+      "english": "Try again, until it clicks.",
+      "hebrew": "תנסה שוב, עד שזה יתחבר.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198360"
+    },
+    {
+      "english": "Small effort today, big change later.",
+      "hebrew": "מאמץ קטן היום, שינוי גדול אחר כך.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198362"
+    },
+    {
+      "english": "Don’t change direction mid-run, just continue.",
+      "hebrew": "לא מחליפים מסלול באמצע, ממשיכים.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198366"
+    },
+    {
+      "english": "Stay stubborn, even when results are slow.",
+      "hebrew": "תישאר עקשן, גם כשזה לא זז.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198369"
+    },
+    {
+      "english": "Keep learning, the habit carries you.",
+      "hebrew": "תמשיך ללמוד, ההרגל נושא אותך.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198371"
+    },
+    {
+      "english": "A little every day, no drama.",
+      "hebrew": "כל יום קצת, בלי דרמות.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198374"
+    },
+    {
+      "english": "Even in silence, the work counts.",
+      "hebrew": "גם כששקט, העבודה נחשבת.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198377"
+    },
+    {
+      "english": "Keep your eyes on the long game.",
+      "hebrew": "תכוון לדרך הארוכה.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198381"
+    },
+    {
+      "english": "If you can, do it again tomorrow.",
+      "hebrew": "אם אפשר, תעשה שוב מחר.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198384"
+    },
+    {
+      "english": "No excuses, just one more hour.",
+      "hebrew": "בלי תירוצים, רק עוד שעה.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198387"
+    },
+    {
+      "english": "The effort today is your future strength.",
+      "hebrew": "ההשקעה של היום, זו החוזק מחר.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198389"
+    },
+    {
+      "english": "I’m scared, but I’m staying with it, slowly.",
+      "hebrew": "אני מפחד, אבל אני נשאר בזה, לאט.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198393"
+    },
+    {
+      "english": "I don’t feel ready, yet I show up.",
+      "hebrew": "אני לא מרגיש מוכן, ובכל זאת מגיע.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198396"
+    },
+    {
+      "english": "Some days hurt, I still keep going.",
+      "hebrew": "יש ימים שכואב, ועדיין אני ממשיך.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198399"
+    },
+    {
+      "english": "Be honest, I’m tired, but I won’t stop.",
+      "hebrew": "תהיה כנה, אני עייף, אבל לא עוצר.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198403"
+    },
+    {
+      "english": "I’m proud I kept my focus today.",
+      "hebrew": "אני גאה ששמרתי על פוקוס היום.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198406"
+    },
+    {
+      "english": "Let it be messy, I’ll stay present.",
+      "hebrew": "שיהיה מבולגן, אני נשאר נוכח.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198409"
+    },
+    {
+      "english": "My heart wants to quit, I choose to stay.",
+      "hebrew": "הלב שלי רוצה לוותר, ואני בוחר להישאר.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198412"
+    },
+    {
+      "english": "I’m learning patience, one breath at a time.",
+      "hebrew": "אני לומד סבלנות, נשימה אחת בכל פעם.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198415"
+    },
+    {
+      "english": "I’m not rushing, I’m staying consistent.",
+      "hebrew": "אני לא ממהר, אני נשאר עקבי.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198419"
+    },
+    {
+      "english": "When I doubt myself, I go anyway.",
+      "hebrew": "כשאני מטיל ספק בעצמי, אני הולך בכל זאת.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198421"
+    },
+    {
+      "english": "I talk to myself, gently, then I work.",
+      "hebrew": "אני מדבר לעצמי, בעדינות, ואז עובד.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198425"
+    },
+    {
+      "english": "It’s okay to miss a mood, not the mission.",
+      "hebrew": "בסדר לשנות מצב רוח, לא לשנות משימה.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198428"
+    },
+    {
+      "english": "I need calm, then I’ll keep moving forward.",
+      "hebrew": "אני צריך רוגע, ואז ממשיך קדימה.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198431"
+    },
+    {
+      "english": "I’m building trust with myself, day by day.",
+      "hebrew": "אני בונה אמון עם עצמי, יום אחרי יום.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198435"
+    },
+    {
+      "english": "I keep my promise, even when I’m emotional.",
+      "hebrew": "אני מקיים את ההבטחה, גם כשאני רגשני.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198440"
+    },
+    {
+      "english": "It feels slow, but my effort is real.",
+      "hebrew": "זה מרגיש איטי, אבל המאמצים אמיתיים.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198442"
+    },
+    {
+      "english": "I can be down, still I continue.",
+      "hebrew": "אני יכול להיות מבואס, ועדיין ממשיך.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198445"
+    },
+    {
+      "english": "I’m listening to my limits, then adapting.",
+      "hebrew": "אני מקשיב לגבולות שלי, ואז מתאימים.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198450"
+    },
+    {
+      "english": "Take a break, come back with honesty.",
+      "hebrew": "תעשה הפסקה, תחזור בכנות.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198453"
+    },
+    {
+      "english": "I can feel it, I still respect the plan.",
+      "hebrew": "אני מרגיש את זה, ועדיין מכבד את התוכנית.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198455"
+    },
+    {
+      "english": "My mind is loud, but I stay focused.",
+      "hebrew": "המוח שלי רועש, אבל אני נשאר ממוקד.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198458"
+    },
+    {
+      "english": "Even my doubts can’t steer me off course.",
+      "hebrew": "גם הספקות שלי לא יסטו אותי מהמסלול.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198461"
+    },
+    {
+      "english": "I check in with my feelings, then act.",
+      "hebrew": "אני בודק את הרגשות שלי, ואז פועל.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198464"
+    },
+    {
+      "english": "I’m learning to endure, not just perform.",
+      "hebrew": "אני לומד לסבול, לא רק להופיע.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198467"
+    },
+    {
+      "english": "I keep the pace, even when emotions spike.",
+      "hebrew": "אני שומר על הקצב, גם כשיש התפרצויות רגש.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198470"
+    },
+    {
+      "english": "Today I’m choosing patience, not self-judgment.",
+      "hebrew": "היום אני בוחר סבלנות, לא שיפוט עצמי.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198473"
+    },
+    {
+      "english": "I’ll be kind to me, and keep trying.",
+      "hebrew": "אני אהיה נחמד לעצמי, ואמשיך לנסות.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198477"
+    },
+    {
+      "english": "I don’t need certainty, I need steady effort.",
+      "hebrew": "אני לא צריך ודאות, אני צריך מאמץ יציב.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198480"
+    },
+    {
+      "english": "It’s real courage, facing fear and continuing.",
+      "hebrew": "זו גבורה אמיתית, להתמודד עם פחד ולהמשיך.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198483"
+    },
+    {
+      "english": "Small steps count, when life gets messy.",
+      "hebrew": "צעדים קטנים נחשבים, כשנהיה קצת מבולגן.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-07T06:44:28.198486"
     }
   ],
-  "last_updated": "2026-11-06T08:55:27.083545"
+  "last_updated": "2026-11-07T06:44:28.198488"
 }

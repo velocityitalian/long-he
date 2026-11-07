@@ -30,7 +30,8 @@
     "hebrew_bg_028.jpg": 1,
     "hebrew_bg_029.jpg": 1,
     "hebrew_bg_030.jpg": 1,
-    "hebrew_bg_031.jpg": 1
+    "hebrew_bg_031.jpg": 1,
+    "hebrew_bg_032.jpg": 1
   },
   "last_used": {
     "hebrew_bg_001.jpg": "2026-10-17T04:51:43.053496+00:00",
@@ -63,7 +64,8 @@
     "hebrew_bg_028.jpg": "2026-11-03T07:26:14.829797+00:00",
     "hebrew_bg_029.jpg": "2026-11-04T07:11:59.437752+00:00",
     "hebrew_bg_030.jpg": "2026-11-05T07:36:09.167560+00:00",
-    "hebrew_bg_031.jpg": "2026-11-06T08:55:30.722827+00:00"
+    "hebrew_bg_031.jpg": "2026-11-06T08:55:30.722827+00:00",
+    "hebrew_bg_032.jpg": "2026-11-07T06:44:32.458123+00:00"
   },
   "history": [
     {
@@ -250,6 +252,12 @@
       "filename": "hebrew_bg_031.jpg",
       "category": "Gratitude",
       "timestamp": "2026-11-06T08:55:30.722827+00:00",
+      "cycle": 1
+    },
+    {
+      "filename": "hebrew_bg_032.jpg",
+      "category": "Perseverance",
+      "timestamp": "2026-11-07T06:44:32.458123+00:00",
       "cycle": 1
     }
   ],
