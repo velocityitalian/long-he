@@ -49595,7 +49595,727 @@
       "hebrew": "צעדים קטנים נחשבים, כשנהיה קצת מבולגן.",
       "category": "Perseverance",
       "generated_at": "2026-11-07T06:44:28.198486"
+    },
+    {
+      "english": "Where is the check-in desk, please?",
+      "hebrew": "איפה דלפק הצ׳ק-אין, בבקשה?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.481926"
+    },
+    {
+      "english": "My flight is delayed, what now?",
+      "hebrew": "הטיסה שלי התעכבה, מה עכשיו?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.481940"
+    },
+    {
+      "english": "Do I need a passport check, here?",
+      "hebrew": "צריך לבדוק דרכון כאן?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.481943"
+    },
+    {
+      "english": "I think this is the right gate.",
+      "hebrew": "נראה לי שזה השער הנכון.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.481945"
+    },
+    {
+      "english": "Can you show me, please, the way?",
+      "hebrew": "אתה יכול להראות לי, בבקשה, את הדרך?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.481948"
+    },
+    {
+      "english": "Excuse me, where is baggage claim?",
+      "hebrew": "סליחה, איפה איסוף המזוודות?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.481950"
+    },
+    {
+      "english": "Where are the toilets, please?",
+      "hebrew": "איפה השירותים, בבקשה?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.481952"
+    },
+    {
+      "english": "Is there Wi‑Fi here, for free?",
+      "hebrew": "יש פה ויי-פיי בחינם?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.481957"
+    },
+    {
+      "english": "How much is the airport taxi?",
+      "hebrew": "כמה עולה מונית מהשדה?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.481960"
+    },
+    {
+      "english": "I have a seat number, it says A12.",
+      "hebrew": "יש לי מספר מושב, זה A12.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.481963"
+    },
+    {
+      "english": "My bag is missing, what should I do?",
+      "hebrew": "המזוודה שלי חסרה, מה לעשות?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.481965"
+    },
+    {
+      "english": "Please speak slowly, I’m learning Hebrew.",
+      "hebrew": "דבר לאט בבקשה, אני לומד עברית.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.481967"
+    },
+    {
+      "english": "Is this line for security, or boarding?",
+      "hebrew": "התור הזה לבידוק ביטחוני, או לעלייה?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.481969"
+    },
+    {
+      "english": "Do I need to take off my shoes?",
+      "hebrew": "צריך להוריד נעליים?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.481971"
+    },
+    {
+      "english": "How long is the waiting time, approx.?",
+      "hebrew": "כמה זמן בערך לחכות?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.481975"
+    },
+    {
+      "english": "Please, I’m running late, sorry.",
+      "hebrew": "סליחה, אני מאחר קצת.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.481978"
+    },
+    {
+      "english": "Is the boarding starting now, yes or no?",
+      "hebrew": "העלייה מתחילה עכשיו, כן או לא?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.481980"
+    },
+    {
+      "english": "I lost my boarding pass, can you help?",
+      "hebrew": "איבדתי את כרטיס העלייה, אפשר לעזור?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.481982"
+    },
+    {
+      "english": "I need to change my seat, please.",
+      "hebrew": "אני צריך להחליף מושב, בבקשה.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.481984"
+    },
+    {
+      "english": "My passport is in my bag, wait.",
+      "hebrew": "הדרכון שלי בתיק, רגע.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.481987"
+    },
+    {
+      "english": "That’s my suitcase, thank you.",
+      "hebrew": "זאת המזוודה שלי, תודה.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.481989"
+    },
+    {
+      "english": "Where is the exit to the arrivals hall?",
+      "hebrew": "איפה היציאה לאזור הגעות?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.481991"
+    },
+    {
+      "english": "I’m an English speaker, do you have help?",
+      "hebrew": "אני דובר אנגלית, יש לכם עזרה?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.481993"
+    },
+    {
+      "english": "No problem, take your time, please.",
+      "hebrew": "אין בעיה, קח את הזמן, בבקשה.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.481996"
+    },
+    {
+      "english": "Sorry, I don’t understand, can repeat?",
+      "hebrew": "סליחה, אני לא מבין, אפשר שוב?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482135"
+    },
+    {
+      "english": "Great, my gate is right here.",
+      "hebrew": "מעולה, השער שלי ממש כאן.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482138"
+    },
+    {
+      "english": "Can I get an extension for baggage?",
+      "hebrew": "אפשר להאריך את הטיפול במזוודה?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482140"
+    },
+    {
+      "english": "I’m ready, let’s go through security.",
+      "hebrew": "אני מוכן, בוא נעבור בדיקה.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482143"
+    },
+    {
+      "english": "What time does boarding end, exactly?",
+      "hebrew": "באיזו שעה זה נגמר, עלייה?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482145"
+    },
+    {
+      "english": "Which counter handles my passport control, please?",
+      "hebrew": "איזה דלפק מטפל בביקורת דרכונים, בבקשה?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482147"
+    },
+    {
+      "english": "Do I need to book this shuttle in advance?",
+      "hebrew": "אני צריך להזמין את ההסעה מראש?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482150"
+    },
+    {
+      "english": "How do I get to my gate from here?",
+      "hebrew": "איך מגיעים לשער שלי מכאן?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482152"
+    },
+    {
+      "english": "Is there a quieter waiting area nearby?",
+      "hebrew": "יש אזור המתנה שקט יותר בסביבה?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482154"
+    },
+    {
+      "english": "What’s the quickest route to the departures?",
+      "hebrew": "מה המסלול הכי מהיר ליציאות?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482159"
+    },
+    {
+      "english": "Can I ask for direction, step by step?",
+      "hebrew": "אפשר לשאול לכיוון, צעד אחרי צעד?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482161"
+    },
+    {
+      "english": "Where can I buy a local SIM card?",
+      "hebrew": "איפה אפשר לקנות סים מקומי?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482165"
+    },
+    {
+      "english": "Do you know if this lounge allows visitors?",
+      "hebrew": "אתה יודע אם הסלון הזה מאפשר אורחים?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482167"
+    },
+    {
+      "english": "I’m nervous, where should I stand now?",
+      "hebrew": "אני לחוץ, איפה עומדים עכשיו?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482170"
+    },
+    {
+      "english": "Is my gate changing, do they announce it?",
+      "hebrew": "השער שלי אולי משתנה, מודיעים על זה?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482172"
+    },
+    {
+      "english": "Which documents should I keep handy?",
+      "hebrew": "איזה מסמכים כדאי לשמור קרוב?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482174"
+    },
+    {
+      "english": "What’s the policy for carry-on bags, exactly?",
+      "hebrew": "מה המדיניות לגבי תיק יד, בדיוק?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482177"
+    },
+    {
+      "english": "Can I get a printed boarding pass?",
+      "hebrew": "אפשר לקבל כרטיס עלייה מודפס?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482179"
+    },
+    {
+      "english": "Is the baggage scale available over there?",
+      "hebrew": "יש שם משקל לכבודה?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482182"
+    },
+    {
+      "english": "Do you have a lost-and-found desk here?",
+      "hebrew": "יש כאן דלפק אבידות ומציאות?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482184"
+    },
+    {
+      "english": "Can I refill my water bottle here?",
+      "hebrew": "אפשר למלא בקבוק מים מחדש כאן?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482188"
+    },
+    {
+      "english": "Where do I take the luggage trolley?",
+      "hebrew": "איפה לוקחים עגלת מזוודות?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482191"
+    },
+    {
+      "english": "What time should I arrive before departure?",
+      "hebrew": "באיזו שעה כדאי להגיע לפני המראה?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482193"
+    },
+    {
+      "english": "If I miss the flight, what happens?",
+      "hebrew": "אם אני מפספס את הטיסה, מה קורה?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482196"
+    },
+    {
+      "english": "Can you confirm my terminal, please?",
+      "hebrew": "תוכל לאשר לי את הטרמינל, בבקשה?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482198"
+    },
+    {
+      "english": "Is there a pharmacy near security?",
+      "hebrew": "יש בית מרקחת ליד האבטחה?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482200"
+    },
+    {
+      "english": "What’s the best way to charge my phone?",
+      "hebrew": "מה הדרך הכי טובה להטעין את הטלפון?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482202"
+    },
+    {
+      "english": "Do you know where the information desk is?",
+      "hebrew": "אתה יודע איפה דלפק המידע?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482204"
+    },
+    {
+      "english": "Should I fill any forms before boarding?",
+      "hebrew": "אני צריך למלא טפסים לפני עלייה למטוס?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482206"
+    },
+    {
+      "english": "Can I sit here, or is it reserved?",
+      "hebrew": "אפשר לשבת כאן, או שזה שמור?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482209"
+    },
+    {
+      "english": "Is there a place to store my luggage?",
+      "hebrew": "יש מקום לאחסן מזוודה?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482211"
+    },
+    {
+      "english": "How do I call a taxi from here?",
+      "hebrew": "איך מזמינים מונית מכאן?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482213"
+    },
+    {
+      "english": "If it’s raining, where can I wait?",
+      "hebrew": "אם יורד גשם, איפה כדאי לחכות?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482215"
+    },
+    {
+      "english": "Can you suggest something quick to eat?",
+      "hebrew": "אתה יכול להציע משהו לאכול מהר?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482217"
+    },
+    {
+      "english": "What do you recommend for an easy transfer?",
+      "hebrew": "מה אתה ממליץ בשביל מעבר קל?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482219"
+    },
+    {
+      "english": "You’ve got this, breathe in, stay calm.",
+      "hebrew": "יש לך את זה, תנשום עמוק, תישאר רגוע.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482222"
+    },
+    {
+      "english": "Small steps now, big results later.",
+      "hebrew": "צעדים קטנים עכשיו, תוצאות גדולות אחר כך.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482225"
+    },
+    {
+      "english": "Take your time, you’re doing great.",
+      "hebrew": "קח את הזמן, אתה עושה מצוין.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482227"
+    },
+    {
+      "english": "Focus on the next step, not the whole trip.",
+      "hebrew": "תתרכז בצעד הבא, לא בכל הטיול.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482230"
+    },
+    {
+      "english": "Trust yourself, you learn fast at airports.",
+      "hebrew": "תסמוך על עצמך, אתה לומד מהר בשדה.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482232"
+    },
+    {
+      "english": "Good job, keep moving with confidence.",
+      "hebrew": "כל הכבוד, תמשיך הלאה בביטחון.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482234"
+    },
+    {
+      "english": "Stay positive, delays can’t define you.",
+      "hebrew": "תישאר חיובי, עיכובים לא מגדירים אותך.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482237"
+    },
+    {
+      "english": "You’re prepared, just follow the signs.",
+      "hebrew": "אתה מוכן, פשוט תעקוב אחרי השלטים.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482239"
+    },
+    {
+      "english": "Calm mind, clear choices, smooth boarding.",
+      "hebrew": "ראש רגוע, בחירות ברורות, עלייה חלקה.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482242"
+    },
+    {
+      "english": "When in doubt, ask kindly, then act.",
+      "hebrew": "כשיש ספק, תשאל בנימוס, ואז תפעל.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482244"
+    },
+    {
+      "english": "You’re learning Hebrew, one word at a time.",
+      "hebrew": "אתה לומד עברית, מילה אחרי מילה.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482247"
+    },
+    {
+      "english": "This is just part of the adventure.",
+      "hebrew": "זו רק חלק מההרפתקה.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482249"
+    },
+    {
+      "english": "Be brave, even if your accent is new.",
+      "hebrew": "תהיה אמיץ, גם אם המבטא חדש.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482251"
+    },
+    {
+      "english": "Say it simply, people will help you.",
+      "hebrew": "תגיד פשוט, אנשים יעזרו לך.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482254"
+    },
+    {
+      "english": "You’re doing better than you think.",
+      "hebrew": "אתה משתפר יותר ממה שאתה חושב.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482256"
+    },
+    {
+      "english": "Stay flexible, plans can change quickly.",
+      "hebrew": "תישאר גמיש, תוכניות יכולות להשתנות מהר.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482258"
+    },
+    {
+      "english": "Check once, then relax, you’ve got time.",
+      "hebrew": "תבדוק פעם אחת, ואז תירגע, יש לך זמן.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482261"
+    },
+    {
+      "english": "Positive energy, you’ll find your way.",
+      "hebrew": "אנרגיה חיובית, אתה תמצא את הדרך.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482263"
+    },
+    {
+      "english": "Remember, you’re not alone in this.",
+      "hebrew": "תזכור, אתה לא לבד בזה.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482267"
+    },
+    {
+      "english": "Keep your voice steady, it helps a lot.",
+      "hebrew": "תשמור על קול יציב, זה עוזר הרבה.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482270"
+    },
+    {
+      "english": "You’re one conversation away from clarity.",
+      "hebrew": "אתה במרחק של שיחה אחת מהבהירות.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482272"
+    },
+    {
+      "english": "Today you handle it, tomorrow you’ll laugh.",
+      "hebrew": "היום אתה מסתדר, מחר תצחק.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482275"
+    },
+    {
+      "english": "Small courage, big progress, keep going.",
+      "hebrew": "אומץ קטן, התקדמות גדולה, תמשיך.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482277"
+    },
+    {
+      "english": "Don’t rush, but don’t overthink either.",
+      "hebrew": "אל תמהר, אבל גם אל תיכנס יותר מדי למחשבות.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482279"
+    },
+    {
+      "english": "You can do this, just keep moving forward.",
+      "hebrew": "אפשר לעשות את זה, רק תמשיך קדימה.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482281"
+    },
+    {
+      "english": "Nice job, good questions get better answers.",
+      "hebrew": "כל הכבוד, שאלות טובות מביאות תשובות טובות.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482283"
+    },
+    {
+      "english": "Focus on people, not problems, today.",
+      "hebrew": "תתמקד באנשים, לא בבעיות, היום.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482285"
+    },
+    {
+      "english": "You speak Hebrew more than yesterday, proud of you.",
+      "hebrew": "אתה מדבר עברית יותר מאתמול, אני גאה בך.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482287"
+    },
+    {
+      "english": "Stay confident, even if you mispronounce a bit.",
+      "hebrew": "תישאר בטוח, גם אם אתה מפספס בהיגוי קצת.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482288"
+    },
+    {
+      "english": "One breath, one phrase, you’re getting there.",
+      "hebrew": "נשימה אחת, משפט אחד, אתה כבר בדרך.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482290"
+    },
+    {
+      "english": "I’m nervous, but I’ll manage, one step.",
+      "hebrew": "אני קצת לחוץ, אבל אני אסתדר, צעד אחד.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482292"
+    },
+    {
+      "english": "I’m tired, waiting feels longer than it is.",
+      "hebrew": "אני עייף, ההמתנה מרגישה ארוכה יותר.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482296"
+    },
+    {
+      "english": "Honestly, I need a moment to breathe.",
+      "hebrew": "בכנות, אני צריך רגע לנשום.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482297"
+    },
+    {
+      "english": "I’m trying to stay patient, even with delays.",
+      "hebrew": "אני מנסה להישאר סבלני, גם עם עיכובים.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482299"
+    },
+    {
+      "english": "I’ll keep calm, I’m allowed to feel anxious.",
+      "hebrew": "אני אשמור על קור רוח, מותר לי להיות מודאג.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482392"
+    },
+    {
+      "english": "I didn’t plan for this feeling, it’s new.",
+      "hebrew": "לא תכננתי להרגיש ככה, זה חדש לי.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482396"
+    },
+    {
+      "english": "When things change, I try to adapt.",
+      "hebrew": "כשמשהו משתנה, אני מנסה להסתגל.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482398"
+    },
+    {
+      "english": "I’m proud I asked for help, seriously.",
+      "hebrew": "אני גאה ששאלתי לעזרה, ברצינות.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482401"
+    },
+    {
+      "english": "I’ll double-check, because I don’t want mistakes.",
+      "hebrew": "אני אבדוק פעמיים, כי אני לא רוצה טעויות.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482404"
+    },
+    {
+      "english": "I’m letting go of control, it’s okay.",
+      "hebrew": "אני משחרר שליטה, זה בסדר.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482407"
+    },
+    {
+      "english": "This waiting makes me reflect, I’m growing.",
+      "hebrew": "ההמתנה הזו גורמת לי לחשוב, אני מתפתח.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482410"
+    },
+    {
+      "english": "I feel small here, but I’ll learn fast.",
+      "hebrew": "אני מרגיש קטן כאן, אבל אלמד מהר.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482412"
+    },
+    {
+      "english": "I want to be honest, I’m overwhelmed.",
+      "hebrew": "אני רוצה להיות אמיתי, אני מוצף.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482415"
+    },
+    {
+      "english": "I can handle it, even if it takes time.",
+      "hebrew": "אני יכול להתמודד, גם אם זה לוקח זמן.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482417"
+    },
+    {
+      "english": "I’m not rushing, I’ll follow the order.",
+      "hebrew": "אני לא ממהר, אני אעקוב אחרי הסדר.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482420"
+    },
+    {
+      "english": "I’m listening carefully, I don’t want to miss calls.",
+      "hebrew": "אני מקשיב בזהירות, אני לא רוצה לפספס.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482423"
+    },
+    {
+      "english": "It’s okay to pause, my brain needs it.",
+      "hebrew": "זה בסדר לעצור, המוח שלי צריך את זה.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482426"
+    },
+    {
+      "english": "I’m trying to think positive, despite everything.",
+      "hebrew": "אני מנסה לחשוב חיובי, למרות הכל.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482428"
+    },
+    {
+      "english": "I notice my stress, then I breathe out.",
+      "hebrew": "אני שם לב למתח, ואז אני נושם החוצה.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482430"
+    },
+    {
+      "english": "I’m ready, but I still feel nervous.",
+      "hebrew": "אני מוכן, אבל אני עדיין מרגיש עצבני.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482433"
+    },
+    {
+      "english": "If I’m confused, I’ll repeat and ask again.",
+      "hebrew": "אם אני מתבלבל, אני אנסה שוב, ואשאל שוב.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482441"
+    },
+    {
+      "english": "I don’t mind waiting, I just want clarity.",
+      "hebrew": "לא אכפת לי להמתין, אני רק רוצה בהירות.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482443"
+    },
+    {
+      "english": "Right now, I’m focused on my boarding time.",
+      "hebrew": "כרגע, אני מתמקד בזמן העלייה למטוס.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482446"
+    },
+    {
+      "english": "I feel grateful, people here are helpful.",
+      "hebrew": "אני מרגיש אסיר תודה, אנשים כאן עוזרים.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482448"
+    },
+    {
+      "english": "I keep my expectations realistic, that helps me.",
+      "hebrew": "אני שומר על ציפיות ריאליות, זה עוזר לי.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482450"
+    },
+    {
+      "english": "I’m calm because I’m doing my part.",
+      "hebrew": "אני רגוע כי אני עושה את החלק שלי.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482452"
+    },
+    {
+      "english": "I admit it, I’m anxious about the transfer.",
+      "hebrew": "אני מודה, אני מודאג מההעברה.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482455"
+    },
+    {
+      "english": "I’ll take it slowly, my heart will settle.",
+      "hebrew": "אני אקח את זה לאט, הלב שלי יירגע.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482457"
+    },
+    {
+      "english": "Even if I’m late, I’ll stay respectful.",
+      "hebrew": "גם אם אני מאחר, אני אשמור על כבוד.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482460"
+    },
+    {
+      "english": "I’m learning, not failing, this journey teaches me.",
+      "hebrew": "אני לומד, לא נכשל, המסע הזה מלמד אותי.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482463"
+    },
+    {
+      "english": "Excuse me, where’s the check-in desk?",
+      "hebrew": "סליחה, איפה דלפק הצ׳ק-אין?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-08T06:51:04.482465"
     }
   ],
-  "last_updated": "2026-11-07T06:44:28.198488"
+  "last_updated": "2026-11-08T06:51:04.482467"
 }
