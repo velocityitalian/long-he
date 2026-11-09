@@ -50315,7 +50315,727 @@
       "hebrew": "סליחה, איפה דלפק הצ׳ק-אין?",
       "category": "Travel & Airport",
       "generated_at": "2026-11-08T06:51:04.482465"
+    },
+    {
+      "english": "Good, keep going, one step at a time.",
+      "hebrew": "טוב, תמשיך, צעד אחד בכל פעם.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783348"
+    },
+    {
+      "english": "Nice try, it’s not over yet.",
+      "hebrew": "ניסיון יפה, זה עדיין לא נגמר.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783361"
+    },
+    {
+      "english": "Take a breath, then say it again.",
+      "hebrew": "תנשום רגע, ואז תגיד שוב.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783364"
+    },
+    {
+      "english": "Say it out loud, trust your ears.",
+      "hebrew": "תגיד בקול, תסמוך על האוזניים שלך.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783365"
+    },
+    {
+      "english": "Small wins matter, don’t underestimate them.",
+      "hebrew": "ניצחונות קטנים חשובים, אל תזלזל.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783368"
+    },
+    {
+      "english": "Ready? Start easy, just for today.",
+      "hebrew": "מוכן? תתחיל בקטן, רק להיום.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783370"
+    },
+    {
+      "english": "I’ve got this, focus on the next word.",
+      "hebrew": "יש לי את זה, תתמקד במילה הבאה.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783372"
+    },
+    {
+      "english": "You’re learning fast, keep the rhythm.",
+      "hebrew": "אתה לומד מהר, תשמור על הקצב.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783376"
+    },
+    {
+      "english": "Ask one question, you’ll unlock more.",
+      "hebrew": "תשאל שאלה אחת, תפתח עוד.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783378"
+    },
+    {
+      "english": "Nice! Now use it in a sentence.",
+      "hebrew": "יפה! עכשיו תשתמש בזה במשפט.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783381"
+    },
+    {
+      "english": "Don’t freeze, just say a simple phrase.",
+      "hebrew": "אל תקפא, תגיד משפט פשוט.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783383"
+    },
+    {
+      "english": "Keep your chin up, you’ll get there.",
+      "hebrew": "תרים את הראש, אתה תגיע.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783385"
+    },
+    {
+      "english": "That’s progress, even if it’s small.",
+      "hebrew": "זה התקדמות, גם אם קטנה.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783387"
+    },
+    {
+      "english": "Let’s review quickly, then try again.",
+      "hebrew": "בוא נרענן מהר, ואז ננסה שוב.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783389"
+    },
+    {
+      "english": "Great job, keep your momentum going.",
+      "hebrew": "כל הכבוד, תמשיך עם הדחף.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783390"
+    },
+    {
+      "english": "Make it easy, start with one habit.",
+      "hebrew": "תעשה את זה קל, תתחיל מהרגל אחד.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783392"
+    },
+    {
+      "english": "Hope is real, practice brings results.",
+      "hebrew": "תקווה זה אמיתי, תרגול מביא תוצאות.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783394"
+    },
+    {
+      "english": "Relax, mistakes are part of the ride.",
+      "hebrew": "תרגע, טעויות הן חלק מהדרך.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783395"
+    },
+    {
+      "english": "Want confidence? Speak before you feel ready.",
+      "hebrew": "רוצה ביטחון? תדבר לפני שמרגישים.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783401"
+    },
+    {
+      "english": "You’re not behind, you’re building.",
+      "hebrew": "אתה לא מאחור, אתה בונה.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783403"
+    },
+    {
+      "english": "Today, focus on meaning, not perfection.",
+      "hebrew": "היום, תתמקד במשמעות, לא בשלמות.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783405"
+    },
+    {
+      "english": "Smile, it’s working, keep talking.",
+      "hebrew": "תחייך, זה עובד, תמשיך לדבר.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783407"
+    },
+    {
+      "english": "Trust the process, one lesson at a time.",
+      "hebrew": "תסמוך על התהליך, שיעור אחד בכל פעם.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783409"
+    },
+    {
+      "english": "Use what you know, then add more.",
+      "hebrew": "תשתמש במה שאתה יודע, ואז תוסיף עוד.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783410"
+    },
+    {
+      "english": "It’s okay, just restart from the beginning.",
+      "hebrew": "בסדר, פשוט תתחיל שוב מההתחלה.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783412"
+    },
+    {
+      "english": "Say “again” with confidence, not fear.",
+      "hebrew": "תגיד שוב בביטחון, לא בפחד.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783414"
+    },
+    {
+      "english": "Make a plan, then follow it daily.",
+      "hebrew": "תכין תוכנית, ואז תעקוב אחריה כל יום.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783418"
+    },
+    {
+      "english": "Small vocabulary, big impact, keep going.",
+      "hebrew": "מילים קטנות, השפעה גדולה, תמשיך.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783420"
+    },
+    {
+      "english": "Before you quit, try one more time.",
+      "hebrew": "לפני שאתה מוותר, תנסה עוד פעם אחת.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783422"
+    },
+    {
+      "english": "What does this word mean, in Hebrew?",
+      "hebrew": "מה פירוש המילה הזאת בעברית?",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783423"
+    },
+    {
+      "english": "Can you ask me, one more time?",
+      "hebrew": "אפשר לשאול אותי שוב פעם אחת?",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783425"
+    },
+    {
+      "english": "How do you say it, politely?",
+      "hebrew": "איך אומרים את זה בצורה מנומסת?",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783427"
+    },
+    {
+      "english": "Would you repeat slowly, please?",
+      "hebrew": "תוכל לחזור לאט, בבקשה?",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783429"
+    },
+    {
+      "english": "What should I answer, in this situation?",
+      "hebrew": "מה כדאי לי לענות במצב הזה?",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783431"
+    },
+    {
+      "english": "Is this sentence correct, or not?",
+      "hebrew": "המשפט הזה נכון, או לא?",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783433"
+    },
+    {
+      "english": "Do you have a tip for speaking?",
+      "hebrew": "יש לך טיפ לדיבור?",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783434"
+    },
+    {
+      "english": "Where can I practice daily, online?",
+      "hebrew": "איפה אפשר לתרגל כל יום, באינטרנט?",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783436"
+    },
+    {
+      "english": "Can we make a short conversation, now?",
+      "hebrew": "בוא נעשה שיחה קצרה, עכשיו?",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783438"
+    },
+    {
+      "english": "What’s the difference between these words?",
+      "hebrew": "מה ההבדל בין המילים האלה?",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783440"
+    },
+    {
+      "english": "May I ask, how are you learning?",
+      "hebrew": "אפשר לשאול, איך את/ה לומד/ת?",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783441"
+    },
+    {
+      "english": "Do you prefer formal or casual Hebrew?",
+      "hebrew": "אתה מעדיף עברית רשמית או יומיומית?",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783443"
+    },
+    {
+      "english": "What’s your favorite phrase, for beginners?",
+      "hebrew": "מה המשפט האהוב עליך, למתחילים?",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783445"
+    },
+    {
+      "english": "If I make a mistake, what then?",
+      "hebrew": "אם אני טועה, מה עושים?",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783447"
+    },
+    {
+      "english": "Can you correct me gently, please?",
+      "hebrew": "אפשר לתקן אותי בעדינות, בבקשה?",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783448"
+    },
+    {
+      "english": "How long will it take, to feel fluent?",
+      "hebrew": "כמה זמן לוקח להרגיש שוטף?",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783450"
+    },
+    {
+      "english": "What question should I ask first, today?",
+      "hebrew": "איזו שאלה כדאי לשאול קודם, היום?",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783451"
+    },
+    {
+      "english": "Can we practice at the café, later?",
+      "hebrew": "נוכל לתרגל בבית קפה, אחר כך?",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783454"
+    },
+    {
+      "english": "Do you want to roleplay, right now?",
+      "hebrew": "את/ה רוצה לעשות דיאלוג, עכשיו?",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783455"
+    },
+    {
+      "english": "Which tense should I use here, exactly?",
+      "hebrew": "איזה זמן אני צריך כאן, בדיוק?",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783457"
+    },
+    {
+      "english": "Can I say it this way, please?",
+      "hebrew": "אפשר להגיד את זה ככה, בבקשה?",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783458"
+    },
+    {
+      "english": "What do you mean, by this sentence?",
+      "hebrew": "מה הכוונה במשפט הזה?",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783461"
+    },
+    {
+      "english": "Where should I put the emphasis, here?",
+      "hebrew": "איפה שמים את ההדגשה, כאן?",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783463"
+    },
+    {
+      "english": "Can you ask me for the answer, now?",
+      "hebrew": "תוכל לשאול אותי, ולחכות לתשובה?",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783464"
+    },
+    {
+      "english": "Would you check my homework, quickly?",
+      "hebrew": "תוכל לבדוק את שיעורי הבית, מהר?",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783466"
+    },
+    {
+      "english": "How do you start a friendly conversation?",
+      "hebrew": "איך מתחילים שיחה ידידותית?",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783467"
+    },
+    {
+      "english": "What’s the most natural reply, to that?",
+      "hebrew": "מה התשובה הכי טבעית, לזה?",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783469"
+    },
+    {
+      "english": "Can I get more examples, please?",
+      "hebrew": "אפשר עוד דוגמאות, בבקשה?",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783471"
+    },
+    {
+      "english": "Do you think I can say this confidently?",
+      "hebrew": "את/ה חושב/ת שאני יכול/ה להגיד את זה בביטחון?",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783472"
+    },
+    {
+      "english": "Let’s talk, what’s your goal in Hebrew?",
+      "hebrew": "בוא נדבר, מה המטרה שלך בעברית?",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783474"
+    },
+    {
+      "english": "You’ve got this, one small step now.",
+      "hebrew": "יש לך את זה, צעד קטן עכשיו.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783476"
+    },
+    {
+      "english": "Keep your head up, speak anyway.",
+      "hebrew": "תרים את הראש, תדבר בכל מקרה.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783478"
+    },
+    {
+      "english": "Nice effort, that’s how you learn fast.",
+      "hebrew": "איזה מאמץ, ככה לומדים מהר.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783480"
+    },
+    {
+      "english": "Every try counts, even if it’s messy.",
+      "hebrew": "כל ניסיון נחשב, גם אם זה מבולגן.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783481"
+    },
+    {
+      "english": "Say it out loud, let it click.",
+      "hebrew": "תגיד בקול, שייכנס לך לראש.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783483"
+    },
+    {
+      "english": "Focus on progress, not on your fear.",
+      "hebrew": "תתמקד בהתקדמות, לא בפחד שלך.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783485"
+    },
+    {
+      "english": "Good job, your Hebrew is improving daily.",
+      "hebrew": "כל הכבוד, העברית שלך משתפרת כל יום.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783487"
+    },
+    {
+      "english": "Be proud, you’re building a real habit.",
+      "hebrew": "תתגאה, אתה בונה הרגל אמיתי.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783490"
+    },
+    {
+      "english": "Gentle reminder, you’re allowed to stumble.",
+      "hebrew": "תזכורת עדינה, מותר לך ליפול ולנסות.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783492"
+    },
+    {
+      "english": "You’re brave, asking questions is power.",
+      "hebrew": "אתה אמיץ, לשאול זה כוח.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783494"
+    },
+    {
+      "english": "Small wins today, big confidence tomorrow.",
+      "hebrew": "ניצחונות קטנים היום, ביטחון גדול מחר.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783496"
+    },
+    {
+      "english": "Keep going, your brain loves repetition.",
+      "hebrew": "תמשיך, למוח שלך יש אהבה לחזרתיות.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783497"
+    },
+    {
+      "english": "That’s it, breathe, then speak smoothly.",
+      "hebrew": "בדיוק, תנשום, ואז תדבר חלק.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783501"
+    },
+    {
+      "english": "Celebrate progress, every word matters.",
+      "hebrew": "תחגוג התקדמות, כל מילה חשובה.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783503"
+    },
+    {
+      "english": "Don’t rush, clarity comes with calm.",
+      "hebrew": "לא למהר, בהירות מגיעה עם רוגע.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783505"
+    },
+    {
+      "english": "Tell yourself, ‘I can learn this.’",
+      "hebrew": "תגיד לעצמך, ‘אני יכול ללמוד את זה.’",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783507"
+    },
+    {
+      "english": "Nice try, your accent will relax.",
+      "hebrew": "ניסיון יפה, המבטא שלך יירגע.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783508"
+    },
+    {
+      "english": "Be kind to yourself, keep practicing.",
+      "hebrew": "תיהיה נחמד לעצמך, תמשיך לתרגל.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783510"
+    },
+    {
+      "english": "You’re not stuck, you’re getting smarter.",
+      "hebrew": "אתה לא תקוע, אתה נהיה חכם יותר.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783512"
+    },
+    {
+      "english": "Make mistakes, then learn, then smile.",
+      "hebrew": "תעשה טעויות, תלמד, ואז תחייך.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783513"
+    },
+    {
+      "english": "Say one sentence, and feel proud.",
+      "hebrew": "תגיד משפט אחד, ותרגיש גאה.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783515"
+    },
+    {
+      "english": "Stay curious, Hebrew loves your effort.",
+      "hebrew": "תישאר סקרן, העברית אוהבת מאמץ.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783516"
+    },
+    {
+      "english": "You’re getting closer, even on hard days.",
+      "hebrew": "אתה מתקרב, גם בימים קשים.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783518"
+    },
+    {
+      "english": "Keep it simple, you’ll still sound fluent.",
+      "hebrew": "תשמור על זה פשוט, עדיין תישמע שוטף.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783521"
+    },
+    {
+      "english": "Today you learn, tomorrow you use.",
+      "hebrew": "היום לומדים, מחר משתמשים.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783524"
+    },
+    {
+      "english": "Give yourself credit, you’re showing up.",
+      "hebrew": "תן לעצמך קרדיט, אתה מגיע.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783526"
+    },
+    {
+      "english": "Let your confidence grow with every answer.",
+      "hebrew": "תן לביטחון לגדול עם כל תשובה.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783527"
+    },
+    {
+      "english": "You can be bold, speak before you’re ready.",
+      "hebrew": "תהיה אמיץ, תדבר עוד לפני שאתה מוכן.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783529"
+    },
+    {
+      "english": "Stay positive, you’re learning a beautiful language.",
+      "hebrew": "תישאר חיובי, אתה לומד שפה יפה.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783531"
+    },
+    {
+      "english": "I’m scared, but I still show up, quietly.",
+      "hebrew": "אני מפחדת, אבל אני עדיין מגיעה, בשקט.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783533"
+    },
+    {
+      "english": "Some days I miss, and that’s okay.",
+      "hebrew": "יש ימים שאני מפספסת, וזה בסדר.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783535"
+    },
+    {
+      "english": "Be honest, I’m learning, not performing.",
+      "hebrew": "תכל’ס, אני לומדת, לא מופיעה.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783537"
+    },
+    {
+      "english": "I slow down, because I want to understand.",
+      "hebrew": "אני מאיטה, כי אני רוצה להבין.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783539"
+    },
+    {
+      "english": "I’ll be patient, even when it’s confusing.",
+      "hebrew": "אני אהיה סבלנית, גם כשזה מבלבל.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783541"
+    },
+    {
+      "english": "My brain is tired, but I continue.",
+      "hebrew": "המוח שלי עייף, אבל אני ממשיכה.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783542"
+    },
+    {
+      "english": "I don’t need perfect, I need steady.",
+      "hebrew": "אני לא צריכה מושלם, אני צריכה עקבי.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783544"
+    },
+    {
+      "english": "I can feel awkward, and still talk.",
+      "hebrew": "אני יכולה להרגיש מוזר, ועדיין לדבר.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783545"
+    },
+    {
+      "english": "Today I’m small, tomorrow I’ll be stronger.",
+      "hebrew": "היום אני קטנה, מחר אני אהיה חזקה.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783547"
+    },
+    {
+      "english": "I notice my progress, not just mistakes.",
+      "hebrew": "אני שמה לב להתקדמות, לא רק לטעויות.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783549"
+    },
+    {
+      "english": "It’s okay to restart, my mind is learning.",
+      "hebrew": "בסדר להתחיל מחדש, הראש שלי לומד.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783551"
+    },
+    {
+      "english": "I speak softly, then I get braver.",
+      "hebrew": "אני מדברת בשקט, ואז אני נהיית אמיצה יותר.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783552"
+    },
+    {
+      "english": "I’m proud of trying, even slowly.",
+      "hebrew": "אני גאה בעצם הניסיון, גם לאט.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783554"
+    },
+    {
+      "english": "If I blank out, I breathe and continue.",
+      "hebrew": "אם אני קופאת, אני נושמת וממשיכה.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783556"
+    },
+    {
+      "english": "I forgive myself, Hebrew is not instant.",
+      "hebrew": "אני סולחת לעצמי, עברית לא באה מיד.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783557"
+    },
+    {
+      "english": "My heart wants it, so I practice.",
+      "hebrew": "הלב שלי רוצה את זה, אז אני מתאמנת.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783559"
+    },
+    {
+      "english": "I’m not behind, I’m just in process.",
+      "hebrew": "אני לא מאחור, אני פשוט בתהליך.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783561"
+    },
+    {
+      "english": "When I struggle, I ask myself why.",
+      "hebrew": "כשאני מתקשה, אני שואלת את עצמי למה.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783563"
+    },
+    {
+      "english": "I can feel frustrated, and still learn.",
+      "hebrew": "אני יכולה להרגיש תסכול, ועדיין ללמוד.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783564"
+    },
+    {
+      "english": "One honest sentence beats ten forced answers.",
+      "hebrew": "משפט אחד כנה מנצח עשר תשובות מאולצות.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783566"
+    },
+    {
+      "english": "I’m okay being a beginner, for now.",
+      "hebrew": "בסדר להיות מתחילה, בינתיים.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783568"
+    },
+    {
+      "english": "I reflect, then I pick the next step.",
+      "hebrew": "אני חושבת, ואז בוחרת את הצעד הבא.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783569"
+    },
+    {
+      "english": "Some lessons hurt, but they help me grow.",
+      "hebrew": "יש שיעורים שכואבים, אבל הם גורמים לי לגדול.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783571"
+    },
+    {
+      "english": "I trust the slow steps, they add up.",
+      "hebrew": "אני סומכת על הצעדים האיטיים, הם מצטברים.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783573"
+    },
+    {
+      "english": "I keep it real, I’m learning in public.",
+      "hebrew": "אני אמיתית, אני לומדת מול כולם.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783576"
+    },
+    {
+      "english": "If my mood drops, I still practice.",
+      "hebrew": "אם מצב הרוח יורד, אני עדיין מתאמנת.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783579"
+    },
+    {
+      "english": "I don’t chase perfection, I chase clarity.",
+      "hebrew": "אני לא רודפת מושלם, אני רודפת בהירות.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783581"
+    },
+    {
+      "english": "I admit, I need time to absorb.",
+      "hebrew": "אני מודה, אני צריכה זמן לקלוט.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783582"
+    },
+    {
+      "english": "I’m proud of my effort, not my speed.",
+      "hebrew": "אני גאה במאמץ שלי, לא במהירות.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783584"
+    },
+    {
+      "english": "I listen to myself, then choose courage.",
+      "hebrew": "אני מקשיבה לעצמי, ואז בוחרת באומץ.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783586"
+    },
+    {
+      "english": "Before you speak, pause, breathe, then answer.",
+      "hebrew": "לפני שאתה מדבר, תעצור, תנשום, ואז תענה.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783588"
+    },
+    {
+      "english": "If you forgot a word, describe it.",
+      "hebrew": "אם שכחת מילה, תתאר אותה במילים אחרות.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-09T07:29:03.783589"
     }
   ],
-  "last_updated": "2026-11-08T06:51:04.482467"
+  "last_updated": "2026-11-09T07:29:03.783590"
 }
