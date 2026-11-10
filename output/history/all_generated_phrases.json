@@ -51035,7 +51035,727 @@
       "hebrew": "אם שכחת מילה, תתאר אותה במילים אחרות.",
       "category": "Inspiration",
       "generated_at": "2026-11-09T07:29:03.783589"
+    },
+    {
+      "english": "Hi, do you have oat milk?",
+      "hebrew": "היי, יש לכם חלב שיבולת שועל?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127592"
+    },
+    {
+      "english": "Can I get a small coffee, please?",
+      "hebrew": "אפשר קפה קטן, בבקשה?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127604"
+    },
+    {
+      "english": "One espresso, no sugar, please.",
+      "hebrew": "אספרסו אחד, בלי סוכר, בבקשה.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127607"
+    },
+    {
+      "english": "What kind of bread is this?",
+      "hebrew": "איזה סוג לחם זה?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127609"
+    },
+    {
+      "english": "Is the croissant fresh, today?",
+      "hebrew": "הקרואסון טרי היום?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127610"
+    },
+    {
+      "english": "I’ll take this one, thank you.",
+      "hebrew": "אני לוקח את זה, תודה.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127612"
+    },
+    {
+      "english": "Just a quick coffee, please.",
+      "hebrew": "רק קפה מהיר, בבקשה.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127614"
+    },
+    {
+      "english": "That smells amazing, wow!",
+      "hebrew": "זה מריח מדהים, וואו!",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127618"
+    },
+    {
+      "english": "How much is the muffin?",
+      "hebrew": "כמה עולה המאפין?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127620"
+    },
+    {
+      "english": "Is it for here, or to go?",
+      "hebrew": "זה לשבת פה, או לקחת?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127622"
+    },
+    {
+      "english": "Do you have it warmed up?",
+      "hebrew": "אפשר לחמם את זה?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127625"
+    },
+    {
+      "english": "Can I pay by card?",
+      "hebrew": "אפשר לשלם באשראי?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127626"
+    },
+    {
+      "english": "Sorry, I’ll have a different one.",
+      "hebrew": "סליחה, אני אקח משהו אחר.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127629"
+    },
+    {
+      "english": "No worries, take your time.",
+      "hebrew": "אין בעיה, תתעכבו קצת.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127630"
+    },
+    {
+      "english": "Wait, is this vegetarian?",
+      "hebrew": "רגע, זה צמחוני?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127633"
+    },
+    {
+      "english": "Great, I’ll try that today.",
+      "hebrew": "מעולה, אני אנסה את זה היום.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127635"
+    },
+    {
+      "english": "Do you have tea as well?",
+      "hebrew": "יש גם תה?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127636"
+    },
+    {
+      "english": "Can I have a lid, please?",
+      "hebrew": "אפשר מכסה, בבקשה?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127638"
+    },
+    {
+      "english": "Let me look at the menu, please.",
+      "hebrew": "תן לי רגע לראות את התפריט, בבקשה.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127640"
+    },
+    {
+      "english": "I’m in a hurry, just please.",
+      "hebrew": "אני ממהר, רק בבקשה.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127641"
+    },
+    {
+      "english": "That’s perfect, thanks!",
+      "hebrew": "זה בול, תודה!",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127643"
+    },
+    {
+      "english": "Is there a line, or it’s fast?",
+      "hebrew": "יש תור, או שזה מהיר?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127645"
+    },
+    {
+      "english": "Can I get it less sweet?",
+      "hebrew": "אפשר פחות מתוק?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127646"
+    },
+    {
+      "english": "Do you have cinnamon on top?",
+      "hebrew": "יש לכם קינמון למעלה?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127648"
+    },
+    {
+      "english": "This is really tasty, seriously.",
+      "hebrew": "זה ממש טעים, ברצינות.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127649"
+    },
+    {
+      "english": "Could I see the cake options?",
+      "hebrew": "אפשר לראות את סוגי העוגות?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127651"
+    },
+    {
+      "english": "Do you have it without nuts?",
+      "hebrew": "יש משהו בלי אגוזים?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127652"
+    },
+    {
+      "english": "Thank you, I’ll enjoy my coffee.",
+      "hebrew": "תודה, אני אתפנק עם הקפה שלי.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127654"
+    },
+    {
+      "english": "Excuse me, what’s the specialty today?",
+      "hebrew": "סליחה, מה ההתמחות שלכם היום?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127656"
+    },
+    {
+      "english": "How do I order the tasting box?",
+      "hebrew": "איך מזמינים מגש טעימות?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127658"
+    },
+    {
+      "english": "Do you have anything dairy-free, by chance?",
+      "hebrew": "יש משהו בלי חלב, במקרה?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127660"
+    },
+    {
+      "english": "What’s the difference between these two breads?",
+      "hebrew": "מה ההבדל בין שני הלחמים האלה?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127662"
+    },
+    {
+      "english": "Is this pastry buttery, or more light?",
+      "hebrew": "זה מאפה חמאהי, או יותר קל?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127664"
+    },
+    {
+      "english": "Can I ask for extra napkins, please?",
+      "hebrew": "אפשר עוד מפיות, בבקשה?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127665"
+    },
+    {
+      "english": "Do you have a sugar-free option here?",
+      "hebrew": "יש פה אפשרות בלי סוכר?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127667"
+    },
+    {
+      "english": "Which cake is your best seller?",
+      "hebrew": "איזה עוגה הכי נמכרת אצלכם?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127669"
+    },
+    {
+      "english": "Is the coffee strong, or medium?",
+      "hebrew": "הקפה חזק, או בינוני?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127670"
+    },
+    {
+      "english": "What do you recommend for first-timers?",
+      "hebrew": "מה אתם ממליצים למי שבפעם הראשונה?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127673"
+    },
+    {
+      "english": "Does this drink come hot or iced?",
+      "hebrew": "זה מוגש חם או קר?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127674"
+    },
+    {
+      "english": "Could I get water, before my order?",
+      "hebrew": "אפשר מים, לפני ההזמנה שלי?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127677"
+    },
+    {
+      "english": "Is there a kids’ option, by any chance?",
+      "hebrew": "יש משהו לילדים, במקרה?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127679"
+    },
+    {
+      "english": "Can you make it decaf, please?",
+      "hebrew": "אפשר לעשות את זה נטול קפאין, בבקשה?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127681"
+    },
+    {
+      "english": "Do you have anything gluten-free today?",
+      "hebrew": "יש משהו ללא גלוטן היום?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127684"
+    },
+    {
+      "english": "Wait, is the croissant filled?",
+      "hebrew": "רגע, הקרואסון ממולא?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127686"
+    },
+    {
+      "english": "Can I swap the topping, maybe?",
+      "hebrew": "אפשר להחליף את התוספת, אולי?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127687"
+    },
+    {
+      "english": "What’s the best time to grab fresh bread?",
+      "hebrew": "מתי הכי כדאי לקחת לחם טרי?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127690"
+    },
+    {
+      "english": "Do you offer loyalty points for customers?",
+      "hebrew": "יש לכם תוכנית נקודות קבועה?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127692"
+    },
+    {
+      "english": "Is this seat taken, or free?",
+      "hebrew": "הכיסא הזה תפוס, או פנוי?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127693"
+    },
+    {
+      "english": "Can I get a takeaway bag, please?",
+      "hebrew": "אפשר שקית למסירה לקחת, בבקשה?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127695"
+    },
+    {
+      "english": "Do you sell coffee beans here too?",
+      "hebrew": "אתם מוכרים פולי קפה כאן גם?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127696"
+    },
+    {
+      "english": "Which one pairs best with espresso?",
+      "hebrew": "מה הכי מתאים לאספרסו?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127698"
+    },
+    {
+      "english": "Can I smell the beans before buying?",
+      "hebrew": "אפשר להריח את הפולים לפני שקונים?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127699"
+    },
+    {
+      "english": "Is this spicy, or just sweet?",
+      "hebrew": "זה חריף, או רק מתוק?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127700"
+    },
+    {
+      "english": "Can I get it without chocolate chunks?",
+      "hebrew": "אפשר בלי חתיכות שוקולד, בבקשה?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127702"
+    },
+    {
+      "english": "What’s the wait time, roughly?",
+      "hebrew": "בערך כמה זמן צריך לחכות?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127704"
+    },
+    {
+      "english": "Is there a good vegetarian option today?",
+      "hebrew": "יש אופציה טובה לצמחונים היום?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127705"
+    },
+    {
+      "english": "Do you recommend warming it up for me?",
+      "hebrew": "אתם ממליצים לחמם לי?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127707"
+    },
+    {
+      "english": "How do I tip here, cash or card?",
+      "hebrew": "איך נותנים טיפ פה, במזומן או בכרטיס?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127708"
+    },
+    {
+      "english": "You’ve got this, take your time.",
+      "hebrew": "יש לך את זה, תן לזה זמן.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127710"
+    },
+    {
+      "english": "Start with one sweet thought, breathe.",
+      "hebrew": "תתחיל עם מחשבה מתוקה אחת, תנשום.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127712"
+    },
+    {
+      "english": "Today tastes better when you believe.",
+      "hebrew": "היום טעים יותר כשאתה מאמין.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127713"
+    },
+    {
+      "english": "Small steps, big cravings, you’re doing great.",
+      "hebrew": "צעדים קטנים, תשוקה גדולה, אתה מעולה.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127716"
+    },
+    {
+      "english": "Try it once, then decide with confidence.",
+      "hebrew": "תנסה פעם אחת, ואז תחליט בביטחון.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127717"
+    },
+    {
+      "english": "Enjoy the moment, don’t rush your taste.",
+      "hebrew": "תיהנה מהרגע, אל תמהר עם הטעם.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127719"
+    },
+    {
+      "english": "Give yourself praise, you picked a win.",
+      "hebrew": "תן לעצמך מחמאה, בחרת נכון.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127721"
+    },
+    {
+      "english": "It’s okay to want comfort, today.",
+      "hebrew": "זה בסדר לרצות נוחות, היום.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127723"
+    },
+    {
+      "english": "Calm mind, warm drink, better day.",
+      "hebrew": "ראש רגוע, משקה חם, יום טוב יותר.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127725"
+    },
+    {
+      "english": "You can ask, it’s totally normal.",
+      "hebrew": "אפשר לשאול, זה לגמרי נורמלי.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127727"
+    },
+    {
+      "english": "Be kind to yourself, one bite at time.",
+      "hebrew": "תתייחס לעצמך בעדינות, ביס אחד בכל פעם.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127728"
+    },
+    {
+      "english": "Confidence tastes like fresh coffee.",
+      "hebrew": "ביטחון טעים כמו קפה טרי.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127730"
+    },
+    {
+      "english": "No pressure, choose what feels right.",
+      "hebrew": "בלי לחץ, תבחר מה שנכון לך.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127732"
+    },
+    {
+      "english": "You deserve a treat, yes, you do.",
+      "hebrew": "מגיע לך פינוק, כן, מגיע לך.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127734"
+    },
+    {
+      "english": "Make today lighter, one pastry smile.",
+      "hebrew": "תעשה את היום קל יותר, חיוך של מאפה.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127735"
+    },
+    {
+      "english": "Ask for help, brave people do that.",
+      "hebrew": "תבקש עזרה, אנשים אמיצים עושים את זה.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127737"
+    },
+    {
+      "english": "Trust your gut, it knows what you want.",
+      "hebrew": "תסמוך על האינטואיציה, היא יודעת מה אתה רוצה.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127739"
+    },
+    {
+      "english": "This is your break, enjoy it fully.",
+      "hebrew": "זה ההפסקה שלך, תהנה מזה עד הסוף.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127740"
+    },
+    {
+      "english": "Say thank you, it spreads good energy.",
+      "hebrew": "תגיד תודה, זה מפיץ אנרגיה טובה.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127742"
+    },
+    {
+      "english": "You’re learning fast, keep going confidently.",
+      "hebrew": "אתה לומד מהר, תמשיך בביטחון.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127750"
+    },
+    {
+      "english": "One warm sip, reset your whole mood.",
+      "hebrew": "שלוק חם אחד, תאפס מצב רוח.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127752"
+    },
+    {
+      "english": "Celebrate small wins, like choosing today’s pastry.",
+      "hebrew": "תחגוג ניצחונות קטנים, כמו לבחור מאפה היום.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127754"
+    },
+    {
+      "english": "Even if it’s new, you’ll be okay.",
+      "hebrew": "גם אם זה חדש, יהיה בסדר.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127756"
+    },
+    {
+      "english": "Let the aroma guide you, you’ll love it.",
+      "hebrew": "תן לריח להוביל אותך, אתה תאהב.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127758"
+    },
+    {
+      "english": "You’re doing great, keep tasting and learning.",
+      "hebrew": "אתה עושה מצוין, תמשיך לטעום וללמוד.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127760"
+    },
+    {
+      "english": "Be proud, ordering in Hebrew is progress.",
+      "hebrew": "תתגאה, להזמין בעברית זו התקדמות.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127762"
+    },
+    {
+      "english": "Today, choose joy, one cup at a time.",
+      "hebrew": "היום תבחר בשמחה, כוס אחת בכל פעם.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127763"
+    },
+    {
+      "english": "It’s okay to change your mind, calmly.",
+      "hebrew": "זה בסדר לשנות דעה, בנחת.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127765"
+    },
+    {
+      "english": "Smile, you’re exactly where you need.",
+      "hebrew": "חייך, אתה בדיוק במקום הנכון.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127767"
+    },
+    {
+      "english": "I needed a quiet moment, honestly.",
+      "hebrew": "הייתי צריך רגע שקט, באמת.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127769"
+    },
+    {
+      "english": "Sometimes I pause, just to feel it.",
+      "hebrew": "לפעמים אני עוצר, רק כדי להרגיש.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127770"
+    },
+    {
+      "english": "This smell brings back better days, softly.",
+      "hebrew": "הריח הזה מחזיר ימים טובים, בעדינות.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127772"
+    },
+    {
+      "english": "I’m taking it slow, no rush from me.",
+      "hebrew": "אני לוקח לאט, בלי למהר מצדי.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127774"
+    },
+    {
+      "english": "Tell me what you’d choose today, please.",
+      "hebrew": "תגיד לי מה היית בוחר היום, בבקשה.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127776"
+    },
+    {
+      "english": "I’m trying to be kinder to myself.",
+      "hebrew": "אני מנסה להיות יותר עדין עם עצמי.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127778"
+    },
+    {
+      "english": "I don’t have answers, just a cup.",
+      "hebrew": "אין לי תשובות, רק כוס.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127780"
+    },
+    {
+      "english": "That pastry feels like a safe hug.",
+      "hebrew": "המאפה הזה מרגיש כמו חיבוק בטוח.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127915"
+    },
+    {
+      "english": "Honestly, I needed comfort, not perfection.",
+      "hebrew": "באמת, הייתי צריך נוחות, לא שלמות.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127917"
+    },
+    {
+      "english": "I’ll wait, if it helps it taste right.",
+      "hebrew": "אני אחכה, אם זה עושה טעם נכון.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127919"
+    },
+    {
+      "english": "Right now, I want small joy.",
+      "hebrew": "כרגע, אני רוצה שמחה קטנה.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127921"
+    },
+    {
+      "english": "Can you recommend something comforting?",
+      "hebrew": "אתה יכול להמליץ על משהו מנחם?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127923"
+    },
+    {
+      "english": "I’m listening to my mood, quietly.",
+      "hebrew": "אני מקשיב למצב הרוח שלי, בשקט.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127924"
+    },
+    {
+      "english": "Sometimes I order, then breathe, finally.",
+      "hebrew": "לפעמים אני מזמין, ואז נושם, סוף סוף.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127928"
+    },
+    {
+      "english": "I’m okay with changing my mind today.",
+      "hebrew": "אני בסדר עם זה שאשנה דעה היום.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127930"
+    },
+    {
+      "english": "This is my reset, one sip at once.",
+      "hebrew": "זה האיפוס שלי, לגימה אחת בכל פעם.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127933"
+    },
+    {
+      "english": "I want something warm, for my heart.",
+      "hebrew": "אני רוצה משהו חם, בשביל הלב.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127935"
+    },
+    {
+      "english": "No dramatic plans, just a calm bite.",
+      "hebrew": "בלי תכנונים דרמטיים, רק ביס רגוע.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127936"
+    },
+    {
+      "english": "I’m proud I came out, even tired.",
+      "hebrew": "אני גאה שיצאתי, גם אם עייף.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127938"
+    },
+    {
+      "english": "I’ll take notes in my head, today.",
+      "hebrew": "אני אשים לב בפנים, היום.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127940"
+    },
+    {
+      "english": "Honestly, I like the slower flavors.",
+      "hebrew": "באמת, אני אוהב טעמים איטיים יותר.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127941"
+    },
+    {
+      "english": "If you see me smiling, that’s why.",
+      "hebrew": "אם אתה רואה אותי מחייך, זה בגלל זה.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127943"
+    },
+    {
+      "english": "I’m practicing patience, one line at a time.",
+      "hebrew": "אני מתרגל סבלנות, שורה שורה.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127946"
+    },
+    {
+      "english": "Sometimes the cake is my brave choice.",
+      "hebrew": "לפעמים העוגה היא הבחירה האמיצה שלי.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127948"
+    },
+    {
+      "english": "I don’t need much, just a moment.",
+      "hebrew": "אין לי צורך בהרבה, רק רגע.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127949"
+    },
+    {
+      "english": "What matters is how it makes me feel.",
+      "hebrew": "מה שחשוב זה איך זה מרגיש לי.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127951"
+    },
+    {
+      "english": "I’m grateful, even for small warm things.",
+      "hebrew": "אני אסיר תודה, גם על דברים חמים קטנים.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127953"
+    },
+    {
+      "english": "Please, give me one suggestion, gently.",
+      "hebrew": "בבקשה, תן לי הצעה אחת, בעדינות.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127954"
+    },
+    {
+      "english": "I’m letting today be imperfect, on purpose.",
+      "hebrew": "אני נותן היום להיות לא מושלם, בכוונה.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127956"
+    },
+    {
+      "english": "After this, I’ll reset, and keep going.",
+      "hebrew": "אחרי זה, אני אתאפס, ואמשיך.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127958"
+    },
+    {
+      "english": "Hi, can I sit near the window, please?",
+      "hebrew": "היי, אפשר לשבת ליד החלון, בבקשה?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127959"
+    },
+    {
+      "english": "Order first, then decide, I love that.",
+      "hebrew": "מזמינים קודם, ואז מחליטים, אני אוהב את זה.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127961"
+    },
+    {
+      "english": "Excuse me, is this croissant fresh today?",
+      "hebrew": "סליחה, הקרואסון הזה טרי היום?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-10T07:55:43.127962"
     }
   ],
-  "last_updated": "2026-11-09T07:29:03.783590"
+  "last_updated": "2026-11-10T07:55:43.127964"
 }
