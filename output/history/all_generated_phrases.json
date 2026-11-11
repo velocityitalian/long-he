@@ -51755,7 +51755,727 @@
       "hebrew": "סליחה, הקרואסון הזה טרי היום?",
       "category": "Coffee Shop & Bakery",
       "generated_at": "2026-11-10T07:55:43.127962"
+    },
+    {
+      "english": "Okay, I forgive you, no problem.",
+      "hebrew": "בסדר, אני סולח לך, אין בעיה.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770268"
+    },
+    {
+      "english": "It’s fine, I’m letting it slide.",
+      "hebrew": "הכל טוב, אני מרפה מזה.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770286"
+    },
+    {
+      "english": "Forget the past, just come talk.",
+      "hebrew": "תשכח מהעבר, בוא נדבר.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770290"
+    },
+    {
+      "english": "I’m not mad, let’s reset.",
+      "hebrew": "אני לא כועס, בוא נתחיל מחדש.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770295"
+    },
+    {
+      "english": "We’ll handle this, calmly, together.",
+      "hebrew": "נתמודד עם זה, בשקט, ביחד.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770299"
+    },
+    {
+      "english": "I hear you, and I forgive.",
+      "hebrew": "אני שומע אותך, ואני סולח.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770302"
+    },
+    {
+      "english": "No hard feelings, okay?",
+      "hebrew": "בלי כעסים, בסדר?",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770305"
+    },
+    {
+      "english": "Let’s move forward, not backward.",
+      "hebrew": "בוא נתקדם, לא נחזור אחורה.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770312"
+    },
+    {
+      "english": "I’m cool now, thanks for apologizing.",
+      "hebrew": "אני רגוע עכשיו, תודה שהתנצלת.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770317"
+    },
+    {
+      "english": "Thank you, I accept your apology.",
+      "hebrew": "תודה, אני מקבל את ההתנצלות שלך.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770322"
+    },
+    {
+      "english": "Come on, we can fix it.",
+      "hebrew": "יאללה, אפשר לסדר את זה.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770326"
+    },
+    {
+      "english": "I’ll give you another chance, honestly.",
+      "hebrew": "אני אתן לך הזדמנות נוספת, בכנות.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770329"
+    },
+    {
+      "english": "Let’s talk it out, step by step.",
+      "hebrew": "בוא נדבר, לאט-לאט.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770333"
+    },
+    {
+      "english": "I’m choosing peace, not revenge.",
+      "hebrew": "אני בוחר בשלום, לא בנקמה.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770336"
+    },
+    {
+      "english": "It wasn’t okay, but I’m forgiving.",
+      "hebrew": "זה לא היה בסדר, אבל אני סולח.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770339"
+    },
+    {
+      "english": "Okay, done, I’m dropping it.",
+      "hebrew": "סבבה, סיימנו, אני מוריד את זה.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770342"
+    },
+    {
+      "english": "I get it, let’s just continue.",
+      "hebrew": "אני מבין, בוא נמשיך.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770346"
+    },
+    {
+      "english": "We’ll keep it moving, okay?",
+      "hebrew": "נמשיך הלאה, בסדר?",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770349"
+    },
+    {
+      "english": "You’re forgiven for that mistake.",
+      "hebrew": "על הטעות הזאת, אתה נסלח.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770352"
+    },
+    {
+      "english": "No need to worry, it’s fine.",
+      "hebrew": "אין מה לדאוג, הכל בסדר.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770356"
+    },
+    {
+      "english": "I’m letting the tension go, really.",
+      "hebrew": "אני משחרר את המתח, באמת.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770359"
+    },
+    {
+      "english": "Let’s reset our vibe, right now.",
+      "hebrew": "בוא נאתחל את האווירה, עכשיו.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770362"
+    },
+    {
+      "english": "We can still be good, today.",
+      "hebrew": "עדיין אפשר להיות בסדר, היום.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770365"
+    },
+    {
+      "english": "I’m not judging, I’m forgiving.",
+      "hebrew": "אני לא שופט, אני סולח.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770370"
+    },
+    {
+      "english": "I trust you again, slowly.",
+      "hebrew": "אני מאמין בך שוב, לאט.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770373"
+    },
+    {
+      "english": "All right, I’m over it now.",
+      "hebrew": "בסדר, אני כבר לא תקוע בזה.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770376"
+    },
+    {
+      "english": "We’ll set boundaries, and forgive.",
+      "hebrew": "נשמור על גבולות, ונסלח.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770380"
+    },
+    {
+      "english": "Thanks, I accept your explanation.",
+      "hebrew": "תודה, אני מקבל את ההסבר שלך.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770383"
+    },
+    {
+      "english": "I’m here, let’s rebuild.",
+      "hebrew": "אני פה, בוא נבנה מחדש.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770386"
+    },
+    {
+      "english": "It’s okay, I’m choosing forgiveness.",
+      "hebrew": "בסדר, אני בוחר בסליחה.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770389"
+    },
+    {
+      "english": "What do you need from me right now?",
+      "hebrew": "מה את/ה צריך/ה ממני עכשיו?",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770394"
+    },
+    {
+      "english": "Do you want to talk, quietly, now?",
+      "hebrew": "את/ה רוצה לדבר, בשקט, עכשיו?",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770397"
+    },
+    {
+      "english": "How can I forgive, without ignoring it?",
+      "hebrew": "איך אני סולח/ת, בלי להתעלם?",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770400"
+    },
+    {
+      "english": "Can we understand each other, first?",
+      "hebrew": "אפשר להבין אחד את השני, קודם?",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770403"
+    },
+    {
+      "english": "Would you apologize, so we can heal?",
+      "hebrew": "תוכל/י להתנצל, כדי שנרפא?",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770406"
+    },
+    {
+      "english": "What made you say that, exactly?",
+      "hebrew": "מה גרם לך להגיד את זה, בדיוק?",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770409"
+    },
+    {
+      "english": "I’m listening, what’s your side of it?",
+      "hebrew": "אני מקשיב/ה, מה הצד שלך?",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770413"
+    },
+    {
+      "english": "Do you feel guilty, or just hurt?",
+      "hebrew": "את/ה מרגיש/ה אשם, או רק פגוע/ה?",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770416"
+    },
+    {
+      "english": "Let’s ask, what boundary do we need?",
+      "hebrew": "בוא/י נשאל, איזה גבול צריך?",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770419"
+    },
+    {
+      "english": "Should I hold back, or trust you?",
+      "hebrew": "עליי לעצור, או לסמוך עליך?",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770422"
+    },
+    {
+      "english": "How do we move on, with respect?",
+      "hebrew": "איך ממשיכים הלאה, בכבוד?",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770426"
+    },
+    {
+      "english": "Can we agree on a fresh start?",
+      "hebrew": "אפשר להסכים להתחלה חדשה?",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770429"
+    },
+    {
+      "english": "What would make it right for you?",
+      "hebrew": "מה יתקן את זה בשבילך?",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770432"
+    },
+    {
+      "english": "Will you tell me the truth, plainly?",
+      "hebrew": "תוכל/י להגיד לי את האמת, פשוט?",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770437"
+    },
+    {
+      "english": "Do you want forgiveness, or a plan first?",
+      "hebrew": "את/ה רוצה סליחה, או תוכנית קודם?",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770439"
+    },
+    {
+      "english": "I’m ready to forgive, are you listening?",
+      "hebrew": "אני מוכן/ה לסלוח, את/ה מקשיב/ה?",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770443"
+    },
+    {
+      "english": "What can we learn, from this moment?",
+      "hebrew": "מה לומדים מזה, דווקא עכשיו?",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770445"
+    },
+    {
+      "english": "Can we talk again, not argue?",
+      "hebrew": "אפשר לדבר שוב, לא לריב?",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770448"
+    },
+    {
+      "english": "How should I respond, so it heals?",
+      "hebrew": "איך עליי להגיב, כדי שזה ירפא?",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770451"
+    },
+    {
+      "english": "Do you need time, or reassurance now?",
+      "hebrew": "את/ה צריך/ה זמן, או ביטחון עכשיו?",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770454"
+    },
+    {
+      "english": "Can we clear the air, together, today?",
+      "hebrew": "אפשר לנקות את האוויר בינינו, היום?",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770457"
+    },
+    {
+      "english": "What’s your apology, in simple words?",
+      "hebrew": "מה ההתנצלות שלך, במילים פשוטות?",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770460"
+    },
+    {
+      "english": "Are you willing to change, genuinely?",
+      "hebrew": "את/ה מוכן/ה להשתנות, באמת?",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770463"
+    },
+    {
+      "english": "How can I trust again, slowly?",
+      "hebrew": "איך אני שוב סומך/ת, לאט?",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770465"
+    },
+    {
+      "english": "Can we pause, breathe, and then speak?",
+      "hebrew": "בוא/י נעצור, ננשום, ואז נדבר?",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770468"
+    },
+    {
+      "english": "What if we forgive, but stay careful?",
+      "hebrew": "ומה אם נסלח, אבל נישאר זהירים?",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770473"
+    },
+    {
+      "english": "Do you want my honesty, right away?",
+      "hebrew": "את/ה רוצה את הכנות שלי, עכשיו?",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770475"
+    },
+    {
+      "english": "Can we rebuild, with clear expectations?",
+      "hebrew": "אפשר לבנות מחדש, עם ציפיות ברורות?",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770478"
+    },
+    {
+      "english": "Should we hug, or talk first, please?",
+      "hebrew": "כדאי לחבק, או לדבר קודם, בבקשה?",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770481"
+    },
+    {
+      "english": "Breathe, then choose mercy, today.",
+      "hebrew": "תנשום, ואז תבחר רחמים, היום.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770484"
+    },
+    {
+      "english": "Forgiveness starts with calm, not denial.",
+      "hebrew": "סליחה מתחילה בשלווה, לא בהכחשה.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770487"
+    },
+    {
+      "english": "Let it soften your heart, gently.",
+      "hebrew": "תן לזה לרכך לך את הלב, בעדינות.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770490"
+    },
+    {
+      "english": "I can be strong, and forgive.",
+      "hebrew": "אני יכול להיות חזק, ועדיין לסלוח.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770493"
+    },
+    {
+      "english": "You did wrong, still I forgive.",
+      "hebrew": "עשית טעות, ועדיין אני סולח.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770496"
+    },
+    {
+      "english": "My peace matters, so I release.",
+      "hebrew": "השלום שלי חשוב, אז אני משחרר.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770499"
+    },
+    {
+      "english": "I’ll focus on progress, not punishment.",
+      "hebrew": "אני אתמקד בהתקדמות, לא בעונש.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770514"
+    },
+    {
+      "english": "Small steps count, even in forgiveness.",
+      "hebrew": "צעדים קטנים נחשבים, גם בסליחה.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770517"
+    },
+    {
+      "english": "Thank you, for trying again, even now.",
+      "hebrew": "תודה לך, שניסית שוב, גם עכשיו.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770520"
+    },
+    {
+      "english": "I honor your effort, and move forward.",
+      "hebrew": "אני מעריך את המאמץ שלך, ומתקדם.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770523"
+    },
+    {
+      "english": "Forgiveness is strength, not weakness.",
+      "hebrew": "סליחה היא כוח, לא חולשה.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770525"
+    },
+    {
+      "english": "I’m letting go, but staying present.",
+      "hebrew": "אני משחרר, אבל נשאר נוכח.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770529"
+    },
+    {
+      "english": "Tell the truth to yourself first.",
+      "hebrew": "תגיד אמת לעצמך קודם.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770532"
+    },
+    {
+      "english": "I choose hope, over anger, right now.",
+      "hebrew": "אני בוחר בתקווה, על כעס, עכשיו.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770535"
+    },
+    {
+      "english": "Keep your chin up, and forgive.",
+      "hebrew": "תרים ראש, ותסלח.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770539"
+    },
+    {
+      "english": "I can heal, without forgetting the lesson.",
+      "hebrew": "אני יכול להחלים, בלי לשכוח את הלקח.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770542"
+    },
+    {
+      "english": "Slow is okay, I’m on the path.",
+      "hebrew": "איטי זה בסדר, אני בדרך.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770545"
+    },
+    {
+      "english": "You’re learning, and that matters to me.",
+      "hebrew": "אתה לומד, וזה חשוב לי.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770549"
+    },
+    {
+      "english": "I won’t replay it, I’ll grow.",
+      "hebrew": "אני לא אחזור לזה, אני אגדל.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770552"
+    },
+    {
+      "english": "Give yourself credit for trying to forgive.",
+      "hebrew": "תן לעצמך קרדיט על הניסיון לסלוח.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770555"
+    },
+    {
+      "english": "Mercy can be my new habit.",
+      "hebrew": "הרחמים יכולים להפוך להרגל חדש שלי.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770560"
+    },
+    {
+      "english": "I won’t let hurt drive my choices.",
+      "hebrew": "אני לא אתן לכאב לנהוג בבחירות שלי.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770563"
+    },
+    {
+      "english": "When you slip, I still respect you.",
+      "hebrew": "כשאתה מחליק, אני עדיין מכבד אותך.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770566"
+    },
+    {
+      "english": "We can be kinder, starting now.",
+      "hebrew": "אנחנו יכולים להיות יותר טובים, מתחילים עכשיו.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770569"
+    },
+    {
+      "english": "I choose peace, even with mixed feelings.",
+      "hebrew": "אני בוחר שלום, גם עם רגשות מעורבים.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770572"
+    },
+    {
+      "english": "Your change, even small, is powerful.",
+      "hebrew": "השינוי שלך, גם קטן, הוא חזק.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770575"
+    },
+    {
+      "english": "I forgive, and I keep my calm.",
+      "hebrew": "אני סולח, ושומר על השלווה שלי.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770578"
+    },
+    {
+      "english": "Focus on what’s next, not what broke.",
+      "hebrew": "תתמקד במה הלאה, לא במה שנשבר.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770583"
+    },
+    {
+      "english": "I believe you can do better, today.",
+      "hebrew": "אני מאמין שאתה יכול לעשות טוב יותר, היום.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770586"
+    },
+    {
+      "english": "Forgive with your mind, love with your heart.",
+      "hebrew": "תסלח בראש, תאהב בלב.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770589"
+    },
+    {
+      "english": "I’m not okay yet, but I’m trying.",
+      "hebrew": "אני לא בסדר לגמרי עדיין, אבל אני מנסה.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770592"
+    },
+    {
+      "english": "My heart needs time, not speeches.",
+      "hebrew": "הלב שלי צריך זמן, לא נאומים.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770595"
+    },
+    {
+      "english": "I notice my anger, then I soften.",
+      "hebrew": "אני שם לב לכעס שלי, ואז אני מרכך.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770599"
+    },
+    {
+      "english": "I forgive, but I won’t rush trust.",
+      "hebrew": "אני סולח, אבל אני לא ממהר לסמוך.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770602"
+    },
+    {
+      "english": "It helps me, letting go slowly.",
+      "hebrew": "זה עוזר לי, לשחרר לאט.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770605"
+    },
+    {
+      "english": "I’m choosing honesty with my own feelings.",
+      "hebrew": "אני בוחר אמת עם הרגשות שלי.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770608"
+    },
+    {
+      "english": "Forgiveness doesn’t erase what happened.",
+      "hebrew": "סליחה לא מוחקת מה שקרה.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770612"
+    },
+    {
+      "english": "I’m letting the story lose its sting.",
+      "hebrew": "אני נותן לסיפור לאבד את העוקץ שלו.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770621"
+    },
+    {
+      "english": "I can be hurt, and still forgive.",
+      "hebrew": "אני יכול להיפגע, ועדיין לסלוח.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770624"
+    },
+    {
+      "english": "I don’t deny it, I process it.",
+      "hebrew": "אני לא מכחיש, אני מעבד את זה.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770627"
+    },
+    {
+      "english": "I’m keeping my boundaries, out of care.",
+      "hebrew": "אני שומר על הגבולות, מתוך דאגה.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770631"
+    },
+    {
+      "english": "Some days forgiveness feels hard, and that’s real.",
+      "hebrew": "יש ימים שסליחה מרגישה קשה, וזה אמיתי.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770634"
+    },
+    {
+      "english": "I’m not forgetting, I’m moving forward.",
+      "hebrew": "אני לא שוכח, אני מתקדם הלאה.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770638"
+    },
+    {
+      "english": "I want peace, not constant tension.",
+      "hebrew": "אני רוצה שקט, לא מתח מתמשך.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770641"
+    },
+    {
+      "english": "I speak gently, even when I hurt.",
+      "hebrew": "אני מדבר בעדינות, גם כשכואב לי.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770644"
+    },
+    {
+      "english": "I forgive to protect my future.",
+      "hebrew": "אני סולח כדי להגן על העתיד שלי.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770647"
+    },
+    {
+      "english": "Let’s be honest about the distance.",
+      "hebrew": "בוא נהיה כנים לגבי המרחק.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770650"
+    },
+    {
+      "english": "I’m learning patience, one hard moment.",
+      "hebrew": "אני לומד סבלנות, ברגע קשה אחד.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770653"
+    },
+    {
+      "english": "I don’t need revenge, I need clarity.",
+      "hebrew": "אני לא צריך נקמה, אני צריך בהירות.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770658"
+    },
+    {
+      "english": "I allow myself to be disappointed.",
+      "hebrew": "אני מרשה לעצמי להתאכזב.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770661"
+    },
+    {
+      "english": "Then I choose to heal, step by step.",
+      "hebrew": "ואז אני בוחר לרפא, צעד צעד.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770664"
+    },
+    {
+      "english": "I forgive, because I refuse to stay stuck.",
+      "hebrew": "אני סולח, כי אני מסרב להיתקע.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770667"
+    },
+    {
+      "english": "My feelings are valid, and still I forgive.",
+      "hebrew": "הרגשות שלי לגיטימיים, ועדיין אני סולח.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770670"
+    },
+    {
+      "english": "I can miss trust, and rebuild slowly.",
+      "hebrew": "אני יכול להתגעגע לאמון, ולבנות לאט.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770673"
+    },
+    {
+      "english": "I’m not excusing it, I’m releasing it.",
+      "hebrew": "אני לא מצדיק, אני משחרר את זה.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770676"
+    },
+    {
+      "english": "I hear you, and I still need time.",
+      "hebrew": "אני שומע אותך, ועדיין אני צריך זמן.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770679"
+    },
+    {
+      "english": "I’m turning pain into wisdom, not bitterness.",
+      "hebrew": "אני הופך כאב לחוכמה, לא למרירות.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770683"
+    },
+    {
+      "english": "I forgive you, for my own calm.",
+      "hebrew": "אני סולח לך, בשביל השקט שלי.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770685"
+    },
+    {
+      "english": "I’ll let kindness lead, even now.",
+      "hebrew": "אני אתן לחסד להוביל, גם עכשיו.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770688"
+    },
+    {
+      "english": "Give me space, I’ll grow into forgiveness.",
+      "hebrew": "תן לי מרחב, אני אתפתח לסליחה.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770696"
+    },
+    {
+      "english": "Text me later, let’s cool down first.",
+      "hebrew": "תכתוב לי אחר כך, בוא נירגע קודם.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T07:23:55.770699"
     }
   ],
-  "last_updated": "2026-11-10T07:55:43.127964"
+  "last_updated": "2026-11-11T07:23:55.770702"
 }

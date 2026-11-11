@@ -34,7 +34,8 @@
     "hebrew_bg_032.jpg": 1,
     "hebrew_bg_033.jpg": 1,
     "hebrew_bg_034.jpg": 1,
-    "hebrew_bg_035.jpg": 1
+    "hebrew_bg_035.jpg": 1,
+    "hebrew_bg_036.jpg": 1
   },
   "last_used": {
     "hebrew_bg_001.jpg": "2026-10-17T04:51:43.053496+00:00",
@@ -71,7 +72,8 @@
     "hebrew_bg_032.jpg": "2026-11-07T06:44:32.458123+00:00",
     "hebrew_bg_033.jpg": "2026-11-08T06:51:07.090197+00:00",
     "hebrew_bg_034.jpg": "2026-11-09T07:29:06.361767+00:00",
-    "hebrew_bg_035.jpg": "2026-11-10T07:55:45.611542+00:00"
+    "hebrew_bg_035.jpg": "2026-11-10T07:55:45.611542+00:00",
+    "hebrew_bg_036.jpg": "2026-11-11T07:24:00.079415+00:00"
   },
   "history": [
     {
@@ -282,6 +284,12 @@
       "filename": "hebrew_bg_035.jpg",
       "category": "Coffee Shop & Bakery",
       "timestamp": "2026-11-10T07:55:45.611542+00:00",
+      "cycle": 1
+    },
+    {
+      "filename": "hebrew_bg_036.jpg",
+      "category": "Forgiveness",
+      "timestamp": "2026-11-11T07:24:00.079415+00:00",
       "cycle": 1
     }
   ],
