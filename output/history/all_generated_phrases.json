@@ -52867,7 +52867,399 @@
       "transliteration": "leDA-ati atah TZO-Dek, bi-CHAN-UT",
       "category": "Agreeing & Disagreeing",
       "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "Hi, it’s [Name], calling now.",
+      "hebrew": "היי, זה [Name], אני מתקשר עכשיו.",
+      "transliteration": "Hai, ze [Name], ani meTkaSeR eKShav.",
+      "category": "Phone Calls & Messages",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "Can I leave you a voicemail?",
+      "hebrew": "אפשר להשאיר לך הודעה קולית?",
+      "transliteration": "Efshar lehaSHIR lecha hoDaa qaOLit?",
+      "category": "Phone Calls & Messages",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "Please call me back when free.",
+      "hebrew": "תתקשר אליי בחזרה כשתהיה פנוי.",
+      "transliteration": "TitkaSher eLay chaZra kShetiheYe paNUI.",
+      "category": "Phone Calls & Messages",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "I’m running late, sorry.",
+      "hebrew": "אני מאחר קצת, סליחה.",
+      "transliteration": "Ani maAChEr kaTs, seLiCha.",
+      "category": "Phone Calls & Messages",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "What time can we talk today?",
+      "hebrew": "באיזו שעה אפשר לדבר היום?",
+      "transliteration": "BeI zO shaA apSHeR leDaber haYO?",
+      "category": "Phone Calls & Messages",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "I sent the message, did you get it?",
+      "hebrew": "שלחתי הודעה, קיבלת אותה?",
+      "transliteration": "SlaCHti hoDaa, kiVAlT aOta?",
+      "category": "Phone Calls & Messages",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "Text me the address, please.",
+      "hebrew": "תשלח לי בהודעה את הכתובת, בבקשה.",
+      "transliteration": "TeshlaCH li behaODaa et hakToVet, beVaQaSha.",
+      "category": "Phone Calls & Messages",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "You make me feel understood",
+      "hebrew": "אתה גורם לי להרגיש שמבינים אותי",
+      "transliteration": "Ata GOREM li lHARGISH sheMAVINIM oti",
+      "category": "Friendship",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "Let’s keep each other close",
+      "hebrew": "בוא",
+      "transliteration": "BeVOKE nishmor ECHAD al SHENI KAROV",
+      "category": "Friendship",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "We speak heart to heart",
+      "hebrew": "אנחנו מדברים לב אל לב",
+      "transliteration": "Anachnu MEDABRIM lev el lev",
+      "category": "Friendship",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "I trust you with my secrets",
+      "hebrew": "אני סומך",
+      "transliteration": "Ani SOMECH alECHA im haSODOT sheLI",
+      "category": "Friendship",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "Thanks for being my calm",
+      "hebrew": "תודה שאת",
+      "transliteration": "TODa sheAT haSHEKET sheLI",
+      "category": "Friendship",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "You show up, and it matters",
+      "hebrew": "אתה מופיע, וזה באמת חשוב",
+      "transliteration": "Ata MAFIA, veZE beEMET CHASHUV",
+      "category": "Friendship",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "We celebrate the good stuff",
+      "hebrew": "אנחנו חוגגים את הדברים הטובים",
+      "transliteration": "Anachnu HOGEGIM et haDVARIM haTOVIM",
+      "category": "Friendship",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "Balance life, breathe, continue.",
+      "hebrew": "איזון בחיים, לנשום, ולהמשיך.",
+      "transliteration": "iZUN beCHAYIM, lĕnaSHOM, uLehMASHICH.",
+      "category": "Balance",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "Slow down, keep your center.",
+      "hebrew": "תאט רגע, תשמור על המרכז שלך.",
+      "transliteration": "taT ROga, tiSHOR al haMERKAZ SHELkha.",
+      "category": "Balance",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "One thing at a time, with ease.",
+      "hebrew": "דבר אחד בכל פעם, בנחת.",
+      "transliteration": "daVAR eCHAD baKOL paAM, bĕNAHAT.",
+      "category": "Balance",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "Between work and rest, choose balance.",
+      "hebrew": "בין עבודה למנוחה, תבחר איזון.",
+      "transliteration": "beIN aVOda leMĕNUHaH, teVAHR iZUN.",
+      "category": "Balance",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "Make space for both sides.",
+      "hebrew": "תן מקום לשני הצדדים.",
+      "transliteration": "ten MOQEM laSHnei haTsaDAdim.",
+      "category": "Balance",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "Don’t push, just align.",
+      "hebrew": "אל תדחוף, תיישר קו.",
+      "transliteration": "al tiDHOF, tiYEiSHER QO.",
+      "category": "Balance",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "Quiet mind, steady heart.",
+      "hebrew": "מוח שקט, לב יציב.",
+      "transliteration": "MOACH SHAket, lev YAtsIV.",
+      "category": "Balance",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "I feel joy blooming inside me",
+      "hebrew": "אני מרגיש שמחה צומחת בתוכי",
+      "transliteration": "Ani marגיש Simcha tsome'achET betochi",
+      "category": "Joy",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "My smile shows, I mean it",
+      "hebrew": "החיוך שלי מדבר לבד, באמת",
+      "transliteration": "Ha-chiyuch sheli medaber levad, be'emET",
+      "category": "Joy",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "This moment is sweet, right now",
+      "hebrew": "הרגע הזה מתוק, ממש עכשיו",
+      "transliteration": "Ha-rega ha-zeh matoK, u'mamash achshav",
+      "category": "Joy",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "Good news makes me feel bright",
+      "hebrew": "בשורות טובות מאירות אותי",
+      "transliteration": "BesoroT tovot me'iroT oti",
+      "category": "Joy",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "I’m grateful, and it’s joyful",
+      "hebrew": "אני מודה, וזה משמח",
+      "transliteration": "Ani modeh, ve-zeh mesamֵACH",
+      "category": "Joy",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "My heart dances when I listen",
+      "hebrew": "הלב שלי רוקד כשאני מקשיב",
+      "transliteration": "Ha-lev sheli roKeD kshe-ani meKSHIV",
+      "category": "Joy",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "The day feels warm and kind",
+      "hebrew": "היום מרגיש חם, ונדיב",
+      "transliteration": "Hayom misGYEsh cham, ve-nadiv",
+      "category": "Joy",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "Where should we meet at home?",
+      "hebrew": "איפה כדאי להיפגש בבית שלנו?",
+      "transliteration": "EIFO KADAI leHIPPAGESh BAIT SHELANU?",
+      "category": "Family & Home",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "My parents are coming this weekend.",
+      "hebrew": "ההורים שלי מגיעים בסוף השבוע.",
+      "transliteration": "haHOREEM SHELI MEGIIMIM BASOF haSHAVUA",
+      "category": "Family & Home",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "I share a room with my sister.",
+      "hebrew": "אני חולק חדר עם האחות שלי.",
+      "transliteration": "ANI CHOLEK CHEder IM haACHOT SHELI",
+      "category": "Family & Home",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "Can you help me set the table?",
+      "hebrew": "אתה יכול לעזור לי להניח את הצלחות?",
+      "transliteration": "ATA YACHOL leEZOR LI leHANIACH et haTSELACHOT",
+      "category": "Family & Home",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "Let’s clean the kitchen together now.",
+      "hebrew": "בוא ננקה את המטבח ביחד עכשיו.",
+      "transliteration": "BO elNENEK et haMETBACH BİYACHAD ECHSHAV",
+      "category": "Family & Home",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "Our dog is waiting by the door.",
+      "hebrew": "הכלב שלנו מחכה ליד הדלת.",
+      "transliteration": "haKELEV SHELAnU MECHAKЕH YAD haDELET",
+      "category": "Family & Home",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "I’m calling my grandma right now.",
+      "hebrew": "אני מתקשר לסבתא שלי עכשיו.",
+      "transliteration": "ANI METKASER leSATTA SHELI ECHSHAV",
+      "category": "Family & Home",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "Wake up, check your phone, breathe",
+      "hebrew": "מתעוררים, בודקים את הטלפון, נושמים רגע",
+      "transliteration": "mitoR-RIM, bo-DE-KIM et ha-TEL-efon, noSHIM re-ga'",
+      "category": "Daily Routine",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "I make the bed before coffee",
+      "hebrew": "אני מסדר את המיטה לפני הקפה",
+      "transliteration": "aNI mES-DER et haMI-TA lif-NI ha-KO-fe",
+      "category": "Daily Routine",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "Brush teeth, rinse, and smile",
+      "hebrew": "מצחצחים שיניים, שוטפים, ומחייכים",
+      "transliteration": "meTZAH-CHCHIM SHI-NEEM, SHO-te-fim, u-meKHAY-KIM",
+      "category": "Daily Routine",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "I shower, then pick my clothes",
+      "hebrew": "אני מתקלחים, ואז בוחרים בגדים",
+      "transliteration": "aNI mit-KLACH, a-z bO-CH-RIM bi-GE-DEEM",
+      "category": "Daily Routine",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "Pack a water bottle for today",
+      "hebrew": "מכינים בקבוק מים ליום הזה",
+      "transliteration": "ma-KHINIM be-KBaK ma-IM le-YOM haZE",
+      "category": "Daily Routine",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "Eat breakfast, slowly, no rush",
+      "hebrew": "אוכלים ארוחת בוקר לאט, בלי לחץ",
+      "transliteration": "o-KHLIM a-RU-CHAT bo-KER la-AT, bi-LI la-CHAS",
+      "category": "Daily Routine",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "Coffee first, then email at work",
+      "hebrew": "קפה קודם, ואז בודקים אימיילים בעבודה",
+      "transliteration": "KFE kodem, a-z bo-DE-KIM i-MAY-LIM ba-A-VO-DA",
+      "category": "Daily Routine",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "Choose wisely, then follow through",
+      "hebrew": "בחר בחוכמה, ואז לך עד הסוף",
+      "transliteration": "BAKHOR be-CHOKHMA, VE-az LEKH ad haSOF",
+      "category": "Wisdom",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "Small steps beat big promises",
+      "hebrew": "צעד קטן מנצח הבטחה גדולה",
+      "transliteration": "TZAAD KATAN MENATZEYakh HAVTACHA GEDOLA",
+      "category": "Wisdom",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "Before you react, pause and breathe",
+      "hebrew": "לפני תגובה, עצור רגע ונשום",
+      "transliteration": "LIFNEI TEGUVÁ, E-TOR REGAA ve-NE-SHOM",
+      "category": "Wisdom",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "Ask, learn, and revise your plan",
+      "hebrew": "שאל, למד, ועדכן את התוכנית שלך",
+      "transliteration": "SHE-AL, LAMED, ve-a-DKEN et ha-TKHNIT shelkha",
+      "category": "Wisdom",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "Let questions guide you forward",
+      "hebrew": "תן לשאלות להוביל אותך קדימה",
+      "transliteration": "TEN la-SHE-LOT le-hA-VIL otkha KADIMA",
+      "category": "Wisdom",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "Wise timing changes everything",
+      "hebrew": "תזמון חכם משנה הכול",
+      "transliteration": "TE-ZMÓN KHAKH meSHA-NE et ha-KOL",
+      "category": "Wisdom",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "Turn mistakes into useful information",
+      "hebrew": "הפוך טעויות למידע מועיל",
+      "transliteration": "HA-POKH TEOYOT le-MEI-DA MO-EE-L",
+      "category": "Wisdom",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "I need cash, please. Now.",
+      "hebrew": "אני צריך מזומן, בבקשה, עכשיו.",
+      "transliteration": "ani tsarich MEZUMAN, bevakasha, AKSHAW.",
+      "category": "Banking & Money",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "Can I withdraw without a fee?",
+      "hebrew": "אפשר למשוך בלי עמלה?",
+      "transliteration": "EFSHER leMASHOKH bli AMALAH?",
+      "category": "Banking & Money",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "Where’s the nearest ATM?",
+      "hebrew": "איפה הכספומט הקרוב ביותר?",
+      "transliteration": "EIפה haKASpoMET haKAROV beyoter?",
+      "category": "Banking & Money",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "My card was declined, help me.",
+      "hebrew": "כרטיס האשראי שלי נדחה, תעזרו לי.",
+      "transliteration": "KARtis haASHrai SHEli NADHA, teAZRU li.",
+      "category": "Banking & Money",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "What’s my current balance?",
+      "hebrew": "מה היתרה שלי כרגע?",
+      "transliteration": "MA HEYTERA SHEli KAReG E?",
+      "category": "Banking & Money",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "Check that charge for me.",
+      "hebrew": "תבדקו לי את החיוב הזה.",
+      "transliteration": "tVADeku li et HIYUV haZE.",
+      "category": "Banking & Money",
+      "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "I want to set up auto-pay.",
+      "hebrew": "אני רוצה להגדיר תשלום אוטומטי.",
+      "transliteration": "ani ROTZE leHAGDIR teSHALOM autoMATI.",
+      "category": "Banking & Money",
+      "generated_at": "2026-11-12T08:37:22.335857"
     }
   ],
-  "last_updated": "2026-11-12T07:26:11.585959"
+  "last_updated": "2026-11-12T08:37:22.335857"
 }
