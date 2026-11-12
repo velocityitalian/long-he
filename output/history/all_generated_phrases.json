@@ -53259,7 +53259,399 @@
       "transliteration": "ani ROTZE leHAGDIR teSHALOM autoMATI.",
       "category": "Banking & Money",
       "generated_at": "2026-11-12T08:37:22.335857"
+    },
+    {
+      "english": "Excuse me, how do I get there?",
+      "hebrew": "סליחה, איך אני מגיע לשם?",
+      "transliteration": "SLICHA, EICH ANI MAGEA L'SHAM?",
+      "category": "Asking for Directions",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "Where is the nearest bus stop?",
+      "hebrew": "איפה תחנת האוטובוס הקרובה ביותר?",
+      "transliteration": "EI F ה TACHANAT HAOTOBUS HAKROVA BEYOTER?",
+      "category": "Asking for Directions",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "Can you point me to the station?",
+      "hebrew": "אתה יכול להצביע לי על התחנה?",
+      "transliteration": "ATA YACHOL LEHATZBIA LI AL HATAHANA?",
+      "category": "Asking for Directions",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "Is this the right way to downtown?",
+      "hebrew": "זה הכיוון הנכון למרכז העיר?",
+      "transliteration": "ZE HA KIVUN HANAKHON L'MERKAZ HAIR?",
+      "category": "Asking for Directions",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "How long does it take on foot?",
+      "hebrew": "כמה זמן זה ברגל?",
+      "transliteration": "KAMAH ZMAN ZE B'REGEL?",
+      "category": "Asking for Directions",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "Which street should I turn onto?",
+      "hebrew": "לאיזו רחוב כדאי לי לפנות?",
+      "transliteration": "LE'EIZU REHOV KADAI LI L'FENOT?",
+      "category": "Asking for Directions",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "Could you tell me the quickest route?",
+      "hebrew": "אפשר לדעת מה הדרך הכי מהירה?",
+      "transliteration": "EF SHAR LEDAAT MA HA DERECH HA KI MEHERA?",
+      "category": "Asking for Directions",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "How much is this, please?",
+      "hebrew": "כמה זה עולה, בבקשה?",
+      "transliteration": "KAMa ze OLE, bevAKaSHa?",
+      "category": "Shopping & Prices",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "Do you have it in another size?",
+      "hebrew": "יש לכם מידה אחרת?",
+      "transliteration": "YESh laKHEM MIda AHeret?",
+      "category": "Shopping & Prices",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "Is there a discount today?",
+      "hebrew": "יש הנחה היום?",
+      "transliteration": "YESh HANHa HaYom?",
+      "category": "Shopping & Prices",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "Do you price match, like online?",
+      "hebrew": "אתם מתאימים מחיר כמו באינטרנט?",
+      "transliteration": "ATem meTa'IMim MEHir keMO baINterNET?",
+      "category": "Shopping & Prices",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "I’ll take two, how much total?",
+      "hebrew": "אני לוקח שניים, כמה זה יוצא ביחד?",
+      "transliteration": "aNI LOKeH SHENayim, kaMHi ze YOtsa biYaHD?",
+      "category": "Shopping & Prices",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "Can I get this gift wrapped?",
+      "hebrew": "אפשר לעטוף לי את זה כמתנה?",
+      "transliteration": "EFSher leTOFef LI et ze kaMEtaNAH?",
+      "category": "Shopping & Prices",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "What’s the return policy here?",
+      "hebrew": "מה מדיניות ההחזרה כאן?",
+      "transliteration": "MA meDIniyut haHeCHZaRa KA’N?",
+      "category": "Shopping & Prices",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "What’s the vibe tonight?",
+      "hebrew": "מה הווייב להיום בלילה?",
+      "transliteration": "ma ha-VAIV le-HAYOM ba-LAIla",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "No stress, I’ve got you.",
+      "hebrew": "אין לחץ, אני מסדר את זה.",
+      "transliteration": "ein LAKHATS, ani MASDER et ze",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "You’re kidding, right?",
+      "hebrew": "אתה צוחק עליי, נכון?",
+      "transliteration": "ata TSOHek alai, NAKHON",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "I’ll be there in ten.",
+      "hebrew": "אני שם בעוד עשר דקות.",
+      "transliteration": "ani SHAM o-VaD eid eser DAkot",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "That’s wild, seriously.",
+      "hebrew": "איזה מטורף, באמת.",
+      "transliteration": "EIze me-TUROF, be-EMET",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "Let’s grab food after work.",
+      "hebrew": "יאללה, נתפוס משהו לאכול אחרי העבודה.",
+      "transliteration": "YAala, neTFOS MEshEhu le-EXOL a-REY a-AVODA",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "Give me a sec, please.",
+      "hebrew": "רק רגע, תן לי שנייה.",
+      "transliteration": "rak REGA, ten li SNIya",
+      "category": "Common Native Slang",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "Make one tiny change today, just one.",
+      "hebrew": "תעשי שינוי קטן אחד היום, רק אחד.",
+      "transliteration": "Ta'asi SHI-nui KATAN eCHAD haYOM, rak eCHAD.",
+      "category": "Self Improvement",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "Write it down, then act right away.",
+      "hebrew": "תכתבי את זה, ואז תעשי מיד.",
+      "transliteration": "Tichtvi et ze, VE-az ta'asi MIYAD.",
+      "category": "Self Improvement",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "Clear your mind, one breath, then focus.",
+      "hebrew": "תנקי את הראש, נשימה אחת, ואז התמקדי.",
+      "transliteration": "TeNKa i et HA-ROSH, NESHIMA ACHAT, VE-az hitMAKEDI.",
+      "category": "Self Improvement",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "Reward yourself after the hard part.",
+      "hebrew": "תתני לעצמך פרס אחרי החלק הקשה.",
+      "transliteration": "Teteni LE'atzmekh PERES aCHAREI hA-CHeK haKASHEH.",
+      "category": "Self Improvement",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "Talk to yourself like you mean it.",
+      "hebrew": "תדברי אל עצמך באמת, באמת.",
+      "transliteration": "Tedabri el aTzmekh be-EMET, be-EMET.",
+      "category": "Self Improvement",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "Choose progress, not busywork, every hour.",
+      "hebrew": "תבחרי התקדמות, לא עבודה לשם עבודה.",
+      "transliteration": "TaCHARi hITKaDmut, lo aVO-DA le-SHEM aVO-DA.",
+      "category": "Self Improvement",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "Train your attention, not just your time.",
+      "hebrew": "תאמני את תשומת הלב, לא רק את הזמן.",
+      "transliteration": "TaaMeni et teshUMET haLEV, LO raK et haZEman.",
+      "category": "Self Improvement",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "Let’s meet after work, tonight?",
+      "hebrew": "ניפגש אחרי העבודה, הלילה?",
+      "transliteration": "Nיפגֵש aḥar ha-avodá, ha-láyla?",
+      "category": "Dating & Romance",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "I like your vibe, seriously.",
+      "hebrew": "הדבר הזה שיש לך, ממש עושה לי טוב.",
+      "transliteration": "Ha-davar ha-zeh she-yesh lekha, mamash oseh li tov.",
+      "category": "Dating & Romance",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "Can I take you out this week?",
+      "hebrew": "אפשר להוציא אותך השבוע?",
+      "transliteration": "Efsher lehotsi etkha ha-shavúa?",
+      "category": "Dating & Romance",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "No pressure, just coffee and chat.",
+      "hebrew": "בלי לחץ, רק קפה ודיבורים.",
+      "transliteration": "Velo laḥats, rak kafe udivurim.",
+      "category": "Dating & Romance",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "I saved your seat, come sit.",
+      "hebrew": "שמרתי לך מקום, בוא תֵשֵב.",
+      "transliteration": "Shamar-ti lekha makom, bo teyshev.",
+      "category": "Dating & Romance",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "Let’s walk together, it’s quieter.",
+      "hebrew": "בוא נלך יחד, יותר שקט.",
+      "transliteration": "Bo neilekh yaḥad, yoter sheket.",
+      "category": "Dating & Romance",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "Should we try that new place?",
+      "hebrew": "בוא ננסה את המקום החדש הזה?",
+      "transliteration": "Bo nansé et ha-makom ha-khadash ha-zeh?",
+      "category": "Dating & Romance",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "I’m sweating already, let’s go!",
+      "hebrew": "אני מזיע כבר, יאללה נמשיך!",
+      "transliteration": "ani MEZIA kbar, YALa ha-NIMESH",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "Can you spot me during squats?",
+      "hebrew": "אתה יכול להשגיח עליי בסקוואטים?",
+      "transliteration": "ata yekhol leHEShGIA alai be-SKWA-tim",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "I’ll take the stairs, not the elevator.",
+      "hebrew": "אני לוקח מדרגות, לא מעלית.",
+      "transliteration": "ani LO-keakh MI-dRA-got, lo MEA-lit",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "How’s your form, shoulders relaxed?",
+      "hebrew": "איך הטכניקה, כתפיים רפויות?",
+      "transliteration": "Eikh ha-TECH-ni-ka, KTE-fayim reFU-yot",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "I ran out of energy mid-workout.",
+      "hebrew": "אזל לי הכוח באמצע האימון.",
+      "transliteration": "AZal li ha-KOakh be-EMtsa ha-I-MUN",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "That stretch feels amazing after training.",
+      "hebrew": "המתיחה הזאת מרגישה מעולה אחרי אימון.",
+      "transliteration": "ha-mi-ti-a ha-ZOT merGA-sha me-O-LEH akharei i-MUN",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "Let’s warm up for ten minutes.",
+      "hebrew": "בוא נחמם עשר דקות.",
+      "transliteration": "bo nah-MAM e-sER de-ka-t",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "Compliment someone honestly, right now",
+      "hebrew": "תן מחמאה אמיתית למישהו, עכשיו",
+      "transliteration": "ten mechimah AMITit le-mishehu, AXTav",
+      "category": "Kindness",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "Offer patience when things get messy",
+      "hebrew": "תן סבלנות, גם כשהכול מסתבך",
+      "transliteration": "ten savlanut, gam kshehakol mistabeCH",
+      "category": "Kindness",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "Say sorry fast, and mean it",
+      "hebrew": "תתנצל מהר, ותכוון לזה באמת",
+      "transliteration": "titnatzel MEHAR, ve-taCHVEN le-ze beEMET",
+      "category": "Kindness",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "Include others, don’t leave them out",
+      "hebrew": "תכליל אנשים, אל תשאיר אותם בחוץ",
+      "transliteration": "takhlyl ANASHIM, al tashAYIR otam beCHUT",
+      "category": "Kindness",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "Speak with care, not with fire",
+      "hebrew": "תדבר בעדינות, לא בלהט",
+      "transliteration": "tEDBER be-ADI-Nut, lo be-leHAT",
+      "category": "Kindness",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "Let them vent, then breathe",
+      "hebrew": "תן להם לפרוק, ואז תנשום",
+      "transliteration": "ten la-HEM le-FA-ROK, aCHARE KEN te-naSHOM",
+      "category": "Kindness",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "Help clean up, even if no one asks",
+      "hebrew": "תעזור לנקות, גם אם לא ביקשו",
+      "transliteration": "ta-AYZOR le-naKEK, gam im lo BI-KSHU",
+      "category": "Kindness",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "I can do this in Hebrew.",
+      "hebrew": "אני יכול לעשות את זה בעברית.",
+      "transliteration": "Ani yakhol laasot et ze be-ivrit.",
+      "category": "Confidence",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "Today, I speak with calm certainty.",
+      "hebrew": "היום אני מדבר בביטחון רגוע.",
+      "transliteration": "Hayom ani medaber be-vitachon REGÚA.",
+      "category": "Confidence",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "My questions are welcome and brave.",
+      "hebrew": "השאלות שלי מתקבלות, ואני אמיץ.",
+      "transliteration": "Ha-SHEElot sheli mitkabloth, ve-ani AMITS.",
+      "category": "Confidence",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "I won’t freeze, I keep going.",
+      "hebrew": "אני לא אתקע, אני ממשיך לדבר.",
+      "transliteration": "Ani lo EETKA, ani MAMSCHÍCH ledaber.",
+      "category": "Confidence",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "I understand more than I think.",
+      "hebrew": "אני מבין יותר ממה שאני חושב.",
+      "transliteration": "Ani MAVÍN yoter mi-ma she-ani KHOSHAV.",
+      "category": "Confidence",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "I can handle small mistakes.",
+      "hebrew": "אני יודע להתמודד עם טעויות קטנות.",
+      "transliteration": "Ani YODEA lehitmoded im TEI’uYOT KETANOT.",
+      "category": "Confidence",
+      "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "I ask again, and it works.",
+      "hebrew": "אני שואל שוב, וזה עובד.",
+      "transliteration": "Ani SHOEIL shuv, ve-ze Oved.",
+      "category": "Confidence",
+      "generated_at": "2026-11-12T10:01:27.078366"
     }
   ],
-  "last_updated": "2026-11-12T08:37:22.335857"
+  "last_updated": "2026-11-12T10:01:27.078366"
 }
