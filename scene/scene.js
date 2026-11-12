@@ -38,6 +38,7 @@
 
   $('brandTop').textContent = T.brand_top;
   $('brandBottom').textContent = T.brand_bottom;
+  $('logoLang').textContent = T.brand_bottom;
   $('footBrand').textContent = T.brand;
   $('footHandle').textContent = T.handle;
   $('footLesson').textContent = `LESSON 01 · ${T.chapters.length} CHAPTERS`;
