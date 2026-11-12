@@ -15,7 +15,17 @@ import config
 
 SR = 48000
 _PUNCT = re.compile(r"[^\w\s]", re.UNICODE)
+_SPACE = re.compile(r"\s+")
+_BRACKETED = re.compile(r"[\[\(\{<][^\]\}\)>]*[\]\}\)>]")
 _ZWJ = {"\u200c", "\u200d"}
+
+
+def _for_speech(text: str) -> str:
+    """Drop bracketed placeholders so narration never says 'bracket name bracket'."""
+    cleaned = _BRACKETED.sub(" ", str(text))
+    cleaned = re.sub(r"[\[\]\(\)\{\}<>]", " ", cleaned)
+    cleaned = _SPACE.sub(" ", cleaned)
+    return re.sub(r"\s+([,.;:!?])", r"\1", cleaned).strip()
 
 
 def _norm(text: str) -> str:
@@ -178,26 +188,28 @@ async def _synth_phrase(index: int, phrase: dict, audio_dir: Path, semaphore):
     lang = config.LANGUAGE
     en_path = audio_dir / f"en_{index}.mp3"
     vi_path = audio_dir / f"vi_{index}.mp3"
+    english = _for_speech(phrase["english"])
+    native = _for_speech(phrase["native"])
 
     en_bounds, en_dur = await _synth_with_retry(
-        phrase["english"],
+        english,
         [lang["english_voice"], lang.get("english_fallback_voice", "en-US-GuyNeural")],
         en_path, lang["english_rate"], lang["english_pitch"], semaphore,
     )
 
-    vi_bounds, vi_dur = await _synth_native(phrase["native"], vi_path, semaphore)
+    vi_bounds, vi_dur = await _synth_native(native, vi_path, semaphore)
 
     return {
         "index": index,
-        "english": phrase["english"],
-        "native": phrase["native"],
+        "english": english,
+        "native": native,
         "transliteration": phrase.get("transliteration", ""),
         "en_path": en_path,
         "vi_path": vi_path,
         "en_duration": en_dur,
         "vi_duration": vi_dur,
-        "en_words": map_word_timings(phrase["english"], en_bounds, en_dur),
-        "vi_words": map_word_timings(phrase["native"], vi_bounds, vi_dur,
+        "en_words": map_word_timings(english, en_bounds, en_dur),
+        "vi_words": map_word_timings(native, vi_bounds, vi_dur,
                                      split_chars=bool(lang.get("char_tiles"))),
     }
 

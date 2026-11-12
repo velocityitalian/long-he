@@ -26,6 +26,7 @@ _WORD = re.compile(r"[^\W_]+", re.UNICODE)
 _SPACE = re.compile(r"\s+")
 _PUNCT = re.compile(r"[^\w\s]", re.UNICODE)
 _CHAR_SCRIPT = re.compile(r"[\u0590-\u05FF\u0600-\u06FF\u0900-\u097F\u0980-\u09FF\u0A00-\u0A7F\u0B80-\u0BFF\u0C00-\u0C7F\u0D00-\u0D7F\u0E00-\u0E7F\u1000-\u109F\u10A0-\u10FF\u3040-\u30FF\u3400-\u9FFF\uAC00-\uD7AF]")
+_BRACKETS = re.compile(r"[\[\]\(\)\{\}<>]")
 
 
 def _load_json(path, default):
@@ -151,6 +152,9 @@ def _normalize(item):
         return None
     translit = translit.strip().strip("[]()").strip()
 
+    if _BRACKETS.search(english) or _BRACKETS.search(native) or _BRACKETS.search(translit):
+        return None
+
     return {"english": " ".join(words), "native": native, "transliteration": translit}
 
 
@@ -227,7 +231,8 @@ Rules:
 3. Every phrase needs a distinct idea. Never paraphrase another line on the list.
 4. Native side: natural {LANGUAGE_NAME} written in {NATIVE_NAME}, correct script and accents, one translation only.
 5. Transliteration: friendly Roman letters for English speakers (not IPA), stressed syllables in CAPITALS.
-6. No slashes, no brackets, no quotes, no emoji, no numbering inside the phrases.
+6. No slashes, no brackets of any kind, no quotes, no emoji, no numbering inside the phrases.
+   Never use placeholders such as [Name], (your city) or {topic}: write the sentence the way a real person would say it (for example "Hi, it's me calling now").
 7. Add a natural comma for breathing pauses where it helps the voice.
 8. Vary the length: punchy one-liners plus a few warmer, longer sentences.
 
