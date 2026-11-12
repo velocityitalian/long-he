@@ -53651,7 +53651,399 @@
       "transliteration": "Ani SHOEIL shuv, ve-ze Oved.",
       "category": "Confidence",
       "generated_at": "2026-11-12T10:01:27.078366"
+    },
+    {
+      "english": "Where do I get off for downtown?",
+      "hebrew": "איפה יורדים לכיוון מרכז העיר, בבקשה?",
+      "transliteration": "EIFO YE-RDIM L KIVUN MERKAZ HA-IR, bevakasha?",
+      "category": "Public Transportation",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "Does this bus stop near the hospital?",
+      "hebrew": "האם האוטובוס הזה עוצר ליד בית החולים?",
+      "transliteration": "Ha’im ha-otobus ha-ze o Tzer lid bet ha-holIM?",
+      "category": "Public Transportation",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "What line goes to the train station?",
+      "hebrew": "איזו קו נוסע לתחנת הרכבת?",
+      "transliteration": "EIZO KO NO-SE L TACHANAT HA-RAKEVET?",
+      "category": "Public Transportation",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "Is there a direct route from here?",
+      "hebrew": "יש קו ישיר מכאן?",
+      "transliteration": "YES KO YASHIR mi kan?",
+      "category": "Public Transportation",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "I need a day pass, please.",
+      "hebrew": "אני צריך כרטיס יומי, בבקשה.",
+      "transliteration": "Ani TzarICH KAR-TIS YO-MI, bevakasha.",
+      "category": "Public Transportation",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "How do I validate my ticket?",
+      "hebrew": "איך מאמתים את הכרטיס?",
+      "transliteration": "EICH MA-AMTIM et ha-karTIS?",
+      "category": "Public Transportation",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "Do I tap my card here?",
+      "hebrew": "אפשר להקיש את הכרטיס כאן?",
+      "transliteration": "EF-SHER le-HAKHIS et ha-karTIS kan?",
+      "category": "Public Transportation",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "Start tiny, then scale up today",
+      "hebrew": "תתחיל בקטן, ואז תגדיל היום.",
+      "transliteration": "TIT-chil bi-KATAN, ve-AZ TEGDIL hayom.",
+      "category": "Motivation",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "Make it easy, then make it real",
+      "hebrew": "תעשה את זה קל, ואז להפוך את זה למציאות.",
+      "transliteration": "TA'ASEH et ze KAL, ve-AZ le-HAPOCH et ze le-METSIUT.",
+      "category": "Motivation",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "Turn panic into one doable step",
+      "hebrew": "הפוך פאניקה לצעד אחד שאפשר לעשות.",
+      "transliteration": "HAFOKH PA- NI-KA le-TZA'D ECHAD SHE-AP-SHAR laA-SOT.",
+      "category": "Motivation",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "Choose progress over perfect every time",
+      "hebrew": "תבחר התקדמות על פני שלמות, כל פעם.",
+      "transliteration": "TIVCHAR haT-KAD-MUT al PNEI SHE-LEMUT, kol PA'am.",
+      "category": "Motivation",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "Your effort counts, even when small",
+      "hebrew": "המאמץ שלך נחשב, גם אם הוא קטן.",
+      "transliteration": "haMA-AMATS SHELCHA NIS-Ba, gam im hu KA-TAN.",
+      "category": "Motivation",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "Sweat less, but show up more",
+      "hebrew": "תזיע פחות, אבל תופיע יותר.",
+      "transliteration": "TE-ZIE PACHOT, aval ta-FO'IA YOTER.",
+      "category": "Motivation",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "Set a timer, do it now",
+      "hebrew": "תפעיל טיימר, תעשה את זה עכשיו.",
+      "transliteration": "te-P'IL TAIM-ER, te-ASEH et ze ECH-shav.",
+      "category": "Motivation",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "Say thank you, then exhale.",
+      "hebrew": "תגיד תודה, ואז תשחרר נשימה.",
+      "transliteration": "TE-GID TO-DÁ, a-ZÁZ te-SHA-RE R NIE-SHI- MA.",
+      "category": "Positive Life",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "Let joy find you naturally.",
+      "hebrew": "תן לשמחה למצוא אותך בקלות.",
+      "transliteration": "TEN le-SIM-CHA LIM-TZO O-TCHA b-KE-LOT.",
+      "category": "Positive Life",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "Move your body, lift your mood.",
+      "hebrew": "תזיז את הגוף, תרים את מצב הרוח.",
+      "transliteration": "TE-ZIZ et ha-GUF, te-RIM et ME- TAV ru-ACH.",
+      "category": "Positive Life",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "Make room for good news.",
+      "hebrew": "תן מקום לחדשות טובות.",
+      "transliteration": "TEN MA- KOIM le-CHDA-SHOT TO-VOT.",
+      "category": "Positive Life",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "Talk to yourself like a friend.",
+      "hebrew": "תדבר אל עצמך כמו חבר.",
+      "transliteration": "TED-BER el atz-MECHA ke-MO CHA-VER.",
+      "category": "Positive Life",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "Start small, let it compound.",
+      "hebrew": "תתחיל בקטן, ותראה שזה מצטבר.",
+      "transliteration": "TA-CHIL bi-KATAN, ve-TIR-eh she-ZE MET-SA-VAR.",
+      "category": "Positive Life",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "Protect your energy, say no kindly.",
+      "hebrew": "תשמור על האנרגיה שלך, תגיד לא בעדינות.",
+      "transliteration": "TISH-MOR al ha-AN-ER-GI-A SHE-LA, te-GID LO be-A- DI-NUT.",
+      "category": "Positive Life",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "I choose you, again and again.",
+      "hebrew": "אני בוחר בך, שוב ושוב.",
+      "transliteration": "Ani BOREH BECHA, SHOv veSHOV.",
+      "category": "Love",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "Your love makes me braver.",
+      "hebrew": "האהבה שלך עושה אותי אמיץ יותר.",
+      "transliteration": "Ha'Ahava SHELCHA OSA otI AMITS YOTER.",
+      "category": "Love",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "With you, I feel truly seen.",
+      "hebrew": "אִתך, אני מרגיש שרואים אותי באמת.",
+      "transliteration": "ItCHa, ani MERGISH SHERO'im oti BEmet.",
+      "category": "Love",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "You make my heart feel at home.",
+      "hebrew": "הלב שלי מרגיש אצלך בבית.",
+      "transliteration": "HaLEV SHEli MERGISH EtselCHA BEIT.",
+      "category": "Love",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "I trust your heart with mine.",
+      "hebrew": "אני סומך על הלב שלך עם הלב שלי.",
+      "transliteration": "Ani SOMEKH al HALEV SHELCHA im HALEV SHEli.",
+      "category": "Love",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "Let’s keep loving, not just talking.",
+      "hebrew": "בוא נמשיך לאהוב, לא רק לדבר.",
+      "transliteration": "Bo NAmsiKH leEHOV, lo rak leDABER.",
+      "category": "Love",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "Your kindness stays with me.",
+      "hebrew": "החסד שלך נשאר איתי.",
+      "transliteration": "HaCHESed SHELCHA NEshAR ITi.",
+      "category": "Love",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "I love hearing elders tell stories.",
+      "hebrew": "אני אוהב לשמוע סיפורים מהזקנים.",
+      "transliteration": "ani ohev LISMOA SIPURIM meha-ZKENIM.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "This festival brings everyone together.",
+      "hebrew": "הפסטיבל הזה מקרב את כולם יחד.",
+      "transliteration": "ha-FESTIVAL haZE meKARV et KULAM YACHAD.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "We share challah, and smiles follow.",
+      "hebrew": "אנחנו חולקים חלה, וחיוכים באים אחר כך.",
+      "transliteration": "anachnu CHOLEKIM CHALA, uCHICHUCHIM baIM ACHAR KACH.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "Light candles, and the room softens.",
+      "hebrew": "מדליקים נרות, והחדר נהיה רך יותר.",
+      "transliteration": "meDLIKIM NEIROT, veha-CHEDER neHYE rach YOTER.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "I join the circle, no pressure.",
+      "hebrew": "אני מצטרף למעגל, בלי לחץ.",
+      "transliteration": "ani MITZTAREF le-MEGAEL, BLI LA'TZ.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "Honoring Shabbat feels like real rest.",
+      "hebrew": "לכבד את השבת מרגיש כמו מנוחה אמיתית.",
+      "transliteration": "laCHVOK et haSHABBAT MERGISH kmo MENUCHA EMEETIT.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "We bless the meal before eating.",
+      "hebrew": "מברכים על האוכל לפני האכילה.",
+      "transliteration": "meVARECHIM al ha-OCHel lifnei ha-ACHILA.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "Tonight we toast to good news",
+      "hebrew": "הערב אנחנו מרימים כוסית לבשורות טובות",
+      "transliteration": "haERV anu marimim KUSit LIVesorot TOVot",
+      "category": "Celebrations & Parties",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "Let s dance, no worries tonight",
+      "hebrew": "בואו נרקוד, בלי דאגות הערב",
+      "transliteration": "BEva nirkod, beli DAgoT haErev",
+      "category": "Celebrations & Parties",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "Thanks for hosting such a warm party",
+      "hebrew": "תודה על האירוח המקסים, איזו מסיבה חמה",
+      "transliteration": "toDA al haIRuH hamAKSiM, eZO mesIBa HAMA",
+      "category": "Celebrations & Parties",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "I brought dessert, you ll love it",
+      "hebrew": "הבאתי קינוח, יהיה לך טעים מאוד",
+      "transliteration": "heVEti KiNuoH, yiHye leKA TEIM meOD",
+      "category": "Celebrations & Parties",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "What should we drink to begin?",
+      "hebrew": "במה אנחנו מתחילים, מה לשתות קודם?",
+      "transliteration": "beMA anACHnu mitCHILim, ma LIShtot KOdem?",
+      "category": "Celebrations & Parties",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "Your playlist is pure party magic",
+      "hebrew": "איזה פלייליסט, זה ממש קסם למסיבה",
+      "transliteration": "EiZeH pleyLIST, zeh meMASH kesem lemesIBa",
+      "category": "Celebrations & Parties",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "I m excited to celebrate with you",
+      "hebrew": "אני ממש נרגש לחגוג איתך הערב",
+      "transliteration": "aNI maSH nERGASH leHAGOG iTACH haErev",
+      "category": "Celebrations & Parties",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "What are you famous for here?",
+      "hebrew": "במה אתם הכי מפורסמים כאן?",
+      "transliteration": "Bem ataN hee ky mevursamim kaan?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "Can I get that without onions?",
+      "hebrew": "אפשר לקבל את זה בלי בצל?",
+      "transliteration": "Efshar lekabel et ze bli betzal?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "Is this spicy, or mild?",
+      "hebrew": "זה חריף, או עדין?",
+      "transliteration": "Ze kharif, o aadin?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "Can we get water, please?",
+      "hebrew": "אפשר לקבל מים, בבקשה?",
+      "transliteration": "Efshar lekabel mayim, bevakashA?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "I’ll take the chicken, please.",
+      "hebrew": "אני אקח את העוף, בבקשה.",
+      "transliteration": "Ani ekakh et haOf, bevakashA.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "Could I add a side salad?",
+      "hebrew": "אפשר להוסיף סלט בצד?",
+      "transliteration": "Efshar lehOsif salat betzad?",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "This smells amazing, I’m ready.",
+      "hebrew": "זה מריח מדהים, אני כבר מוכן.",
+      "transliteration": "Ze mareakh MADAIM, ani kvar mukhan.",
+      "category": "Ordering Food & Dining",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "Choose one step, not a whole life.",
+      "hebrew": "בחר צעד אחד, לא חיים שלמים.",
+      "transliteration": "BAKHR tsead echad, lo CHAYIM SHELMIM",
+      "category": "Growth",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "Say no, then feel your power.",
+      "hebrew": "תגיד לא, ואז תרגיש את הכוח שלך.",
+      "transliteration": "TAGID lo, AZ tERGISH et haKOACH shelkha",
+      "category": "Growth",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "Change your routine, grow quietly.",
+      "hebrew": "שנה את השגרה, תגדל בשקט.",
+      "transliteration": "SHANe et haSHGARA, tIGDAL bishKET",
+      "category": "Growth",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "Let one fear shrink today.",
+      "hebrew": "תן לפחד אחד קטן יותר להצטמצם היום.",
+      "transliteration": "TEN leFACH echad KATAN yoter leHITZTAMtzEM HAyOM",
+      "category": "Growth",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "Write what you learned from setbacks.",
+      "hebrew": "תכתוב מה למדת מהמעידות.",
+      "transliteration": "tIKHTOV ma laMAdta meHAmeIDOT",
+      "category": "Growth",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "Repair a relationship with one message.",
+      "hebrew": "תתקן קשר, בהודעה אחת אמיצה.",
+      "transliteration": "tEAKEN kesher, behODaA echad AMITZ",
+      "category": "Growth",
+      "generated_at": "2026-11-12T16:15:30.778087"
+    },
+    {
+      "english": "Make room for rest without guilt.",
+      "hebrew": "תפנה מקום למנוחה בלי אשמה.",
+      "transliteration": "TAFNE meKOM leMENUCHa beli ASHMA",
+      "category": "Growth",
+      "generated_at": "2026-11-12T16:15:30.778087"
     }
   ],
-  "last_updated": "2026-11-12T10:01:27.078366"
+  "last_updated": "2026-11-12T16:15:30.778087"
 }
