@@ -232,7 +232,7 @@ Rules:
 4. Native side: natural {LANGUAGE_NAME} written in {NATIVE_NAME}, correct script and accents, one translation only.
 5. Transliteration: friendly Roman letters for English speakers (not IPA), stressed syllables in CAPITALS.
 6. No slashes, no brackets of any kind, no quotes, no emoji, no numbering inside the phrases.
-   Never use placeholders such as [Name], (your city) or {topic}: write the sentence the way a real person would say it (for example "Hi, it's me calling now").
+   Never use placeholders such as [Name], (your city) or {{topic}}: write the sentence the way a real person would say it (for example "Hi, it's me calling now").
 7. Add a natural comma for breathing pauses where it helps the voice.
 8. Vary the length: punchy one-liners plus a few warmer, longer sentences.
 
