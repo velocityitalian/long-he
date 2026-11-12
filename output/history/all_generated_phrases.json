@@ -52475,7 +52475,399 @@
       "hebrew": "תכתוב לי אחר כך, בוא נירגע קודם.",
       "category": "Forgiveness",
       "generated_at": "2026-11-11T07:23:55.770699"
+    },
+    {
+      "english": "I can do this, step by step.",
+      "hebrew": "אני מצליח, צעד אחר צעד.",
+      "transliteration": "ANI MEtsliach, TSAAD achar TSAAD.",
+      "category": "Success",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "Today is a good day to win.",
+      "hebrew": "היום זה יום טוב לנצח.",
+      "transliteration": "HAYOM zeh YOM TOV LENATseach.",
+      "category": "Success",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "Small effort, big success, for real.",
+      "hebrew": "מאמץ קטן, הצלחה גדולה, באמת.",
+      "transliteration": "MAAMATS KATAN, HATZLACHA GDOLA, BEEMET.",
+      "category": "Success",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "Thank you, I worked hard for this.",
+      "hebrew": "תודה, עבדתי קשה בשביל זה.",
+      "transliteration": "TODAH, AVADTI KAShE BISHVIL ZE.",
+      "category": "Success",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "I’m on track, things are improving.",
+      "hebrew": "אני בדרך הנכונה, דברים משתפרים.",
+      "transliteration": "ANI BADERECH HaNekhONAH, devarim MISHTARIM.",
+      "category": "Success",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "My plan is working, finally.",
+      "hebrew": "התוכנית שלי עובדת, סוף סוף.",
+      "transliteration": "HaTIKHNaH SHELI Ovedet, SOF SOF.",
+      "category": "Success",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "I’ll try again, no fear.",
+      "hebrew": "אני אנסה שוב, בלי פחד.",
+      "transliteration": "ANI aNSeH SHUV, BLI PAHED.",
+      "category": "Success",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "Do it scared, and keep going",
+      "hebrew": "תעשה את זה מפחד, ותמשיך",
+      "transliteration": "ta'ase et ze me'PACHed, ve-tamsiCH",
+      "category": "Courage",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "Ask for help, that counts",
+      "hebrew": "תבקש עזרה, וזה אומץ",
+      "transliteration": "tivKESH EZEra, ve-ze OMEZ",
+      "category": "Courage",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "Set a boundary, protect your peace",
+      "hebrew": "תציב גבול, תשמור על השקט שלך",
+      "transliteration": "tatsiV GEVul, teSHMOR al HaSHKET SHELCHA",
+      "category": "Courage",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "Confess the mistake, then move",
+      "hebrew": "תודה בטעות, ומשם ממשיכים",
+      "transliteration": "toDA beTO'ut, u-meSHAM memSHiCHim",
+      "category": "Courage",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "Walk away, even when it hurts",
+      "hebrew": "תלך משם, גם אם כואב",
+      "transliteration": "teleCH miSHAM, gam im KO'vev",
+      "category": "Courage",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "Keep your promises, despite pressure",
+      "hebrew": "תעמוד במילה, גם כשדוחקים",
+      "transliteration": "ta'amod bi-MIla, gam she-kodhim",
+      "category": "Courage",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "Try again, no matter the fall",
+      "hebrew": "תנסה שוב, גם אחרי נפילה",
+      "transliteration": "taNsa SHUV, gam aCHarey NPiLA",
+      "category": "Courage",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "Choose joy, even on busy days",
+      "hebrew": "בחר אושר, גם בימים עמוסים",
+      "transliteration": "bahar OSHER, gam bayamim AMUSIM",
+      "category": "Happiness",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "Call a friend, feel the warmth",
+      "hebrew": "תתקשר לחבר, תרגיש חום בלב",
+      "transliteration": "TITKARESH leCHAVER, tARGISH HUM baLEV",
+      "category": "Happiness",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "Let laughter loosen your shoulders",
+      "hebrew": "תן לצחוק לשחרר לך את הכתפיים",
+      "transliteration": "ten laTZHOK leshACHERER leCHA et HAKTAFAYIM",
+      "category": "Happiness",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "Savor one breath before you rush",
+      "hebrew": "תעצור רגע, לפני שאת ממהרת",
+      "transliteration": "tE-TZOR REGa, lifney SHE-AT MEHERA",
+      "category": "Happiness",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "Gratitude turns ordinary into gold",
+      "hebrew": "הכרת תודה הופכת יום רגיל לזהב",
+      "transliteration": "hakarAT TODA meHAPeCHET yom RAGIL leZAHAV",
+      "category": "Happiness",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "Keep moving, let hope lead",
+      "hebrew": "תמשיך לזוז, תן לתקווה להוביל",
+      "transliteration": "tAMSHICH laZUZ, ten L’TEKVA leHAVIL",
+      "category": "Happiness",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "Make room for wonder today",
+      "hebrew": "תפנה מקום לפלא של היום",
+      "transliteration": "taFNE makom leFLEA shel hayom",
+      "category": "Happiness",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "I feel nervous before meetings, honestly.",
+      "hebrew": "אני מרגיש מתוח לפני פגישות, בכנות.",
+      "transliteration": "ani margish MATUH lifnei pgiSHOT, biKNEUT",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "Right now, I’m too restless to focus.",
+      "hebrew": "עכשיו אני חסר מנוחה מדי, כדי להתמקד.",
+      "transliteration": "eCHAT awani HASAR meNUCHa MIdi, kdei leHITmached",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "I’m proud of you, really proud.",
+      "hebrew": "אני גאה בך, באמת גאה.",
+      "transliteration": "ani GEA baCH, beEMET GEA",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "That joke made me laugh out loud.",
+      "hebrew": "הבדיחה הזאת גרמה לי לצחוק בקול.",
+      "transliteration": "haBEDIcha haZOT GRAma li litSOCH beKOL",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "I’m disappointed, but I’ll be okay.",
+      "hebrew": "אני מאוכזב, אבל יהיה בסדר.",
+      "transliteration": "ani meAUKZAV, aval yiHYE bESEDER",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "I feel calm, like things slowed down.",
+      "hebrew": "אני מרגיש רגוע, כאילו הכול האט.",
+      "transliteration": "ani margish REGAO, keiLU haKOL HEEt",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "I’m grateful for your help today.",
+      "hebrew": "אני מודה לך על העזרה היום.",
+      "transliteration": "ani MOdeh leCHa al haEZeRa hayOM",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "Hold steady, love, I’m right here.",
+      "hebrew": "תחזיקי יציב, אהובה, אני כאן.",
+      "transliteration": "tachziki YATSIV, ahuVA, ani KA'AN.",
+      "category": "Patience",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "We can’t rush good things, love.",
+      "hebrew": "אי אפשר למהר דברים טובים, אהובתי.",
+      "transliteration": "en ef SHAR leMAHR deVARIM TOVIM, ahuVA.TI.",
+      "category": "Patience",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "Please, breathe slowly, the moment listens.",
+      "hebrew": "בבקשה, תנשמי לאט, הרגע מקשיב.",
+      "transliteration": "beVAkasha, tanSHIMI laT, haREGA meKHSIV.",
+      "category": "Patience",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "I’ll wait with you, no pressure.",
+      "hebrew": "אני אחכה איתך, בלי לחץ.",
+      "transliteration": "ani aHKA_he it.KHA, bli laTS.",
+      "category": "Patience",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "Let time do its gentle work.",
+      "hebrew": "תני לזמן לעשות את העבודה העדינה שלו.",
+      "transliteration": "tni l’ZMAN laASOT et haAvoDA haEDI.NI SHELO.",
+      "category": "Patience",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "When things delay, I stay soft.",
+      "hebrew": "כשזה מתעכב, אני נשאר רך.",
+      "transliteration": "keshe ZE meT’AKeV, ani nESHAR RAKH.",
+      "category": "Patience",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "I choose calm, even on hard days.",
+      "hebrew": "אני בוחר",
+      "transliteration": "ani BOHERET beSHLO.VA, gam baYAMIM KASHIM.",
+      "category": "Patience",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "I need to see a doctor today, please.",
+      "hebrew": "אני צריך לראות רופא היום, בבקשה.",
+      "transliteration": "Ani TsaRIKH lir'ot ROFEh hayom, beVAKASHA.",
+      "category": "Doctor & Pharmacy",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "Where is the nearest pharmacy?",
+      "hebrew": "איפה בית המרקחת הקרוב ביותר?",
+      "transliteration": "EiFOH beit haMErkaHat haQAROV beYOTer?",
+      "category": "Doctor & Pharmacy",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "Do you have this medicine in stock?",
+      "hebrew": "יש לכם את התרופה הזו במלאי?",
+      "transliteration": "Yesh LAKEM et haTErUFah haZOT beMALei?",
+      "category": "Doctor & Pharmacy",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "My prescription is from today.",
+      "hebrew": "המרשם שלי הוא מהיום.",
+      "transliteration": "haMERsham SHEli hu meHAYom.",
+      "category": "Doctor & Pharmacy",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "Can you check my dosage, please?",
+      "hebrew": "אפשר לבדוק את המינון שלי, בבקשה?",
+      "transliteration": "EFSHAR leVADEK et haMInoN SHEli, beVAKASHA?",
+      "category": "Doctor & Pharmacy",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "Is it safe to take with ibuprofen?",
+      "hebrew": "אפשר לקחת את זה עם איבופרופן?",
+      "transliteration": "EFSHAR leEKAKet et ZE im iBUPROfen?",
+      "category": "Doctor & Pharmacy",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "I’m allergic to penicillin, please.",
+      "hebrew": "אני אלרגי לפניצילין, בבקשה.",
+      "transliteration": "Ani aLerGI lepeniTSILin, beVAKASHA.",
+      "category": "Doctor & Pharmacy",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "How’s the weather today, in short?",
+      "hebrew": "איך מזג האוויר היום, בקצרה?",
+      "transliteration": "EIKH MEZEG HA-AVI R Ha-YOM, be-KETSARAH?",
+      "category": "Weather & Small Talk",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "Is it going to rain later?",
+      "hebrew": "יש מצב שירד גשם אחר כך?",
+      "transliteration": "YES MEZAH SHE-YIRAD GESHEM AKHAR KAKH?",
+      "category": "Weather & Small Talk",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "What’s the temperature right now?",
+      "hebrew": "כמה מעלות יש עכשיו בערך?",
+      "transliteration": "KAM MA ALOT YESH AKHSHAV BE-ER EKH?",
+      "category": "Weather & Small Talk",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "Is it hot or just warm?",
+      "hebrew": "חם ממש או רק נעים?",
+      "transliteration": "HAM MAMASH O RAKh NAIM?",
+      "category": "Weather & Small Talk",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "Do you feel the wind today?",
+      "hebrew": "יש היום רוח מורגשת?",
+      "transliteration": "YESH HA-YOM RUAKH MORGEShet?",
+      "category": "Weather & Small Talk",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "I love this cool breeze.",
+      "hebrew": "איזה כיף הנשימה של הרוח הקרירה.",
+      "transliteration": "EI ZEH KH EF NESHIMAH SHEL HA-RUAKH KARI RA.",
+      "category": "Weather & Small Talk",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "The sun is strong today.",
+      "hebrew": "השמש חזקה היום.",
+      "transliteration": "HA-SHEMESH KH EZAQAH HA-YOM.",
+      "category": "Weather & Small Talk",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "Totally agree with you, seriously.",
+      "hebrew": "אני מסכים איתך לגמרי, באמת.",
+      "transliteration": "ani MASSIM itcha legamrei, BE-EMET",
+      "category": "Agreeing & Disagreeing",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "Yes, that makes perfect sense.",
+      "hebrew": "כן, זה לגמרי מסתדר לי.",
+      "transliteration": "ken, ze leGAMRE misTADER LI",
+      "category": "Agreeing & Disagreeing",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "You’re right, I hadn’t thought of that.",
+      "hebrew": "צודק, לא חשבתי על זה קודם.",
+      "transliteration": "TZO-Dek, lo CHASAVTI al ze KO-dem",
+      "category": "Agreeing & Disagreeing",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "I’m with you on this one.",
+      "hebrew": "אני איתך בעניין הזה.",
+      "transliteration": "ani IT-CHA beIN haZE",
+      "category": "Agreeing & Disagreeing",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "Absolutely, let’s do it.",
+      "hebrew": "בטח, יאללה עושים את זה.",
+      "transliteration": "BET-ach, YA-LLA oS-IM et ze",
+      "category": "Agreeing & Disagreeing",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "That sounds good to me.",
+      "hebrew": "זה נשמע טוב בעיניי.",
+      "transliteration": "ze nisMA TOV beE-nai",
+      "category": "Agreeing & Disagreeing",
+      "generated_at": "2026-11-12T07:26:11.585959"
+    },
+    {
+      "english": "I think you’re correct, honestly.",
+      "hebrew": "לדעתי אתה צודק, בכנות.",
+      "transliteration": "leDA-ati atah TZO-Dek, bi-CHAN-UT",
+      "category": "Agreeing & Disagreeing",
+      "generated_at": "2026-11-12T07:26:11.585959"
     }
   ],
-  "last_updated": "2026-11-11T07:23:55.770702"
+  "last_updated": "2026-11-12T07:26:11.585959"
 }
