@@ -49,7 +49,6 @@ jobs:
       - name: Credentials
         env:
           POLLINATIONS_API_KEY: ${{ secrets.POLLINATIONS_API_KEY }}
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
@@ -59,7 +58,6 @@ jobs:
         run: |
           : > .env
           printf '%s\n' "POLLINATIONS_API_KEY=$POLLINATIONS_API_KEY" >> .env
-          printf '%s\n' "OPENAI_API_KEY=$OPENAI_API_KEY" >> .env
           printf '%s\n' "YT_CLIENT_ID=$YT_CLIENT_ID" >> .env
           printf '%s\n' "YT_CLIENT_SECRET=$YT_CLIENT_SECRET" >> .env
           printf '%s\n' "YT_REFRESH_TOKEN=$YT_REFRESH_TOKEN" >> .env
