@@ -1,1 +1,109 @@
-{"categories": []}
+{
+  "categories": [
+    {
+      "category": "Public Transportation",
+      "date": "2020-01-01"
+    },
+    {
+      "category": "Motivation",
+      "date": "2020-01-02"
+    },
+    {
+      "category": "Positive Life",
+      "date": "2020-01-03"
+    },
+    {
+      "category": "Love",
+      "date": "2020-01-04"
+    },
+    {
+      "category": "Cultural Traditions",
+      "date": "2020-01-05"
+    },
+    {
+      "category": "Celebrations & Parties",
+      "date": "2020-01-06"
+    },
+    {
+      "category": "Ordering Food & Dining",
+      "date": "2020-01-07"
+    },
+    {
+      "category": "Growth",
+      "date": "2020-01-08"
+    },
+    {
+      "category": "Strength",
+      "date": "2020-01-09"
+    },
+    {
+      "category": "Mindfulness",
+      "date": "2020-01-10"
+    },
+    {
+      "category": "Making Plans",
+      "date": "2020-01-11"
+    },
+    {
+      "category": "Work & Office",
+      "date": "2020-01-12"
+    },
+    {
+      "category": "Creativity",
+      "date": "2020-01-13"
+    },
+    {
+      "category": "Hobbies & Free Time",
+      "date": "2020-01-14"
+    },
+    {
+      "category": "Inner Peace",
+      "date": "2020-01-15"
+    },
+    {
+      "category": "Meeting People & Greetings",
+      "date": "2020-01-16"
+    },
+    {
+      "category": "Emergency & Health",
+      "date": "2020-01-17"
+    },
+    {
+      "category": "Purpose",
+      "date": "2020-01-18"
+    },
+    {
+      "category": "Hope",
+      "date": "2020-01-19"
+    },
+    {
+      "category": "Hotel & Accommodation",
+      "date": "2020-01-20"
+    },
+    {
+      "category": "Gratitude",
+      "date": "2020-01-21"
+    },
+    {
+      "category": "Perseverance",
+      "date": "2020-01-22"
+    },
+    {
+      "category": "Travel & Airport",
+      "date": "2020-01-23"
+    },
+    {
+      "category": "Inspiration",
+      "date": "2020-01-24"
+    },
+    {
+      "category": "Coffee Shop & Bakery",
+      "date": "2020-01-25"
+    },
+    {
+      "category": "Forgiveness",
+      "date": "2020-01-26"
+    }
+  ],
+  "last_updated": "2026-11-12T11:15:17.088648"
+}

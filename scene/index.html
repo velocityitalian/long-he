@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1920, height=1080">
+<title>Velocity · Longform Lesson</title>
+<link rel="stylesheet" href="fonts.css">
+<link rel="stylesheet" href="scene.css">
+</head>
+<body>
+<div id="stage">
+
+  <div id="bg">
+    <div class="aurora a1"></div>
+    <div class="aurora a2"></div>
+    <div class="aurora a3"></div>
+    <div class="aurora a4"></div>
+    <div id="grid"></div>
+    <div id="watermark">01</div>
+    <div id="ghostWord" dir="auto"></div>
+    <canvas id="fx" width="1920" height="1080"></canvas>
+  </div>
+
+  <header id="hud">
+    <div class="hud-row">
+      <div class="brand">
+        <div class="brand-badge"><span class="ico" data-icon="bolt"></span></div>
+        <div class="brand-copy">
+          <div class="brand-top" id="brandTop">VELOCITY</div>
+          <div class="brand-bottom" id="brandBottom">SWEDISH</div>
+        </div>
+      </div>
+      <div class="rail" id="chapterRail"></div>
+      <div class="hud-right">
+        <div class="pill xp"><span class="ico" data-icon="bolt"></span><span id="xpVal">0 XP</span></div>
+        <div class="pill phrase-pill" id="phrasePill">PHRASE 1 / 12</div>
+      </div>
+    </div>
+    <div class="progress" id="progress">
+      <div class="progress-fill" id="progressFill"><div class="progress-shine"></div></div>
+      <div class="progress-knob" id="progressKnob"></div>
+    </div>
+  </header>
+
+  <section class="scene" id="sceneIntro">
+    <div class="intro-left">
+      <div class="eyebrow-pill" id="introEyebrow">LONGFORM · LESSON 01</div>
+      <div class="logo-word" id="logoWord">VELOCITY</div>
+      <div class="logo-lang" id="logoLang">SWEDISH</div>
+      <div class="intro-tag" id="introTag">Learn <b>one chapter at a time</b></div>
+      <div class="intro-stats" id="introStats">
+        <span><b id="statChapters">3</b> chapters</span><i></i>
+        <span><b id="statPhrases">12</b> phrases</span><i></i>
+        <span><b id="statMinutes">2.6</b> min</span>
+      </div>
+      <div class="intro-chips" id="introChips"></div>
+      <div class="intro-cta" id="introCta"><span class="ico" data-icon="chevron"></span>Let's begin · Nu börjar vi</div>
+    </div>
+    <div class="intro-right">
+      <div class="orbit-ring r1"></div>
+      <div class="orbit-ring r2"></div>
+      <div class="float-cards" id="floatCards"></div>
+      <div class="mascot hero" id="introMascot"></div>
+    </div>
+  </section>
+
+  <section class="scene" id="sceneChapter">
+    <div class="chapter-wash" id="chapterWash"></div>
+    <div class="chapter-card" id="chapterCard">
+      <div class="chapter-num-wrap">
+        <div class="chapter-num" id="chapterNum">01</div>
+        <div class="chapter-icon" id="chapterIcon"><span class="ico" data-icon="rocket"></span></div>
+        <div class="chapter-ribbon" id="chapterRibbon">CHAPTER ONE</div>
+      </div>
+      <div class="chapter-copy">
+        <div class="eyebrow" id="chapterEyebrow">CHAPTER 1 OF 3</div>
+        <div class="chapter-title" id="chapterTitle">Motivation</div>
+        <div class="chapter-native" id="chapterNative" dir="auto">Motivation</div>
+        <div class="chapter-meta" id="chapterMeta">4 phrases · about 1 minute</div>
+        <div class="chapter-sample" id="chapterSample"></div>
+        <div class="chapter-tip" id="chapterTip">
+          <span class="ico" data-icon="sparkles"></span>
+          <span><b>TIP</b> Say each phrase out loud twice — once slowly, then at full speed.</span>
+        </div>
+      </div>
+      <div class="chapter-preview">
+        <div class="preview-label">YOU'LL LEARN</div>
+        <div class="preview-list" id="chapterPreviewList"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="scene" id="scenePhrase">
+    <div class="learn-panel">
+      <div class="phrase-top">
+        <div class="cat-chip" id="catChip">
+          <span class="cat-ico" id="catIco"><span class="ico" data-icon="rocket"></span></span>
+          <span id="catText">Motivation · Motivation</span>
+        </div>
+      </div>
+
+      <div class="phrase-stack" id="phraseStack">
+        <div class="card en-card" id="enCard">
+          <div class="card-label" id="enLabel">
+            <span class="ico speaker" data-icon="speaker"></span>
+            <span>ENGLISH</span>
+            <span class="eq" id="enEq"><i></i><i></i><i></i><i></i></span>
+          </div>
+          <div class="en-text" id="enText"></div>
+        </div>
+
+        <div class="connector" id="connector"><span class="ico" data-icon="arrowDown"></span></div>
+
+        <div class="card nat-card" id="natCard">
+          <div class="card-label light" id="natLabel">
+            <span class="ico speaker" data-icon="speaker"></span>
+            <span id="natLabelText">SVENSKA</span>
+            <span class="eq light" id="natEq"><i></i><i></i><i></i><i></i></span>
+          </div>
+          <div class="nat-text" id="natText" dir="auto"></div>
+        </div>
+
+        <div class="translit" id="translit">
+          <span class="translit-label" id="translitLabel">SAY IT LIKE</span>
+          <span class="translit-text" id="translitText"></span>
+        </div>
+
+        <div class="repeat-pill" id="repeatPill">
+          <span class="ico" data-icon="mic"></span>
+          <span>YOUR TURN · REPEAT AFTER ME</span>
+        </div>
+      </div>
+    </div>
+
+    <aside class="side-panel" id="sidePanel">
+      <div class="panel-top">
+        <div class="panel-eyebrow" id="panelEyebrow">CHAPTER 1 OF 3</div>
+        <div class="panel-title" id="panelTitle">Motivation</div>
+        <div class="panel-native" id="panelNative" dir="auto">Motivation</div>
+      </div>
+
+      <div class="panel-visual">
+        <div class="panel-blob" id="panelBlob"></div>
+        <svg class="ring" viewBox="0 0 260 260">
+          <circle class="ring-track" cx="130" cy="130" r="116"/>
+          <circle class="ring-fill" id="ringFill" cx="130" cy="130" r="116"/>
+        </svg>
+        <div class="panel-icon" id="panelIcon"><span class="ico" data-icon="rocket"></span></div>
+        <div class="ring-chip"><b id="ringCount">01/04</b><span>in chapter</span></div>
+      </div>
+
+      <div class="chapter-map">
+        <div class="map-label">CHAPTER MAP</div>
+        <div class="map-dots" id="mapDots"></div>
+      </div>
+
+      <div class="panel-book">
+        <div class="book-label"><span class="ico" data-icon="check"></span>PHRASE BOOK</div>
+        <div class="book-list" id="bookList"></div>
+      </div>
+
+      <div class="panel-hint" id="panelHint">
+        <span><span class="ico" data-icon="speaker"></span>LISTEN</span>
+        <i></i>
+        <span><span class="ico" data-icon="mic"></span>REPEAT</span>
+        <i></i>
+        <span><span class="ico" data-icon="check"></span>REMEMBER</span>
+      </div>
+
+      <div class="mascot peek" id="peekMascot"></div>
+    </aside>
+  </section>
+
+  <section class="scene" id="sceneOutro">
+    <div class="outro-card" id="outroCard">
+      <div class="outro-badge" id="outroBadge"><span class="ico" data-icon="check"></span></div>
+      <div class="outro-eyebrow" id="outroEyebrow">LESSON COMPLETE · GRATTIS!</div>
+      <div class="outro-title" id="outroTitle">You did it.</div>
+      <div class="outro-sub" id="outroSub">12 Swedish phrases across 3 chapters</div>
+      <div class="outro-stats" id="outroStats">
+        <div class="ostat"><b id="outroPhrases">12</b><span>phrases</span></div>
+        <div class="ostat"><b id="outroChapters">3</b><span>chapters</span></div>
+        <div class="ostat"><b id="outroMinutes">2.6</b><span>minutes</span></div>
+      </div>
+      <div class="outro-recap" id="outroRecap"></div>
+      <div class="cta" id="cta">Follow <b id="ctaHandle">@velocityswedish</b> for a new chapter every day</div>
+    </div>
+    <div class="mascot big outro-mascot" id="outroMascot"></div>
+  </section>
+
+  <footer id="foot">
+    <span class="foot-bolt"><span class="ico" data-icon="bolt"></span></span>
+    <span id="footBrand">VELOCITY SWEDISH</span>
+    <span class="foot-dot"></span>
+    <span id="footHandle">@velocityswedish</span>
+    <span class="foot-dot"></span>
+    <span id="footLesson">LESSON 01 · 3 CHAPTERS</span>
+  </footer>
+
+  <canvas id="fxTop" width="1920" height="1080"></canvas>
+</div>
+<script src="icons.js"></script>
+<script src="scene.js"></script>
+</body>
+</html>

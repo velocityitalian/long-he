@@ -1,134 +1,138 @@
-import os, sys, json, io
+"""Upload the freshly built lesson to YouTube with SEO metadata and thumbnail."""
+
+from __future__ import annotations
+
+import io
+import json
+import os
+import sys
+import time
 from pathlib import Path
+
 from dotenv import load_dotenv
-from PIL import Image
 from google.oauth2.credentials import Credentials
 from google.auth.transport.requests import Request
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload, MediaIoBaseUpload
+from PIL import Image
 
 load_dotenv()
+
+if sys.platform == "win32":
+    sys.stdout.reconfigure(encoding="utf-8")
 
 YT_CLIENT_ID = os.getenv("YT_CLIENT_ID") or os.getenv("YOUTUBE_CLIENT_ID", "")
 YT_CLIENT_SECRET = os.getenv("YT_CLIENT_SECRET") or os.getenv("YOUTUBE_CLIENT_SECRET", "")
 YT_REFRESH_TOKEN = os.getenv("YT_REFRESH_TOKEN") or os.getenv("YOUTUBE_REFRESH_TOKEN", "")
+
+META_PATH = Path("output") / "latest_video.json"
+RESULT_PATH = Path("output") / "upload_result.json"
 
 
 def get_authenticated_service():
     if not all([YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN]):
         raise ValueError("Missing YouTube credentials")
     creds = Credentials(
-        None, refresh_token=YT_REFRESH_TOKEN,
+        None,
+        refresh_token=YT_REFRESH_TOKEN,
         token_uri="https://oauth2.googleapis.com/token",
-        client_id=YT_CLIENT_ID, client_secret=YT_CLIENT_SECRET
+        client_id=YT_CLIENT_ID,
+        client_secret=YT_CLIENT_SECRET,
     )
     creds.refresh(Request())
     return build("youtube", "v3", credentials=creds)
 
 
-def compress_thumbnail(img_path, max_size=2097152):
-    img = Image.open(img_path)
-    thumb_bytes = io.BytesIO()
-    quality = 85
-    img.save(thumb_bytes, format="JPEG", quality=quality)
-    while thumb_bytes.tell() > max_size and quality > 10:
-        quality -= 10
-        thumb_bytes = io.BytesIO()
-        img.save(thumb_bytes, format="JPEG", quality=quality)
-    thumb_bytes.seek(0)
-    return thumb_bytes
+def compress_thumbnail(path: str, max_size: int = 2 * 1024 * 1024):
+    img = Image.open(path).convert("RGB")
+    buffer = io.BytesIO()
+    quality = 92
+    img.save(buffer, format="JPEG", quality=quality)
+    while buffer.tell() > max_size and quality > 20:
+        quality -= 6
+        buffer = io.BytesIO()
+        img.save(buffer, format="JPEG", quality=quality)
+    buffer.seek(0)
+    return buffer
 
 
-def upload_to_youtube():
-    try:
-        meta_path = Path("output") / "latest_video.json"
-        if not meta_path.exists():
-            print("[youtube] No latest_video.json found")
-            return False
+def upload():
+    if not META_PATH.exists():
+        print("[youtube] latest_video.json missing - skipping")
+        return False
 
-        with open(meta_path, "r", encoding="utf-8") as f:
-            meta = json.load(f)
+    meta = json.loads(META_PATH.read_text(encoding="utf-8"))
+    video_path = Path(meta["video_path"])
+    if not video_path.exists():
+        print(f"[youtube] video not found: {video_path}")
+        return False
 
-        video_path = Path(meta["video_path"])
-        if not video_path.exists():
-            print(f"[youtube] Video not found: {video_path}")
-            return False
+    title = str(meta.get("title", ""))[:100]
+    description = str(meta.get("description", ""))[:4900]
+    tags = meta.get("tags", [])
+    language_code = meta.get("language_code", "")
 
-        title = meta["title"]
-        description = meta["description"]
-        if len(description) > 4900:
-            description = description[:4900] + "\n\n#LearnHebrew #Hebrew #LanguageLearning"
-            print(f"[youtube] Description truncated to {len(description)} chars")
-        tags = meta["tags"]
+    body = {
+        "snippet": {
+            "title": title,
+            "description": description,
+            "tags": tags,
+            "categoryId": str(meta.get("category_id", "27")),
+        },
+        "status": {
+            "privacyStatus": "public",
+            "selfDeclaredMadeForKids": False,
+        },
+    }
+    if language_code:
+        body["snippet"]["defaultLanguage"] = language_code
+        body["snippet"]["defaultAudioLanguage"] = language_code
 
-        print(f"[youtube] Title: {title[:80]}...")
-        print(f"[youtube] Video: {video_path}")
+    print(f"[youtube] {title}")
+    print(f"[youtube] {video_path.name} ({video_path.stat().st_size // (1024 * 1024)} MB)")
 
-        youtube = get_authenticated_service()
+    youtube = get_authenticated_service()
+    media = MediaFileUpload(str(video_path), chunksize=8 * 1024 * 1024, resumable=True)
+    request = youtube.videos().insert(part="snippet,status", body=body, media_body=media)
 
-        body = {
-            "snippet": {
-                "title": title,
-                "description": description,
-                "tags": tags,
-                "categoryId": "27"
-            },
-            "status": {
-                "privacyStatus": "public",
-                "selfDeclaredMadeForKids": False,
-            }
-        }
-
-        media = MediaFileUpload(str(video_path), chunksize=1024*1024*10, resumable=True)
-        request = youtube.videos().insert(
-            part=",".join(body.keys()),
-            body=body,
-            media_body=media
-        )
-
-        response = None
-        while response is None:
+    response = None
+    error = None
+    while response is None:
+        try:
             status, response = request.next_chunk()
             if status:
-                print(f"[youtube] Upload: {int(status.progress() * 100)}%")
+                print(f"[youtube] upload {int(status.progress() * 100)}%")
+        except Exception as exc:  # noqa: BLE001 - resumable retry boundary
+            error = exc
+            print(f"[youtube] chunk failed, retrying: {exc}")
+            time.sleep(5)
 
-        video_id = response["id"]
-        print(f"[youtube] Uploaded! ID: {video_id}")
-        print(f"[youtube] URL: https://youtube.com/watch?v={video_id}")
+    video_id = response["id"]
+    url = f"https://youtube.com/watch?v={video_id}"
+    print(f"[youtube] published {url}")
 
-        thumbnail_path = Path(meta.get("thumbnail_path", ""))
-        print(f"[youtube] Checking thumbnail: {thumbnail_path}")
-        if thumbnail_path.exists():
-            print(f"[youtube] Thumbnail file found ({thumbnail_path.stat().st_size // 1024}KB)")
-            try:
-                thumb_bytes = compress_thumbnail(str(thumbnail_path))
-                youtube.thumbnails().set(
-                    videoId=video_id,
-                    media_body=MediaIoBaseUpload(thumb_bytes, mimetype="image/jpeg", resumable=False)
-                ).execute()
-                print(f"[youtube] Thumbnail uploaded!")
-            except Exception as e:
-                print(f"[youtube] Thumbnail upload failed: {e}")
-        else:
-            print(f"[youtube] Thumbnail NOT FOUND at: {thumbnail_path}")
+    thumb = Path(meta.get("thumbnail_path", ""))
+    if thumb.exists():
+        try:
+            youtube.thumbnails().set(
+                videoId=video_id,
+                media_body=MediaIoBaseUpload(compress_thumbnail(str(thumb)), mimetype="image/jpeg", resumable=False),
+            ).execute()
+            print("[youtube] thumbnail set")
+        except Exception as exc:  # noqa: BLE001 - thumbnail is best effort
+            print(f"[youtube] thumbnail failed: {exc}")
 
-        result = {
-            "video_id": video_id,
-            "url": f"https://youtube.com/watch?v={video_id}",
-            "title": title,
-            "uploaded_at": str(Path(meta_path).stat().st_mtime)
-        }
-        with open("output/upload_result.json", "w", encoding="utf-8") as f:
-            json.dump(result, f, indent=2, ensure_ascii=False)
-
-        print(f"[youtube] Success!")
-        return True
-
-    except Exception as e:
-        print(f"[youtube] Failed: {e}")
-        return False
+    RESULT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    RESULT_PATH.write_text(
+        json.dumps({"video_id": video_id, "url": url, "title": title, "uploaded_at": time.time()}, indent=2),
+        encoding="utf-8",
+    )
+    return True
 
 
 if __name__ == "__main__":
-    success = upload_to_youtube()
-    sys.exit(0 if success else 1)
+    try:
+        sys.exit(0 if upload() else 1)
+    except Exception as exc:  # noqa: BLE001 - workflow boundary
+        print(f"[youtube] failed: {exc}")
+        sys.exit(1)
