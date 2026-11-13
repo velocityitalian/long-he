@@ -332,11 +332,11 @@
       if (!seg || !seg.trim()) continue;
       const width = clusterCount(seg);
       if (units.length && part.isWordLike === false) {
+        // Merged punctuation is timed with the word before it, so it adds no cluster index.
         units[units.length - 1].text += seg;
-        units[units.length - 1].end += width;
-      } else {
-        units.push({ text: seg, start: cursor, end: cursor + width });
+        continue;
       }
+      units.push({ text: seg, start: cursor, end: cursor + width });
       cursor += width;
     }
     if (!units.length) {
