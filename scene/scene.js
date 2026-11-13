@@ -314,6 +314,7 @@
   }
 
   const clusterCount = (text) => graphemeUnits(text).length;
+  const KANA_RE = /^[\p{Script=Hiragana}\p{Script=Katakana}ー]$/u;
 
   // CJK scripts run words together, so group characters into word containers;
   // punctuation stays with the word in front of it.
@@ -336,7 +337,13 @@
         units[units.length - 1].text += seg;
         continue;
       }
-      units.push({ text: seg, start: cursor, end: cursor + width });
+      // Japanese particles are timed, but they read better attached to the word before them.
+      if (units.length && width === 1 && KANA_RE.test(seg)) {
+        units[units.length - 1].text += seg;
+        units[units.length - 1].end += width;
+      } else {
+        units.push({ text: seg, start: cursor, end: cursor + width });
+      }
       cursor += width;
     }
     if (!units.length) {
