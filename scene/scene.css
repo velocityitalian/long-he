@@ -776,7 +776,7 @@ body {
 }
 .nat-text.lines { flex-direction: column; align-items: center; row-gap: 12px; }
 .tile-line { display: flex; align-items: flex-end; justify-content: center; gap: 6px; }
-.tile { display: inline-block; transform-origin: center bottom; }
+.tile { display: inline-block; transform-origin: center bottom; flex: 0 0 auto; }
 .tile-bg {
   display: inline-block;
   padding: .075em .2em .115em;
@@ -786,6 +786,7 @@ body {
   font-weight: 900;
   line-height: 1.05;
   box-shadow: 0 .06em 0 rgba(0, 0, 0, .18);
+  white-space: nowrap;
 }
 .tile.on .tile-bg {
   background: #FFD84D;

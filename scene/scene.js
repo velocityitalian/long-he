@@ -262,6 +262,7 @@
   let currentChapter = -1;
   let enSpans = [];
   let viTiles = [];
+  let viTileRanges = [];
   let enActive = -1;
   let viActive = -1;
   let stackHeights = { conn: 0, nat: 0, translit: 0, repeat: 0 };
@@ -303,15 +304,55 @@
     return Array.from(clean);
   };
 
+  let WORD_SEGMENTER = null;
+  try {
+    if (typeof Intl !== 'undefined' && Intl.Segmenter) {
+      WORD_SEGMENTER = new Intl.Segmenter(undefined, { granularity: 'word' });
+    }
+  } catch (e) {
+    WORD_SEGMENTER = null;
+  }
+
+  const clusterCount = (text) => graphemeUnits(text).length;
+
+  // CJK scripts run words together, so group characters into word containers;
+  // punctuation stays with the word in front of it.
+  function wordUnits(text) {
+    const plain = String(text);
+    if (!T.language.char_tiles) {
+      return plain.split(/\s+/).filter(Boolean).map((w) => ({ text: w, start: 0, end: 0 }));
+    }
+    if (!WORD_SEGMENTER) {
+      return [{ text: plain.replace(/\s+/g, ''), start: 0, end: clusterCount(plain) }];
+    }
+    const units = [];
+    let cursor = 0;
+    for (const part of WORD_SEGMENTER.segment(plain)) {
+      const seg = part.segment;
+      if (!seg || !seg.trim()) continue;
+      const width = clusterCount(seg);
+      if (units.length && part.isWordLike === false) {
+        units[units.length - 1].text += seg;
+        units[units.length - 1].end += width;
+      } else {
+        units.push({ text: seg, start: cursor, end: cursor + width });
+      }
+      cursor += width;
+    }
+    if (!units.length) {
+      const clean = plain.replace(/\s+/g, '');
+      units.push({ text: clean, start: 0, end: clusterCount(clean) });
+    }
+    return units;
+  }
+
   function layoutTiles(text) {
     const box = $('natText');
-    const words = T.language.char_tiles
-      ? graphemeUnits(text)
-      : String(text).split(/\s+/).filter(Boolean);
+    const units = wordUnits(text);
     box.dir = T.language.rtl ? 'rtl' : 'ltr';
     box.classList.remove('lines');
     box.style.flexWrap = 'nowrap';
-    box.innerHTML = words.map((w) => `<span class="tile"><span class="tile-bg">${esc(w)}</span></span>`).join('');
+    box.innerHTML = units.map((u) => `<span class="tile"><span class="tile-bg">${esc(u.text)}</span></span>`).join('');
     const tiles = Array.from(box.querySelectorAll('.tile'));
     const avail = box.clientWidth;
     const natLen = text.length;
@@ -381,6 +422,7 @@
       build(split(tiles.length >= 4 ? 4 : 3));
     }
     viTiles = Array.from(box.querySelectorAll('.tile'));
+    viTileRanges = units.map((u) => ({ start: u.start, end: u.end }));
   }
 
   function fitEnText(text) {
@@ -708,7 +750,11 @@
     enActive = setActive(enSpans, wordIndex(p.en_words, t), enActive);
     let viIdx = wordIndex(p.vi_words, t);
     if (viIdx < 0 && p.vi_words_repeat) viIdx = wordIndex(p.vi_words_repeat, t);
-    viActive = setActive(viTiles, viIdx, viActive);
+    let tileIdx = viIdx;
+    if (viIdx >= 0 && T.language.char_tiles) {
+      tileIdx = viTileRanges.findIndex((r) => viIdx >= r.start && viIdx < r.end);
+    }
+    viActive = setActive(viTiles, tileIdx, viActive);
 
     const enPlaying = t >= p.en_start - 0.05 && t <= p.en_end + 0.05;
     $('enLabel').classList.toggle('playing', enPlaying);
