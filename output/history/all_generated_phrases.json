@@ -54435,7 +54435,399 @@
       "transliteration": "NA’im me’OD leHAKIR, ani ALeks",
       "category": "Meeting People & Greetings",
       "generated_at": "2026-11-13T15:43:03.983966"
+    },
+    {
+      "english": "I have chest pain, help me now",
+      "hebrew": "כואב לי בחזה, תעזרו לי עכשיו",
+      "transliteration": "K-oev li Ba-ChAze, te-aZre-u li A-chSHAV",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "Call emergency services, please. It’s urgent",
+      "hebrew": "תקראו למדא, בבקשה, זה דחוף",
+      "transliteration": "Tikre-u laMDa, beVA-ka-sha, ze DA-chOF",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "My face feels numb, quickly check me",
+      "hebrew": "הפנים שלי נרדמים, תבדקו אותי מהר",
+      "transliteration": "Ha-Pa-NIM she-li nER-Da-mim, tiv-de-ku O-ti MeH מהר",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "My speech is slurring, please stay with me",
+      "hebrew": "הדיבור שלי מטושטש, בבקשה תישארו איתי",
+      "transliteration": "Ha-di-BUR she-li mi-TOSShach, beVA-ka-sha tiS-a-ru iT-i",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "I might be having an allergic reaction",
+      "hebrew": "אולי יש לי תגובה אלרגית",
+      "transliteration": "U-lai yesh li te-Gu-VA al-Er-JIT",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "Do I have anaphylaxis symptoms right now?",
+      "hebrew": "יש לי עכשיו סימנים לאנפילקסיס?",
+      "transliteration": "Yesh li A-chSHAV si-MaNIM le-an-fi-LACK-sis?",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "I took my medicine, but I feel worse",
+      "hebrew": "לקחתי את התרופה, אבל אני מרגיש גרוע יותר",
+      "transliteration": "La-ka-chti et ha-Te-RU-FA, a-val a-ni me-RGAsh GRA-u oter",
+      "category": "Emergency & Health",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "I set a clear goal, today.",
+      "hebrew": "אני מציב מטרה ברורה, היום.",
+      "transliteration": "ani matziv MET-A bERU-rah, haYOM.",
+      "category": "Purpose",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "My goal guides my next decision.",
+      "hebrew": "המטרה שלי מכוונת את ההחלטה הבאה.",
+      "transliteration": "haMAT-a sheli makhVEnet et haHACH-lta haBA-ah.",
+      "category": "Purpose",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "I choose my aim, not my mood.",
+      "hebrew": "אני בוחר את הכיוון, לא את המצב רוח.",
+      "transliteration": "ani voCHer et haKI-vun, lo et haME-tsav ru'ACH.",
+      "category": "Purpose",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "Today, I work toward something meaningful.",
+      "hebrew": "היום אני עובד לקראת משהו משמעותי.",
+      "transliteration": "hayOM ani oVED likRAT mosheHU mash-ma'UTI.",
+      "category": "Purpose",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "I keep the purpose in my hands.",
+      "hebrew": "אני שומר על המטרה בתוך הפעולות שלי.",
+      "transliteration": "ani shoMER al haMAT-a beTOCH ha-pe-ULOT sheli.",
+      "category": "Purpose",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "I tighten my plan to match my goal.",
+      "hebrew": "אני מיישר את התוכנית לפי המטרה.",
+      "transliteration": "ani meYASHer et ha-techNI-t poLi haMAT-a.",
+      "category": "Purpose",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "Small steps still honor the mission.",
+      "hebrew": "צעדים קטנים עדיין מכבדים את המשימה.",
+      "transliteration": "saA-dim ket-anIM a-dyin ma-kHÁ-dim et ha-mishI-ma.",
+      "category": "Purpose",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "Hope meets me where I am.",
+      "hebrew": "תקווה פוגשת אותי איפה שאני נמצא.",
+      "transliteration": "TikVah POGet sheOti eifo sheAni nIMCA",
+      "category": "Hope",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "I let hope be enough for now.",
+      "hebrew": "אני נותן לתקווה להיות מספיקה לעכשיו.",
+      "transliteration": "Ani noteN letikVah leHeyOT mespiKAH laAKShav",
+      "category": "Hope",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "I carry hope, not pressure.",
+      "hebrew": "אני נושא תקווה, לא לחץ.",
+      "transliteration": "Ani NOSeA tIKVah, lo LAHats",
+      "category": "Hope",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "Small hope counts, even today.",
+      "hebrew": "תקווה קטנה נחשבת, גם היום.",
+      "transliteration": "TikVah qeTANah nixSHEvet, gam haYOM",
+      "category": "Hope",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "I can choose hope without winning.",
+      "hebrew": "אני יכול לבחור תקווה בלי לנצח.",
+      "transliteration": "Ani yaCHOL leVAerE tikVah biLti lenATsi'ach",
+      "category": "Hope",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "Hope is a gentle yes inside.",
+      "hebrew": "תקווה היא כן עדין מבפנים.",
+      "transliteration": "TikVah hi YAen eDIn miBifnIM",
+      "category": "Hope",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "I trust my next breath to help.",
+      "hebrew": "אני סומך על הנשימה הבאה שלי.",
+      "transliteration": "Ani someCH al haNEShIMah haBA'AH SHEli",
+      "category": "Hope",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "Can I get a quiet room, please?",
+      "hebrew": "אפשר חדר שקט בבקשה?",
+      "transliteration": "Efsher CHEDER shaKET bevAKSha?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "Is breakfast included with the room?",
+      "hebrew": "הארוחת בוקר כלולה במחיר החדר?",
+      "transliteration": "HaARochat boker kLUlah baMEchir haCHEDER?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "Do you offer airport pickup or taxi help?",
+      "hebrew": "יש איסוף משדה התעופה או עזרה עם מונית?",
+      "transliteration": "Yesh ISUF miSDE haTE’UFah o eZRah im MOniT?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "Is Wi-Fi strong in the room?",
+      "hebrew": "האם הווי פיי חזק בחדר?",
+      "transliteration": "Ha’im haWAI FAI CHAZAK baCHEder?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "Is there a laundry service on site?",
+      "hebrew": "יש שירות כביסה במקום?",
+      "transliteration": "Yesh sherUT kVIsah baMaqom?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "Do you have a ground-floor room?",
+      "hebrew": "יש חדר בקומת קרקע?",
+      "transliteration": "Yesh CHEDER beKOMat KArka?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "Can I pay by credit card?",
+      "hebrew": "אפשר לשלם בכרטיס אשראי?",
+      "transliteration": "Efshar lSHALem beKARTIS aSHrai?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "Thank you for standing by me, again.",
+      "hebrew": "תודה שאתך לידי, שוב.",
+      "transliteration": "Toda she-ateh laydi, SHUV.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "I’m grateful for your quick check-ins.",
+      "hebrew": "אני מודה לך על הבדיקה המהירה שלך.",
+      "transliteration": "Ani MODEH lecha al ha-bDIKah ha-meHIRah shelkha.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "Your calm voice steadies my mind.",
+      "hebrew": "הקול השקט שלך מייצב לי את הראש.",
+      "transliteration": "Ha-KOL ha-SHAket shelkha MEYatsEV li et ha-ROSH.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "Thanks for making room for my feelings.",
+      "hebrew": "תודה שפינית מקום לרגשות שלי.",
+      "transliteration": "Toda she-FINITah maKOM la-RAGSHOT sheli.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "I appreciate how you held my boundary.",
+      "hebrew": "אני מעריך איך ששמרת על הגבול שלי.",
+      "transliteration": "Ani MEERICH eich she-shAMRTA al ha-GEVUL shel i.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "Thank you for the honest encouragement.",
+      "hebrew": "תודה על עידוד אמיתי ואדיב.",
+      "transliteration": "Toda al iIDUD EMEET ve-ADIV.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "I’m thankful for your steady presence today.",
+      "hebrew": "אני מודה על הנוכחות היציבה שלך היום.",
+      "transliteration": "Ani MODEH al ha-nKHOCHut ha-yETZIVah shelkha hayom.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "I set a tiny goal, then start.",
+      "hebrew": "אני קובע מטרה קטנה, ואז מתחיל.",
+      "transliteration": "ani KOVEA METARА KETANA, VA'AZ MITHIL.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "Even when progress is invisible, I persist.",
+      "hebrew": "גם כשאין התקדמות שמים לב, אני ממשיך.",
+      "transliteration": "gam KESHE-EN HATKADAMUT SHEMIM LЕV, ANI MAMSCHICH.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "I show up, no matter the weather.",
+      "hebrew": "אני מופיע, לא משנה מה מזג האוויר.",
+      "transliteration": "ani MUVEE, LO MECHANE MA MAZEG HA-AvIR.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "One task done, then I choose again.",
+      "hebrew": "משימה אחת נגמרת, ואז אני בוחר שוב.",
+      "transliteration": "MISHA ACHAT NGEMERET, VA'AZ ANI BOCHER SHUV.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "I keep going, even if it feels boring.",
+      "hebrew": "אני ממשיך, גם אם זה מרגיש משעמם.",
+      "transliteration": "ani MAMSCHICH, GAM IM ZE MERGISH MISHEMAM.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "When I stumble, I reset and try.",
+      "hebrew": "כשאני נופל, אני מאפס ומנסה שוב.",
+      "transliteration": "kshe-ani NOFEL, ANI ME'EPES OUMNSSA SHUV.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "I track effort, not just results.",
+      "hebrew": "אני עוקב אחרי מאמץ, לא רק תוצאות.",
+      "transliteration": "ani OKEV ACHARЕI MAAMАTZ, LO RAK TOTS'OT.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "Hi, where is the baggage claim?",
+      "hebrew": "היי, איפה איסוף המזוודות?",
+      "transliteration": "hai, eIFO isuf hamEZVodot?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "I’m here for the earlier flight.",
+      "hebrew": "אני כאן לטיסה המוקדמת יותר.",
+      "transliteration": "aNI kaN laTIShah hAmoKDEmet yoter.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "Could you check my gate, please?",
+      "hebrew": "אפשר לבדוק לי את השער, בבקשה?",
+      "transliteration": "Efsher leVADok li et shaAar, beVAkashah?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "Thank you, you helped me a lot.",
+      "hebrew": "תודה, עזרת לי מאוד.",
+      "transliteration": "TO-DA, iZAR-ta li meOD.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "I need water before boarding.",
+      "hebrew": "אני צריך מים לפני העלייה למטוס.",
+      "transliteration": "aNI tsARikh maIM lifNei haAlya laMAtos.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "Do I take a shuttle from here?",
+      "hebrew": "צריך לנסוע בשאטל מכאן?",
+      "transliteration": "TsaRikh leNaso bshaTEL miKann?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "My seat is by the window.",
+      "hebrew": "המושב שלי ליד החלון.",
+      "transliteration": "haMOshAV sheli liD haCHALon.",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "I make room for curiosity.",
+      "hebrew": "אני מפנה מקום לסקרנות.",
+      "transliteration": "ani MAFNE meQOM le-SIQRANUT.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "Today I learn one useful phrase.",
+      "hebrew": "היום אני לומד משפט אחד שימושי.",
+      "transliteration": "hayom ani LOmed MISHPAT ECHAD SHIMUSHI.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "I trust my questions more than fear.",
+      "hebrew": "אני מאמין בשאלות שלי יותר מהפחד.",
+      "transliteration": "ani ME'EMIN ba-SHE'LOT SHELI YOTER me-ha-PAHAD.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "I say it again, slower, kindly.",
+      "hebrew": "אני אומר את זה שוב, לאט ובחביבות.",
+      "transliteration": "ani OMER et ZE SHUV, laT UVe-CHAVIVUT.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "Even my mistakes can teach me.",
+      "hebrew": "גם הטעויות שלי מלמדות אותי.",
+      "transliteration": "gam ha-TE'UYOT sheli MELAMDOT oti.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "I choose effort over worry.",
+      "hebrew": "אני בוחר במאמץ במקום בדאגה.",
+      "transliteration": "ani BOHER be-MA'AMAT u-bimeQOM ba-DA'AGa.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-14T14:30:10.269660"
+    },
+    {
+      "english": "Let the sentence guide me, not judge.",
+      "hebrew": "תן למשפט להדריך אותי, לא לשפוט.",
+      "transliteration": "ten la-MISHPAT lehadrikh oti, lo le-SHAPOT.",
+      "category": "Inspiration",
+      "generated_at": "2026-11-14T14:30:10.269660"
     }
   ],
-  "last_updated": "2026-11-13T15:43:03.983966"
+  "last_updated": "2026-11-14T14:30:10.269660"
 }
