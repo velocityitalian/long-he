@@ -77,7 +77,7 @@ jobs:
         run: python upload_to_youtube.py
 
       - name: Upload to Facebook
-        if: ${{ github.event.inputs.skip_upload != 'true' }}
+        if: ${{ !cancelled() && github.event.inputs.skip_upload != 'true' }}
         continue-on-error: true
         run: python upload_to_facebook.py
 

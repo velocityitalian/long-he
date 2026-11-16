@@ -13,6 +13,7 @@ from dotenv import load_dotenv
 from google.oauth2.credentials import Credentials
 from google.auth.transport.requests import Request
 from googleapiclient.discovery import build
+from googleapiclient.errors import HttpError
 from googleapiclient.http import MediaFileUpload, MediaIoBaseUpload
 from PIL import Image
 
@@ -92,20 +93,39 @@ def upload():
     print(f"[youtube] {video_path.name} ({video_path.stat().st_size // (1024 * 1024)} MB)")
 
     youtube = get_authenticated_service()
-    media = MediaFileUpload(str(video_path), chunksize=8 * 1024 * 1024, resumable=True)
-    request = youtube.videos().insert(part="snippet,status", body=body, media_body=media)
 
+    def new_request():
+        media = MediaFileUpload(str(video_path), chunksize=8 * 1024 * 1024, resumable=True)
+        return youtube.videos().insert(part="snippet,status", body=body, media_body=media)
+
+    request = new_request()
     response = None
-    error = None
+    rejected = 0
+    attempts = 0
     while response is None:
         try:
             status, response = request.next_chunk()
             if status:
                 print(f"[youtube] upload {int(status.progress() * 100)}%")
-        except Exception as exc:  # noqa: BLE001 - resumable retry boundary
-            error = exc
-            print(f"[youtube] chunk failed, retrying: {exc}")
-            time.sleep(5)
+        except HttpError as exc:
+            if exc.resp.status == 400:
+                rejected += 1
+                print(f"[youtube] rejected ({rejected}): {exc}")
+                if rejected > 1:
+                    raise
+                request = new_request()
+            else:
+                attempts += 1
+                if attempts > 30:
+                    raise
+                print(f"[youtube] chunk failed, retrying ({attempts}/30): {exc}")
+                time.sleep(60)
+        except Exception as exc:  # noqa: BLE001 - network/service hiccup
+            attempts += 1
+            if attempts > 30:
+                raise
+            print(f"[youtube] chunk failed, retrying ({attempts}/30): {exc}")
+            time.sleep(60)
 
     video_id = response["id"]
     url = f"https://youtube.com/watch?v={video_id}"
