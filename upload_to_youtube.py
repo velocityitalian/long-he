@@ -114,18 +114,21 @@ def upload():
                 if rejected > 1:
                     raise
                 request = new_request()
+            elif "Video Uploads per day" in str(exc) or "dailyLimitExceeded" in str(exc):
+                print(f"[youtube] daily upload quota exhausted - not retrying: {exc}")
+                raise
             else:
                 attempts += 1
-                if attempts > 30:
+                if attempts > 3:
                     raise
-                print(f"[youtube] chunk failed, retrying ({attempts}/30): {exc}")
-                time.sleep(60)
+                print(f"[youtube] chunk failed, retrying ({attempts}/3): {exc}")
+                time.sleep(15)
         except Exception as exc:  # noqa: BLE001 - network/service hiccup
             attempts += 1
-            if attempts > 30:
+            if attempts > 3:
                 raise
-            print(f"[youtube] chunk failed, retrying ({attempts}/30): {exc}")
-            time.sleep(60)
+            print(f"[youtube] chunk failed, retrying ({attempts}/3): {exc}")
+            time.sleep(15)
 
     video_id = response["id"]
     url = f"https://youtube.com/watch?v={video_id}"
