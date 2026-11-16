@@ -18,6 +18,7 @@ if sys.platform == "win32":
 
 META_PATH = Path("output") / "latest_video.json"
 BASE_URL = "https://graph-video.facebook.com/v21.0"
+WEBSITE_URL = "https://velocityhebrew.com"
 
 
 def _post(url, *, data, files=None, timeout=300, attempts=3):
@@ -140,6 +141,18 @@ def upload():
         _set_thumbnail(video_id, token, thumb)
 
     print(f"[facebook] published https://www.facebook.com/{video_id}")
+    try:
+        comment = requests.post(
+            f"https://graph.facebook.com/v21.0/{video_id}/comments",
+            data={"message": f"More daily lessons: {WEBSITE_URL}", "access_token": token},
+            timeout=60,
+        )
+        if comment.status_code in (200, 201):
+            print(f"[facebook] comment posted: {WEBSITE_URL}")
+        else:
+            print(f"[facebook] comment skipped ({comment.status_code})")
+    except requests.RequestException as exc:
+        print(f"[facebook] comment skipped ({exc})")
     return True
 
 
