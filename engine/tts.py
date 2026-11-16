@@ -100,10 +100,9 @@ async def _try_voice(text: str, voice: str, out_path: Path, rate: str, pitch: st
             raise RuntimeError(f"invalid audio (duration {duration:.2f}s, peak {peak:.3f})")
         except Exception as exc:  # noqa: BLE001 - network boundary
             last_error = exc
-            if "No audio was received" in str(exc):
-                break
             print(f"  [tts] retry {attempt + 1}/{attempts} for {voice}: {exc}")
-            await asyncio.sleep(2.0 * (attempt + 1))
+            if attempt < attempts - 1:
+                await asyncio.sleep(3.0 * (attempt + 1))
     raise RuntimeError(f"voice {voice} failed after {attempts} attempts: {last_error}")
 
 
@@ -115,7 +114,7 @@ async def _synth_with_retry(text: str, voices: list, out_path: Path, rate: str, 
     last_error = None
     for voice, voice_rate, voice_pitch in combos:
         try:
-            return await _try_voice(text, voice, out_path, voice_rate, voice_pitch, semaphore, attempts=3)
+            return await _try_voice(text, voice, out_path, voice_rate, voice_pitch, semaphore, attempts=4)
         except Exception as exc:  # noqa: BLE001 - try the next voice/setting
             last_error = exc
             print(f"  [tts] {voice} ({voice_rate}, {voice_pitch}) unavailable: {exc}")
