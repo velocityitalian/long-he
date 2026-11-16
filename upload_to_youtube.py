@@ -95,7 +95,7 @@ def upload():
     youtube = get_authenticated_service()
 
     def new_request():
-        media = MediaFileUpload(str(video_path), chunksize=8 * 1024 * 1024, resumable=True)
+        media = MediaFileUpload(str(video_path), chunksize=16 * 1024 * 1024, resumable=True)
         return youtube.videos().insert(part="snippet,status", body=body, media_body=media)
 
     request = new_request()
