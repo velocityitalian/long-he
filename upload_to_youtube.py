@@ -72,6 +72,8 @@ def upload():
     description = str(meta.get("description", ""))[:4900]
     tags = meta.get("tags", [])
     language_code = meta.get("language_code", "")
+    # YouTube's language list uses "no" for Norwegian; "nb" is rejected as INVALID_REQUEST_METADATA.
+    language_code = {"nb": "no"}.get(language_code, language_code)
 
     body = {
         "snippet": {
