@@ -55219,7 +55219,399 @@
       "transliteration": "kama zman lokheach ha-meshloach?",
       "category": "Shopping & Prices",
       "generated_at": "2026-11-15T14:58:51.452183"
+    },
+    {
+      "english": "Hi, can you pick up now?",
+      "hebrew": "היי, את",
+      "transliteration": "Hai, ata/atukhol/atah laanot AKSHAV?",
+      "category": "Phone Calls & Messages",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "I just called, are you free?",
+      "hebrew": "רק התקשרתי, את",
+      "transliteration": "Rak HITKASARTI, atah/panuI AKSHAV?",
+      "category": "Phone Calls & Messages",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "Sorry, wrong number, my mistake.",
+      "hebrew": "סליחה, המספר לא נכון, זו הייתה טעות שלי.",
+      "transliteration": "SLIHA, haMISPAR lo NAHON, zu HAYTA TAUT SHELI.",
+      "category": "Phone Calls & Messages",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "Call me when you arrive there.",
+      "hebrew": "תתקשר",
+      "transliteration": "TITKASHER/i ELAI KESHATa/atah MAgiA/maKIA l'SHAM.",
+      "category": "Phone Calls & Messages",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "Can we reschedule our call?",
+      "hebrew": "אפשר לדחות את השיחה שלנו?",
+      "transliteration": "EFSHAR LEDaHOT et HASHICHA SHELANU?",
+      "category": "Phone Calls & Messages",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "I need a quick answer, please.",
+      "hebrew": "אני צריך",
+      "transliteration": "Ani TSAHIK/TSRIHA TESHUVA MEHIRA, bVAKASHA.",
+      "category": "Phone Calls & Messages",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "Did you see my last message?",
+      "hebrew": "ראית את ההודעה האחרונה שלי?",
+      "transliteration": "RA'ITA et haHODaAA haAHRONA SHELI?",
+      "category": "Phone Calls & Messages",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "I agree with that, definitely.",
+      "hebrew": "אני מסכים עם זה, בהחלט.",
+      "transliteration": "Ani me-sakhem im ze, be-VE-deet.",
+      "category": "Agreeing & Disagreeing",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "That works for me, no problem.",
+      "hebrew": "זה מתאים לי, בלי בעיה.",
+      "transliteration": "Ze ma-taiem li, bli BEe-ya.",
+      "category": "Agreeing & Disagreeing",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "You’re right, and I’ll do it.",
+      "hebrew": "צודק, וגם אעשה את זה.",
+      "transliteration": "Tso-DEK, veGam a-a-seh et ze.",
+      "category": "Agreeing & Disagreeing",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "Good point, I hadn’t considered it.",
+      "hebrew": "נקודה טובה, לא חשבתי על זה.",
+      "transliteration": "NekU-da to-va, lo CHASH-tee ti al ze.",
+      "category": "Agreeing & Disagreeing",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "I think that’s the best option.",
+      "hebrew": "נראה לי שזו האפשרות הכי טובה.",
+      "transliteration": "NIR-eh li she-zo ha-EF-SHAR-ut ha-kee TO-va.",
+      "category": "Agreeing & Disagreeing",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "I’m on board with your plan.",
+      "hebrew": "אני מצטרף לתוכנית שלך.",
+      "transliteration": "Ani metsa-teef le-to-KHnit shelkha.",
+      "category": "Agreeing & Disagreeing",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "Yes, and it’ll save time.",
+      "hebrew": "כן, וזה גם יחסוך זמן.",
+      "transliteration": "Ken, ve-ze gam ya-CHSOCH ZMAN.",
+      "category": "Agreeing & Disagreeing",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "I feel embarrassed after saying that",
+      "hebrew": "אני מרגיש נבוך אחרי שאמרתי את זה",
+      "transliteration": "ani MEרגיש NEVOKh acharei she-AMARti et ze",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "My chest feels tight right now",
+      "hebrew": "הלב שלי מרגיש כבד ומתוח עכשיו",
+      "transliteration": "haLEV sheli MEרגish KAVED umeTOOach AKSHAV",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "I’m relieved the test is over",
+      "hebrew": "אני כל כך שמח שהמבחן נגמר",
+      "transliteration": "ani kol KAKh SAMEH shehaMIVKHAN neGAMAR",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "I’m lonely, even in crowds",
+      "hebrew": "אני מרגיש לבד, גם כשאני בין אנשים",
+      "transliteration": "ani MEרגish LEVAD, GAM sheani BEIN aNSHIM",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "I feel grateful, but in a quiet way",
+      "hebrew": "אני מרגיש תודה, פשוט בשקט",
+      "transliteration": "ani MEרגish TOdah, poshet BESHaket",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "I get angry when plans change late",
+      "hebrew": "אני כועס כשמשנים תוכניות ברגע האחרון",
+      "transliteration": "ani KOHES sheMOSHanim TOkniyot BEREga aAcharON",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "I’m jealous, not proud of it",
+      "hebrew": "אני מקנא, למרות שלא בא לי להודות",
+      "transliteration": "ani MEKNA, limROT sheLO ba li leHODOT",
+      "category": "Feelings & Emotions",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "Say yes to the hard conversation",
+      "hebrew": "תגיד כן לשיחה הקשה הזו, עכשיו",
+      "transliteration": "tagid ken lashiḥa hakasha hazo, AKSHAV",
+      "category": "Courage",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "Hold your line without raising your voice",
+      "hebrew": "תחזיק קו בלי להרים קול, בשקט",
+      "transliteration": "tachziq KAV beli lehariM QOL, BISHKET",
+      "category": "Courage",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "Walk in anyway, even if shaky",
+      "hebrew": "תיכנס גם כשאתה רועד, בצעד בטוח",
+      "transliteration": "tikanes gam kshe'Atah RO'ED, B'ZEED B'TUÁKH",
+      "category": "Courage",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "Protect your values, even at work",
+      "hebrew": "תגן על הערכים שלך, גם בעבודה",
+      "transliteration": "tagen al haARakhim shelkha, GAM baAVODA",
+      "category": "Courage",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "Make the call that fixes things",
+      "hebrew": "תעשה את השיחה שמתקנת הכול, עכשיו",
+      "transliteration": "ta'ase et hashIḥa sheMETAKENET haKOL, AKSHAV",
+      "category": "Courage",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "Admit fear, then move anyway",
+      "hebrew": "תגיד אני מפחד, ואז תתקדם",
+      "transliteration": "tagid ANÍ MEPÁKHED, VE'AZ TAKDÍM",
+      "category": "Courage",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "Stay kind, even when you’re tested",
+      "hebrew": "תישאר טוב לב גם כשבודקים אותך",
+      "transliteration": "tishAR TOV lev gam kshevODEKIM otkha",
+      "category": "Courage",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "I can wait, without rushing you.",
+      "hebrew": "אני יכול לחכות, בלי למהר אותך.",
+      "transliteration": "Ani YAKHOL leHATCHOT, bli LEMAHEr otach.",
+      "category": "Patience",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "We’ll figure it out, step by step.",
+      "hebrew": "נפתור את זה, צעד אחר צעד.",
+      "transliteration": "NIFTOR et ze, TSAAD aCHAR TSAAD.",
+      "category": "Patience",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "Stay patient, even when plans change.",
+      "hebrew": "תישארי סבלנית, גם כשמשנים תוכניות.",
+      "transliteration": "TI SHARI sAVLANIT, gam KEshaM SHINIM ToCHANIYOT.",
+      "category": "Patience",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "I’ll count to ten, then answer.",
+      "hebrew": "אני סופר עד עשר, ואז עונה.",
+      "transliteration": "Ani SOFER ad ESER, VEaz OENA.",
+      "category": "Patience",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "No panic, we’ll handle it calmly.",
+      "hebrew": "בלי פאניקה, נסתדר בשקט.",
+      "transliteration": "Bli paNIKA, NISTADER beSHKET.",
+      "category": "Patience",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "Let the answer come at its pace.",
+      "hebrew": "תן לתשובה להגיע בקצב שלה.",
+      "transliteration": "Ten laT SHUVA lehAGI A beKETS SHELA.",
+      "category": "Patience",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "Give it time, I trust this process.",
+      "hebrew": "תן לזה זמן, אני סומך על התהליך.",
+      "transliteration": "Ten laZE zman, Ani SOmeCH al haTEHILIK.",
+      "category": "Patience",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "I need water, quick, please",
+      "hebrew": "אני צריך מים, רגע בבקשה",
+      "transliteration": "Ani Tzarich MAYIM, REGA BEvakasha",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "That playlist makes me move",
+      "hebrew": "הפלייליסט הזה עושה לי חשק לזוז",
+      "transliteration": "Ha-PLAYlist HAZE Oseh LI HEISHEK LIZUZ",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "Feel this core burn, wow",
+      "hebrew": "תן לי להרגיש את צריבת הליבה הזאת",
+      "transliteration": "TEN LI LEHARGISH ET TSIRIVAT HALEVA HAZOT",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "Keep your knees tracking straight",
+      "hebrew": "שמור שהברכיים יישרו בקו אחד",
+      "transliteration": "SHMor sheha-BRAKHAYIM YEISHERU Beko ECHAD",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "I’m bracing my abs now",
+      "hebrew": "אני מכווץ את הבטן עכשיו",
+      "transliteration": "Ani Mekavets et Ha-BETEN ECHSHAV",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "Next, let’s do a cool down",
+      "hebrew": "עכשיו נעשה האטה, ואז נרגע",
+      "transliteration": "Echshav Na'aseh HAATA, VE'AZ NIRGA",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "Can you check my squat depth",
+      "hebrew": "אתה יכול לבדוק עד כמה אני יורד בסקוואט",
+      "transliteration": "Ata Yachol LevaDEK ED KAMa ANI YORED B-SKUOT",
+      "category": "Sports & Fitness",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "Find middle ground, not extremes.",
+      "hebrew": "חפש מְצָע אֶמְצָעִי, לא קצוות.",
+      "transliteration": "chapeSH ME-TSA EME-tsa-i, lo KET-VA-OT.",
+      "category": "Balance",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "Hold steady, breathe, then decide.",
+      "hebrew": "תַּחְזֹק יציב, תְּנַשֵּׁם, ואז תַּחְליט.",
+      "transliteration": "takhZOK YA-tsiv, tenAShEM, ve-az taKH-LIT.",
+      "category": "Balance",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "Trade one worry for one action.",
+      "hebrew": "הַחְלֵף דַּאֲגָה אחת בפְּעוּלָה אחת.",
+      "transliteration": "haCHLEF da-Aga eCHAT be-PE-ULA eCHAT.",
+      "category": "Balance",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "Balance your plan with flexibility.",
+      "hebrew": "איזן את התוכנית, ותן מקום לגמישות.",
+      "transliteration": "i-ZEN et ha-to-KHNI-T, ve-ten MA-KOM le-gmiSHUT.",
+      "category": "Balance",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "Give work focus, then a reset.",
+      "hebrew": "תן ריכוז לעבודה, ואז תעשה איפוס קטן.",
+      "transliteration": "ten ri-KHUZ le-a-VODA, ve-az ta-aSEH i-PUS ka-TAN.",
+      "category": "Balance",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "Keep your energy even, day to day.",
+      "hebrew": "שמור על אנרגיה מאוזנת, יום אחרי יום.",
+      "transliteration": "SHMOR al a-NEHR-jya me-aUZ-NT, yom a-chaREY yom.",
+      "category": "Balance",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "Listen first, then speak your truth.",
+      "hebrew": "תקשיב קודם, ואז תאמר את האמת שלך.",
+      "transliteration": "te-KSIV KO-dem, ve-az te-a-MAR et ha-EMET she-Lkha.",
+      "category": "Balance",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "You make my hard days lighter.",
+      "hebrew": "אתה מֵקֵל עליי את הימים הקשים.",
+      "transliteration": "ata MEKEL alei et ha-yamim hakashim",
+      "category": "Friendship",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "Thanks for checking in on me.",
+      "hebrew": "תודה שבדקת לשלומי.",
+      "transliteration": "toda sheBADAKT lishlomi",
+      "category": "Friendship",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "We can talk for hours, easy.",
+      "hebrew": "אפשר לדבר שעות, בכיף.",
+      "transliteration": "efshar ledaber SHAOT, beKEF",
+      "category": "Friendship",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "I’m lucky to have you near.",
+      "hebrew": "אני בר מזל שיש אותך לידי.",
+      "transliteration": "ani bar MEZEL sheYESH otcha liydi",
+      "category": "Friendship",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "You celebrate me, not just my wins.",
+      "hebrew": "אתה חוגג אותי, גם כשזה לא הישג.",
+      "transliteration": "ata HOGEG oti, gam she-zè lo HISAG",
+      "category": "Friendship",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "Your honesty makes us stronger.",
+      "hebrew": "הכנות שלך מחזקת אותנו.",
+      "transliteration": "haKNU-T shelkha MECHAZEKet otanu",
+      "category": "Friendship",
+      "generated_at": "2026-11-16T17:27:08.851471"
+    },
+    {
+      "english": "When I’m stuck, you help me think.",
+      "hebrew": "כשהכול נתקע לי, אתה עוזר לי לחשוב.",
+      "transliteration": "she-kol nITAQ li, ata OZEr li leKHSHOV",
+      "category": "Friendship",
+      "generated_at": "2026-11-16T17:27:08.851471"
     }
   ],
-  "last_updated": "2026-11-15T14:58:51.452183"
+  "last_updated": "2026-11-16T17:27:08.851471"
 }
