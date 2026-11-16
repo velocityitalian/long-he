@@ -141,18 +141,37 @@ def upload():
         _set_thumbnail(video_id, token, thumb)
 
     print(f"[facebook] published https://www.facebook.com/{video_id}")
-    try:
-        comment = requests.post(
-            f"https://graph.facebook.com/v21.0/{video_id}/comments",
-            data={"message": f"More daily lessons: {WEBSITE_URL}", "access_token": token},
-            timeout=60,
-        )
-        if comment.status_code in (200, 201):
-            print(f"[facebook] comment posted: {WEBSITE_URL}")
-        else:
+    comment_id = None
+    for attempt in range(5):
+        try:
+            comment = requests.post(
+                f"https://graph.facebook.com/v21.0/{video_id}/comments",
+                data={"message": f"More daily lessons: {WEBSITE_URL}", "access_token": token},
+                timeout=60,
+            )
+            if comment.status_code in (200, 201):
+                comment_id = comment.json().get("id")
+                break
+            if comment.status_code == 404 and attempt < 4:
+                time.sleep(10 * (attempt + 1))
+                continue
             print(f"[facebook] comment skipped ({comment.status_code})")
-    except requests.RequestException as exc:
-        print(f"[facebook] comment skipped ({exc})")
+            break
+        except requests.RequestException as exc:
+            print(f"[facebook] comment skipped ({exc})")
+            break
+    if comment_id:
+        print(f"[facebook] comment posted: {WEBSITE_URL}")
+        try:
+            pin = requests.post(
+                f"https://graph.facebook.com/v21.0/{comment_id}",
+                data={"is_pinned": "true", "access_token": token},
+                timeout=30,
+            )
+            if pin.status_code == 200:
+                print("[facebook] comment pinned")
+        except requests.RequestException:
+            pass
     return True
 
 
