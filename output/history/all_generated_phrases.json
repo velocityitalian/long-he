@@ -58747,7 +58747,399 @@
       "transliteration": "YESH LACHEM OFATSYOT L-LO MO-TSREI CHALAV?",
       "category": "Ordering Food & Dining",
       "generated_at": "2026-11-24T19:06:21.031203"
+    },
+    {
+      "english": "We keep old traditions alive together.",
+      "hebrew": "אנחנו שומרים על מסורות ישנות בחיים יחד.",
+      "transliteration": "Anachnu shomrim al masorot yeshanot be-chayim yachad.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "Let’s learn the story behind this.",
+      "hebrew": "בוא נלמד את הסיפור שמאחורי זה.",
+      "transliteration": "Be-oh nilmad et ha-sipur she-ma-acharei zeh.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "I love how weddings bring everyone.",
+      "hebrew": "אני אוהב איך חתונות מאחדות את כולם.",
+      "transliteration": "Ani ohev eich chatunot me-achdot et kulam.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "At holidays, we dress up proudly.",
+      "hebrew": "בחגים אנחנו מתלבשים יפה בגאווה.",
+      "transliteration": "Be-chagim anachnu mitlabshim yafe be-ga-avah.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "What song do you sing at home?",
+      "hebrew": "איזו שיר אתם שרים בבית?",
+      "transliteration": "Eizeh shir atem sharim be-vait?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "I bring a small gift, just because.",
+      "hebrew": "אני מביא מתנה קטנה פשוט כי בא לי.",
+      "transliteration": "Ani mevi matana ktana poshet ki ba li.",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "Shall we light the menorah together?",
+      "hebrew": "נדליק נר חנוכה יחד?",
+      "transliteration": "Nadlik ner Chanukah yachad?",
+      "category": "Cultural Traditions",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "Happy birthday, let's celebrate tonight",
+      "hebrew": "יום הולדת שמח, בואו נחגוג הערב",
+      "transliteration": "Yom holédet SAMEACh, bLé yáh nuKHAGOG haérev",
+      "category": "Celebrations & Parties",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "Cheers to new beginnings, together",
+      "hebrew": "לחיים על התחלה חדשה, יחד",
+      "transliteration": "leCHAYIM al haTCHALáH chADaSHá, yachad",
+      "category": "Celebrations & Parties",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "I saved you a seat",
+      "hebrew": "שמרתי לך מקום, ליד האורחים",
+      "transliteration": "SHaMárti lech MAKOM, YAD haORCHIM",
+      "category": "Celebrations & Parties",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "Can you help me light the candles?",
+      "hebrew": "אתה יכול לעזור לי להדליק את הנרות?",
+      "transliteration": "A táH Yachol leEZoR li LeHADLÍK et haNerót?",
+      "category": "Celebrations & Parties",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "The room smells like celebration",
+      "hebrew": "הריח כאן מריח כמו חגיגה",
+      "transliteration": "haREACH kaNÉrëach kE mo CHAGIÁ",
+      "category": "Celebrations & Parties",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "Let's take a group photo, please",
+      "hebrew": "בואו נצטלם כולנו, בבקשה",
+      "transliteration": "bé yáh nuTzTÁLÉM kulAnu, bévaKásha",
+      "category": "Celebrations & Parties",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "Where should we put the snacks?",
+      "hebrew": "איפה כדאי להניח את הנשנושים?",
+      "transliteration": "eYFO kaDáH lehánÍach et haNISHnUSHÍM?",
+      "category": "Celebrations & Parties",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "I return to my breath, softly.",
+      "hebrew": "אני חוזר לנשימה שלי, בעדינות.",
+      "transliteration": "Ani chozer lin'shimah sheli, be-EDIN-ut.",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "Feel my hands, right here.",
+      "hebrew": "אני מרגיש את הידיים שלי, ממש כאן.",
+      "transliteration": "Ani mergish et ha-yadayim sheli, me-mash KAA-n.",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "Name one feeling without solving it.",
+      "hebrew": "אני נותן שם לרגש אחד, בלי לפתור אותו.",
+      "transliteration": "Ani noten shem le-REGESH echad, BLI le-fater oto.",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "Let silence teach me gently.",
+      "hebrew": "תן לשקט ללמד אותי בעדינות.",
+      "transliteration": "Ten la-SHEKET le-lamed oti be-EDIN-ut.",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "Inhale curiosity, exhale control.",
+      "hebrew": "שואפים סקרנות, ונושפים שליטה.",
+      "transliteration": "Sho-efim se-krAN-ut, ve-nosh-fim SHE-li-TAH.",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "I notice tension, and soften around it.",
+      "hebrew": "אני שם לב למתח, ומרכך סביבו.",
+      "transliteration": "Ani sam lev la-MA-TCH, u-me-rak-CHAH si-vav.",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "What’s one sound I can hear now?",
+      "hebrew": "מהו צליל אחד שאני יכול לשמוע עכשיו?",
+      "transliteration": "Ma hu tsli-l echad she-ani yachol lishmo-Ah E-CHSHAV?",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "I’m heading to the office now",
+      "hebrew": "אני בדרך למשרד, עכשיו",
+      "transliteration": "Ani baDerech leMifrad, ATZAV",
+      "category": "Work & Office",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "Can you open a ticket for me?",
+      "hebrew": "תוכל לפתוח לי קריאה?",
+      "transliteration": "Tuchal lePhToach li krEE-a?",
+      "category": "Work & Office",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "I need a desk near the window",
+      "hebrew": "אני צריך שולחן ליד החלון, בבקשה",
+      "transliteration": "Ani tsarEEch shulchan liD haChaLON, bevakashah",
+      "category": "Work & Office",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "Who’s on IT support today?",
+      "hebrew": "מי מטפל בתמיכה של ה-IT היום?",
+      "transliteration": "Mi metaPel betmiKHA shel haIT haYOM?",
+      "category": "Work & Office",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "Do we have enough laptops for everyone?",
+      "hebrew": "יש לנו מספיק לפטופים לכולם?",
+      "transliteration": "Yesh lanu masPic LPtoPim leKULam?",
+      "category": "Work & Office",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "I’ll handle the reception shift",
+      "hebrew": "אני אטפל במשמרת הקבלה",
+      "transliteration": "Ani aTAPel bimeSharet haKaBLA",
+      "category": "Work & Office",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "Where is the printer, exactly?",
+      "hebrew": "איפה המדפסת, בדיוק?",
+      "transliteration": "Efo haMeDPEset, biDuyok?",
+      "category": "Work & Office",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "I’m glad you said hello.",
+      "hebrew": "אני שמח שאמרת שלום.",
+      "transliteration": "ani SAMEH she-amar-ta SHALOM",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "How’s your family doing lately?",
+      "hebrew": "איך המשפחה שלך לאחרונה?",
+      "transliteration": "eich ha-MISHPA-cha SHEL-CHA laACHROna",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "I love that, where did you learn?",
+      "hebrew": "אני ממש אוהב את זה, מאיפה למדת?",
+      "transliteration": "ani MEKHUSH OHEV et ze, MEI-ayin la-MAD-ta",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "Would you like to walk together?",
+      "hebrew": "תרצה ללכת יחד קצת?",
+      "transliteration": "tirtzeH le-LEKH YACHAD ketz",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "Can I introduce you to someone?",
+      "hebrew": "אפשר להכיר ביניכם עם מישהו?",
+      "transliteration": "ef-shar le-ha-KIR be-NEICHEM im MI-she-ho",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "What’s your favorite place in town?",
+      "hebrew": "מה המקום האהוב עליך בעיר?",
+      "transliteration": "ma ha-MA-KOM ha-AHUV a-LEY-cha be-IR",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "I noticed you travel a lot.",
+      "hebrew": "שמתי לב שאת",
+      "transliteration": "sha-MTI lev she-at/ha NO-seiA/et har-beh",
+      "category": "Meeting People & Greetings",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "Can we schedule it for tomorrow?",
+      "hebrew": "אפשר לקבוע את זה למחר?",
+      "transliteration": "EF- shar LEKAVEA ET ze leMACHAR?",
+      "category": "Making Plans",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "Let s choose a time zone now.",
+      "hebrew": "בוא נבחר עכשיו אזור זמן.",
+      "transliteration": "BE- angiv BACHAR ECH- DAV azor ZMAN.",
+      "category": "Making Plans",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "Shall we book a room today?",
+      "hebrew": "נצטרך להזמין חדר היום?",
+      "transliteration": "NIZ- tzarach leHAZMIN CHEDER HA-YOM?",
+      "category": "Making Plans",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "I prefer a weekday meeting.",
+      "hebrew": "אני מעדיף פגישה בימי חול.",
+      "transliteration": "A- ni me'EDFIF PGI-sha BYME CHOL.",
+      "category": "Making Plans",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "Do you want an early start?",
+      "hebrew": "אתה רוצה התחלה מוקדמת?",
+      "transliteration": "a- ta ROTzeH HATA- la MOKD- MET?",
+      "category": "Making Plans",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "How long should we plan for?",
+      "hebrew": "כמה זמן לתכנן מראש?",
+      "transliteration": "KHAMa ZMAN LE-TAKNEN ME-ROSH?",
+      "category": "Making Plans",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "Can we meet at the office?",
+      "hebrew": "אפשר להיפגש במשרד?",
+      "transliteration": "EF- shar LEHI- PAGESH baMISH- RAD?",
+      "category": "Making Plans",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "Tiny wins, big momentum today.",
+      "hebrew": "ניצחונות קטנים, מומנטום גדול היום.",
+      "transliteration": "NITzachonot KTANNIM, MOMENtum GADOL HAYOM.",
+      "category": "Motivation",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "Treat Hebrew like a daily appointment.",
+      "hebrew": "תייחסו עברית כמו פגישה יומית קבועה.",
+      "transliteration": "TAYACHSU ivrit KMO PFISHA YOMIT KEvuA.",
+      "category": "Motivation",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "Show up, even if you feel off.",
+      "hebrew": "תופיעים, גם אם אתם מרגישים לא במיטב.",
+      "transliteration": "TOPEIM, GAM IM ATEM MERAGISHIM LO BEMITAV.",
+      "category": "Motivation",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "I can learn while moving forward.",
+      "hebrew": "אני יכול ללמוד תוך כדי תנועה קדימה.",
+      "transliteration": "ANI YACHOL LILMOD KHDI KEYDEI TNuaa KEDIMA.",
+      "category": "Motivation",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "Make it fun, not just doable.",
+      "hebrew": "תעשו את זה כיף, לא רק אפשרי.",
+      "transliteration": "TAASU et ZE KEEF, LO RAK EFShARI.",
+      "category": "Motivation",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "Speak one sentence now, not someday.",
+      "hebrew": "תגידו משפט אחד עכשיו, לא עוד רגע.",
+      "transliteration": "TAGIDU MISHPAT ECHAD AKHShav, LO OD REGA.",
+      "category": "Motivation",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "Your pace is allowed to be slow.",
+      "hebrew": "הקצב שלכם מותר שיהיה איטי.",
+      "transliteration": "HAKEtZAV SHELchem MUTAR SHETIHEYhe ITI.",
+      "category": "Motivation",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "Ask for help, then rest too.",
+      "hebrew": "תבקש עזרה, ואז תנוח גם.",
+      "transliteration": "tvaKESH EZra, vEchaz tanuach gam",
+      "category": "Strength",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "I can handle this one moment.",
+      "hebrew": "אני יכול להתמודד עם הרגע הזה.",
+      "transliteration": "ani yachol lehitמודד im haREga hAZeh",
+      "category": "Strength",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "Move your body, let tension go.",
+      "hebrew": "תזיז את הגוף, תשחרר מתח.",
+      "transliteration": "taziz et haGUF, teshACHER miTCH",
+      "category": "Strength",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "Your limits are part of strength.",
+      "hebrew": "הגבולות שלך הם חלק מהכוח.",
+      "transliteration": "haGvULot shelcha heM chelek miKOACH",
+      "category": "Strength",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "Choose the next small action.",
+      "hebrew": "תבחר בצעד קטן הבא.",
+      "transliteration": "tivchar beTZEad kaTAN haBA",
+      "category": "Strength",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "Keep going, even without big energy.",
+      "hebrew": "תמשיך הלאה, גם בלי אנרגיה גדולה.",
+      "transliteration": "taMShich laErech, gam bli enERgyah gedOlah",
+      "category": "Strength",
+      "generated_at": "2026-11-25T18:15:56.781509"
+    },
+    {
+      "english": "Stand tall, soften your shoulders.",
+      "hebrew": "עמוד זקוף, רכך את הכתפיים.",
+      "transliteration": "aMOD zaKUF, rachech et hakhtaPAyim",
+      "category": "Strength",
+      "generated_at": "2026-11-25T18:15:56.781509"
     }
   ],
-  "last_updated": "2026-11-24T19:06:21.031203"
+  "last_updated": "2026-11-25T18:15:56.781509"
 }

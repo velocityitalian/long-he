@@ -615,7 +615,39 @@
     {
       "category": "Ordering Food & Dining",
       "date": "2026-11-24"
+    },
+    {
+      "category": "Cultural Traditions",
+      "date": "2026-11-25"
+    },
+    {
+      "category": "Celebrations & Parties",
+      "date": "2026-11-25"
+    },
+    {
+      "category": "Mindfulness",
+      "date": "2026-11-25"
+    },
+    {
+      "category": "Work & Office",
+      "date": "2026-11-25"
+    },
+    {
+      "category": "Meeting People & Greetings",
+      "date": "2026-11-25"
+    },
+    {
+      "category": "Making Plans",
+      "date": "2026-11-25"
+    },
+    {
+      "category": "Motivation",
+      "date": "2026-11-25"
+    },
+    {
+      "category": "Strength",
+      "date": "2026-11-25"
     }
   ],
-  "last_updated": "2026-11-24T19:06:21.079667"
+  "last_updated": "2026-11-25T18:15:56.820938"
 }
