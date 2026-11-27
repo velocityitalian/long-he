@@ -59531,7 +59531,399 @@
       "transliteration": "ANI MADAMEM, TA'AFILU LACHATS B'VAKASHA.",
       "category": "Emergency & Health",
       "generated_at": "2026-11-26T17:55:13.104104"
+    },
+    {
+      "english": "I water hope with tiny kindness.",
+      "hebrew": "אני משקה תקווה עם חסד קטן.",
+      "transliteration": "ani mashkeh TEKVA im CHesed KATAN.",
+      "category": "Hope",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "I let hope arrive without chasing.",
+      "hebrew": "אני נותנת לתקווה להגיע בלי לרדוף.",
+      "transliteration": "ani noteenet le-TEKVA LE-HAGIA bli lirdoF.",
+      "category": "Hope",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "Hope can be slow, and still true.",
+      "hebrew": "תקווה יכולה להיות איטית ועדיין אמת.",
+      "transliteration": "TEKVA yacholAH lihyot ITIT ve-od einah EMET.",
+      "category": "Hope",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "Today, I choose one kind thought.",
+      "hebrew": "היום אני בוחרת מחשבה טובה אחת.",
+      "transliteration": "hayom ani voCHERET MACHSHAVAH TOVAH ACHAT.",
+      "category": "Hope",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "I speak gently to my own heart.",
+      "hebrew": "אני מדברת בעדינות אל הלב שלי.",
+      "transliteration": "ani meDABeret be-A-DINut el haLEV SHELI.",
+      "category": "Hope",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "When fear talks, I keep listening softly.",
+      "hebrew": "כשפחד מדבר, אני מקשיבה בעדינות.",
+      "transliteration": "keshe-PACHAD medaber, ani meKSHIVAH be-A-DINut.",
+      "category": "Hope",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "I set my intention, then rest.",
+      "hebrew": "אני קובעת כוונה, ואז נחה.",
+      "transliteration": "ani koVEA KAVVANAH, ve-AZ NOCHA.",
+      "category": "Hope",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "Do you have a quiet courtyard view?",
+      "hebrew": "יש אפשרות לחדר עם נוף לחצר שקטה?",
+      "transliteration": "yesh efsharut leched im nof lechatser shketA?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "How clean is the room before I arrive?",
+      "hebrew": "כמה נקי החדר לפני שאני מגיע?",
+      "transliteration": "kamA neki haChEdar lifnEy sheAni magiA?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "Is there hot water in the shower?",
+      "hebrew": "יש מים חמים במקלחת?",
+      "transliteration": "yesh mayim chAmim bemaklachat?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "Can I change rooms if needed?",
+      "hebrew": "אפשר להחליף חדר אם צריך?",
+      "transliteration": "efshar lehachlif cheder im tsarich?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "What time is check in, please?",
+      "hebrew": "באיזו שעה יש צ'ק אין?",
+      "transliteration": "beEizu shaA yesh tsek in?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "Is there a desk for working in-room?",
+      "hebrew": "יש שולחן לעבודה בחדר?",
+      "transliteration": "yesh shulchan laAvod baCheDer?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "Do you offer tea or coffee anytime?",
+      "hebrew": "יש תה או קפה בכל שעה?",
+      "transliteration": "yesh te va o kAfe bechol shaA?",
+      "category": "Hotel & Accommodation",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "I need a doctor for an exam.",
+      "hebrew": "אני צריך רופא לבדיקה, בבקשה.",
+      "transliteration": "Ani TSA RICH rofe leBEDIT-ka, bevakasha.",
+      "category": "Doctor & Pharmacy",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "Can you help me choose the right medicine?",
+      "hebrew": "אתם יכולים לעזור לי לבחור תרופה מתאימה?",
+      "transliteration": "Atem YecholEem leEzor li levaHOR teruFA meatIma?",
+      "category": "Doctor & Pharmacy",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "Do you have my brand name here?",
+      "hebrew": "יש לכם את השם המסחרי שלי?",
+      "transliteration": "Yesh LACHEM et hashem hamisCHAR-ee sheli?",
+      "category": "Doctor & Pharmacy",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "What side effects should I watch for?",
+      "hebrew": "אילו תופעות לוואי עליי לשים לב?",
+      "transliteration": "Eilu tuFOt lEvaI aLAi lEsh em lev?",
+      "category": "Doctor & Pharmacy",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "Is this medication okay for adults?",
+      "hebrew": "התרופה הזו מתאימה למבוגרים?",
+      "transliteration": "haTERuFA hazo meatIma leMEvugRIM?",
+      "category": "Doctor & Pharmacy",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "Can you check drug interactions for me?",
+      "hebrew": "אפשר לבדוק אינטראקציות בין תרופות?",
+      "transliteration": "Efshar levaDEK inTeraK-tsi-ot beyn teRU-FOT?",
+      "category": "Doctor & Pharmacy",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "Do I need a referral from my clinic?",
+      "hebrew": "צריך הפניה מהקופה כדי לראות רופא?",
+      "transliteration": "tZA RICH haPNI-ay-ya me-haKU-pa kedei leE-rot roFE?",
+      "category": "Doctor & Pharmacy",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "What are you craving right now?",
+      "hebrew": "מה בא לך עכשיו?",
+      "transliteration": "ma ba lecha akhsHAV",
+      "category": "Dating & Romance",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "I love taking the slow route with you.",
+      "hebrew": "אני אוהב לקחת איתך את הדרך לאט.",
+      "transliteration": "ani oHEV lekach itach et haDERECH laT",
+      "category": "Dating & Romance",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "Let’s trade playlists for a date.",
+      "hebrew": "בוא נחליף הפלייליסטים לדייט.",
+      "transliteration": "bo naCHLIF haeplAYLISTim laDAYET",
+      "category": "Dating & Romance",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "Your message made my evening better.",
+      "hebrew": "ההודעה שלך שיפרה לי את הערב.",
+      "transliteration": "haHODaA shelkha shiphRA li et haEReV",
+      "category": "Dating & Romance",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "Can we walk and just talk?",
+      "hebrew": "אפשר לטייל קצת ולדבר?",
+      "transliteration": "EFSHAR laTAYEL kaTz? uLDAber",
+      "category": "Dating & Romance",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "I’m down for a movie, your pick.",
+      "hebrew": "אני בעניין של סרט, אתה בוחר.",
+      "transliteration": "ani beINyAn shel seR, atah BOCHer",
+      "category": "Dating & Romance",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "Show me that place you mentioned.",
+      "hebrew": "תראה לי את המקום שדיברת עליו.",
+      "transliteration": "taReH li et haMAQOM shediBART aLAIAV",
+      "category": "Dating & Romance",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "I want a fresh bakery box, please.",
+      "hebrew": "אני רוצה קופסת מאפים טרייה, בבקשה.",
+      "transliteration": "Ani rotshe cupas matafim trieya, bevakasha.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "Can I get a small sample first?",
+      "hebrew": "אפשר לטעום קצת קודם, בבקשה?",
+      "transliteration": "Efshar letamte katz, kodem, bevakasha?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "Do you have almond cake today?",
+      "hebrew": "יש לכם עוגת שקדים היום?",
+      "transliteration": "Yesh lachem ogat shakedim hayom?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "I’ll take the cinnamon bun, please.",
+      "hebrew": "אני אקח את לחמניית הקינמון, בבקשה.",
+      "transliteration": "Ani ekach et lechemniyat haKinnamon, bevakasha.",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "Is there a cheese croissant available?",
+      "hebrew": "יש קרואסון עם גבינה זמין?",
+      "transliteration": "Yesh kruasan im gevina zamín?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "What’s your best chocolate pastry?",
+      "hebrew": "מה המאפה השוקולדי הכי מוצלח אצלכם?",
+      "transliteration": "Ma ha’ma’afe haShokoldi haki mutslach etlchem?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "Can I have it warmed up?",
+      "hebrew": "אפשר לחמם את זה קצת?",
+      "transliteration": "Efshar lechamem et ze ktsat?",
+      "category": "Coffee Shop & Bakery",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "Where can I buy a SIM here?",
+      "hebrew": "איפה אפשר לקנות כאן סים?",
+      "transliteration": "E איפה EFSHAR لیکנות kha an סִים?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "Is there a quiet lounge nearby?",
+      "hebrew": "יש כאן טרקלין שקט ליד?",
+      "transliteration": "YESh kha טרקלin shAKet לَيَد?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "My flight is boarding soon, right?",
+      "hebrew": "הטיסה שלי עולה בקרוב, נכון?",
+      "transliteration": "Ha טisah sheli OLEt BEKREV, NAKHON?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "Can you help me find my terminal?",
+      "hebrew": "תוכלי לעזור לי למצוא את הטרמינל?",
+      "transliteration": "TUKhli laEZOR li limtso et haTERMINAL?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "Do I need to go through security again?",
+      "hebrew": "אני צריך לעבור שוב דרך הבידוק?",
+      "transliteration": "Ani TzARiKh laAVOR shuv DERekh haBIDUQ?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "How long is the walk to gate?",
+      "hebrew": "כמה זמן ההליכה עד השער?",
+      "transliteration": "Kamah ZMAN haHELikhah ad haSHA'AR?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "Is this line for departures?",
+      "hebrew": "זו התור ליציאות?",
+      "transliteration": "Zo haTOR letzeIOT?",
+      "category": "Travel & Airport",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "How much is it per item?",
+      "hebrew": "כמה זה עולה לכל פריט?",
+      "transliteration": "KAMah ze oLEH leCHOL pRIT?",
+      "category": "Shopping & Prices",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "Can I see the price tag?",
+      "hebrew": "אפשר לראות את תג המחיר?",
+      "transliteration": "EFSHAR leHEEv et tag haMEHir?",
+      "category": "Shopping & Prices",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "Is the price for one or two?",
+      "hebrew": "המחיר הוא ליחידה אחת או לשניים?",
+      "transliteration": "haMEHir HU leYIChuDAH ECHAD o leSHNAYIM?",
+      "category": "Shopping & Prices",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "Do you accept cash or card?",
+      "hebrew": "אתם מקבלים מזומן או כרטיס?",
+      "transliteration": "Atem mekablim MEZUMAN o KARtis?",
+      "category": "Shopping & Prices",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "What’s the final price after promos?",
+      "hebrew": "מה המחיר הסופי אחרי המבצעים?",
+      "transliteration": "MAh haMEHir haSOFI aChareI haMEVtza'im?",
+      "category": "Shopping & Prices",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "Do you have a loyalty card here?",
+      "hebrew": "יש כאן כרטיס מועדון?",
+      "transliteration": "YESH kaN EKhARtis moEDon?",
+      "category": "Shopping & Prices",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "Can I get it in a different color?",
+      "hebrew": "אפשר בצבע אחר?",
+      "transliteration": "EFSHAR beTzeva aCHER?",
+      "category": "Shopping & Prices",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "Thank you for staying kind with me.",
+      "hebrew": "תודה שאת נשארת כל כך עדינה איתי.",
+      "transliteration": "Toda she-At nishארet kol kach adina it i.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "I’m grateful you helped me breathe again.",
+      "hebrew": "אני מודה לך שעזרת לי לנשום שוב.",
+      "transliteration": "Ani modeh lekha she-azar ta li lin shom shuv.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "Your support made today feel possible.",
+      "hebrew": "התמיכה שלך הפכה את היום לאפשרי.",
+      "transliteration": "Ha-tmicha shelkha hechev eta ha-yom le-efshari.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "I notice your effort, not just words.",
+      "hebrew": "אני רואה את ההשקעה שלך, לא רק מילים.",
+      "transliteration": "Ani ro eh et ha-hashkaa shelkha, lo rak milim.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "Thanks for helping me let it go.",
+      "hebrew": "תודה שעזרת לי לשחרר.",
+      "transliteration": "Toda she-azar ta li leshachrer.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "I’m grateful for your steady encouragement.",
+      "hebrew": "אני אסיר תודה על העידוד היציב שלך.",
+      "transliteration": "Ani asir toda al ha- iidud ha-yatziv shelkha.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-27T17:40:52.788028"
+    },
+    {
+      "english": "You made space for my silence too.",
+      "hebrew": "נתת מקום גם לשתיקה שלי.",
+      "transliteration": "Natata makom gam leshtika sheli.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-27T17:40:52.788028"
     }
   ],
-  "last_updated": "2026-11-26T17:55:13.104104"
+  "last_updated": "2026-11-27T17:40:52.788028"
 }

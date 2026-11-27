@@ -679,7 +679,39 @@
     {
       "category": "Emergency & Health",
       "date": "2026-11-26"
+    },
+    {
+      "category": "Hope",
+      "date": "2026-11-27"
+    },
+    {
+      "category": "Hotel & Accommodation",
+      "date": "2026-11-27"
+    },
+    {
+      "category": "Doctor & Pharmacy",
+      "date": "2026-11-27"
+    },
+    {
+      "category": "Dating & Romance",
+      "date": "2026-11-27"
+    },
+    {
+      "category": "Coffee Shop & Bakery",
+      "date": "2026-11-27"
+    },
+    {
+      "category": "Travel & Airport",
+      "date": "2026-11-27"
+    },
+    {
+      "category": "Shopping & Prices",
+      "date": "2026-11-27"
+    },
+    {
+      "category": "Gratitude",
+      "date": "2026-11-27"
     }
   ],
-  "last_updated": "2026-11-26T17:55:13.136790"
+  "last_updated": "2026-11-27T17:40:52.838410"
 }
